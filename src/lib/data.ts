@@ -110,8 +110,8 @@ export const STATS = [
 
 export const FOUNDERS = [
   {
-    name: "Andy K.",
-    role: "Co-Founder & CEO",
+    name: "Andej Kneisl",
+    role: "Founder & CEO",
     image: "/ceo.jpeg",
     linkedin: "https://www.linkedin.com/in/disandrejkneisl/",
     bio: "Drives vision and client strategy across UK, German, and Brazilian markets. Specialises in B2B and B2G growth, building partnerships that turn into long-term revenue.",

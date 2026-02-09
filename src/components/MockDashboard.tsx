@@ -47,9 +47,7 @@ export default function MockDashboard({ mini }: { mini?: boolean }) {
           <div className="text-[10px] text-muted-2 uppercase tracking-wide mb-2">Monthly Revenue</div>
           <div className="flex items-end gap-2 h-20">
             {[45, 62, 38, 71, 55, 80, 68, 90, 74, 85, 92, 78].map((h, i) => (
-              <div key={i} className="flex-1">
-                <div className="w-full rounded-t-sm bg-highlight/30" style={{ height: `${h}%` }} />
-              </div>
+              <div key={i} className="flex-1 rounded-t-sm bg-highlight/30" style={{ height: `${h}%` }} />
             ))}
           </div>
           <div className="flex justify-between text-[8px] text-muted-2 mt-1">
