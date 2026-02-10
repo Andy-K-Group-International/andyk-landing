@@ -33,7 +33,7 @@ export default function MockNotebook({ compact }: { compact?: boolean }) {
       <div className="flex items-center justify-between px-4 py-2.5 border-b border-grid-300 bg-bg-light">
         <div className="flex items-center gap-2">
           <div className="w-2 h-2 rounded-full bg-highlight" />
-          <span className="font-semibold text-foreground">A.D.A.M. Pipeline</span>
+          <span className="font-semibold text-foreground">A.D.A.M. Framework</span>
         </div>
         <span className="text-muted-2 text-[10px]">Last updated: 2 min ago</span>
       </div>
@@ -51,7 +51,7 @@ export default function MockNotebook({ compact }: { compact?: boolean }) {
         ))}
       </div>
       <div className="px-4 py-3">
-        <div className="text-[10px] text-muted-2 uppercase tracking-wide mb-2">Pipeline Flow</div>
+        <div className="text-[10px] text-muted-2 uppercase tracking-wide mb-2">Framework Flow</div>
         <div className="flex items-center gap-1.5 flex-wrap mb-3">
           {["Onboarding", "Strategy", "Proposal", "Contract", "Invoice", "Follow-up"].map((step, i) => (
             <div key={step} className="flex items-center gap-1.5">

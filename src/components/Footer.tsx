@@ -1,4 +1,4 @@
-import HexLogo from "./HexLogo";
+/* eslint-disable @next/next/no-img-element */
 import { COMPANY, FOOTER_LINKS } from "@/lib/data";
 
 export default function Footer() {
@@ -6,7 +6,9 @@ export default function Footer() {
     <footer className="border-t border-grid-300 py-12 px-8">
       <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-4">
-          <HexLogo size="sm" />
+          <a href="#hero">
+            <img src="/apple-icon.png" alt="Andy'K Group" className="w-8 h-8" />
+          </a>
           <span className="text-xs text-muted-2">
             &copy; 2026 {COMPANY.name}
           </span>

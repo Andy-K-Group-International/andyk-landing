@@ -1,11 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
-import { COMPANY } from "@/lib/data";
+import LogoIcon from "./LogoIcon";
 
 export default function HexLogo({ size = "md" }: { size?: "sm" | "md" }) {
-  const h = size === "sm" ? "h-8" : "h-12";
+  const iconClass = size === "sm" ? "w-5 h-5" : "w-7 h-7";
   return (
     <a href="#hero" className="flex items-center gap-2">
-      <img src={COMPANY.logoUrl} alt={COMPANY.name} className={`${h} w-auto`} />
+      <LogoIcon className={`${iconClass} text-foreground`} />
     </a>
   );
 }
