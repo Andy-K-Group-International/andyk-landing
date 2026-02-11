@@ -1,30 +1,5 @@
 import { COMPANY } from "@/lib/data";
 
-function MailIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-5 h-5">
-      <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function PhoneIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-5 h-5">
-      <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function LocationIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-5 h-5">
-      <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
 function LinkedInIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -49,7 +24,7 @@ export default function CtaSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Left - CTA */}
           <div>
-            <span className="text-[10px] uppercase tracking-[0.25em] text-highlight font-mono block mb-4">
+            <span className="text-[10px] uppercase tracking-[0.25em] text-rose font-mono block mb-4">
               Get in touch
             </span>
             <h2 className="text-[clamp(1.875rem,1.52rem+1.25vw,2.5rem)] font-bold tracking-tight text-white leading-[1.2] mb-4">
@@ -58,7 +33,7 @@ export default function CtaSection() {
                 together.
               </span>
             </h2>
-            <p className="text-base text-white/60 leading-relaxed mb-8 max-w-[460px]">
+            <p className="text-base text-white/80 leading-relaxed mb-8 max-w-[460px]">
               Whether you need consulting, technology solutions, or a strategic
               partner for international expansion — we&apos;re ready to talk.
             </p>
@@ -72,7 +47,7 @@ export default function CtaSection() {
               </a>
               <a
                 href={`mailto:${COMPANY.email}?subject=Custom Quote Request`}
-                className="inline-flex items-center justify-center h-12 px-6 text-sm font-medium border border-white/20 text-white/80 rounded-lg hover:bg-white/10 hover:text-white transition-all"
+                className="inline-flex items-center justify-center h-12 px-6 text-sm font-medium border border-white/30 text-white rounded-lg hover:bg-white/10 transition-all"
               >
                 Request a Custom Quote
               </a>
@@ -83,7 +58,7 @@ export default function CtaSection() {
               href={COMPANY.socials.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-white/40 hover:text-white/70 transition-colors"
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors"
             >
               <LinkedInIcon />
               <span className="text-sm">Follow us on LinkedIn</span>
@@ -91,74 +66,34 @@ export default function CtaSection() {
           </div>
 
           {/* Right - Contact details */}
-          <div className="space-y-0">
-            <ContactRow
-              icon={<MailIcon />}
-              label="Email"
-              value={COMPANY.email}
+          <div className="space-y-3 lg:pt-10">
+            <p className="text-lg font-bold text-white">
+              {COMPANY.name}
+            </p>
+            <p className="text-sm text-white/80">
+              UK Limited Company |{" "}
+              <span className="text-rose font-medium font-mono">
+                {COMPANY.companyNumber}
+              </span>
+            </p>
+            <p className="text-sm text-white/80">
+              {COMPANY.address}
+            </p>
+            <a
               href={`mailto:${COMPANY.email}`}
-            />
-            <ContactRow
-              icon={<PhoneIcon />}
-              label="Phone"
-              value={COMPANY.phone}
+              className="block text-sm text-rose hover:text-rose-dark transition-colors"
+            >
+              {COMPANY.email}
+            </a>
+            <a
               href={`tel:${COMPANY.phone}`}
-            />
-            <ContactRow
-              icon={<LocationIcon />}
-              label="Office"
-              value={COMPANY.address}
-            />
-            <div className="flex items-start gap-4 py-5">
-              <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-white/40 shrink-0">
-                <span className="text-xs font-mono font-bold">#</span>
-              </div>
-              <div>
-                <div className="text-[10px] uppercase tracking-widest text-white/30 mb-1">
-                  Company No.
-                </div>
-                <span className="text-sm text-white/70 font-mono">
-                  {COMPANY.companyNumber}
-                </span>
-              </div>
-            </div>
+              className="block text-sm text-rose hover:text-rose-dark transition-colors"
+            >
+              {COMPANY.phone}
+            </a>
           </div>
         </div>
       </div>
     </section>
-  );
-}
-
-function ContactRow({
-  icon,
-  label,
-  value,
-  href,
-}: {
-  icon: React.ReactNode;
-  label: string;
-  value: string;
-  href?: string;
-}) {
-  const content = href ? (
-    <a href={href} className="text-sm text-white hover:text-highlight transition-colors">
-      {value}
-    </a>
-  ) : (
-    <span className="text-sm text-white/70">{value}</span>
-  );
-
-  return (
-    <div className="flex items-start gap-4 py-5 border-b border-white/10 last:border-b-0">
-      <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-white/40 shrink-0">
-        {icon}
-      </div>
-      <div>
-        <div className="text-[10px] uppercase tracking-widest text-white/30 mb-1">
-          {label}
-        </div>
-        {content}
-      </div>
-    </div>
   );
 }

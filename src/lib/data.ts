@@ -13,7 +13,7 @@ export const COMPANY = {
   phone: "+44 330 027 1319",
   email: "info@andykgroupinternational.com",
   socials: {
-    linkedin: "https://www.linkedin.com/company/andykgroup",
+    linkedin: "https://www.linkedin.com/company/80971657/",
     email: "info@andykgroupinternational.com",
   },
   logoUrl:
