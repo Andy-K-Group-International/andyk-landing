@@ -135,7 +135,7 @@ export const FOUNDERS = [
     email: "cto@andykgroupinternational.com",
     website: "https://kobejanssens.com/",
     websiteLabel: "Portfolio",
-    bio: "Senior developer with 5+ years of experience building robust systems — from fast trading algorithms to large-scale full-stack websites and apps. Give him a tough problem, and he\u2019ll turn it into a production-ready product.",
+    bio: "Experienced developer that builds robust systems of all sorts - from fast trading algorithms to large-scale websites & apps. Give Kobe a tough problem, and he\u2019ll convert your dream into reality.",
     location: "Born in Belgium — currently digital nomad",
   },
 ];
