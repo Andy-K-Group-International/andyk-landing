@@ -1,15 +1,7 @@
-export default function LogoIcon({ className = "w-8 h-8" }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 1920 1920"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={28}
-      strokeLinejoin="round"
-      className={className}
-    >
-      <g transform="translate(0,1920) scale(1,-1)">
-        <path d="M430 1417 c0 -372 -1 -405 -17 -419 -16 -14 -115 -72 -351 -207 l-62
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" fill="none" stroke="#000000" stroke-width="28" stroke-linejoin="round">
+<g transform="translate(0,1920) scale(1,-1)">
+<path d="M430 1417 c0 -372 -1 -405 -17 -419 -16 -14 -115 -72 -351 -207 l-62
 -36 2 -54 3 -54 90 -52 c50 -29 171 -99 270 -157 99 -58 263 -153 365 -212
 102 -60 195 -114 206 -122 23 -14 18 -17 749 410 83 49 169 99 193 112 41 24
 42 26 42 77 l-1 52 -214 124 -215 124 0 408 c0 225 -3 409 -7 409 -4 0 -59
@@ -31,7 +23,5 @@ c3 -131 3 -242 -2 -246 -4 -5 -31 6 -61 24 -30 18 -88 51 -129 74 -41 23 -112
 -37 54 -44 -3 -10 -393 -245 -408 -246 -3 0 -58 31 -121 69 -64 38 -120 70
 -125 72 -4 2 -45 26 -91 53 -95 57 -95 59 7 112 36 18 122 67 191 108 69 41
 130 75 137 75 6 1 33 -12 60 -28z" />
-      </g>
-    </svg>
-  );
-}
+</g>
+</svg>
