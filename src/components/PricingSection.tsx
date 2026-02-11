@@ -182,13 +182,9 @@ export default function PricingSection() {
 
         {/* Commitment note */}
         <div className="flex flex-col items-center mb-8 max-w-[600px] mx-auto text-center">
-          <span className="text-[10px] uppercase tracking-[0.2em] text-muted-2 font-mono mb-3">
-            Commitment period
+          <span className="text-[10px] uppercase tracking-[0.2em] text-muted-2 font-mono">
+            Starting from 3 months
           </span>
-          <p className="text-sm text-muted leading-relaxed">
-            The commitment period is tailored to your business size and project scope.
-            After completing our onboarding, we will propose a commitment period.
-          </p>
         </div>
 
         {/* Cards with slide animation */}
