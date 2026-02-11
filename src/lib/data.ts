@@ -327,6 +327,20 @@ export const PRICING_TECH = [
   },
 ];
 
+export const COMMITMENT_OPTIONS = [
+  { months: 3, discount: 0, label: "3 months", note: "Standard rate" },
+  { months: 6, discount: 5, label: "6 months", note: "Save 5%" },
+  { months: 9, discount: 7, label: "9 months", note: "Save 7%" },
+  { months: 12, discount: 10, label: "12 months", note: "Save 10%" },
+] as const;
+
+export const BILLING_TERMS = {
+  basis: "Billed monthly (calendar month basis)",
+  minimum: "3-month minimum commitment",
+  renewal: "Auto-renews month-by-month after initial commitment",
+  cancellation: "Cancel with 15 days notice before end of commitment period",
+};
+
 export const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Pricing", href: "#pricing" },

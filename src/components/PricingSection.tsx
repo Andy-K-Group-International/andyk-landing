@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { PRICING_B2B, PRICING_B2G, PRICING_TECH } from "@/lib/data";
+import { PRICING_B2B, PRICING_B2G, PRICING_TECH, COMMITMENT_OPTIONS, BILLING_TERMS } from "@/lib/data";
 import { COMPANY } from "@/lib/data";
 import TabSwitcher from "@/components/TabSwitcher";
 
@@ -25,6 +25,18 @@ function CheckIcon() {
   );
 }
 
+function applyDiscount(price: string, discountPct: number): string {
+  // Extract numeric value from price string like "€950", "£1,050", "€2,500"
+  const currencyMatch = price.match(/^([€£$])/);
+  const currency = currencyMatch ? currencyMatch[1] : "";
+  const numeric = parseFloat(price.replace(/[^0-9.]/g, ""));
+  if (isNaN(numeric) || discountPct === 0) return price;
+  const discounted = Math.round(numeric * (1 - discountPct / 100));
+  // Format with comma for thousands
+  const formatted = discounted.toLocaleString("en-GB");
+  return `${currency}${formatted}`;
+}
+
 interface PricingCard {
   name: string;
   price: string;
@@ -34,7 +46,10 @@ interface PricingCard {
   features: string[];
 }
 
-function PricingCardComponent({ card }: { card: PricingCard }) {
+function PricingCardComponent({ card, discount }: { card: PricingCard; discount: number }) {
+  const hasMonthlyPeriod = card.period === "/ month";
+  const showDiscount = hasMonthlyPeriod && discount > 0;
+  const displayPrice = showDiscount ? applyDiscount(card.price, discount) : card.price;
 
   return (
     <div
@@ -71,7 +86,7 @@ function PricingCardComponent({ card }: { card: PricingCard }) {
               card.highlighted ? "text-white" : "text-foreground"
             }`}
           >
-            {card.price}
+            {displayPrice}
           </span>
           {card.period && (
             <span
@@ -81,6 +96,15 @@ function PricingCardComponent({ card }: { card: PricingCard }) {
             </span>
           )}
         </div>
+        {showDiscount && (
+          <span
+            className={`inline-block mt-1.5 text-xs font-mono ${
+              card.highlighted ? "text-highlight" : "text-highlight"
+            }`}
+          >
+            was {card.price}
+          </span>
+        )}
       </div>
 
       <div
@@ -120,10 +144,12 @@ function PricingCardComponent({ card }: { card: PricingCard }) {
 
 export default function PricingSection() {
   const [activeTab, setActiveTab] = useState<string>("b2b");
+  const [commitment, setCommitment] = useState(3);
   const [slideDirection, setSlideDirection] = useState<"left" | "right">("right");
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const activeData = TABS.find((t) => t.id === activeTab)!;
+  const activeCommitment = COMMITMENT_OPTIONS.find((c) => c.months === commitment)!;
 
   const handleTabChange = (newTabId: string) => {
     if (newTabId === activeTab) return;
@@ -168,17 +194,48 @@ export default function PricingSection() {
             </span>
           </h2>
           <p className="text-lg leading-relaxed text-muted font-light">
-            A hybrid model combining Business Development, Public Sector Advisory, and Technology Infrastructure — scale through strategy, execution, and intelligent systems.
+            Structured advisory and business development — combining strategy, public sector expertise, and technology infrastructure to help you scale.
           </p>
         </div>
 
         {/* Tabs */}
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center mb-6">
           <TabSwitcher
             tabs={TABS.map(({ id, label }) => ({ id, label }))}
             activeTab={activeTab}
             onTabChange={handleTabChange}
           />
+        </div>
+
+        {/* Commitment selector */}
+        <div className="flex flex-col items-center mb-8">
+          <span className="text-[10px] uppercase tracking-[0.2em] text-muted-2 font-mono mb-3">
+            Commitment period
+          </span>
+          <div className="inline-flex rounded-lg border border-grid-300 bg-white p-1 gap-1">
+            {COMMITMENT_OPTIONS.map((opt) => (
+              <button
+                key={opt.months}
+                onClick={() => setCommitment(opt.months)}
+                className={`relative px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 min-h-[44px] ${
+                  commitment === opt.months
+                    ? "bg-foreground text-white shadow-sm"
+                    : "text-muted hover:text-foreground"
+                }`}
+              >
+                {opt.label}
+                {opt.discount > 0 && (
+                  <span
+                    className={`block text-[10px] font-mono ${
+                      commitment === opt.months ? "text-highlight" : "text-highlight"
+                    }`}
+                  >
+                    -{opt.discount}%
+                  </span>
+                )}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Cards with slide animation */}
@@ -203,15 +260,21 @@ export default function PricingSection() {
               <PricingCardComponent
                 key={card.name}
                 card={card}
+                discount={activeCommitment.discount}
               />
             ))}
           </div>
         </div>
 
-        {/* 28-day billing note */}
-        <p className="text-center text-xs text-muted-2 mt-6">
-          Monthly plans are billed in 28-day cycles (13 cycles per year).
-        </p>
+        {/* Billing terms */}
+        <div className="text-center mt-8 space-y-1">
+          <p className="text-xs text-muted-2">
+            {BILLING_TERMS.basis} &middot; {BILLING_TERMS.minimum}
+          </p>
+          <p className="text-xs text-muted-2">
+            {BILLING_TERMS.renewal} &middot; {BILLING_TERMS.cancellation}
+          </p>
+        </div>
 
         {/* Custom quote CTA */}
         <div className="text-center mt-12">
