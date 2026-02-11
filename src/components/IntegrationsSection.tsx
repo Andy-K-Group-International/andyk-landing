@@ -20,7 +20,7 @@ export default function IntegrationsSection() {
       {/* A.D.A.M. Card */}
       <div className="border border-grid-300 rounded-xl p-8 bg-white mb-6">
         <div className="flex items-center gap-4 mb-4">
-          <img src="/adam-logo.png" alt="A.D.A.M." className="h-10 w-auto" />
+          <img src="/adam-logo.png" alt="A.D.A.M." className="h-16 w-auto" />
           <div className="h-5 w-px bg-grid-300" />
           <span className="text-[10px] uppercase tracking-widest text-rose-dark font-medium">In Development</span>
         </div>
@@ -38,7 +38,7 @@ export default function IntegrationsSection() {
           ))}
         </div>
         <a
-          href="/onboarding"
+          href="https://adameva.app"
           className="relative inline-flex items-center justify-center h-10 px-5 text-sm font-medium text-foreground btn-primary-gradient"
         >
           <span className="relative z-10">Start Your A.D.A.M. Journey</span>
@@ -48,7 +48,7 @@ export default function IntegrationsSection() {
       {/* E.V.A. Card */}
       <div className="border border-grid-300 rounded-xl p-8 bg-white mb-6">
         <div className="flex items-center gap-4 mb-4">
-          <img src="/eva-logo.jpg" alt="E.V.A." className="h-10 w-auto" />
+          <img src="/eva-logo.jpg" alt="E.V.A." className="h-16 w-auto" />
           <div className="h-5 w-px bg-grid-300" />
           <span className="text-[10px] uppercase tracking-widest text-rose-dark font-medium">In Development</span>
         </div>
@@ -66,7 +66,7 @@ export default function IntegrationsSection() {
           ))}
         </div>
         <a
-          href="/onboarding"
+          href="https://adameva.app"
           className="relative inline-flex items-center justify-center h-10 px-5 text-sm font-medium text-foreground btn-primary-gradient"
         >
           <span className="relative z-10">Start Your E.V.A. Journey</span>

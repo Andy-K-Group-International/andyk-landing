@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { NAV_LINKS, NAV_SERVICES } from "@/lib/data";
+import CompanyLogo from "./CompanyLogo";
 
 function ChevronDown({ className = "w-4 h-4" }: { className?: string }) {
   return (
@@ -78,17 +79,8 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-grid-300">
       <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 sm:px-8 h-[60px]">
         {/* Logo */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <a href="#hero" className="flex items-center gap-3 shrink-0">
-          <img src="/apple-icon.png" alt="Andy'K Group" className="w-7 h-7" />
-          <div className="leading-[1.15]">
-            <span className="block text-sm font-bold tracking-tight text-foreground">
-              Andy&apos;K Group
-            </span>
-            <span className="block text-[10px] font-light tracking-[0.08em] text-muted uppercase">
-              International
-            </span>
-          </div>
+        <a href="#hero" className="shrink-0 text-foreground">
+          <CompanyLogo size="md" />
         </a>
 
         {/* Desktop nav */}
@@ -157,7 +149,7 @@ export default function Navbar() {
             Log In
           </a>
           <a
-            href="/onboarding"
+            href="https://adameva.app"
             className="hidden sm:inline-flex relative items-center justify-center h-9 px-4 text-xs font-medium text-foreground btn-primary-gradient"
           >
             <span className="relative z-10">Get Started</span>
@@ -232,7 +224,7 @@ export default function Navbar() {
             {/* Mobile CTAs */}
             <div className="pt-6 space-y-3">
               <a
-                href="/onboarding"
+                href="https://adameva.app"
                 onClick={closeMobile}
                 className="relative flex items-center justify-center h-12 w-full text-sm font-medium text-foreground btn-primary-gradient"
               >

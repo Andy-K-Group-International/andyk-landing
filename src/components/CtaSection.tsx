@@ -40,7 +40,7 @@ export default function CtaSection() {
 
             <div className="flex gap-4 flex-wrap mb-10">
               <a
-                href="/onboarding"
+                href="https://adameva.app"
                 className="relative inline-flex items-center justify-center h-12 px-6 text-sm font-medium text-foreground btn-primary-gradient"
               >
                 <span className="relative z-10">Tell Us About You</span>

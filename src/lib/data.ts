@@ -109,7 +109,6 @@ export const ADAM_SHOWCASE = [
 ];
 
 export const STATS = [
-  { value: "100%", label: "Positive client reviews" },
   { value: "\u20AC2.5M", label: "In client contract value supported" },
   { value: "4", label: "Languages supported" },
   { value: "98%", label: "Client satisfaction rate" },
@@ -336,7 +335,7 @@ export const COMMITMENT_OPTIONS = [
 
 export const BILLING_TERMS = {
   basis: "Billed monthly (calendar month basis)",
-  minimum: "3-month minimum commitment",
+  minimum: "Commitment period determined in A.D.A.M.'s proposal",
   renewal: "Auto-renews month-by-month after initial commitment",
   cancellation: "Cancel with 15 days notice before end of commitment period",
 };
