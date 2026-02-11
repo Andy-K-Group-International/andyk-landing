@@ -8,6 +8,7 @@ export default function LogoIcon({ className = "w-8 h-8" }: { className?: string
       strokeLinecap="round"
       strokeLinejoin="round"
       className={className}
+      style={{ transform: "rotate(90deg)" }}
     >
       {/* Ears */}
       <line x1="138" y1="2" x2="275" y2="130" />

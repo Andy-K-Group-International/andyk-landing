@@ -6,9 +6,9 @@ import { COMPANY } from "@/lib/data";
 import TabSwitcher from "@/components/TabSwitcher";
 
 const TABS = [
-  { id: "b2b", label: "B2B Business Development", data: PRICING_B2B, hasBilling: true },
-  { id: "b2g", label: "B2G Public Sector", data: PRICING_B2G, hasBilling: true },
-  { id: "tech", label: "Technology / CTO", data: PRICING_TECH, hasBilling: false },
+  { id: "b2b", label: "B2B Business Development", data: PRICING_B2B },
+  { id: "b2g", label: "B2G Public Sector", data: PRICING_B2G },
+  { id: "tech", label: "Technology / CTO", data: PRICING_TECH },
 ] as const;
 
 const TAB_IDS: string[] = TABS.map((t) => t.id);
@@ -28,16 +28,13 @@ function CheckIcon() {
 interface PricingCard {
   name: string;
   price: string;
-  yearlyPrice?: string;
   period?: string;
   prefix?: string;
   highlighted?: boolean;
   features: string[];
 }
 
-function PricingCardComponent({ card, yearly }: { card: PricingCard; yearly: boolean }) {
-  const showYearly = yearly && card.yearlyPrice;
-  const displayPrice = showYearly ? card.yearlyPrice : card.price;
+function PricingCardComponent({ card }: { card: PricingCard }) {
 
   return (
     <div
@@ -74,7 +71,7 @@ function PricingCardComponent({ card, yearly }: { card: PricingCard; yearly: boo
               card.highlighted ? "text-white" : "text-foreground"
             }`}
           >
-            {displayPrice}
+            {card.price}
           </span>
           {card.period && (
             <span
@@ -84,11 +81,6 @@ function PricingCardComponent({ card, yearly }: { card: PricingCard; yearly: boo
             </span>
           )}
         </div>
-        {showYearly && (
-          <p className={`text-xs mt-1.5 ${card.highlighted ? "text-white/50" : "text-muted-2"}`}>
-            Billed yearly (13 cycles) &middot; Save 25%
-          </p>
-        )}
       </div>
 
       <div
@@ -126,38 +118,10 @@ function PricingCardComponent({ card, yearly }: { card: PricingCard; yearly: boo
   );
 }
 
-function BillingToggle({ yearly, onChange }: { yearly: boolean; onChange: (v: boolean) => void }) {
-  return (
-    <div className="flex items-center justify-center gap-3 mb-10">
-      <span className={`text-sm font-medium transition-colors ${!yearly ? "text-foreground" : "text-muted-2"}`}>
-        Monthly
-      </span>
-      <button
-        onClick={() => onChange(!yearly)}
-        className={`relative w-12 h-6 rounded-full transition-colors ${yearly ? "bg-highlight" : "bg-grid-500"}`}
-        aria-label={`Switch to ${yearly ? "monthly" : "yearly"} billing`}
-      >
-        <span
-          className={`absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full shadow-sm transition-transform duration-200 ${yearly ? "translate-x-6" : "translate-x-0"}`}
-        />
-      </button>
-      <span className={`text-sm font-medium transition-colors ${yearly ? "text-foreground" : "text-muted-2"}`}>
-        Yearly
-      </span>
-      {yearly && (
-        <span className="text-[10px] uppercase tracking-wider font-mono text-highlight bg-highlight/10 px-2 py-0.5 rounded-full">
-          Save 25%
-        </span>
-      )}
-    </div>
-  );
-}
-
 export default function PricingSection() {
   const [activeTab, setActiveTab] = useState<string>("b2b");
   const [slideDirection, setSlideDirection] = useState<"left" | "right">("right");
   const [isAnimating, setIsAnimating] = useState(false);
-  const [yearly, setYearly] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const activeData = TABS.find((t) => t.id === activeTab)!;
 
@@ -217,11 +181,6 @@ export default function PricingSection() {
           />
         </div>
 
-        {/* Billing toggle — only for tabs with monthly plans */}
-        {activeData.hasBilling && (
-          <BillingToggle yearly={yearly} onChange={setYearly} />
-        )}
-
         {/* Cards with slide animation */}
         <div
           ref={contentRef}
@@ -244,19 +203,15 @@ export default function PricingSection() {
               <PricingCardComponent
                 key={card.name}
                 card={card}
-                yearly={activeData.hasBilling && yearly}
               />
             ))}
           </div>
         </div>
 
         {/* 28-day billing note */}
-        {activeData.hasBilling && (
-          <p className="text-center text-xs text-muted-2 mt-6">
-            Monthly plans are billed in 28-day cycles (13 cycles per year).
-            {yearly && " Yearly plans include a 25% discount."}
-          </p>
-        )}
+        <p className="text-center text-xs text-muted-2 mt-6">
+          Monthly plans are billed in 28-day cycles (13 cycles per year).
+        </p>
 
         {/* Custom quote CTA */}
         <div className="text-center mt-12">

@@ -34,18 +34,10 @@ function MessageIcon() {
   );
 }
 
-function ShieldIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-5 h-5 text-highlight shrink-0">
-      <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
 function SendIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-5 h-5">
-      <path d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" fill="currentColor" stroke="none" />
     </svg>
   );
 }
@@ -73,7 +65,7 @@ export default function ContactForm() {
   }
 
   return (
-    <section className="relative py-20 px-8">
+    <section className="relative pt-10 pb-20 px-8">
       <div className="max-w-[720px] mx-auto">
         <div className="border border-grid-300 rounded-2xl p-8 sm:p-10 bg-white shadow-sm">
           {/* Header */}
@@ -177,24 +169,15 @@ export default function ContactForm() {
                 </div>
               </div>
 
-              {/* Privacy notice */}
-              <div className="flex items-start gap-3 p-4 rounded-lg bg-highlight/5 border border-highlight/10">
-                <ShieldIcon />
-                <div>
-                  <p className="text-sm font-medium text-highlight mb-0.5">We respect your privacy</p>
-                  <p className="text-xs text-muted leading-relaxed">
-                    Your information will be used solely to respond to your inquiry and provide our services. We comply with GDPR and UK data protection laws.
-                  </p>
-                </div>
-              </div>
-
               {/* Submit */}
               <button
                 type="submit"
-                className="w-full h-12 flex items-center justify-center gap-2 text-sm font-medium text-white bg-highlight rounded-lg hover:bg-highlight/90 transition-colors"
+                className="relative w-full h-12 flex items-center justify-center gap-2 text-sm font-medium text-foreground btn-primary-gradient cursor-pointer"
               >
-                <SendIcon />
-                Send Message
+                <span className="relative z-10 flex items-center gap-2">
+                  <SendIcon />
+                  Send Message
+                </span>
               </button>
 
               <p className="text-xs text-center text-muted-2">

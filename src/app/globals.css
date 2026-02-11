@@ -185,7 +185,7 @@ body {
 
 /* ===== BUTTON PRIMARY ===== */
 .btn-primary-gradient {
-  background: linear-gradient(to right, #fff, #fff), linear-gradient(45deg, var(--color-rose-dark), var(--color-highlight));
+  background: linear-gradient(to right, #fff, #fff), linear-gradient(45deg, var(--color-rose-dark), var(--color-eggplant));
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   border: 1px solid transparent;
@@ -203,6 +203,19 @@ body {
 
 .btn-primary-gradient:hover::after {
   opacity: 0.3;
+}
+
+/* Button secondary - outlined variant */
+.btn-secondary {
+  position: relative;
+  border: 1px solid var(--color-grid-500);
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-rose-dark);
+  background: rgba(245, 192, 192, 0.06);
 }
 
 /* ===== TRON DIVIDER ===== */

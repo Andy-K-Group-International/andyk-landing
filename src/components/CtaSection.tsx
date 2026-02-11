@@ -66,9 +66,9 @@ export default function CtaSection() {
             <div className="flex gap-4 flex-wrap mb-10">
               <a
                 href="/onboarding"
-                className="inline-flex items-center justify-center h-12 px-6 text-sm font-medium bg-highlight text-white rounded-lg hover:bg-highlight/90 transition-colors"
+                className="relative inline-flex items-center justify-center h-12 px-6 text-sm font-medium text-foreground btn-primary-gradient"
               >
-                Tell Us About You
+                <span className="relative z-10">Tell Us About You</span>
               </a>
               <a
                 href={`mailto:${COMPANY.email}?subject=Custom Quote Request`}

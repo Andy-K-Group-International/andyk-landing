@@ -3,7 +3,7 @@ import { COMPANY, ADAM_FEATURES, EVA_FEATURES } from "@/lib/data";
 
 export default function IntegrationsSection() {
   return (
-    <section id="systems" className="relative py-20 px-8 max-w-[1200px] mx-auto">
+    <section id="systems" className="relative pt-10 pb-20 px-8 max-w-[1200px] mx-auto">
       <div className="text-center mb-16">
         <h2 className="text-[clamp(1.875rem,1.52rem+1.25vw,2.5rem)] font-bold tracking-tight text-foreground mb-4">
           Our{" "}

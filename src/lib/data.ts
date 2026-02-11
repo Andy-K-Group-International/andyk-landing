@@ -177,7 +177,7 @@ export const PRICING_B2B = [
   {
     name: "CORE",
     price: "€950",
-    yearlyPrice: "€713",
+
     period: "/ month",
     features: [
       "40 qualified leads per month",
@@ -190,7 +190,7 @@ export const PRICING_B2B = [
   {
     name: "ADVANCE",
     price: "€1,350",
-    yearlyPrice: "€1,013",
+
     period: "/ month",
     highlighted: true,
     features: [
@@ -204,7 +204,7 @@ export const PRICING_B2B = [
   {
     name: "VANGUARD",
     price: "€1,750",
-    yearlyPrice: "€1,313",
+
     period: "/ month",
     features: [
       "80 qualified leads per month",
@@ -217,7 +217,7 @@ export const PRICING_B2B = [
   {
     name: "PRESTIGE",
     price: "€2,400",
-    yearlyPrice: "€1,800",
+
     period: "/ month",
     prefix: "from",
     features: [
@@ -234,7 +234,7 @@ export const PRICING_B2G = [
   {
     name: "GovStarter",
     price: "£650",
-    yearlyPrice: "£488",
+
     period: "/ month",
     features: [
       "5 verified public tenders per month",
@@ -246,7 +246,7 @@ export const PRICING_B2G = [
   {
     name: "GovExpand",
     price: "£1,050",
-    yearlyPrice: "£788",
+
     period: "/ month",
     highlighted: true,
     features: [
@@ -259,7 +259,7 @@ export const PRICING_B2G = [
   {
     name: "GovElite",
     price: "£1,650",
-    yearlyPrice: "£1,238",
+
     period: "/ month",
     features: [
       "1 full proposal draft per month",
