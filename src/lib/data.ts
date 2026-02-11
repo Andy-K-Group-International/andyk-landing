@@ -125,7 +125,7 @@ export const FOUNDERS = [
     bio: "15+ years of leadership in sales, hospitality, business development, and operational strategy. Andrej specializes in scalable growth systems for B2B, B2G, and international client relations.",
     quote:
       "My focus is building business systems that are not only profitable — but sustainable, secure, and designed to scale.",
-    location: "Born in Austria — currently digital nomad",
+    location: "Born in Austria",
   },
   {
     name: "Kobe Janssens",
@@ -136,7 +136,7 @@ export const FOUNDERS = [
     website: "https://kobejanssens.com/",
     websiteLabel: "Portfolio",
     bio: "Experienced developer that builds robust systems of all sorts - from fast trading algorithms to large-scale websites & apps. Give Kobe a tough problem, and he\u2019ll convert your dream into reality.",
-    location: "Born in Belgium — currently digital nomad",
+    location: "Born in Belgium",
   },
 ];
 
