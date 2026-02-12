@@ -3,6 +3,8 @@
 import { useState, useRef } from "react";
 import { PRICING_B2B, PRICING_B2G, PRICING_TECH, BILLING_TERMS } from "@/lib/data";
 import { COMPANY } from "@/lib/data";
+import { useCurrency } from "@/context/CurrencyContext";
+import type { CurrencyCode } from "@/lib/currency";
 import TabSwitcher from "@/components/TabSwitcher";
 
 const TABS = [
@@ -25,16 +27,20 @@ function CheckIcon() {
   );
 }
 
-interface PricingCard {
+interface PricingCardData {
   name: string;
-  price: string;
+  basePrice: number;
+  baseCurrency: CurrencyCode;
   period?: string;
   prefix?: string;
   highlighted?: boolean;
   features: string[];
 }
 
-function PricingCardComponent({ card }: { card: PricingCard }) {
+function PricingCardComponent({ card }: { card: PricingCardData }) {
+  const { convert } = useCurrency();
+  const displayPrice = convert(card.basePrice, card.baseCurrency);
+
   return (
     <div
       className={`relative rounded-xl p-6 flex flex-col h-full transition-all duration-300 ${
@@ -70,7 +76,7 @@ function PricingCardComponent({ card }: { card: PricingCard }) {
               card.highlighted ? "text-white" : "text-foreground"
             }`}
           >
-            {card.price}
+            {displayPrice}
           </span>
           {card.period && (
             <span
@@ -134,11 +140,9 @@ export default function PricingSection() {
     setSlideDirection(direction);
     setIsAnimating(true);
 
-    // Brief exit animation, then switch content and enter
     requestAnimationFrame(() => {
       setTimeout(() => {
         setActiveTab(newTabId);
-        // Reset animation after content swap
         requestAnimationFrame(() => {
           setTimeout(() => setIsAnimating(false), 20);
         });
@@ -148,7 +152,6 @@ export default function PricingSection() {
 
   const getTransform = () => {
     if (!isAnimating) return "translateX(0)";
-    // When animating out, slide in the opposite direction of where the new tab is
     return slideDirection === "right" ? "translateX(-24px)" : "translateX(24px)";
   };
 

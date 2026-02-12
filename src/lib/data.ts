@@ -175,8 +175,8 @@ export const ADAM_ROADMAP = [
 export const PRICING_B2B = [
   {
     name: "CORE",
-    price: "€950",
-
+    basePrice: 950,
+    baseCurrency: "EUR" as const,
     period: "/ month",
     features: [
       "40 qualified leads per month",
@@ -188,8 +188,8 @@ export const PRICING_B2B = [
   },
   {
     name: "ADVANCE",
-    price: "€1,350",
-
+    basePrice: 1350,
+    baseCurrency: "EUR" as const,
     period: "/ month",
     highlighted: true,
     features: [
@@ -202,8 +202,8 @@ export const PRICING_B2B = [
   },
   {
     name: "VANGUARD",
-    price: "€1,750",
-
+    basePrice: 1750,
+    baseCurrency: "EUR" as const,
     period: "/ month",
     features: [
       "80 qualified leads per month",
@@ -215,8 +215,8 @@ export const PRICING_B2B = [
   },
   {
     name: "PRESTIGE",
-    price: "€2,400",
-
+    basePrice: 2400,
+    baseCurrency: "EUR" as const,
     period: "/ month",
     prefix: "from",
     features: [
@@ -232,8 +232,8 @@ export const PRICING_B2B = [
 export const PRICING_B2G = [
   {
     name: "GovStarter",
-    price: "£650",
-
+    basePrice: 650,
+    baseCurrency: "GBP" as const,
     period: "/ month",
     features: [
       "5 verified public tenders per month",
@@ -244,8 +244,8 @@ export const PRICING_B2G = [
   },
   {
     name: "GovExpand",
-    price: "£1,050",
-
+    basePrice: 1050,
+    baseCurrency: "GBP" as const,
     period: "/ month",
     highlighted: true,
     features: [
@@ -257,8 +257,8 @@ export const PRICING_B2G = [
   },
   {
     name: "GovElite",
-    price: "£1,650",
-
+    basePrice: 1650,
+    baseCurrency: "GBP" as const,
     period: "/ month",
     features: [
       "1 full proposal draft per month",
@@ -272,7 +272,8 @@ export const PRICING_B2G = [
 export const PRICING_TECH = [
   {
     name: "System Architecture Consulting",
-    price: "€2,500",
+    basePrice: 2500,
+    baseCurrency: "EUR" as const,
     prefix: "from",
     features: [
       "Business system architecture design",
@@ -282,7 +283,8 @@ export const PRICING_TECH = [
   },
   {
     name: "Business Platforms Development",
-    price: "€3,500",
+    basePrice: 3500,
+    baseCurrency: "EUR" as const,
     prefix: "from",
     features: [
       "Internal portals",
@@ -292,7 +294,8 @@ export const PRICING_TECH = [
   },
   {
     name: "Automation & Integrations",
-    price: "€2,000",
+    basePrice: 2000,
+    baseCurrency: "EUR" as const,
     prefix: "from",
     highlighted: true,
     features: [
@@ -303,7 +306,8 @@ export const PRICING_TECH = [
   },
   {
     name: "Technical System Audit",
-    price: "€1,800",
+    basePrice: 1800,
+    baseCurrency: "EUR" as const,
     prefix: "from",
     features: [
       "Infrastructure audit",
@@ -313,7 +317,8 @@ export const PRICING_TECH = [
   },
   {
     name: "CTO-as-a-Service",
-    price: "€200",
+    basePrice: 200,
+    baseCurrency: "EUR" as const,
     period: "/ hour",
     prefix: "from",
     features: [

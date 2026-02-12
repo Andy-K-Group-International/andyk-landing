@@ -1,7 +1,14 @@
+"use client";
+
 import { COMPANY, FOOTER_LINKS } from "@/lib/data";
 import CompanyLogo from "./CompanyLogo";
+import { useCurrency } from "@/context/CurrencyContext";
+import { CURRENCIES } from "@/lib/currency";
+import type { CurrencyCode } from "@/lib/currency";
 
 export default function Footer() {
+  const { currency, setCurrency } = useCurrency();
+
   return (
     <footer className="border-t border-grid-300 py-12 px-8">
       <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
@@ -27,9 +34,22 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="flex items-center gap-2 text-xs text-muted-2">
-          <span className="w-1.5 h-1.5 rounded-full bg-rose" />
-          London, UK
+        <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 text-xs text-muted-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-rose" />
+            London, UK
+          </div>
+          <select
+            value={currency}
+            onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
+            className="text-xs text-muted-2 bg-transparent border border-grid-500 rounded-md px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
+          >
+            {CURRENCIES.map((c) => (
+              <option key={c.code} value={c.code}>
+                {c.label}
+              </option>
+            ))}
+          </select>
         </div>
       </div>
     </footer>
