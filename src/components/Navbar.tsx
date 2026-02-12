@@ -138,32 +138,14 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Right side actions */}
-        <div className="flex items-center gap-3">
-          <a
-            href="https://adameva.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden sm:inline-flex text-sm text-muted hover:text-foreground transition-colors"
-          >
-            Log In
-          </a>
-          <a
-            href="https://adameva.app"
-            className="hidden sm:inline-flex relative items-center justify-center h-9 px-4 text-xs font-medium text-foreground btn-primary-gradient"
-          >
-            <span className="relative z-10">Get Started</span>
-          </a>
-
-          {/* Mobile hamburger */}
-          <button
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden flex items-center justify-center w-10 h-10 -mr-2 text-foreground"
-            aria-label={mobileOpen ? "Close menu" : "Open menu"}
-          >
-            {mobileOpen ? <CloseIcon /> : <HamburgerIcon />}
-          </button>
-        </div>
+        {/* Mobile hamburger */}
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="md:hidden flex items-center justify-center w-10 h-10 -mr-2 text-foreground"
+          aria-label={mobileOpen ? "Close menu" : "Open menu"}
+        >
+          {mobileOpen ? <CloseIcon /> : <HamburgerIcon />}
+        </button>
       </div>
 
       {/* Mobile menu */}
@@ -221,25 +203,6 @@ export default function Navbar() {
               )}
             </div>
 
-            {/* Mobile CTAs */}
-            <div className="pt-6 space-y-3">
-              <a
-                href="https://adameva.app"
-                onClick={closeMobile}
-                className="relative flex items-center justify-center h-12 w-full text-sm font-medium text-foreground btn-primary-gradient"
-              >
-                <span className="relative z-10">Get Started</span>
-              </a>
-              <a
-                href="https://adameva.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={closeMobile}
-                className="flex items-center justify-center h-12 w-full text-sm font-medium text-foreground border border-grid-500 rounded-lg"
-              >
-                Log In
-              </a>
-            </div>
           </div>
         </div>
       )}

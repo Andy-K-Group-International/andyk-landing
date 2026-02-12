@@ -6,7 +6,7 @@
   --color-eggplant: #31263b;
   --color-muted: #525a70;
   --color-muted-2: #8b93a8;
-  --color-highlight: #5CB198;
+  --color-highlight: #C9707D;
   --color-rose: #F5C0C0;
   --color-rose-dark: #cda0a5;
   --color-grid-300: #f5f5f7;
@@ -44,8 +44,8 @@ body {
   pointer-events: none;
   background-image: radial-gradient(
     circle at 50% 50%,
-    rgba(92, 177, 152, 0.05) 50%,
-    rgba(92, 177, 152, 0.12) 100%
+    rgba(201, 112, 125, 0.05) 50%,
+    rgba(201, 112, 125, 0.12) 100%
   );
   opacity: 0.5;
 }

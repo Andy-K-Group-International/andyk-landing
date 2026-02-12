@@ -12,7 +12,7 @@ export default function CtaSection() {
   return (
     <section id="contact" className="relative py-24 px-8">
       {/* Dark background */}
-      <div className="absolute inset-0 bg-foreground" />
+      <div className="absolute inset-0 bg-gray-950" />
       <div className="absolute inset-0 opacity-[0.03]">
         <div className="w-full h-full" style={{
           backgroundImage: "radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px)",
@@ -66,9 +66,12 @@ export default function CtaSection() {
           </div>
 
           {/* Right - Contact details */}
-          <div className="space-y-3 lg:pt-10">
-            <p className="text-lg font-bold text-white">
-              {COMPANY.name}
+          <div className="space-y-3 lg:pt-10 lg:ml-auto">
+            <p className="text-3xl font-bold tracking-tight text-white leading-[1.2]">
+              <span className="block mb-1">Andy&apos;K Group</span>
+              <span className="block font-serif font-light italic text-[0.85em]">
+                International LTD
+              </span>
             </p>
             <p className="text-sm text-white/80">
               UK Limited Company |{" "}

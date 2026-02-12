@@ -77,34 +77,34 @@ export const EVA_FEATURES = [
 
 export const ADAM_SHOWCASE = [
   {
-    title: "Client Onboarding & Questionnaire",
+    title: "Intelligent Onboarding",
     description:
-      "Guided intake forms capture every detail. Clients tell us about themselves so we can tailor strategy from day one.",
+      "A structured questionnaire captures legal, strategic, and operational data to build a complete client profile from day one.",
   },
   {
-    title: "Strategy & Proposal Generation",
+    title: "Commercial Proposal",
     description:
-      "A.D.A.M. analyses intake data and generates a bespoke strategy deck and commercial proposal automatically.",
+      "Clear scope, timeline, pricing, and deliverables are presented in a structured proposal overview.",
   },
   {
-    title: "Contract Management",
+    title: "Strategic Market Blueprint",
     description:
-      "Digital contracts are drafted, sent, and tracked. E-signatures and versioning keep everything compliant.",
+      "A full strategy brief covering market analysis, ICP definition, positioning, outreach structure, and execution logic.",
   },
   {
-    title: "Invoice & Billing Automation",
+    title: "Contract Alignment",
     description:
-      "From milestone-based invoicing to recurring billing, financials are handled without manual intervention.",
+      "Legally structured contracts based on the approved proposal and strategy, with full version control.",
   },
   {
-    title: "Follow-up & Communication",
+    title: "Structured Billing",
     description:
-      "Scheduled touchpoints, reminders, and human-style follow-ups keep client relationships active.",
+      "Milestone or recurring invoicing aligned precisely with contract terms and delivery phases.",
   },
   {
-    title: "Dashboard & Analytics",
+    title: "Operational Kick-Off",
     description:
-      "Real-time visibility into pipeline health, revenue forecasts, and engagement metrics.",
+      "The activation phase triggered after invoice confirmation — execution begins immediately.",
   },
 ];
 
@@ -142,33 +142,33 @@ export const FOUNDERS = [
 export const ADAM_ROADMAP = [
   {
     step: 1,
-    title: "Client Onboarding",
-    description: "Guided intake forms capture every detail to tailor strategy from day one.",
+    title: "Intelligent Onboarding",
+    description: "Structured questionnaire capturing legal, strategic, and operational data to build a complete client profile.",
   },
   {
     step: 2,
-    title: "Strategy & Proposal",
-    description: "A.D.A.M. analyses data and generates bespoke strategy decks automatically.",
+    title: "Commercial Proposal",
+    description: "Clear scope, timeline, pricing, and deliverables presented in a structured proposal overview.",
   },
   {
     step: 3,
-    title: "Contract Management",
-    description: "Digital contracts drafted, sent, and tracked with e-signatures and versioning.",
+    title: "Strategic Market Blueprint",
+    description: "Full strategy brief — market analysis, ICP definition, positioning, outreach structure, and execution logic.",
   },
   {
     step: 4,
-    title: "Invoice & Billing",
-    description: "Milestone-based invoicing to recurring billing — handled without manual work.",
+    title: "Contract Alignment",
+    description: "Legally structured contracts based on approved proposal and strategy, with full version control.",
   },
   {
     step: 5,
-    title: "Follow-up & Communication",
-    description: "Scheduled touchpoints and human-style follow-ups keep relationships active.",
+    title: "Structured Billing",
+    description: "Milestone or recurring invoicing aligned precisely with contract terms and delivery phases.",
   },
   {
     step: 6,
-    title: "Dashboard & Analytics",
-    description: "Real-time pipeline health, revenue forecasts, and engagement metrics.",
+    title: "Operational Kick-Off",
+    description: "Activation phase triggered after invoice confirmation — execution begins.",
   },
 ];
 
