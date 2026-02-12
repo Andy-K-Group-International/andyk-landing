@@ -193,7 +193,7 @@ export default function PricingSection() {
 
         {/* Commitment note */}
         <div className="flex flex-col items-center mb-8 max-w-[600px] mx-auto text-center">
-          <span className="text-[10px] uppercase tracking-[0.2em] text-muted-2 font-mono">
+          <span className="text-sm text-muted-2">
             {t.pricing.commitment}
           </span>
         </div>
@@ -227,10 +227,10 @@ export default function PricingSection() {
 
         {/* Billing terms */}
         <div className="text-center mt-8 space-y-1">
-          <p className="text-xs text-muted-2">
+          <p className="text-sm text-muted-2">
             {t.pricing.billingBasis} &middot; {t.pricing.billingMinimum}
           </p>
-          <p className="text-xs text-muted-2">
+          <p className="text-sm text-muted-2">
             {t.pricing.billingRenewal} &middot; {t.pricing.billingCancellation}
           </p>
         </div>

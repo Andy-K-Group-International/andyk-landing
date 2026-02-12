@@ -26,7 +26,7 @@ export default function LovedBySection() {
         {/* Quote */}
         <div className="text-center max-w-[740px] mx-auto py-10">
           <blockquote className="text-2xl md:text-3xl font-bold tracking-tight text-foreground mb-4">
-            {COMPANY.quote}
+            {"\u201C"}<span className="font-medium">One</span> <span className="font-serif font-light italic">structure</span>. <span className="font-medium">One</span> <span className="font-serif font-light italic">flow</span>. <span className="font-medium">One</span> <span className="font-serif font-light italic">system</span>.{"\u201D"}
           </blockquote>
           <div className="flex items-center justify-center gap-3">
             <span className="w-8 h-[1px] bg-rose" />

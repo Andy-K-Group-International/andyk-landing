@@ -22,7 +22,7 @@ export default function FaqSection() {
         {t.services.items.map((service, i) => (
           <div
             key={service.title}
-            className="border border-grid-300 rounded-xl p-6 bg-white hover:shadow-[0_4px_12px_rgba(0,0,0,0.06)] transition-shadow"
+            className="glass-card rounded-xl p-6 hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)] transition-all duration-300"
           >
             <span className="text-[11px] font-mono text-muted-2 block mb-4">
               {String(i + 1).padStart(2, "0")}

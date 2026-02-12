@@ -112,23 +112,8 @@ export default function RoadmapSection() {
             ))}
           </div>
 
-          {/* Curved arrow from step 3 (right) down to step 4 (right) */}
-          <div className="relative h-16 my-1">
-            <svg
-              viewBox="0 0 900 64"
-              fill="none"
-              preserveAspectRatio="none"
-              className="absolute inset-0 w-full h-full text-highlight overflow-visible"
-            >
-              <path
-                d="M750 0 C780 32, 720 32, 750 64"
-                stroke="currentColor"
-                strokeWidth={1.8}
-                strokeLinecap="round"
-                fill="none"
-              />
-            </svg>
-          </div>
+          {/* Spacer between rows */}
+          <div className="h-6" />
 
           {/* Row 2 - reversed for snake pattern: 6 ← 5 ← 4 */}
           <div className="flex items-stretch justify-center">

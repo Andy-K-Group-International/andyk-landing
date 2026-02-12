@@ -133,10 +133,10 @@ const en = {
     getStarted: "Get Started",
     customQuote: "Need something custom? We tailor packages to your exact requirements.",
     requestCustomQuote: "Request a Custom Quote",
-    billingBasis: "Billed monthly (calendar month basis)",
-    billingMinimum: "Commitment period determined in A.D.A.M.'s proposal",
-    billingRenewal: "Auto-renews month-by-month after initial commitment",
-    billingCancellation: "Cancel with 15 days notice before end of commitment period",
+    billingBasis: "Billed monthly",
+    billingMinimum: "Initial commitment of 3\u201312 months",
+    billingRenewal: "Transitions to rolling monthly subscription after delivery",
+    billingCancellation: "15-day cancellation notice",
 
     // B2B Plans
     b2bCore: {
@@ -429,10 +429,10 @@ const es: typeof en = {
     getStarted: "Comenzar",
     customQuote: "¿Necesita algo personalizado? Adaptamos paquetes a sus requisitos exactos.",
     requestCustomQuote: "Solicitar presupuesto personalizado",
-    billingBasis: "Facturación mensual (base de mes calendario)",
-    billingMinimum: "Período de compromiso determinado en la propuesta de A.D.A.M.",
-    billingRenewal: "Se renueva automáticamente mes a mes después del compromiso inicial",
-    billingCancellation: "Cancelar con 15 días de aviso antes del final del período de compromiso",
+    billingBasis: "Facturación mensual",
+    billingMinimum: "Compromiso inicial de 3\u201312 meses",
+    billingRenewal: "Transición a suscripción mensual continua tras la entrega",
+    billingCancellation: "Aviso de cancelación de 15 días",
 
     b2bCore: {
       name: "CORE",
@@ -717,10 +717,10 @@ const sk: typeof en = {
     getStarted: "Začať",
     customQuote: "Potrebujete niečo na mieru? Prispôsobujeme balíčky presne vašim požiadavkám.",
     requestCustomQuote: "Požiadať o cenovú ponuku na mieru",
-    billingBasis: "Mesačná fakturácia (kalendárny mesiac)",
-    billingMinimum: "Obdobie záväzku určené v návrhu A.D.A.M.",
-    billingRenewal: "Automatická obnova mesiac po mesiaci po počiatočnom záväzku",
-    billingCancellation: "Zrušiť s 15-dňovým upozornením pred koncom obdobia záväzku",
+    billingBasis: "Mesačná fakturácia",
+    billingMinimum: "Počiatočný záväzok 3\u201312 mesiacov",
+    billingRenewal: "Po dodaní prechod na priebežné mesačné predplatné",
+    billingCancellation: "15-dňová výpovedná lehota",
 
     b2bCore: {
       name: "CORE",
@@ -1005,10 +1005,10 @@ const nl: typeof en = {
     getStarted: "Begin",
     customQuote: "Heeft u iets op maat nodig? We passen pakketten aan uw exacte vereisten aan.",
     requestCustomQuote: "Vraag een offerte op maat aan",
-    billingBasis: "Maandelijks gefactureerd (kalendermaaandbasis)",
-    billingMinimum: "Verbintenisperiode bepaald in het voorstel van A.D.A.M.",
-    billingRenewal: "Automatisch verlengd maand na maand na initiële verbintenis",
-    billingCancellation: "Annuleer met 15 dagen opzegtermijn voor het einde van de verbintenisperiode",
+    billingBasis: "Maandelijks gefactureerd",
+    billingMinimum: "Initiële verbintenis van 3\u201312 maanden",
+    billingRenewal: "Gaat over naar doorlopend maandabonnement na oplevering",
+    billingCancellation: "15 dagen opzegtermijn",
 
     b2bCore: {
       name: "CORE",
@@ -1293,10 +1293,10 @@ const pt: typeof en = {
     getStarted: "Começar",
     customQuote: "Precisa de algo personalizado? Adaptamos pacotes aos seus requisitos exatos.",
     requestCustomQuote: "Solicitar orçamento personalizado",
-    billingBasis: "Faturamento mensal (base de mês calendário)",
-    billingMinimum: "Período de compromisso determinado na proposta de A.D.A.M.",
-    billingRenewal: "Renovação automática mês a mês após compromisso inicial",
-    billingCancellation: "Cancelar com aviso de 15 dias antes do final do período de compromisso",
+    billingBasis: "Faturamento mensal",
+    billingMinimum: "Compromisso inicial de 3\u201312 meses",
+    billingRenewal: "Transição para assinatura mensal contínua após entrega",
+    billingCancellation: "Aviso de cancelamento de 15 dias",
 
     b2bCore: {
       name: "CORE",
@@ -1581,10 +1581,10 @@ const de: typeof en = {
     getStarted: "Loslegen",
     customQuote: "Benötigen Sie etwas Individuelles? Wir passen Pakete an Ihre genauen Anforderungen an.",
     requestCustomQuote: "Individuelles Angebot anfordern",
-    billingBasis: "Monatliche Abrechnung (Kalendermona tbasis)",
-    billingMinimum: "Verpflichtungszeitraum bestimmt in A.D.A.M.'s Angebot",
-    billingRenewal: "Automatische Verlängerung Monat für Monat nach anfänglicher Verpflichtung",
-    billingCancellation: "Kündigung mit 15 Tagen Kündigungsfrist vor Ende des Verpflichtungszeitraums",
+    billingBasis: "Monatliche Abrechnung",
+    billingMinimum: "Anfangsverpflichtung von 3\u201312 Monaten",
+    billingRenewal: "\u00DCbergang zu laufendem Monatsabonnement nach Lieferung",
+    billingCancellation: "15 Tage K\u00FCndigungsfrist",
 
     b2bCore: {
       name: "CORE",
