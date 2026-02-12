@@ -62,6 +62,22 @@ function ArrowRight() {
   );
 }
 
+function ArrowLeft() {
+  return (
+    <div className="hidden lg:flex items-center px-2">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.5}
+        className="w-5 h-5 text-highlight"
+      >
+        <path d="M10 19l-7-7m0 0l7-7m-7 7h18" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    </div>
+  );
+}
+
 export default function RoadmapSection() {
   const { t } = useLanguage();
 
@@ -96,7 +112,7 @@ export default function RoadmapSection() {
             ))}
           </div>
 
-          {/* Curved arrow from bottom-center of step 3 to top-center of step 4 */}
+          {/* Curved arrow from step 3 (right) down to step 4 (right) */}
           <div className="relative h-16 my-1">
             <svg
               viewBox="0 0 900 64"
@@ -105,7 +121,7 @@ export default function RoadmapSection() {
               className="absolute inset-0 w-full h-full text-highlight overflow-visible"
             >
               <path
-                d="M750 0 C750 40, 150 40, 150 64"
+                d="M750 0 C780 32, 720 32, 750 64"
                 stroke="currentColor"
                 strokeWidth={1.8}
                 strokeLinecap="round"
@@ -114,12 +130,12 @@ export default function RoadmapSection() {
             </svg>
           </div>
 
-          {/* Row 2 */}
+          {/* Row 2 - reversed for snake pattern: 6 ← 5 ← 4 */}
           <div className="flex items-stretch justify-center">
-            {t.roadmap.steps.slice(3, 6).map((item, i) => (
-              <div key={i + 4} className="contents">
-                <RoadmapCard item={item} icon={STEP_ICONS[i + 3]} index={i + 3} stepNumber={i + 4} />
-                {i < 2 && <ArrowRight />}
+            {[5, 4, 3].map((stepIdx, i) => (
+              <div key={stepIdx + 1} className="contents">
+                <RoadmapCard item={t.roadmap.steps[stepIdx]} icon={STEP_ICONS[stepIdx]} index={stepIdx} stepNumber={stepIdx + 1} />
+                {i < 2 && <ArrowLeft />}
               </div>
             ))}
           </div>

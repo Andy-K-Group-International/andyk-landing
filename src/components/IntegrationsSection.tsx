@@ -18,7 +18,7 @@ export default function IntegrationsSection() {
       </div>
 
       {/* A.D.A.M. Card */}
-      <div className="border border-grid-300 rounded-xl p-8 bg-white mb-6">
+      <div className="glass-card rounded-xl p-8 mb-6 transition-all duration-300 hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)]">
         <div className="flex items-center gap-4 mb-4">
           <img src="/adam-logo.png" alt="A.D.A.M." className="h-16 w-auto" />
           <div className="h-5 w-px bg-grid-300" />
@@ -46,7 +46,7 @@ export default function IntegrationsSection() {
       </div>
 
       {/* E.V.A. Card */}
-      <div className="border border-grid-300 rounded-xl p-8 bg-white mb-6">
+      <div className="glass-card rounded-xl p-8 mb-6 transition-all duration-300 hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)]">
         <div className="flex items-center gap-4 mb-4">
           <img src="/eva-logo.jpg" alt="E.V.A." className="h-16 w-auto" />
           <div className="h-5 w-px bg-grid-300" />

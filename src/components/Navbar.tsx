@@ -84,14 +84,14 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-grid-300">
-      <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 sm:px-8 h-[60px]">
+      <div className="relative max-w-[1200px] mx-auto flex items-center justify-between px-6 sm:px-8 h-[60px]">
         {/* Logo */}
         <a href="#hero" className="shrink-0 text-foreground">
           <CompanyLogo size="md" />
         </a>
 
-        {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-7 text-sm text-muted">
+        {/* Desktop nav - centered */}
+        <div className="hidden md:flex items-center gap-7 text-sm text-muted absolute left-1/2 -translate-x-1/2">
           {NAV_LINKS.map((link) => (
             <a key={link.label} href={link.href} className="hover:text-foreground transition-colors">
               {link.label}
@@ -144,34 +144,35 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* Language & Currency selectors */}
-          <div className="flex items-center gap-2 ml-2 pl-2 border-l border-grid-300">
-            <select
-              value={locale}
-              onChange={(e) => setLocale(e.target.value as Locale)}
-              aria-label="Select language"
-              className="text-xs text-muted bg-transparent border border-grid-500 rounded-md px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
-            >
-              <option value="en">{t.languages.en}</option>
-              <option value="es">{t.languages.es}</option>
-              <option value="sk">{t.languages.sk}</option>
-              <option value="nl">{t.languages.nl}</option>
-              <option value="pt">{t.languages.pt}</option>
-              <option value="de">{t.languages.de}</option>
-            </select>
-            <select
-              value={currency}
-              onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
-              aria-label="Select currency"
-              className="text-xs text-muted bg-transparent border border-grid-500 rounded-md px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
-            >
-              {CURRENCIES.map((c) => (
-                <option key={c.code} value={c.code}>
-                  {c.label}
-                </option>
-              ))}
-            </select>
-          </div>
+        </div>
+
+        {/* Language & Currency selectors */}
+        <div className="hidden md:flex items-center gap-1">
+          <select
+            value={locale}
+            onChange={(e) => setLocale(e.target.value as Locale)}
+            aria-label="Select language"
+            className="text-[10px] text-muted bg-transparent border border-grid-500 rounded px-1 py-0.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[52px]"
+          >
+            <option value="en">EN</option>
+            <option value="es">ES</option>
+            <option value="sk">SK</option>
+            <option value="nl">NL</option>
+            <option value="pt">PT</option>
+            <option value="de">DE</option>
+          </select>
+          <select
+            value={currency}
+            onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
+            aria-label="Select currency"
+            className="text-[10px] text-muted bg-transparent border border-grid-500 rounded px-1 py-0.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[52px]"
+          >
+            {CURRENCIES.map((c) => (
+              <option key={c.code} value={c.code}>
+                {c.code}
+              </option>
+            ))}
+          </select>
         </div>
 
         {/* Mobile hamburger */}
@@ -240,29 +241,29 @@ export default function Navbar() {
             </div>
 
             {/* Mobile Language & Currency */}
-            <div className="pt-6 flex items-center gap-3">
+            <div className="pt-4 flex items-center gap-2">
               <select
                 value={locale}
                 onChange={(e) => setLocale(e.target.value as Locale)}
                 aria-label="Select language"
-                className="flex-1 text-sm text-muted bg-transparent border border-grid-500 rounded-lg px-3 py-2.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
+                className="text-xs text-muted bg-transparent border border-grid-500 rounded px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none"
               >
-                <option value="en">{t.languages.en}</option>
-                <option value="es">{t.languages.es}</option>
-                <option value="sk">{t.languages.sk}</option>
-                <option value="nl">{t.languages.nl}</option>
-                <option value="pt">{t.languages.pt}</option>
-                <option value="de">{t.languages.de}</option>
+                <option value="en">EN</option>
+                <option value="es">ES</option>
+                <option value="sk">SK</option>
+                <option value="nl">NL</option>
+                <option value="pt">PT</option>
+                <option value="de">DE</option>
               </select>
               <select
                 value={currency}
                 onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
                 aria-label="Select currency"
-                className="flex-1 text-sm text-muted bg-transparent border border-grid-500 rounded-lg px-3 py-2.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
+                className="text-xs text-muted bg-transparent border border-grid-500 rounded px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none"
               >
                 {CURRENCIES.map((c) => (
                   <option key={c.code} value={c.code}>
-                    {c.label}
+                    {c.code}
                   </option>
                 ))}
               </select>
