@@ -1,10 +1,20 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from "react";
 import type { Locale, TranslationKeys } from "@/lib/translations";
 import { translations } from "@/lib/translations";
 
-const STORAGE_KEY = "andy-k-language-preference";
+const COOKIE_KEY = "andy-k-language";
+const COOKIE_MAX_AGE = 60 * 60 * 24 * 365; // 1 year
+
+function getCookie(name: string): string | null {
+  const match = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
+  return match ? decodeURIComponent(match[1]) : null;
+}
+
+function setCookieValue(name: string, value: string) {
+  document.cookie = `${name}=${encodeURIComponent(value)};path=/;max-age=${COOKIE_MAX_AGE};SameSite=Lax`;
+}
 
 interface LanguageContextValue {
   locale: Locale;
@@ -18,26 +28,26 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>("en");
   const [mounted, setMounted] = useState(false);
 
-  // Load saved language preference on mount
+  // Load from cookie on mount
   useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY) as Locale | null;
+    const saved = getCookie(COOKIE_KEY) as Locale | null;
     if (saved && saved in translations) {
       setLocaleState(saved);
     }
     setMounted(true);
   }, []);
 
-  // Update localStorage and HTML lang attribute when locale changes
+  // Update cookie and HTML lang attribute when locale changes
   useEffect(() => {
     if (mounted) {
-      localStorage.setItem(STORAGE_KEY, locale);
+      setCookieValue(COOKIE_KEY, locale);
       document.documentElement.lang = locale;
     }
   }, [locale, mounted]);
 
-  const setLocale = (newLocale: Locale) => {
+  const setLocale = useCallback((newLocale: Locale) => {
     setLocaleState(newLocale);
-  };
+  }, []);
 
   const t = translations[locale];
 

@@ -1,10 +1,11 @@
-export type CurrencyCode = "EUR" | "GBP" | "USD" | "BRL";
+export type CurrencyCode = "EUR" | "GBP" | "USD" | "BRL" | "PYG";
 
 export const CURRENCIES: { code: CurrencyCode; symbol: string; label: string }[] = [
   { code: "EUR", symbol: "\u20AC", label: "EUR (\u20AC)" },
   { code: "GBP", symbol: "\u00A3", label: "GBP (\u00A3)" },
   { code: "USD", symbol: "$", label: "USD ($)" },
   { code: "BRL", symbol: "R$", label: "BRL (R$)" },
+  { code: "PYG", symbol: "\u20B2", label: "PYG (\u20B2)" },
 ];
 
 export type ExchangeRates = Record<CurrencyCode, number>;

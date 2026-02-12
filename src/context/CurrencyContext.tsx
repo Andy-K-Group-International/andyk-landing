@@ -4,6 +4,18 @@ import { createContext, useContext, useState, useEffect, useCallback } from "rea
 import type { CurrencyCode, ExchangeRates } from "@/lib/currency";
 import { fetchRates, convertPrice, formatPrice } from "@/lib/currency";
 
+const COOKIE_KEY = "andy-k-currency";
+const COOKIE_MAX_AGE = 60 * 60 * 24 * 365; // 1 year
+
+function getCookie(name: string): string | null {
+  const match = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
+  return match ? decodeURIComponent(match[1]) : null;
+}
+
+function setCookie(name: string, value: string) {
+  document.cookie = `${name}=${encodeURIComponent(value)};path=/;max-age=${COOKIE_MAX_AGE};SameSite=Lax`;
+}
+
 interface CurrencyContextValue {
   currency: CurrencyCode;
   setCurrency: (code: CurrencyCode) => void;
@@ -19,15 +31,26 @@ const CurrencyContext = createContext<CurrencyContextValue>({
 });
 
 export function CurrencyProvider({ children }: { children: React.ReactNode }) {
-  const [currency, setCurrency] = useState<CurrencyCode>("EUR");
+  const [currency, setCurrencyState] = useState<CurrencyCode>("EUR");
   const [rates, setRates] = useState<ExchangeRates | null>(null);
+
+  // Load from cookie on mount
+  useEffect(() => {
+    const saved = getCookie(COOKIE_KEY) as CurrencyCode | null;
+    if (saved) setCurrencyState(saved);
+  }, []);
+
+  // Persist to cookie on change
+  const setCurrency = useCallback((code: CurrencyCode) => {
+    setCurrencyState(code);
+    setCookie(COOKIE_KEY, code);
+  }, []);
 
   useEffect(() => {
     fetchRates()
       .then(setRates)
       .catch(() => {
-        // Fallback rates if API fails
-        setRates({ EUR: 0.92, GBP: 0.79, USD: 1, BRL: 5.1 });
+        setRates({ EUR: 0.92, GBP: 0.79, USD: 1, BRL: 5.1, PYG: 7750 });
       });
   }, []);
 
