@@ -152,13 +152,13 @@ export const ADAM_ROADMAP = [
   },
   {
     step: 3,
-    title: "Strategic Market Blueprint",
-    description: "Full strategy brief — market analysis, ICP definition, positioning, outreach structure, and execution logic.",
+    title: "Contract Alignment",
+    description: "Legally structured contracts based on approved proposal and strategy, with full version control.",
   },
   {
     step: 4,
-    title: "Contract Alignment",
-    description: "Legally structured contracts based on approved proposal and strategy, with full version control.",
+    title: "Strategic Market Blueprint",
+    description: "Full strategy brief — market analysis, ICP definition, positioning, outreach structure, and execution logic.",
   },
   {
     step: 5,

@@ -96,12 +96,12 @@ const en = {
         description: "Clear scope, timeline, pricing, and deliverables presented in a structured proposal overview.",
       },
       {
-        title: "Strategic Market Blueprint",
-        description: "Full strategy brief — market analysis, ICP definition, positioning, outreach structure, and execution logic.",
-      },
-      {
         title: "Contract Alignment",
         description: "Legally structured contracts based on approved proposal and strategy, with full version control.",
+      },
+      {
+        title: "Strategic Market Blueprint",
+        description: "Full strategy brief — market analysis, ICP definition, positioning, outreach structure, and execution logic.",
       },
       {
         title: "Structured Billing",
@@ -393,12 +393,12 @@ const es: typeof en = {
         description: "Alcance claro, cronograma, precios y entregables presentados en una descripción general de propuesta estructurada.",
       },
       {
-        title: "Plan Estratégico de Mercado",
-        description: "Resumen completo de estrategia — análisis de mercado, definición de ICP, posicionamiento, estructura de divulgación y lógica de ejecución.",
-      },
-      {
         title: "Alineación de Contratos",
         description: "Contratos estructurados legalmente basados en la propuesta y estrategia aprobadas, con control total de versiones.",
+      },
+      {
+        title: "Plan Estratégico de Mercado",
+        description: "Resumen completo de estrategia — análisis de mercado, definición de ICP, posicionamiento, estructura de divulgación y lógica de ejecución.",
       },
       {
         title: "Facturación Estructurada",
@@ -681,12 +681,12 @@ const sk: typeof en = {
         description: "Jasný rozsah, časový harmonogram, ceny a výstupy prezentované v štruktúrovanom prehľade návrhu.",
       },
       {
-        title: "Strategický trhový plán",
-        description: "Úplné strategické zhrnutie — analýza trhu, definícia ICP, umiestnenie, štruktúra oslovenia a logika vykonávania.",
-      },
-      {
         title: "Zosúladenie zmlúv",
         description: "Právne štruktúrované zmluvy založené na schválenom návrhu a stratégii s úplnou kontrolou verzií.",
+      },
+      {
+        title: "Strategický trhový plán",
+        description: "Úplné strategické zhrnutie — analýza trhu, definícia ICP, umiestnenie, štruktúra oslovenia a logika vykonávania.",
       },
       {
         title: "Štruktúrovaná fakturácia",
@@ -969,12 +969,12 @@ const nl: typeof en = {
         description: "Duidelijke scope, tijdlijn, prijzen en deliverables gepresenteerd in een gestructureerd voorsteloverzicht.",
       },
       {
-        title: "Strategische marktblauwdruk",
-        description: "Volledige strategische briefing — marktanalyse, ICP-definitie, positionering, outreach-structuur en uitvoeringslogica.",
-      },
-      {
         title: "Contractafstemming",
         description: "Juridisch gestructureerde contracten gebaseerd op goedgekeurd voorstel en strategie, met volledige versiebeheer.",
+      },
+      {
+        title: "Strategische marktblauwdruk",
+        description: "Volledige strategische briefing — marktanalyse, ICP-definitie, positionering, outreach-structuur en uitvoeringslogica.",
       },
       {
         title: "Gestructureerde facturering",
@@ -1257,12 +1257,12 @@ const pt: typeof en = {
         description: "Escopo claro, cronograma, preços e entregas apresentados em uma visão geral de proposta estruturada.",
       },
       {
-        title: "Blueprint Estratégico de Mercado",
-        description: "Resumo completo de estratégia — análise de mercado, definição de ICP, posicionamento, estrutura de divulgação e lógica de execução.",
-      },
-      {
         title: "Alinhamento de Contratos",
         description: "Contratos estruturados legalmente baseados na proposta e estratégia aprovadas, com controle total de versão.",
+      },
+      {
+        title: "Blueprint Estratégico de Mercado",
+        description: "Resumo completo de estratégia — análise de mercado, definição de ICP, posicionamento, estrutura de divulgação e lógica de execução.",
       },
       {
         title: "Faturamento Estruturado",
@@ -1545,12 +1545,12 @@ const de: typeof en = {
         description: "Klarer Umfang, Zeitplan, Preise und Ergebnisse in einer strukturierten Angebotsübersicht dargestellt.",
       },
       {
-        title: "Strategischer Markt-Blueprint",
-        description: "Vollständiges Strategiebriefing — Marktanalyse, ICP-Definition, Positionierung, Outreach-Struktur und Ausführungslogik.",
-      },
-      {
         title: "Vertragsabstimmung",
         description: "Rechtlich strukturierte Verträge basierend auf genehmigtem Angebot und Strategie, mit vollständiger Versionskontrolle.",
+      },
+      {
+        title: "Strategischer Markt-Blueprint",
+        description: "Vollständiges Strategiebriefing — Marktanalyse, ICP-Definition, Positionierung, Outreach-Struktur und Ausführungslogik.",
       },
       {
         title: "Strukturierte Abrechnung",
