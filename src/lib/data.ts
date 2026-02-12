@@ -313,11 +313,11 @@ export const PRICING_TECH = [
   },
   {
     name: "CTO-as-a-Service",
-    price: "€100",
+    price: "€200",
     period: "/ hour",
     prefix: "from",
     features: [
-      "Technical leadership",
+      "Technical involvement",
       "Architecture supervision",
       "Vendor and infrastructure selection",
       "Scaling strategy consulting",

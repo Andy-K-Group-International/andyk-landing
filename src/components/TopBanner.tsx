@@ -2,7 +2,7 @@ const bannerItems = [
   { bold: "B2B Lead Generation:", text: "targeted outreach & pipeline management" },
   { bold: "A.D.A.M. System:", text: "automated documents, proposals & client lifecycle" },
   { bold: "B2G Tender Strategy:", text: "public procurement & bid preparation" },
-  { bold: "Trusted across:", text: "LATAM, Benelux, DACH, Balkan & US" },
+  { bold: "Trusted across:", text: "LATAM, Benelux, DACH & US" },
 ];
 
 export default function TopBanner() {
