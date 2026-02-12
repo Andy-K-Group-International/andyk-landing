@@ -1,4 +1,7 @@
+"use client";
+
 import { COMPANY } from "@/lib/data";
+import { useLanguage } from "@/context/LanguageContext";
 
 function LinkedInIcon() {
   return (
@@ -9,6 +12,8 @@ function LinkedInIcon() {
 }
 
 export default function CtaSection() {
+  const { t } = useLanguage();
+
   return (
     <section id="contact" className="relative py-24 px-8">
       {/* Dark background */}
@@ -25,17 +30,16 @@ export default function CtaSection() {
           {/* Left - CTA */}
           <div>
             <span className="text-[10px] uppercase tracking-[0.25em] text-rose font-mono block mb-4">
-              Get in touch
+              {t.cta.eyebrow}
             </span>
             <h2 className="text-[clamp(1.875rem,1.52rem+1.25vw,2.5rem)] font-bold tracking-tight text-white leading-[1.2] mb-4">
-              Let&apos;s build something{" "}
+              {t.cta.heading}{" "}
               <span className="font-serif font-light italic text-[1.2em]">
-                together.
+                {t.cta.headingItalic}
               </span>
             </h2>
             <p className="text-base text-white/80 leading-relaxed mb-8 max-w-[460px]">
-              Whether you need consulting, technology solutions, or a strategic
-              partner for international expansion — we&apos;re ready to talk.
+              {t.cta.subtitle}
             </p>
 
             <div className="flex gap-4 flex-wrap mb-10">
@@ -43,13 +47,13 @@ export default function CtaSection() {
                 href="https://adameva.app"
                 className="relative inline-flex items-center justify-center h-12 px-6 text-sm font-medium text-foreground btn-primary-gradient"
               >
-                <span className="relative z-10">Tell Us About You</span>
+                <span className="relative z-10">{t.cta.ctaPrimary}</span>
               </a>
               <a
                 href={`mailto:${COMPANY.email}?subject=Custom Quote Request`}
                 className="inline-flex items-center justify-center h-12 px-6 text-sm font-medium border border-white/30 text-white rounded-lg hover:bg-white/10 transition-all"
               >
-                Request a Custom Quote
+                {t.cta.ctaSecondary}
               </a>
             </div>
 
@@ -61,7 +65,7 @@ export default function CtaSection() {
               className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors"
             >
               <LinkedInIcon />
-              <span className="text-sm">Follow us on LinkedIn</span>
+              <span className="text-sm">{t.cta.followLinkedIn}</span>
             </a>
           </div>
 
@@ -74,7 +78,7 @@ export default function CtaSection() {
               </span>
             </p>
             <p className="text-sm text-white/80">
-              UK Limited Company |{" "}
+              {t.company.ukCompany} |{" "}
               <span className="text-rose font-medium font-mono">
                 {COMPANY.companyNumber}
               </span>

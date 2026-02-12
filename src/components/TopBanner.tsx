@@ -1,11 +1,16 @@
-const bannerItems = [
-  { bold: "B2B Lead Generation:", text: "targeted outreach & pipeline management" },
-  { bold: "A.D.A.M. System:", text: "automated documents, proposals & client lifecycle" },
-  { bold: "B2G Tender Strategy:", text: "public procurement & bid preparation" },
-  { bold: "Trusted across:", text: "LATAM, Benelux, DACH & US" },
-];
+"use client";
+
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function TopBanner() {
+  const { t } = useLanguage();
+
+  const bannerItems = [
+    { bold: t.banner.b2bLead, text: t.banner.b2bText },
+    { bold: t.banner.adamSystem, text: t.banner.adamText },
+    { bold: t.banner.b2gTender, text: t.banner.b2gText },
+    { bold: t.banner.trusted, text: t.banner.trustedText },
+  ];
   return (
     <div className="bg-bg-light border-b border-grid-500 overflow-hidden h-10 flex items-center">
       <div className="animate-scroll-banner flex gap-10 whitespace-nowrap">

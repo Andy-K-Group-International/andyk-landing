@@ -3,11 +3,14 @@
 import { COMPANY, FOOTER_LINKS } from "@/lib/data";
 import CompanyLogo from "./CompanyLogo";
 import { useCurrency } from "@/context/CurrencyContext";
+import { useLanguage } from "@/context/LanguageContext";
 import { CURRENCIES } from "@/lib/currency";
 import type { CurrencyCode } from "@/lib/currency";
+import type { Locale } from "@/lib/translations";
 
 export default function Footer() {
   const { currency, setCurrency } = useCurrency();
+  const { locale, setLocale, t } = useLanguage();
 
   return (
     <footer className="border-t border-grid-300 py-12 px-8">
@@ -17,7 +20,7 @@ export default function Footer() {
             <CompanyLogo size="sm" />
           </a>
           <span className="text-xs text-muted-2">
-            &copy; 2026 {COMPANY.name}
+            {t.footer.copyright} {COMPANY.name}
           </span>
         </div>
 
@@ -37,8 +40,21 @@ export default function Footer() {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2 text-xs text-muted-2">
             <span className="w-1.5 h-1.5 rounded-full bg-rose" />
-            London, UK
+            {t.company.location}
           </div>
+          <select
+            value={locale}
+            onChange={(e) => setLocale(e.target.value as Locale)}
+            aria-label="Select language"
+            className="text-xs text-muted-2 bg-transparent border border-grid-500 rounded-md px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
+          >
+            <option value="en">{t.languages.en}</option>
+            <option value="es">{t.languages.es}</option>
+            <option value="sk">{t.languages.sk}</option>
+            <option value="nl">{t.languages.nl}</option>
+            <option value="pt">{t.languages.pt}</option>
+            <option value="de">{t.languages.de}</option>
+          </select>
           <select
             value={currency}
             onChange={(e) => setCurrency(e.target.value as CurrencyCode)}

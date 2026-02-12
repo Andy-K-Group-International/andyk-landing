@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useLanguage } from "@/context/LanguageContext";
 
 function UserIcon() {
   return (
@@ -43,6 +44,7 @@ function SendIcon() {
 }
 
 export default function ContactForm() {
+  const { t } = useLanguage();
   const [submitted, setSubmitted] = useState(false);
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -71,10 +73,10 @@ export default function ContactForm() {
           {/* Header */}
           <div className="text-center mb-10">
             <h2 className="text-[clamp(1.5rem,1.2rem+1vw,2rem)] font-bold tracking-tight text-foreground mb-2">
-              Send Us a Message
+              {t.contact.heading}
             </h2>
             <p className="text-sm text-muted">
-              Fill out the form below and we&apos;ll get back to you within 24 hours.
+              {t.contact.subtitle}
             </p>
           </div>
 
@@ -85,8 +87,8 @@ export default function ContactForm() {
                   <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold text-foreground mb-2">Message prepared</h3>
-              <p className="text-sm text-muted">Your email client should have opened. If not, email us directly at info@andykgroupinternational.com</p>
+              <h3 className="text-lg font-bold text-foreground mb-2">{t.contact.successHeading}</h3>
+              <p className="text-sm text-muted">{t.contact.successText}</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -94,7 +96,7 @@ export default function ContactForm() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="contact-name" className="block text-sm font-medium text-foreground mb-2">
-                    Full Name <span className="text-rose-dark">*</span>
+                    {t.contact.labelName} <span className="text-rose-dark">{t.contact.required}</span>
                   </label>
                   <div className="relative">
                     <div className="absolute left-3 top-1/2 -translate-y-1/2">
@@ -105,14 +107,14 @@ export default function ContactForm() {
                       name="name"
                       type="text"
                       required
-                      placeholder="Your full name"
+                      placeholder={t.contact.placeholderName}
                       className="w-full h-11 pl-10 pr-4 text-sm border border-grid-500 rounded-lg bg-white text-foreground placeholder:text-muted-2 focus:outline-none focus:ring-2 focus:ring-highlight/30 focus:border-highlight transition-colors"
                     />
                   </div>
                 </div>
                 <div>
                   <label htmlFor="contact-email" className="block text-sm font-medium text-foreground mb-2">
-                    Email Address <span className="text-rose-dark">*</span>
+                    {t.contact.labelEmail} <span className="text-rose-dark">{t.contact.required}</span>
                   </label>
                   <div className="relative">
                     <div className="absolute left-3 top-1/2 -translate-y-1/2">
@@ -123,7 +125,7 @@ export default function ContactForm() {
                       name="email"
                       type="email"
                       required
-                      placeholder="your@email.com"
+                      placeholder={t.contact.placeholderEmail}
                       className="w-full h-11 pl-10 pr-4 text-sm border border-grid-500 rounded-lg bg-white text-foreground placeholder:text-muted-2 focus:outline-none focus:ring-2 focus:ring-highlight/30 focus:border-highlight transition-colors"
                     />
                   </div>
@@ -133,7 +135,7 @@ export default function ContactForm() {
               {/* Company */}
               <div>
                 <label htmlFor="contact-company" className="block text-sm font-medium text-foreground mb-2">
-                  Company Name
+                  {t.contact.labelCompany}
                 </label>
                 <div className="relative">
                   <div className="absolute left-3 top-1/2 -translate-y-1/2">
@@ -143,7 +145,7 @@ export default function ContactForm() {
                     id="contact-company"
                     name="company"
                     type="text"
-                    placeholder="Your company name"
+                    placeholder={t.contact.placeholderCompany}
                     className="w-full h-11 pl-10 pr-4 text-sm border border-grid-500 rounded-lg bg-white text-foreground placeholder:text-muted-2 focus:outline-none focus:ring-2 focus:ring-highlight/30 focus:border-highlight transition-colors"
                   />
                 </div>
@@ -152,7 +154,7 @@ export default function ContactForm() {
               {/* Message */}
               <div>
                 <label htmlFor="contact-message" className="block text-sm font-medium text-foreground mb-2">
-                  Message <span className="text-rose-dark">*</span>
+                  {t.contact.labelMessage} <span className="text-rose-dark">{t.contact.required}</span>
                 </label>
                 <div className="relative">
                   <div className="absolute left-3 top-3">
@@ -163,7 +165,7 @@ export default function ContactForm() {
                     name="message"
                     required
                     rows={5}
-                    placeholder="Tell us about your business goals and how we can help..."
+                    placeholder={t.contact.placeholderMessage}
                     className="w-full pl-10 pr-4 py-3 text-sm border border-grid-500 rounded-lg bg-white text-foreground placeholder:text-muted-2 focus:outline-none focus:ring-2 focus:ring-highlight/30 focus:border-highlight transition-colors resize-none"
                   />
                 </div>
@@ -176,12 +178,12 @@ export default function ContactForm() {
               >
                 <span className="relative z-10 flex items-center gap-2">
                   <SendIcon />
-                  Send Message
+                  {t.contact.buttonSend}
                 </span>
               </button>
 
               <p className="text-xs text-center text-muted-2">
-                By submitting this form, you agree to our terms of service and privacy policy.
+                {t.contact.privacyText}
               </p>
             </form>
           )}

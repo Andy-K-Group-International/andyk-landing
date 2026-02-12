@@ -1,4 +1,7 @@
+"use client";
+
 import { ADAM_ROADMAP } from "@/lib/data";
+import { useLanguage } from "@/context/LanguageContext";
 
 const STEP_ICONS = [
   // Clipboard - Intelligent Onboarding
@@ -60,6 +63,8 @@ function ArrowRight() {
 }
 
 export default function RoadmapSection() {
+  const { t } = useLanguage();
+
   return (
     <section id="systems" className="relative py-20 px-8">
       <div className="line-grid line-grid-fade" />
@@ -68,17 +73,14 @@ export default function RoadmapSection() {
         {/* Section header */}
         <div className="text-center max-w-[700px] mx-auto mb-16">
           <h2 className="text-[clamp(1.875rem,1.52rem+1.25vw,2.5rem)] font-bold tracking-tight leading-[1.2] text-foreground mb-4">
-            A.D.A.M. & E.V.A.
+            {t.roadmap.heading}
             <br />
             <span className="font-serif font-light italic text-[1.2em]">
-              automation framework
+              {t.roadmap.headingItalic}
             </span>
           </h2>
           <p className="text-lg leading-relaxed text-muted font-light">
-            Our operational automation systems handle the full client lifecycle
-            — from onboarding to ongoing account management — with intelligent
-            automation at every step. It saves time for clients, 
-            attract hot leads & increase profits.
+            {t.roadmap.subtitle}
           </p>
         </div>
 
@@ -86,9 +88,9 @@ export default function RoadmapSection() {
         <div className="hidden lg:block">
           {/* Row 1 */}
           <div className="flex items-stretch justify-center">
-            {ADAM_ROADMAP.slice(0, 3).map((item, i) => (
-              <div key={item.step} className="contents">
-                <RoadmapCard item={item} icon={STEP_ICONS[i]} index={i} />
+            {t.roadmap.steps.slice(0, 3).map((item, i) => (
+              <div key={i + 1} className="contents">
+                <RoadmapCard item={item} icon={STEP_ICONS[i]} index={i} stepNumber={i + 1} />
                 {i < 2 && <ArrowRight />}
               </div>
             ))}
@@ -114,9 +116,9 @@ export default function RoadmapSection() {
 
           {/* Row 2 */}
           <div className="flex items-stretch justify-center">
-            {ADAM_ROADMAP.slice(3, 6).map((item, i) => (
-              <div key={item.step} className="contents">
-                <RoadmapCard item={item} icon={STEP_ICONS[i + 3]} index={i + 3} />
+            {t.roadmap.steps.slice(3, 6).map((item, i) => (
+              <div key={i + 4} className="contents">
+                <RoadmapCard item={item} icon={STEP_ICONS[i + 3]} index={i + 3} stepNumber={i + 4} />
                 {i < 2 && <ArrowRight />}
               </div>
             ))}
@@ -125,10 +127,10 @@ export default function RoadmapSection() {
 
         {/* Mobile: vertical list */}
         <div className="lg:hidden flex flex-col items-center">
-          {ADAM_ROADMAP.map((item, i) => (
-            <div key={item.step}>
-              <RoadmapCard item={item} icon={STEP_ICONS[i]} index={i} />
-              {i < ADAM_ROADMAP.length - 1 && <ArrowDown />}
+          {t.roadmap.steps.map((item, i) => (
+            <div key={i + 1}>
+              <RoadmapCard item={item} icon={STEP_ICONS[i]} index={i} stepNumber={i + 1} />
+              {i < t.roadmap.steps.length - 1 && <ArrowDown />}
             </div>
           ))}
         </div>
@@ -137,7 +139,7 @@ export default function RoadmapSection() {
         <div className="text-center mt-14">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-grid-500 bg-white text-sm text-muted">
             <span className="w-2 h-2 rounded-full bg-highlight animate-pulse" />
-            A.D.A.M. & E.V.A. — currently in development, launching 2026
+            {t.roadmap.statusBadge}
           </span>
         </div>
       </div>
@@ -149,11 +151,14 @@ function RoadmapCard({
   item,
   icon,
   index,
+  stepNumber,
 }: {
-  item: (typeof ADAM_ROADMAP)[number];
+  item: { title: string; description: string };
   icon: React.ReactNode;
   index: number;
+  stepNumber: number;
 }) {
+  const { t } = useLanguage();
   return (
     <div className="relative flex-1 max-w-[340px] group">
       <div className="glass-card rounded-xl p-6 h-full flex flex-col transition-all duration-300 hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)]">
@@ -169,7 +174,7 @@ function RoadmapCard({
             {icon}
           </div>
           <span className="text-[11px] font-mono text-muted-2 uppercase tracking-wider">
-            Step {item.step}
+            {t.roadmap.stepLabel} {stepNumber}
           </span>
         </div>
 

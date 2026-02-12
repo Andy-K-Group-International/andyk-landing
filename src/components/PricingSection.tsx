@@ -4,16 +4,13 @@ import { useState, useRef } from "react";
 import { PRICING_B2B, PRICING_B2G, PRICING_TECH, BILLING_TERMS } from "@/lib/data";
 import { COMPANY } from "@/lib/data";
 import { useCurrency } from "@/context/CurrencyContext";
+import { useLanguage } from "@/context/LanguageContext";
 import type { CurrencyCode } from "@/lib/currency";
 import TabSwitcher from "@/components/TabSwitcher";
 
-const TABS = [
-  { id: "b2b", label: "B2B Business Development", data: PRICING_B2B },
-  { id: "b2g", label: "B2G Public Sector", data: PRICING_B2G },
-  { id: "tech", label: "Technology / CTO", data: PRICING_TECH },
-] as const;
+// Tab IDs are constant
+const TAB_IDS = ["b2b", "b2g", "tech"] as const;
 
-const TAB_IDS: string[] = TABS.map((t) => t.id);
 
 function CheckIcon() {
   return (
@@ -39,6 +36,7 @@ interface PricingCardData {
 
 function PricingCardComponent({ card }: { card: PricingCardData }) {
   const { convert } = useCurrency();
+  const { t } = useLanguage();
   const displayPrice = convert(card.basePrice, card.baseCurrency);
 
   return (
@@ -51,7 +49,7 @@ function PricingCardComponent({ card }: { card: PricingCardData }) {
     >
       {card.highlighted && (
         <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 text-[10px] uppercase tracking-widest font-mono bg-highlight text-white rounded-full">
-          Popular
+          {t.pricing.popular}
         </span>
       )}
 
@@ -117,24 +115,34 @@ function PricingCardComponent({ card }: { card: PricingCardData }) {
             : "bg-foreground text-white hover:bg-foreground/90"
         }`}
       >
-        Get Started
+        {t.pricing.getStarted}
       </a>
     </div>
   );
 }
 
 export default function PricingSection() {
+  const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState<string>("b2b");
   const [slideDirection, setSlideDirection] = useState<"left" | "right">("right");
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
-  const activeData = TABS.find((t) => t.id === activeTab)!;
+
+  // Build tabs dynamically based on translations
+  const TABS = [
+    { id: "b2b", label: t.pricing.tabB2B, data: PRICING_B2B },
+    { id: "b2g", label: t.pricing.tabB2G, data: PRICING_B2G },
+    { id: "tech", label: t.pricing.tabTech, data: PRICING_TECH },
+  ];
+
+  const activeData = TABS.find((tab) => tab.id === activeTab)!;
 
   const handleTabChange = (newTabId: string) => {
     if (newTabId === activeTab) return;
 
-    const oldIndex = TAB_IDS.indexOf(activeTab);
-    const newIndex = TAB_IDS.indexOf(newTabId);
+    const tabIds = TABS.map(t => t.id);
+    const oldIndex = tabIds.indexOf(activeTab);
+    const newIndex = tabIds.indexOf(newTabId);
     const direction = newIndex > oldIndex ? "right" : "left";
 
     setSlideDirection(direction);
@@ -161,16 +169,16 @@ export default function PricingSection() {
         {/* Header */}
         <div className="text-center max-w-[700px] mx-auto mb-12">
           <span className="text-[10px] uppercase tracking-[0.25em] text-muted-2 font-mono block mb-3">
-            Transparent pricing
+            {t.pricing.eyebrow}
           </span>
           <h2 className="text-[clamp(1.875rem,1.52rem+1.25vw,2.5rem)] font-bold tracking-tight leading-[1.2] text-foreground mb-4">
-            Plans for{" "}
+            {t.pricing.heading}{" "}
             <span className="font-serif font-light italic text-[1.2em]">
-              every stage
+              {t.pricing.headingItalic}
             </span>
           </h2>
           <p className="text-lg leading-relaxed text-muted font-light">
-            Structured advisory and business development — combining strategy, public sector expertise, and technology infrastructure to help you scale.
+            {t.pricing.subtitle}
           </p>
         </div>
 
@@ -186,7 +194,7 @@ export default function PricingSection() {
         {/* Commitment note */}
         <div className="flex flex-col items-center mb-8 max-w-[600px] mx-auto text-center">
           <span className="text-[10px] uppercase tracking-[0.2em] text-muted-2 font-mono">
-            Starting from 3 months
+            {t.pricing.commitment}
           </span>
         </div>
 
@@ -220,23 +228,23 @@ export default function PricingSection() {
         {/* Billing terms */}
         <div className="text-center mt-8 space-y-1">
           <p className="text-xs text-muted-2">
-            {BILLING_TERMS.basis} &middot; {BILLING_TERMS.minimum}
+            {t.pricing.billingBasis} &middot; {t.pricing.billingMinimum}
           </p>
           <p className="text-xs text-muted-2">
-            {BILLING_TERMS.renewal} &middot; {BILLING_TERMS.cancellation}
+            {t.pricing.billingRenewal} &middot; {t.pricing.billingCancellation}
           </p>
         </div>
 
         {/* Custom quote CTA */}
         <div className="text-center mt-12">
           <p className="text-sm text-muted mb-3">
-            Need something custom? We tailor packages to your exact requirements.
+            {t.pricing.customQuote}
           </p>
           <a
             href={`mailto:${COMPANY.email}?subject=Custom Quote Request`}
             className="inline-flex items-center gap-2 text-sm font-medium text-foreground hover:underline"
           >
-            Request a Custom Quote
+            {t.pricing.requestCustomQuote}
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-4 h-4">
               <path d="M6 4l4 4-4 4" />
             </svg>
