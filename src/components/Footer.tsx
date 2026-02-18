@@ -46,7 +46,7 @@ export default function Footer() {
             value={locale}
             onChange={(e) => setLocale(e.target.value as Locale)}
             aria-label="Select language"
-            className="text-xs text-muted-2 bg-transparent border border-grid-500 rounded-md px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
+            className="text-xs text-muted-2 bg-transparent border border-grid-500 px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
           >
             <option value="en">{t.languages.en}</option>
             <option value="es">{t.languages.es}</option>
@@ -58,7 +58,7 @@ export default function Footer() {
           <select
             value={currency}
             onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
-            className="text-xs text-muted-2 bg-transparent border border-grid-500 rounded-md px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
+            className="text-xs text-muted-2 bg-transparent border border-grid-500 px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none focus:ring-1 focus:ring-highlight/30"
           >
             {CURRENCIES.map((c) => (
               <option key={c.code} value={c.code}>
