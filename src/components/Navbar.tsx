@@ -152,7 +152,7 @@ export default function Navbar() {
             value={locale}
             onChange={(e) => setLocale(e.target.value as Locale)}
             aria-label="Select language"
-            className="text-[10px] text-muted bg-transparent border border-grid-500 rounded px-1 py-0.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[52px]"
+            className="text-[10px] text-muted bg-transparent border border-grid-500 px-1 py-0.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[52px]"
           >
             <option value="en">EN</option>
             <option value="es">ES</option>
@@ -165,7 +165,7 @@ export default function Navbar() {
             value={currency}
             onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
             aria-label="Select currency"
-            className="text-[10px] text-muted bg-transparent border border-grid-500 rounded px-1 py-0.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[52px]"
+            className="text-[10px] text-muted bg-transparent border border-grid-500 px-1 py-0.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[52px]"
           >
             {CURRENCIES.map((c) => (
               <option key={c.code} value={c.code}>
@@ -246,7 +246,7 @@ export default function Navbar() {
                 value={locale}
                 onChange={(e) => setLocale(e.target.value as Locale)}
                 aria-label="Select language"
-                className="text-xs text-muted bg-transparent border border-grid-500 rounded px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none"
+                className="text-xs text-muted bg-transparent border border-grid-500 px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none"
               >
                 <option value="en">EN</option>
                 <option value="es">ES</option>
@@ -259,7 +259,7 @@ export default function Navbar() {
                 value={currency}
                 onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
                 aria-label="Select currency"
-                className="text-xs text-muted bg-transparent border border-grid-500 rounded px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none"
+                className="text-xs text-muted bg-transparent border border-grid-500 px-2 py-1.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none"
               >
                 {CURRENCIES.map((c) => (
                   <option key={c.code} value={c.code}>
