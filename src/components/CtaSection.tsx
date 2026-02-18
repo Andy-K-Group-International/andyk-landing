@@ -51,7 +51,7 @@ export default function CtaSection() {
               </a>
               <a
                 href={`mailto:${COMPANY.email}?subject=Custom Quote Request`}
-                className="inline-flex items-center justify-center h-12 px-6 text-sm font-medium border border-white/30 text-white rounded-lg hover:bg-white/10 transition-all"
+                className="inline-flex items-center justify-center h-12 px-6 text-sm font-medium border border-white/30 text-white hover:bg-white/10 transition-all"
               >
                 {t.cta.ctaSecondary}
               </a>

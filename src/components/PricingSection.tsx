@@ -109,7 +109,7 @@ function PricingCardComponent({ card }: { card: PricingCardData }) {
 
       <a
         href={`mailto:${COMPANY.email}?subject=Inquiry: ${card.name} Plan`}
-        className={`block text-center py-3 px-4 rounded-lg text-sm font-medium transition-all duration-200 ${
+        className={`block text-center py-3 px-4 text-sm font-medium transition-all duration-200 ${
           card.highlighted
             ? "bg-white text-foreground hover:bg-white/90"
             : "bg-foreground text-white hover:bg-foreground/90"
