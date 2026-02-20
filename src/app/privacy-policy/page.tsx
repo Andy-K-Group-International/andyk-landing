@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Andy'K Group International LTD",
+  title: "Privacy Policy",
   description:
     "Learn how Andy'K Group International LTD collects, uses, and safeguards your personal data.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 export default function PrivacyPolicyPage() {

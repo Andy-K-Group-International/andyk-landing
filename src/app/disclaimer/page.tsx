@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Website Disclaimer | Andy'K Group International LTD",
+  title: "Website Disclaimer",
   description:
     "Website disclaimer for Andy'K Group International LTD.",
+  alternates: { canonical: "/disclaimer" },
 };
 
 export default function DisclaimerPage() {

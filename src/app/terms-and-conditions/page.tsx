@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Andy'K Group International LTD",
+  title: "Terms & Conditions",
   description:
     "Website Terms & Conditions governing your access to and use of the Andy'K Group International website.",
+  alternates: { canonical: "/terms-and-conditions" },
 };
 
 export default function TermsAndConditionsPage() {

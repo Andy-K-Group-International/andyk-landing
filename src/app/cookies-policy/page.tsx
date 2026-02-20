@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Cookies Policy | Andy'K Group International LTD",
+  title: "Cookies Policy",
   description:
     "Learn how Andy'K Group International LTD uses cookies and similar technologies on our website.",
+  alternates: { canonical: "/cookies-policy" },
 };
 
 export default function CookiesPolicyPage() {

@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Company Information | Andy'K Group International LTD",
+  title: "Company Information",
   description:
     "Legal notice and company information for Andy'K Group International LTD.",
+  alternates: { canonical: "/company-information" },
 };
 
 export default function CompanyInformationPage() {
