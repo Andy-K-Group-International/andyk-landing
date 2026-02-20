@@ -21,7 +21,7 @@ export default function Hero() {
       </p>
       <div className="flex justify-center gap-3 flex-wrap">
         <a
-          href="https://adameva.app"
+          href="#"
           className="relative inline-flex items-center justify-center h-12 px-5 text-sm font-medium text-foreground btn-primary-gradient"
         >
           <span className="relative z-10">{t.hero.ctaPrimary}</span>

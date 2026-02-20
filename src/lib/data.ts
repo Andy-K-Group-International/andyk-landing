@@ -387,5 +387,4 @@ export const FOOTER_LINKS = [
   { label: "Terms & Conditions", href: "/terms-and-conditions" },
   { label: "Disclaimer", href: "/disclaimer" },
   { label: "Company Information", href: "/company-information" },
-  { label: "Client Portal", href: "https://adameva.app", external: true },
 ];
