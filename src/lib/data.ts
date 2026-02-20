@@ -77,34 +77,34 @@ export const EVA_FEATURES = [
 
 export const ADAM_SHOWCASE = [
   {
-    title: "Intelligent Onboarding",
+    title: "Questionnaire",
     description:
-      "A structured questionnaire captures legal, strategic, and operational data to build a complete client profile from day one.",
+      "Complete our structured intake form. We learn about your business, goals, and requirements.",
   },
   {
-    title: "Commercial Proposal",
+    title: "Proposal",
     description:
-      "Clear scope, timeline, pricing, and deliverables are presented in a structured proposal overview.",
+      "We craft a tailored proposal based on your needs. Review it in your personal dashboard.",
   },
   {
-    title: "Strategic Market Blueprint",
+    title: "Strategy",
     description:
-      "A full strategy brief covering market analysis, ICP definition, positioning, outreach structure, and execution logic.",
+      "Together we define the strategy and timeline. Every detail aligned before we start.",
   },
   {
-    title: "Contract Alignment",
+    title: "Contract",
     description:
-      "Legally structured contracts based on the approved proposal and strategy, with full version control.",
+      "Review, comment, and digitally sign your contract. Full transparency, no surprises.",
   },
   {
-    title: "Structured Billing",
+    title: "Invoice",
     description:
-      "Milestone or recurring invoicing aligned precisely with contract terms and delivery phases.",
+      "Automated invoicing with clear payment terms. Everything tracked in one place.",
   },
   {
-    title: "Operational Kick-Off",
+    title: "Kick-off",
     description:
-      "The activation phase triggered after invoice confirmation — execution begins immediately.",
+      "Project launches. Real-time updates, document sharing, and ongoing support through A.D.A.M.",
   },
 ];
 
@@ -142,33 +142,33 @@ export const FOUNDERS = [
 export const ADAM_ROADMAP = [
   {
     step: 1,
-    title: "Intelligent Onboarding",
-    description: "Structured questionnaire capturing legal, strategic, and operational data to build a complete client profile.",
+    title: "Questionnaire",
+    description: "Complete our structured intake form. We learn about your business, goals, and requirements.",
   },
   {
     step: 2,
-    title: "Commercial Proposal",
-    description: "Clear scope, timeline, pricing, and deliverables presented in a structured proposal overview.",
+    title: "Proposal",
+    description: "We craft a tailored proposal based on your needs. Review it in your personal dashboard.",
   },
   {
     step: 3,
-    title: "Contract Alignment",
-    description: "Legally structured contracts based on approved proposal and strategy, with full version control.",
+    title: "Strategy",
+    description: "Together we define the strategy and timeline. Every detail aligned before we start.",
   },
   {
     step: 4,
-    title: "Strategic Market Blueprint",
-    description: "Full strategy brief — market analysis, ICP definition, positioning, outreach structure, and execution logic.",
+    title: "Contract",
+    description: "Review, comment, and digitally sign your contract. Full transparency, no surprises.",
   },
   {
     step: 5,
-    title: "Structured Billing",
-    description: "Milestone or recurring invoicing aligned precisely with contract terms and delivery phases.",
+    title: "Invoice",
+    description: "Automated invoicing with clear payment terms. Everything tracked in one place.",
   },
   {
     step: 6,
-    title: "Operational Kick-Off",
-    description: "Activation phase triggered after invoice confirmation — execution begins.",
+    title: "Kick-off",
+    description: "Project launches. Real-time updates, document sharing, and ongoing support through A.D.A.M.",
   },
 ];
 
@@ -382,6 +382,10 @@ export const FOOTER_LINKS = [
   { label: "A.D.A.M. & E.V.A.", href: "#systems" },
   { label: "Pricing", href: "#pricing" },
   { label: "Contact", href: "#contact" },
-  { label: "Privacy Policy", href: "#" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Cookies Policy", href: "/cookies-policy" },
+  { label: "Terms & Conditions", href: "/terms-and-conditions" },
+  { label: "Disclaimer", href: "/disclaimer" },
+  { label: "Company Information", href: "/company-information" },
   { label: "Client Portal", href: "https://adameva.app", external: true },
 ];

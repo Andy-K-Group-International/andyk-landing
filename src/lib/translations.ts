@@ -81,38 +81,38 @@ const en = {
     ],
   },
 
-  // Roadmap section (A.D.A.M. & E.V.A.)
+  // Roadmap section (A.D.A.M.)
   roadmap: {
-    heading: "A.D.A.M. & E.V.A.",
-    headingItalic: "automation framework",
-    subtitle: "Our operational automation systems handle the full client lifecycle — from onboarding to ongoing account management — with intelligent automation at every step. It saves time for clients, attract hot leads & increase profits.",
+    heading: "How A.D.A.M.",
+    headingItalic: "Works",
+    subtitle: "From first contact to project launch in six structured steps.",
     steps: [
       {
-        title: "Intelligent Onboarding",
-        description: "Structured questionnaire capturing legal, strategic, and operational data to build a complete client profile.",
+        title: "Questionnaire",
+        description: "Complete our structured intake form. We learn about your business, goals, and requirements.",
       },
       {
-        title: "Commercial Proposal",
-        description: "Clear scope, timeline, pricing, and deliverables presented in a structured proposal overview.",
+        title: "Proposal",
+        description: "We craft a tailored proposal based on your needs. Review it in your personal dashboard.",
       },
       {
-        title: "Contract Alignment",
-        description: "Legally structured contracts based on approved proposal and strategy, with full version control.",
+        title: "Strategy",
+        description: "Together we define the strategy and timeline. Every detail aligned before we start.",
       },
       {
-        title: "Strategic Market Blueprint",
-        description: "Full strategy brief — market analysis, ICP definition, positioning, outreach structure, and execution logic.",
+        title: "Contract",
+        description: "Review, comment, and digitally sign your contract. Full transparency, no surprises.",
       },
       {
-        title: "Structured Billing",
-        description: "Milestone or recurring invoicing aligned precisely with contract terms and delivery phases.",
+        title: "Invoice",
+        description: "Automated invoicing with clear payment terms. Everything tracked in one place.",
       },
       {
-        title: "Operational Kick-Off",
-        description: "Activation phase triggered after invoice confirmation — execution begins.",
+        title: "Kick-off",
+        description: "Project launches. Real-time updates, document sharing, and ongoing support through A.D.A.M.",
       },
     ],
-    statusBadge: "A.D.A.M. & E.V.A. — currently in development, launching 2026",
+    statusBadge: "A.D.A.M. is live and processing clients",
     stepLabel: "Step",
   },
 
@@ -380,36 +380,36 @@ const es: typeof en = {
   },
 
   roadmap: {
-    heading: "A.D.A.M. & E.V.A.",
-    headingItalic: "marco de automatización",
-    subtitle: "Nuestros sistemas de automatización operativa gestionan el ciclo de vida completo del cliente — desde la incorporación hasta la gestión continua de cuentas — con automatización inteligente en cada paso. Ahorra tiempo para los clientes, atrae leads calientes y aumenta los beneficios.",
+    heading: "Cómo funciona",
+    headingItalic: "A.D.A.M.",
+    subtitle: "Del primer contacto al lanzamiento del proyecto en seis pasos estructurados.",
     steps: [
       {
-        title: "Incorporación Inteligente",
-        description: "Cuestionario estructurado que captura datos legales, estratégicos y operativos para construir un perfil completo del cliente.",
+        title: "Cuestionario",
+        description: "Complete nuestro formulario de admisión estructurado. Conocemos su empresa, objetivos y requisitos.",
       },
       {
-        title: "Propuesta Comercial",
-        description: "Alcance claro, cronograma, precios y entregables presentados en una descripción general de propuesta estructurada.",
+        title: "Propuesta",
+        description: "Elaboramos una propuesta a medida basada en sus necesidades. Revísela en su panel personal.",
       },
       {
-        title: "Alineación de Contratos",
-        description: "Contratos estructurados legalmente basados en la propuesta y estrategia aprobadas, con control total de versiones.",
+        title: "Estrategia",
+        description: "Juntos definimos la estrategia y el cronograma. Cada detalle alineado antes de comenzar.",
       },
       {
-        title: "Plan Estratégico de Mercado",
-        description: "Resumen completo de estrategia — análisis de mercado, definición de ICP, posicionamiento, estructura de divulgación y lógica de ejecución.",
+        title: "Contrato",
+        description: "Revise, comente y firme digitalmente su contrato. Total transparencia, sin sorpresas.",
       },
       {
-        title: "Facturación Estructurada",
-        description: "Facturación por hitos o recurrente alineada precisamente con los términos del contrato y las fases de entrega.",
+        title: "Factura",
+        description: "Facturación automatizada con condiciones de pago claras. Todo rastreado en un solo lugar.",
       },
       {
-        title: "Inicio Operativo",
-        description: "Fase de activación activada después de la confirmación de la factura — comienza la ejecución.",
+        title: "Inicio",
+        description: "El proyecto se lanza. Actualizaciones en tiempo real, intercambio de documentos y soporte continuo a través de A.D.A.M.",
       },
     ],
-    statusBadge: "A.D.A.M. & E.V.A. — actualmente en desarrollo, lanzamiento en 2026",
+    statusBadge: "A.D.A.M. está activo y procesando clientes",
     stepLabel: "Paso",
   },
 
@@ -668,36 +668,36 @@ const sk: typeof en = {
   },
 
   roadmap: {
-    heading: "A.D.A.M. & E.V.A.",
-    headingItalic: "automatizačný rámec",
-    subtitle: "Naše operačné automatizačné systémy zvládajú celý životný cyklus klienta — od začlenenia až po priebežnú správu účtov — s inteligentnou automatizáciou v každom kroku. Šetrí čas pre klientov, priťahuje horúce leady a zvyšuje zisky.",
+    heading: "Ako funguje",
+    headingItalic: "A.D.A.M.",
+    subtitle: "Od prvého kontaktu po spustenie projektu v šiestich štruktúrovaných krokoch.",
     steps: [
       {
-        title: "Inteligentné začlenenie",
-        description: "Štruktúrovaný dotazník zachytávajúci právne, strategické a prevádzkové údaje na vytvorenie kompletného profilu klienta.",
+        title: "Dotazník",
+        description: "Vyplňte náš štruktúrovaný formulár. Spoznáme vašu firmu, ciele a požiadavky.",
       },
       {
-        title: "Obchodný návrh",
-        description: "Jasný rozsah, časový harmonogram, ceny a výstupy prezentované v štruktúrovanom prehľade návrhu.",
+        title: "Návrh",
+        description: "Vytvoríme návrh na mieru podľa vašich potrieb. Skontrolujte ho vo vašom osobnom paneli.",
       },
       {
-        title: "Zosúladenie zmlúv",
-        description: "Právne štruktúrované zmluvy založené na schválenom návrhu a stratégii s úplnou kontrolou verzií.",
+        title: "Stratégia",
+        description: "Spoločne definujeme stratégiu a časový plán. Každý detail zladený pred začiatkom.",
       },
       {
-        title: "Strategický trhový plán",
-        description: "Úplné strategické zhrnutie — analýza trhu, definícia ICP, umiestnenie, štruktúra oslovenia a logika vykonávania.",
+        title: "Zmluva",
+        description: "Skontrolujte, komentujte a digitálne podpíšte zmluvu. Úplná transparentnosť, žiadne prekvapenia.",
       },
       {
-        title: "Štruktúrovaná fakturácia",
-        description: "Fakturácia míľnikov alebo opakujúca sa fakturácia presne zosúladená s podmienkami zmluvy a fázami dodania.",
+        title: "Faktúra",
+        description: "Automatizovaná fakturácia s jasnými platobnými podmienkami. Všetko sledované na jednom mieste.",
       },
       {
-        title: "Operačné spustenie",
-        description: "Aktivačná fáza spustená po potvrdení faktúry — začína vykonávanie.",
+        title: "Štart",
+        description: "Projekt sa spúšťa. Aktualizácie v reálnom čase, zdieľanie dokumentov a priebežná podpora cez A.D.A.M.",
       },
     ],
-    statusBadge: "A.D.A.M. & E.V.A. — momentálne vo vývoji, spustenie v roku 2026",
+    statusBadge: "A.D.A.M. je aktívny a spracováva klientov",
     stepLabel: "Krok",
   },
 
@@ -956,36 +956,36 @@ const nl: typeof en = {
   },
 
   roadmap: {
-    heading: "A.D.A.M. & E.V.A.",
-    headingItalic: "automatiseringsframework",
-    subtitle: "Onze operationele automatiseringssystemen beheren de volledige klantlevenscyclus — van onboarding tot doorlopend accountbeheer — met intelligente automatisering bij elke stap. Het bespaart tijd voor klanten, trekt hot leads aan en verhoogt de winst.",
+    heading: "Hoe A.D.A.M.",
+    headingItalic: "Werkt",
+    subtitle: "Van eerste contact tot projectlancering in zes gestructureerde stappen.",
     steps: [
       {
-        title: "Intelligente onboarding",
-        description: "Gestructureerde vragenlijst die juridische, strategische en operationele gegevens vastlegt om een compleet klantprofiel op te bouwen.",
+        title: "Vragenlijst",
+        description: "Vul ons gestructureerde intakeformulier in. We leren uw bedrijf, doelen en vereisten kennen.",
       },
       {
-        title: "Commercieel voorstel",
-        description: "Duidelijke scope, tijdlijn, prijzen en deliverables gepresenteerd in een gestructureerd voorsteloverzicht.",
+        title: "Voorstel",
+        description: "We stellen een voorstel op maat op basis van uw behoeften. Bekijk het in uw persoonlijke dashboard.",
       },
       {
-        title: "Contractafstemming",
-        description: "Juridisch gestructureerde contracten gebaseerd op goedgekeurd voorstel en strategie, met volledige versiebeheer.",
+        title: "Strategie",
+        description: "Samen definiëren we de strategie en tijdlijn. Elk detail afgestemd voordat we beginnen.",
       },
       {
-        title: "Strategische marktblauwdruk",
-        description: "Volledige strategische briefing — marktanalyse, ICP-definitie, positionering, outreach-structuur en uitvoeringslogica.",
+        title: "Contract",
+        description: "Bekijk, becommentarieer en onderteken uw contract digitaal. Volledige transparantie, geen verrassingen.",
       },
       {
-        title: "Gestructureerde facturering",
-        description: "Mijlpaal- of terugkerende facturering die precies is afgestemd op contractvoorwaarden en leveringsfasen.",
+        title: "Factuur",
+        description: "Geautomatiseerde facturering met duidelijke betalingsvoorwaarden. Alles bijgehouden op één plek.",
       },
       {
-        title: "Operationele kickoff",
-        description: "Activeringsfase getriggerd na factuurbevestiging — uitvoering begint.",
+        title: "Kickoff",
+        description: "Het project start. Realtime updates, documentdeling en doorlopende ondersteuning via A.D.A.M.",
       },
     ],
-    statusBadge: "A.D.A.M. & E.V.A. — momenteel in ontwikkeling, lancering 2026",
+    statusBadge: "A.D.A.M. is actief en verwerkt klanten",
     stepLabel: "Stap",
   },
 
@@ -1244,36 +1244,36 @@ const pt: typeof en = {
   },
 
   roadmap: {
-    heading: "A.D.A.M. & E.V.A.",
-    headingItalic: "framework de automação",
-    subtitle: "Nossos sistemas de automação operacional gerenciam o ciclo de vida completo do cliente — da integração à gestão contínua de contas — com automação inteligente em cada etapa. Economiza tempo para clientes, atrai leads quentes e aumenta os lucros.",
+    heading: "Como funciona",
+    headingItalic: "A.D.A.M.",
+    subtitle: "Do primeiro contato ao lançamento do projeto em seis etapas estruturadas.",
     steps: [
       {
-        title: "Integração Inteligente",
-        description: "Questionário estruturado capturando dados legais, estratégicos e operacionais para construir um perfil completo do cliente.",
+        title: "Questionário",
+        description: "Preencha nosso formulário de admissão estruturado. Conhecemos seu negócio, objetivos e requisitos.",
       },
       {
-        title: "Proposta Comercial",
-        description: "Escopo claro, cronograma, preços e entregas apresentados em uma visão geral de proposta estruturada.",
+        title: "Proposta",
+        description: "Elaboramos uma proposta personalizada com base nas suas necessidades. Revise-a no seu painel pessoal.",
       },
       {
-        title: "Alinhamento de Contratos",
-        description: "Contratos estruturados legalmente baseados na proposta e estratégia aprovadas, com controle total de versão.",
+        title: "Estratégia",
+        description: "Juntos definimos a estratégia e o cronograma. Cada detalhe alinhado antes de começar.",
       },
       {
-        title: "Blueprint Estratégico de Mercado",
-        description: "Resumo completo de estratégia — análise de mercado, definição de ICP, posicionamento, estrutura de divulgação e lógica de execução.",
+        title: "Contrato",
+        description: "Revise, comente e assine digitalmente seu contrato. Total transparência, sem surpresas.",
       },
       {
-        title: "Faturamento Estruturado",
-        description: "Faturamento por marcos ou recorrente alinhado precisamente com os termos do contrato e fases de entrega.",
+        title: "Fatura",
+        description: "Faturamento automatizado com condições de pagamento claras. Tudo rastreado em um só lugar.",
       },
       {
-        title: "Início Operacional",
-        description: "Fase de ativação acionada após confirmação da fatura — a execução começa.",
+        title: "Início",
+        description: "O projeto é lançado. Atualizações em tempo real, compartilhamento de documentos e suporte contínuo pelo A.D.A.M.",
       },
     ],
-    statusBadge: "A.D.A.M. & E.V.A. — atualmente em desenvolvimento, lançamento em 2026",
+    statusBadge: "A.D.A.M. está ativo e processando clientes",
     stepLabel: "Passo",
   },
 
@@ -1532,36 +1532,36 @@ const de: typeof en = {
   },
 
   roadmap: {
-    heading: "A.D.A.M. & E.V.A.",
-    headingItalic: "Automatisierungs-Framework",
-    subtitle: "Unsere operativen Automatisierungssysteme handhaben den vollständigen Kundenlebenszyklus — vom Onboarding bis zum laufenden Account-Management — mit intelligenter Automatisierung bei jedem Schritt. Es spart Zeit für Kunden, zieht heiße Leads an und steigert Gewinne.",
+    heading: "Wie A.D.A.M.",
+    headingItalic: "funktioniert",
+    subtitle: "Vom ersten Kontakt bis zum Projektstart in sechs strukturierten Schritten.",
     steps: [
       {
-        title: "Intelligentes Onboarding",
-        description: "Strukturierter Fragebogen zur Erfassung rechtlicher, strategischer und operativer Daten zum Aufbau eines vollständigen Kundenprofils.",
+        title: "Fragebogen",
+        description: "Füllen Sie unser strukturiertes Aufnahmeformular aus. Wir lernen Ihr Unternehmen, Ihre Ziele und Anforderungen kennen.",
       },
       {
-        title: "Kommerzielles Angebot",
-        description: "Klarer Umfang, Zeitplan, Preise und Ergebnisse in einer strukturierten Angebotsübersicht dargestellt.",
+        title: "Angebot",
+        description: "Wir erstellen ein maßgeschneidertes Angebot basierend auf Ihren Bedürfnissen. Prüfen Sie es in Ihrem persönlichen Dashboard.",
       },
       {
-        title: "Vertragsabstimmung",
-        description: "Rechtlich strukturierte Verträge basierend auf genehmigtem Angebot und Strategie, mit vollständiger Versionskontrolle.",
+        title: "Strategie",
+        description: "Gemeinsam definieren wir die Strategie und den Zeitplan. Jedes Detail abgestimmt, bevor wir beginnen.",
       },
       {
-        title: "Strategischer Markt-Blueprint",
-        description: "Vollständiges Strategiebriefing — Marktanalyse, ICP-Definition, Positionierung, Outreach-Struktur und Ausführungslogik.",
+        title: "Vertrag",
+        description: "Prüfen, kommentieren und digital unterschreiben Sie Ihren Vertrag. Volle Transparenz, keine Überraschungen.",
       },
       {
-        title: "Strukturierte Abrechnung",
-        description: "Meilenstein- oder wiederkehrende Rechnungsstellung, die präzise mit Vertragsbedingungen und Lieferphasen abgestimmt ist.",
+        title: "Rechnung",
+        description: "Automatisierte Rechnungsstellung mit klaren Zahlungsbedingungen. Alles an einem Ort verfolgt.",
       },
       {
-        title: "Operativer Kickoff",
-        description: "Aktivierungsphase ausgelöst nach Rechnungsbestätigung — Ausführung beginnt.",
+        title: "Kickoff",
+        description: "Das Projekt startet. Echtzeit-Updates, Dokumentenaustausch und fortlaufende Unterstützung durch A.D.A.M.",
       },
     ],
-    statusBadge: "A.D.A.M. & E.V.A. — derzeit in Entwicklung, Start 2026",
+    statusBadge: "A.D.A.M. ist aktiv und verarbeitet Kunden",
     stepLabel: "Schritt",
   },
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import { CurrencyProvider } from "@/context/CurrencyContext";
 import { LanguageProvider } from "@/context/LanguageContext";
+import CookieBanner from "@/components/CookieBanner";
 import "./globals.css";
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -33,7 +34,10 @@ export default function RootLayout({
         className={`${ibmPlexSans.variable} ${ibmPlexMono.variable} antialiased font-sans`}
       >
         <LanguageProvider>
-          <CurrencyProvider>{children}</CurrencyProvider>
+          <CurrencyProvider>
+            {children}
+            <CookieBanner />
+          </CurrencyProvider>
         </LanguageProvider>
       </body>
     </html>
