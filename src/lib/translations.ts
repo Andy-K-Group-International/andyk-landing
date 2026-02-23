@@ -96,12 +96,12 @@ const en = {
         description: "We craft a tailored proposal based on your needs. Review it in your personal dashboard.",
       },
       {
-        title: "Strategy",
-        description: "Together we define the strategy and timeline. Every detail aligned before we start.",
-      },
-      {
         title: "Contract",
         description: "Review, comment, and digitally sign your contract. Full transparency, no surprises.",
+      },
+      {
+        title: "Strategy",
+        description: "Together we define the strategy and timeline. Every detail aligned before we start.",
       },
       {
         title: "Invoice",
@@ -393,12 +393,12 @@ const es: typeof en = {
         description: "Elaboramos una propuesta a medida basada en sus necesidades. Revísela en su panel personal.",
       },
       {
-        title: "Estrategia",
-        description: "Juntos definimos la estrategia y el cronograma. Cada detalle alineado antes de comenzar.",
-      },
-      {
         title: "Contrato",
         description: "Revise, comente y firme digitalmente su contrato. Total transparencia, sin sorpresas.",
+      },
+      {
+        title: "Estrategia",
+        description: "Juntos definimos la estrategia y el cronograma. Cada detalle alineado antes de comenzar.",
       },
       {
         title: "Factura",
@@ -681,12 +681,12 @@ const sk: typeof en = {
         description: "Vytvoríme návrh na mieru podľa vašich potrieb. Skontrolujte ho vo vašom osobnom paneli.",
       },
       {
-        title: "Stratégia",
-        description: "Spoločne definujeme stratégiu a časový plán. Každý detail zladený pred začiatkom.",
-      },
-      {
         title: "Zmluva",
         description: "Skontrolujte, komentujte a digitálne podpíšte zmluvu. Úplná transparentnosť, žiadne prekvapenia.",
+      },
+      {
+        title: "Stratégia",
+        description: "Spoločne definujeme stratégiu a časový plán. Každý detail zladený pred začiatkom.",
       },
       {
         title: "Faktúra",
@@ -969,12 +969,12 @@ const nl: typeof en = {
         description: "We stellen een voorstel op maat op basis van uw behoeften. Bekijk het in uw persoonlijke dashboard.",
       },
       {
-        title: "Strategie",
-        description: "Samen definiëren we de strategie en tijdlijn. Elk detail afgestemd voordat we beginnen.",
-      },
-      {
         title: "Contract",
         description: "Bekijk, becommentarieer en onderteken uw contract digitaal. Volledige transparantie, geen verrassingen.",
+      },
+      {
+        title: "Strategie",
+        description: "Samen definiëren we de strategie en tijdlijn. Elk detail afgestemd voordat we beginnen.",
       },
       {
         title: "Factuur",
@@ -1257,12 +1257,12 @@ const pt: typeof en = {
         description: "Elaboramos uma proposta personalizada com base nas suas necessidades. Revise-a no seu painel pessoal.",
       },
       {
-        title: "Estratégia",
-        description: "Juntos definimos a estratégia e o cronograma. Cada detalhe alinhado antes de começar.",
-      },
-      {
         title: "Contrato",
         description: "Revise, comente e assine digitalmente seu contrato. Total transparência, sem surpresas.",
+      },
+      {
+        title: "Estratégia",
+        description: "Juntos definimos a estratégia e o cronograma. Cada detalhe alinhado antes de começar.",
       },
       {
         title: "Fatura",
@@ -1545,12 +1545,12 @@ const de: typeof en = {
         description: "Wir erstellen ein maßgeschneidertes Angebot basierend auf Ihren Bedürfnissen. Prüfen Sie es in Ihrem persönlichen Dashboard.",
       },
       {
-        title: "Strategie",
-        description: "Gemeinsam definieren wir die Strategie und den Zeitplan. Jedes Detail abgestimmt, bevor wir beginnen.",
-      },
-      {
         title: "Vertrag",
         description: "Prüfen, kommentieren und digital unterschreiben Sie Ihren Vertrag. Volle Transparenz, keine Überraschungen.",
+      },
+      {
+        title: "Strategie",
+        description: "Gemeinsam definieren wir die Strategie und den Zeitplan. Jedes Detail abgestimmt, bevor wir beginnen.",
       },
       {
         title: "Rechnung",

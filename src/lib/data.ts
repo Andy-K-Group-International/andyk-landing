@@ -87,14 +87,14 @@ export const ADAM_SHOWCASE = [
       "We craft a tailored proposal based on your needs. Review it in your personal dashboard.",
   },
   {
-    title: "Strategy",
-    description:
-      "Together we define the strategy and timeline. Every detail aligned before we start.",
-  },
-  {
     title: "Contract",
     description:
       "Review, comment, and digitally sign your contract. Full transparency, no surprises.",
+  },
+  {
+    title: "Strategy",
+    description:
+      "Together we define the strategy and timeline. Every detail aligned before we start.",
   },
   {
     title: "Invoice",
@@ -134,7 +134,7 @@ export const FOUNDERS = [
     email: "cto@andykgroupinternational.com",
     website: "https://kobejanssens.com/",
     websiteLabel: "Portfolio",
-    bio: "Experienced developer that builds robust systems of all sorts - from fast trading algorithms to large-scale websites & apps. Give Kobe a tough problem, and he\u2019ll convert your dream into reality.",
+    bio: "The technical architect behind A.D.A.M., Kobe leverages his extensive expertise to transform any idea into reality.",
     location: "Born in Belgium",
   },
 ];
@@ -152,13 +152,13 @@ export const ADAM_ROADMAP = [
   },
   {
     step: 3,
-    title: "Strategy",
-    description: "Together we define the strategy and timeline. Every detail aligned before we start.",
+    title: "Contract",
+    description: "Review, comment, and digitally sign your contract. Full transparency, no surprises.",
   },
   {
     step: 4,
-    title: "Contract",
-    description: "Review, comment, and digitally sign your contract. Full transparency, no surprises.",
+    title: "Strategy",
+    description: "Together we define the strategy and timeline. Every detail aligned before we start.",
   },
   {
     step: 5,
