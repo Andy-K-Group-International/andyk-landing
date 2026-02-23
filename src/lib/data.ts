@@ -102,7 +102,7 @@ export const ADAM_SHOWCASE = [
       "Automated invoicing with clear payment terms. Everything tracked in one place.",
   },
   {
-    title: "Kick-off",
+    title: "Onboarding",
     description:
       "Project launches. Real-time updates, document sharing, and ongoing support through A.D.A.M.",
   },
@@ -167,7 +167,7 @@ export const ADAM_ROADMAP = [
   },
   {
     step: 6,
-    title: "Kick-off",
+    title: "Onboarding",
     description: "Project launches. Real-time updates, document sharing, and ongoing support through A.D.A.M.",
   },
 ];

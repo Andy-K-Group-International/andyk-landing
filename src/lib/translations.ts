@@ -108,7 +108,7 @@ const en = {
         description: "Automated invoicing with clear payment terms. Everything tracked in one place.",
       },
       {
-        title: "Kick-off",
+        title: "Onboarding",
         description: "Project launches. Real-time updates, document sharing, and ongoing support through A.D.A.M.",
       },
     ],
@@ -405,7 +405,7 @@ const es: typeof en = {
         description: "Facturación automatizada con condiciones de pago claras. Todo rastreado en un solo lugar.",
       },
       {
-        title: "Inicio",
+        title: "Incorporación",
         description: "El proyecto se lanza. Actualizaciones en tiempo real, intercambio de documentos y soporte continuo a través de A.D.A.M.",
       },
     ],
@@ -693,7 +693,7 @@ const sk: typeof en = {
         description: "Automatizovaná fakturácia s jasnými platobnými podmienkami. Všetko sledované na jednom mieste.",
       },
       {
-        title: "Štart",
+        title: "Onboarding",
         description: "Projekt sa spúšťa. Aktualizácie v reálnom čase, zdieľanie dokumentov a priebežná podpora cez A.D.A.M.",
       },
     ],
@@ -981,7 +981,7 @@ const nl: typeof en = {
         description: "Geautomatiseerde facturering met duidelijke betalingsvoorwaarden. Alles bijgehouden op één plek.",
       },
       {
-        title: "Kickoff",
+        title: "Onboarding",
         description: "Het project start. Realtime updates, documentdeling en doorlopende ondersteuning via A.D.A.M.",
       },
     ],
@@ -1269,7 +1269,7 @@ const pt: typeof en = {
         description: "Faturamento automatizado com condições de pagamento claras. Tudo rastreado em um só lugar.",
       },
       {
-        title: "Início",
+        title: "Integração",
         description: "O projeto é lançado. Atualizações em tempo real, compartilhamento de documentos e suporte contínuo pelo A.D.A.M.",
       },
     ],
@@ -1557,7 +1557,7 @@ const de: typeof en = {
         description: "Automatisierte Rechnungsstellung mit klaren Zahlungsbedingungen. Alles an einem Ort verfolgt.",
       },
       {
-        title: "Kickoff",
+        title: "Onboarding",
         description: "Das Projekt startet. Echtzeit-Updates, Dokumentenaustausch und fortlaufende Unterstützung durch A.D.A.M.",
       },
     ],
