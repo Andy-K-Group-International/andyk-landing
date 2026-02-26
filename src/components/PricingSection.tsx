@@ -128,20 +128,23 @@ export default function PricingSection() {
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
 
-  const switchToTabFromHash = useCallback((hash: string) => {
+  const switchToTabFromHash = useCallback((hash: string, scroll = false) => {
     const match = hash.match(/^#pricing-?(b2b|b2g|tech)$/);
     if (match) {
       const tab = match[1];
       if (TAB_IDS.includes(tab as typeof TAB_IDS[number])) {
         setActiveTab(tab);
+        if (scroll) {
+          document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
+        }
       }
     }
   }, []);
 
   useEffect(() => {
-    switchToTabFromHash(window.location.hash);
+    switchToTabFromHash(window.location.hash, true);
     function onHashChange() {
-      switchToTabFromHash(window.location.hash);
+      switchToTabFromHash(window.location.hash, true);
     }
     window.addEventListener("hashchange", onHashChange);
     return () => window.removeEventListener("hashchange", onHashChange);
