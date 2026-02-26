@@ -1,5 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
+
 import { FOUNDERS } from "@/lib/data";
+import { useLanguage } from "@/context/LanguageContext";
 
 function LinkedInIcon() {
   return (
@@ -43,24 +46,26 @@ function LocationIcon() {
 }
 
 export default function TestimonialPair() {
+  const { t } = useLanguage();
+
   return (
     <div className="mb-8">
       {/* Section header */}
       <div className="text-center mb-10">
         <span className="text-[10px] uppercase tracking-[0.25em] text-muted-2 font-mono block mb-3">
-          The people behind it
+          {t.founders.eyebrow}
         </span>
         <h3 className="text-[clamp(1.5rem,1.2rem+1vw,2rem)] font-bold tracking-tight text-foreground">
-          Meet the{" "}
+          {t.founders.heading}{" "}
           <span className="font-serif font-light italic text-[1.15em]">
-            founders
+            {t.founders.headingItalic}
           </span>
         </h3>
       </div>
 
       {/* Founder cards */}
       <div className="flex flex-col gap-8 max-w-[1000px] mx-auto">
-        {FOUNDERS.map((founder) => (
+        {FOUNDERS.map((founder, idx) => (
           <div
             key={founder.name}
             className="group relative rounded-2xl border border-grid-500 overflow-hidden"
@@ -94,18 +99,18 @@ export default function TestimonialPair() {
                   {founder.name}
                 </h4>
                 <div className="text-xs text-muted-2 uppercase tracking-wider font-mono mb-3">
-                  {founder.role}
+                  {t.founders.roles[idx]}
                 </div>
 
                 <p className="text-sm text-muted leading-relaxed mb-3 max-w-[600px]">
-                  {founder.bio}
+                  {t.founders.bios[idx]}
                 </p>
 
                 {/* Quote */}
-                {founder.quote && (
+                {t.founders.quotes[idx] && (
                   <blockquote className="border-l-2 border-grid-500 pl-4 mb-4 py-0.5">
                     <p className="text-sm italic text-muted-2 leading-relaxed">
-                      &ldquo;{founder.quote}&rdquo;
+                      &ldquo;{t.founders.quotes[idx]}&rdquo;
                     </p>
                   </blockquote>
                 )}
@@ -119,7 +124,7 @@ export default function TestimonialPair() {
                     className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors"
                   >
                     <LinkedInIcon />
-                    <span>Connect</span>
+                    <span>{t.founders.connect}</span>
                   </a>
 
                   {founder.email && (
@@ -144,10 +149,10 @@ export default function TestimonialPair() {
                     </a>
                   )}
 
-                  {founder.location && (
+                  {t.founders.locations[idx] && (
                     <span className="inline-flex items-center gap-1.5">
                       <LocationIcon />
-                      {founder.location}
+                      {t.founders.locations[idx]}
                     </span>
                   )}
                 </div>

@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useRef } from "react";
-import { PRICING_B2B, PRICING_B2G, PRICING_TECH, BILLING_TERMS } from "@/lib/data";
+import { useState, useRef, useEffect, useCallback } from "react";
+import { PRICING_B2B, PRICING_B2G, PRICING_TECH } from "@/lib/data";
 import { COMPANY } from "@/lib/data";
 import { useCurrency } from "@/context/CurrencyContext";
 import { useLanguage } from "@/context/LanguageContext";
@@ -34,7 +34,7 @@ interface PricingCardData {
   features: string[];
 }
 
-function PricingCardComponent({ card }: { card: PricingCardData }) {
+function PricingCardComponent({ card, translatedName, translatedFeatures }: { card: PricingCardData; translatedName: string; translatedFeatures: string[] }) {
   const { convert } = useCurrency();
   const { t } = useLanguage();
   const displayPrice = convert(card.basePrice, card.baseCurrency);
@@ -59,14 +59,14 @@ function PricingCardComponent({ card }: { card: PricingCardData }) {
             card.highlighted ? "text-white" : "text-foreground"
           }`}
         >
-          {card.name}
+          {translatedName}
         </h4>
         <div className="flex items-baseline gap-1">
           {card.prefix && (
             <span
               className={`text-sm ${card.highlighted ? "text-white/60" : "text-muted-2"}`}
             >
-              {card.prefix}
+              {t.pricing.from}
             </span>
           )}
           <span
@@ -80,7 +80,7 @@ function PricingCardComponent({ card }: { card: PricingCardData }) {
             <span
               className={`text-sm ${card.highlighted ? "text-white/60" : "text-muted-2"}`}
             >
-              {card.period}
+              {card.period === "/ month" ? t.pricing.perMonth : t.pricing.perHour}
             </span>
           )}
         </div>
@@ -91,8 +91,8 @@ function PricingCardComponent({ card }: { card: PricingCardData }) {
       />
 
       <ul className="space-y-3 flex-1 mb-6">
-        {card.features.map((feature) => (
-          <li key={feature} className="flex items-start gap-2.5">
+        {translatedFeatures.map((feature, idx) => (
+          <li key={idx} className="flex items-start gap-2.5">
             <div className={card.highlighted ? "text-highlight" : ""}>
               <CheckIcon />
             </div>
@@ -108,7 +108,7 @@ function PricingCardComponent({ card }: { card: PricingCardData }) {
       </ul>
 
       <a
-        href={`mailto:${COMPANY.email}?subject=Inquiry: ${card.name} Plan`}
+        href={`mailto:${COMPANY.email}?subject=Inquiry: ${translatedName} Plan`}
         className={`block text-center py-3 px-4 text-sm font-medium transition-all duration-200 ${
           card.highlighted
             ? "bg-white text-foreground hover:bg-white/90"
@@ -128,11 +128,35 @@ export default function PricingSection() {
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
 
+  const switchToTabFromHash = useCallback((hash: string) => {
+    const match = hash.match(/^#pricing-?(b2b|b2g|tech)$/);
+    if (match) {
+      const tab = match[1];
+      if (TAB_IDS.includes(tab as typeof TAB_IDS[number])) {
+        setActiveTab(tab);
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    switchToTabFromHash(window.location.hash);
+    function onHashChange() {
+      switchToTabFromHash(window.location.hash);
+    }
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, [switchToTabFromHash]);
+
+  // Translation keys for each pricing plan, in the same order as data arrays
+  const B2B_KEYS = [t.pricing.b2bCore, t.pricing.b2bAdvance, t.pricing.b2bVanguard, t.pricing.b2bPrestige] as const;
+  const B2G_KEYS = [t.pricing.b2gStarter, t.pricing.b2gExpand, t.pricing.b2gElite] as const;
+  const TECH_KEYS = [t.pricing.techArchitecture, t.pricing.techPlatforms, t.pricing.techAutomation, t.pricing.techAudit, t.pricing.techCTO] as const;
+
   // Build tabs dynamically based on translations
   const TABS = [
-    { id: "b2b", label: t.pricing.tabB2B, data: PRICING_B2B },
-    { id: "b2g", label: t.pricing.tabB2G, data: PRICING_B2G },
-    { id: "tech", label: t.pricing.tabTech, data: PRICING_TECH },
+    { id: "b2b", label: t.pricing.tabB2B, data: PRICING_B2B, keys: B2B_KEYS },
+    { id: "b2g", label: t.pricing.tabB2G, data: PRICING_B2G, keys: B2G_KEYS },
+    { id: "tech", label: t.pricing.tabTech, data: PRICING_TECH, keys: TECH_KEYS },
   ];
 
   const activeData = TABS.find((tab) => tab.id === activeTab)!;
@@ -216,10 +240,12 @@ export default function PricingSection() {
                 : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 max-w-[1200px] mx-auto"
             }`}
           >
-            {activeData.data.map((card) => (
+            {activeData.data.map((card, idx) => (
               <PricingCardComponent
                 key={card.name}
                 card={card}
+                translatedName={activeData.keys[idx]?.name ?? card.name}
+                translatedFeatures={activeData.keys[idx]?.features ?? card.features}
               />
             ))}
           </div>

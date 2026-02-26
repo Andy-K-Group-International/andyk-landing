@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { NAV_LINKS, NAV_SERVICES } from "@/lib/data";
+import { usePathname } from "next/navigation";
 import CompanyLogo from "./CompanyLogo";
 import { useCurrency } from "@/context/CurrencyContext";
 import { useLanguage } from "@/context/LanguageContext";
@@ -33,7 +33,18 @@ function CloseIcon() {
   );
 }
 
+/** Prefix hash-only hrefs with "/" when not on the homepage */
+function resolveHref(href: string, isHome: boolean): string {
+  if (isHome) return href;
+  // Hash links like #about → /#about
+  if (href.startsWith("#")) return `/${href}`;
+  // Already absolute or path-based, leave alone
+  return href;
+}
+
 export default function Navbar() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
   const { currency, setCurrency } = useCurrency();
   const { locale, setLocale, t } = useLanguage();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -41,6 +52,44 @@ export default function Navbar() {
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(null);
+
+  // Translated nav links
+  const navLinks = [
+    { label: t.nav.about, href: "#about" },
+    { label: t.nav.caseStudies, href: "#case-studies" },
+    { label: t.nav.pricing, href: "#pricing" },
+    { label: t.nav.contact, href: "#contact" },
+  ];
+
+  // Translated services dropdown
+  const navServices = [
+    {
+      group: t.nav.groupSystems,
+      isIT: false,
+      items: [
+        { label: "A.D.A.M.", description: t.nav.adamDesc, href: "https://adameva.app" },
+      ],
+    },
+    {
+      group: t.nav.groupBusiness,
+      isIT: false,
+      items: [
+        { label: t.nav.endToEnd, description: t.nav.endToEndDesc, href: "#end-to-end" },
+        { label: t.nav.b2bDev, description: t.nav.b2bDevDesc, href: "#pricing-b2b" },
+        { label: t.nav.b2gPublic, description: t.nav.b2gPublicDesc, href: "#pricing-b2g" },
+      ],
+    },
+    {
+      group: t.nav.groupIT,
+      isIT: true,
+      items: [
+        { label: t.nav.sysArch, description: t.nav.sysArchDesc, href: "#pricing-tech" },
+        { label: t.nav.platformDev, description: t.nav.platformDevDesc, href: "#pricing-tech" },
+        { label: t.nav.automation, description: t.nav.automationDesc, href: "#pricing-tech" },
+        { label: t.nav.cto, description: t.nav.ctoDesc, href: "#pricing-tech" },
+      ],
+    },
+  ];
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -82,18 +131,20 @@ export default function Navbar() {
     setMobileServicesOpen(false);
   }
 
+  const logoHref = isHome ? "#hero" : "/";
+
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-grid-300">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-grid-300">
       <div className="relative max-w-[1200px] mx-auto flex items-center justify-between px-6 sm:px-8 h-[60px]">
         {/* Logo */}
-        <a href="#hero" className="shrink-0 text-foreground">
+        <a href={logoHref} className="shrink-0 text-foreground">
           <CompanyLogo size="md" />
         </a>
 
         {/* Desktop nav - centered */}
         <div className="hidden md:flex items-center gap-7 text-sm text-muted absolute left-1/2 -translate-x-1/2">
-          {NAV_LINKS.map((link) => (
-            <a key={link.label} href={link.href} className="hover:text-foreground transition-colors">
+          {navLinks.map((link) => (
+            <a key={link.href} href={resolveHref(link.href, isHome)} className="hover:text-foreground transition-colors">
               {link.label}
             </a>
           ))}
@@ -109,23 +160,23 @@ export default function Navbar() {
               onClick={() => setServicesOpen(!servicesOpen)}
               className="flex items-center gap-1 hover:text-foreground transition-colors"
             >
-              Services
+              {t.nav.services}
               <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${servicesOpen ? "rotate-180" : ""}`} />
             </button>
 
             {/* Dropdown panel */}
             {servicesOpen && (
               <div className="absolute top-full right-0 mt-2 w-[540px] bg-white rounded-xl border border-grid-300 shadow-lg p-6 grid grid-cols-2 gap-6">
-                {NAV_SERVICES.map((group) => (
-                  <div key={group.group} className={group.group === "IT Services" ? "col-span-2" : ""}>
+                {navServices.map((group) => (
+                  <div key={group.group} className={group.isIT ? "col-span-2" : ""}>
                     <p className="text-[10px] uppercase tracking-widest text-muted-2 font-medium mb-3">
                       {group.group}
                     </p>
-                    <div className={group.group === "IT Services" ? "grid grid-cols-2 gap-2" : "space-y-2"}>
+                    <div className={group.isIT ? "grid grid-cols-2 gap-2" : "space-y-2"}>
                       {group.items.map((item) => (
                         <a
-                          key={item.label}
-                          href={item.href}
+                          key={item.href + item.label}
+                          href={resolveHref(item.href, isHome)}
                           onClick={() => setServicesOpen(false)}
                           className="block p-2.5 -mx-1 rounded-lg hover:bg-bg-light transition-colors group/item"
                         >
@@ -147,12 +198,12 @@ export default function Navbar() {
         </div>
 
         {/* Language & Currency selectors */}
-        <div className="hidden md:flex items-center gap-1">
+        <div className="hidden md:flex items-center gap-1.5">
           <select
             value={locale}
             onChange={(e) => setLocale(e.target.value as Locale)}
             aria-label="Select language"
-            className="text-[10px] text-muted bg-transparent border border-grid-500 px-1 py-0.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[52px]"
+            className="text-xs text-muted bg-transparent border border-grid-500 rounded px-1.5 py-1 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[52px]"
           >
             <option value="en">EN</option>
             <option value="es">ES</option>
@@ -165,7 +216,7 @@ export default function Navbar() {
             value={currency}
             onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
             aria-label="Select currency"
-            className="text-[10px] text-muted bg-transparent border border-grid-500 px-1 py-0.5 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[52px]"
+            className="text-xs text-muted bg-transparent border border-grid-500 rounded px-1.5 py-1 cursor-pointer hover:border-grid-700 transition-colors focus:outline-none w-[60px]"
           >
             {CURRENCIES.map((c) => (
               <option key={c.code} value={c.code}>
@@ -189,10 +240,10 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="md:hidden fixed inset-0 top-[60px] z-40 bg-white overflow-y-auto">
           <div className="px-6 py-6 space-y-1">
-            {NAV_LINKS.map((link) => (
+            {navLinks.map((link) => (
               <a
-                key={link.label}
-                href={link.href}
+                key={link.href}
+                href={resolveHref(link.href, isHome)}
                 onClick={closeMobile}
                 className="block py-3 text-base font-medium text-foreground border-b border-grid-300 last:border-b-0"
               >
@@ -206,13 +257,13 @@ export default function Navbar() {
                 onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
                 className="flex items-center justify-between w-full py-3 text-base font-medium text-foreground"
               >
-                Services
+                {t.nav.services}
                 <ChevronDown className={`w-5 h-5 text-muted transition-transform duration-200 ${mobileServicesOpen ? "rotate-180" : ""}`} />
               </button>
 
               {mobileServicesOpen && (
                 <div className="pb-4 space-y-5">
-                  {NAV_SERVICES.map((group) => (
+                  {navServices.map((group) => (
                     <div key={group.group}>
                       <p className="text-[10px] uppercase tracking-widest text-muted-2 font-medium mb-2 px-2">
                         {group.group}
@@ -220,8 +271,8 @@ export default function Navbar() {
                       <div className="space-y-1">
                         {group.items.map((item) => (
                           <a
-                            key={item.label}
-                            href={item.href}
+                            key={item.href + item.label}
+                            href={resolveHref(item.href, isHome)}
                             onClick={closeMobile}
                             className="block px-3 py-2.5 rounded-lg hover:bg-bg-light transition-colors"
                           >

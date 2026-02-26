@@ -19,11 +19,11 @@ const en = {
   // Company information
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Your strategic partner in business automation & outreach.",
-    subtitle: "Powering A.D.A.M. & E.V.A. — the operational automation systems for modern growth.",
+    tagline: "End-to-end business development & growth architecture.",
+    subtitle: "We design, restructure, and architect businesses from foundation to scalable growth — powered by strategy, operations, and technology.",
     description: "Andy'K Group International LTD is a UK-based innovation company, combining business intelligence, automation, and strategic outreach.",
-    descriptionExtra: "With clients across Europe and Latin America, we build practical tools to help companies grow, structure, and scale — intelligently.",
-    descriptionSystems: "Our operational automation systems A.D.A.M. & E.V.A. are transforming how startups, SMEs, and public institutions work with documents, client onboarding, and communication.",
+    descriptionExtra: "With clients across Europe and Latin America, we build structured growth environments where strategy, operations, and technology move in one direction.",
+    descriptionSystems: "Strategic services combining business development, operational architecture, and technology — helping startups, SMEs, and public institutions scale with structure.",
     quote: "One structure. One flow. One system.",
     quoteSubtitle: "Built for growth.",
     location: "London, UK",
@@ -33,7 +33,9 @@ const en = {
   // Hero section
   hero: {
     ctaPrimary: "Tell Us About You",
-    ctaSecondary: "Learn How A.D.A.M. Works",
+    ctaSecondary: "Learn How We Work",
+    emailPlaceholder: "Your email address",
+    getInContact: "Get in Contact",
   },
 
   // Top banner
@@ -48,35 +50,83 @@ const en = {
     trustedText: "LATAM, Benelux, DACH & US",
   },
 
-  // Services section (FaqSection)
+  // Services section (Our Services grid)
   services: {
-    heading: "What we",
-    headingItalic: "deliver.",
-    subtitle: "Comprehensive solutions across technology, consulting, and digital transformation.",
+    heading: "Our",
+    headingItalic: "services",
+    subtitle: "Strategic services combining business development, operational architecture, and technology.",
     items: [
       {
-        title: "Strategic Business Consulting",
-        description: "Expert guidance to refine your business strategies and optimize operations for growth.",
+        title: "End-to-End",
+        description: "Strategic business development & growth architecture",
       },
       {
-        title: "Automation & AI Solutions",
-        description: "Implement cutting-edge automation and AI to streamline workflows and boost efficiency.",
+        title: "B2B",
+        description: "Lead generation, outreach campaigns & pipeline management",
       },
       {
-        title: "Market Entry & Outreach",
-        description: "Expand your reach with strategic market entry plans and effective outreach campaigns.",
+        title: "B2G",
+        description: "Public sector strategy, tender advisory & procurement",
       },
       {
-        title: "Public Sector & Government Contracts",
-        description: "Navigate the complexities of public sector procurement and secure valuable contracts.",
+        title: "IT Services",
+        description: "System architecture, platform development & automation",
       },
       {
-        title: "Intellectual Property & Licensing",
-        description: "Protect and leverage your intellectual assets through smart licensing and IP strategies.",
+        title: "A.D.A.M.",
+        description: "Automated Document & Account Manager",
       },
       {
-        title: "Brand Development & Digital Presence",
-        description: "Build a strong brand identity and amplify your presence across digital platforms.",
+        title: "E.V.A.",
+        description: "Economic Virtual Adviser",
+      },
+    ],
+  },
+
+  // End-to-End section
+  endToEnd: {
+    heading: "End-to-End",
+    headingItalic: "Development",
+    description: "We design, restructure, and architect businesses from foundation to scalable growth. Powered using A.D.A.M. Structural transformation — aligning strategy, revenue, operations, positioning, and execution into one system.",
+    bullets: [
+      { title: "Structural clarity", description: "Defining organizational hierarchy, roles, and accountability across every business layer." },
+      { title: "Revenue architecture", description: "Designing pricing, monetization, and revenue flow systems built for sustainable growth." },
+      { title: "Market positioning", description: "Refining your brand, value proposition, and competitive advantage in your target market." },
+      { title: "Operational redesign", description: "Restructuring internal workflows, processes, and team coordination for maximum efficiency." },
+      { title: "System integration", description: "Connecting tools, platforms, and data flows into one unified operational ecosystem." },
+      { title: "Expansion & growth control", description: "Building scalable expansion strategy with long-term positioning and controlled execution." },
+    ],
+  },
+
+  // Loved By / About section
+  lovedBy: {
+    headingBold: "Built on",
+    headingItalic: "trust.",
+    headingLine2: "Driven by results.",
+  },
+
+  // Case Studies section
+  caseStudies: {
+    heading: "Case",
+    headingItalic: "studies",
+    cards: [
+      {
+        shortTitle: "Hospitality Operating System",
+        title: "How we solved fragmented hotel operations using our services",
+        description: "Built a full digital operating system for a hospitality group — from strategy to execution.",
+        link: "Learn More",
+      },
+      {
+        shortTitle: "Healthcare Digitalization",
+        title: "How we solved clinical workflow chaos using our services",
+        description: "Designed a structured operations system for a physiotherapy clinic, integrating A.D.A.M. Healthcare.",
+        link: "Learn More",
+      },
+      {
+        shortTitle: "Consulting Professionalization",
+        title: "How we solved inconsistent consulting delivery using our services",
+        description: "Transformed an emotional consulting practice into a structured, scalable professional service.",
+        link: "Learn More",
       },
     ],
   },
@@ -268,7 +318,7 @@ const en = {
   // Contact form
   contact: {
     heading: "Send Us a Message",
-    subtitle: "Fill out the form below and we'll get back to you within 24 hours.",
+    subtitle: "Fill out the form below and we'll get back to you as soon as possible.",
     labelName: "Full Name",
     labelEmail: "Email Address",
     labelCompany: "Company Name",
@@ -297,6 +347,83 @@ const en = {
     selectCurrency: "Currency",
   },
 
+  // Navigation
+  nav: {
+    about: "About",
+    caseStudies: "Case Studies",
+    pricing: "Pricing",
+    contact: "Contact",
+    services: "Services",
+    groupSystems: "Systems",
+    groupBusiness: "Business Services",
+    groupIT: "IT Services",
+    adamDesc: "Automated Document & Account Manager",
+    endToEnd: "End-to-End",
+    endToEndDesc: "Strategic business development & growth architecture",
+    b2bDev: "B2B Development",
+    b2bDevDesc: "Lead generation & outreach campaigns",
+    b2gPublic: "B2G Public Sector",
+    b2gPublicDesc: "Government tenders & procurement",
+    sysArch: "System Architecture",
+    sysArchDesc: "Business system design & planning",
+    platformDev: "Platform Development",
+    platformDevDesc: "Portals, dashboards & custom systems",
+    automation: "Automation & Integrations",
+    automationDesc: "CRM, ERP & workflow automation",
+    cto: "CTO-as-a-Service",
+    ctoDesc: "Technical leadership on demand",
+  },
+
+  // Founders section
+  founders: {
+    eyebrow: "The people behind it",
+    heading: "Meet the",
+    headingItalic: "founders",
+    connect: "Connect",
+    roles: [
+      "Founder & Strategic Business Developer",
+      "Co-Founder & CTO",
+    ],
+    bios: [
+      "15+ years of leadership in sales, hospitality, business development, and operational strategy. Andrej specializes in scalable growth systems for B2B, B2G, and international client relations.",
+      "The technical architect behind A.D.A.M., Kobe leverages his extensive expertise to transform any idea into reality.",
+    ],
+    quotes: [
+      "My focus is building business systems that are not only profitable — but sustainable, secure, and designed to scale.",
+      "",
+    ],
+    locations: [
+      "Born in Austria",
+      "Born in Belgium",
+    ],
+  },
+
+  // Case study pages
+  caseStudyPages: {
+    nextCaseStudy: "Next case study",
+    problem: "Problem",
+    solution: "Solution",
+    outcome: "Outcome",
+    hospitality: {
+      title: "Hospitality Operating System",
+      problem: "A growing hospitality group with multiple properties was running on disconnected tools, manual processes, and inconsistent guest experiences. Revenue management, staff coordination, and guest communication were fragmented across spreadsheets and ad-hoc solutions.",
+      solution: "We designed and implemented a full digital operating system — integrating reservation management, staff scheduling, guest communication, and financial oversight into one structured platform. The strategy covered operational redesign, technology selection, and team onboarding.",
+      outcome: "Unified operations across all properties. Staff efficiency improved, guest satisfaction scores increased, and the group gained clear visibility into performance metrics — all running through one system.",
+    },
+    healthcare: {
+      title: "Healthcare Digitalization",
+      problem: "A physiotherapy clinic was struggling with clinical workflow chaos — patient scheduling, treatment records, billing, and communication all handled through separate, disconnected systems. Staff spent more time on admin than patient care.",
+      solution: "We designed a structured operations system for the clinic, integrating patient management, appointment scheduling, treatment documentation, and billing into a cohesive digital workflow — with A.D.A.M. Healthcare handling the document and account management layer.",
+      outcome: "Admin time reduced significantly. Patient throughput improved. The clinic now operates with a clear, structured digital workflow that keeps clinical staff focused on care, not paperwork.",
+    },
+    consulting: {
+      title: "Consulting Professionalization",
+      problem: "A consulting practice was delivering value but inconsistently — proposals were ad-hoc, project management was reactive, and client communication depended entirely on the founder's personal relationships. The business couldn't scale without structural change.",
+      solution: "We transformed the consulting practice from an emotionally-driven operation into a structured, professional service. This included standardized proposal templates, project management workflows, client onboarding processes, and a clear service delivery framework.",
+      outcome: "The practice now delivers consistent, professional service regardless of which team member is leading. Client retention improved, referral rates increased, and the business is positioned for scalable growth.",
+    },
+  },
+
   // Common/Shared
   common: {
     getStarted: "Get Started",
@@ -320,11 +447,11 @@ const en = {
 const es: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Su socio estratégico en automatización empresarial y divulgación.",
-    subtitle: "Impulsando A.D.A.M. & E.V.A. — los sistemas de automatización operativa para el crecimiento moderno.",
+    tagline: "Desarrollo empresarial integral y arquitectura de crecimiento.",
+    subtitle: "Diseñamos, reestructuramos y arquitectamos negocios desde los cimientos hasta el crecimiento escalable — impulsados por estrategia, operaciones y tecnología.",
     description: "Andy'K Group International LTD es una empresa de innovación con sede en el Reino Unido que combina inteligencia empresarial, automatización y divulgación estratégica.",
-    descriptionExtra: "Con clientes en toda Europa y América Latina, construimos herramientas prácticas para ayudar a las empresas a crecer, estructurarse y escalar — de manera inteligente.",
-    descriptionSystems: "Nuestros sistemas de automatización operativa A.D.A.M. & E.V.A. están transformando la forma en que las startups, PYMEs e instituciones públicas trabajan con documentos, incorporación de clientes y comunicación.",
+    descriptionExtra: "Con clientes en toda Europa y América Latina, construimos entornos de crecimiento estructurados donde la estrategia, las operaciones y la tecnología avanzan en una sola dirección.",
+    descriptionSystems: "Servicios estratégicos que combinan desarrollo empresarial, arquitectura operativa y tecnología — ayudando a startups, PYMEs e instituciones públicas a escalar con estructura.",
     quote: "Una estructura. Un flujo. Un sistema.",
     quoteSubtitle: "Construido para crecer.",
     location: "Londres, Reino Unido",
@@ -333,7 +460,9 @@ const es: typeof en = {
 
   hero: {
     ctaPrimary: "Cuéntenos sobre usted",
-    ctaSecondary: "Descubra cómo funciona A.D.A.M.",
+    ctaSecondary: "Descubra cómo trabajamos",
+    emailPlaceholder: "Su dirección de correo electrónico",
+    getInContact: "Contáctenos",
   },
 
   banner: {
@@ -348,34 +477,30 @@ const es: typeof en = {
   },
 
   services: {
-    heading: "Lo que",
-    headingItalic: "ofrecemos.",
-    subtitle: "Soluciones integrales en tecnología, consultoría y transformación digital.",
+    heading: "Nuestros",
+    headingItalic: "servicios",
+    subtitle: "Servicios estratégicos que combinan desarrollo empresarial, arquitectura operativa y tecnología.",
     items: [
-      {
-        title: "Consultoría Estratégica Empresarial",
-        description: "Orientación experta para refinar sus estrategias empresariales y optimizar las operaciones para el crecimiento.",
-      },
-      {
-        title: "Soluciones de Automatización e IA",
-        description: "Implemente automatización e IA de vanguardia para optimizar flujos de trabajo y aumentar la eficiencia.",
-      },
-      {
-        title: "Entrada al Mercado y Divulgación",
-        description: "Amplíe su alcance con planes estratégicos de entrada al mercado y campañas de divulgación efectivas.",
-      },
-      {
-        title: "Sector Público y Contratos Gubernamentales",
-        description: "Navegue las complejidades de la contratación del sector público y asegure contratos valiosos.",
-      },
-      {
-        title: "Propiedad Intelectual y Licencias",
-        description: "Proteja y aproveche sus activos intelectuales a través de estrategias inteligentes de licencias y PI.",
-      },
-      {
-        title: "Desarrollo de Marca y Presencia Digital",
-        description: "Construya una identidad de marca sólida y amplifique su presencia en plataformas digitales.",
-      },
+      { title: "End-to-End", description: "Desarrollo empresarial estratégico y arquitectura de crecimiento" },
+      { title: "B2B", description: "Generación de leads, campañas de divulgación y gestión de pipeline" },
+      { title: "B2G", description: "Estrategia del sector público, asesoramiento en licitaciones y contratación" },
+      { title: "IT Services", description: "Arquitectura de sistemas, desarrollo de plataformas y automatización" },
+      { title: "A.D.A.M.", description: "Gestor Automatizado de Documentos y Cuentas" },
+      { title: "E.V.A.", description: "Asesora Virtual Económica" },
+    ],
+  },
+
+  endToEnd: {
+    heading: "End-to-End",
+    headingItalic: "Desarrollo",
+    description: "Diseñamos, reestructuramos y arquitectamos negocios desde los cimientos hasta el crecimiento escalable. Impulsado por A.D.A.M. Transformación estructural — alineando estrategia, ingresos, operaciones, posicionamiento y ejecución en un solo sistema.",
+    bullets: [
+      { title: "Claridad estructural", description: "Definición de jerarquía organizativa, roles y responsabilidad en cada capa del negocio." },
+      { title: "Arquitectura de ingresos", description: "Diseño de sistemas de precios, monetización y flujo de ingresos para un crecimiento sostenible." },
+      { title: "Posicionamiento de mercado", description: "Refinamiento de marca, propuesta de valor y ventaja competitiva en su mercado objetivo." },
+      { title: "Rediseño operativo", description: "Reestructuración de flujos internos, procesos y coordinación de equipos para máxima eficiencia." },
+      { title: "Integración de sistemas", description: "Conexión de herramientas, plataformas y flujos de datos en un ecosistema operativo unificado." },
+      { title: "Expansión y control de crecimiento", description: "Estrategia de expansión escalable con posicionamiento a largo plazo y ejecución controlada." },
     ],
   },
 
@@ -559,7 +684,7 @@ const es: typeof en = {
 
   contact: {
     heading: "Envíenos un mensaje",
-    subtitle: "Complete el formulario a continuación y nos pondremos en contacto con usted en un plazo de 24 horas.",
+    subtitle: "Complete el formulario a continuación y nos pondremos en contacto lo antes posible.",
     labelName: "Nombre completo",
     labelEmail: "Dirección de correo electrónico",
     labelCompany: "Nombre de la empresa",
@@ -594,6 +719,96 @@ const es: typeof en = {
     readMore: "Leer más",
   },
 
+  lovedBy: {
+    headingBold: "Construido sobre",
+    headingItalic: "confianza.",
+    headingLine2: "Impulsado por resultados.",
+  },
+
+  caseStudies: {
+    heading: "Casos de",
+    headingItalic: "estudio",
+    cards: [
+      { shortTitle: "Sistema Operativo Hotelero", title: "Cómo resolvimos la fragmentación operativa hotelera con nuestros servicios", description: "Construimos un sistema operativo digital completo para un grupo hotelero — de la estrategia a la ejecución.", link: "Más información" },
+      { shortTitle: "Digitalización Sanitaria", title: "Cómo resolvimos el caos clínico con nuestros servicios", description: "Diseñamos un sistema de operaciones estructurado para una clínica de fisioterapia, integrando A.D.A.M. Healthcare.", link: "Más información" },
+      { shortTitle: "Profesionalización de Consultoría", title: "Cómo resolvimos la inconsistencia en consultoría con nuestros servicios", description: "Transformamos una práctica de consultoría emocional en un servicio profesional estructurado y escalable.", link: "Más información" },
+    ],
+  },
+
+  nav: {
+    about: "Acerca de",
+    caseStudies: "Casos de estudio",
+    pricing: "Precios",
+    contact: "Contacto",
+    services: "Servicios",
+    groupSystems: "Sistemas",
+    groupBusiness: "Servicios empresariales",
+    groupIT: "Servicios TI",
+    adamDesc: "Gestor Automatizado de Documentos y Cuentas",
+    endToEnd: "End-to-End",
+    endToEndDesc: "Desarrollo empresarial estratégico y arquitectura de crecimiento",
+    b2bDev: "Desarrollo B2B",
+    b2bDevDesc: "Generación de leads y campañas de divulgación",
+    b2gPublic: "Sector Público B2G",
+    b2gPublicDesc: "Licitaciones gubernamentales y contratación pública",
+    sysArch: "Arquitectura de sistemas",
+    sysArchDesc: "Diseño y planificación de sistemas empresariales",
+    platformDev: "Desarrollo de plataformas",
+    platformDevDesc: "Portales, paneles y sistemas personalizados",
+    automation: "Automatización e integraciones",
+    automationDesc: "Automatización de CRM, ERP y flujos de trabajo",
+    cto: "CTO-as-a-Service",
+    ctoDesc: "Liderazgo técnico bajo demanda",
+  },
+
+  founders: {
+    eyebrow: "Las personas detrás",
+    heading: "Conozca a los",
+    headingItalic: "fundadores",
+    connect: "Conectar",
+    roles: [
+      "Fundador y Desarrollador Empresarial Estratégico",
+      "Cofundador y CTO",
+    ],
+    bios: [
+      "Más de 15 años de liderazgo en ventas, hostelería, desarrollo empresarial y estrategia operativa. Andrej se especializa en sistemas de crecimiento escalable para B2B, B2G y relaciones internacionales con clientes.",
+      "El arquitecto técnico detrás de A.D.A.M., Kobe aprovecha su amplia experiencia para transformar cualquier idea en realidad.",
+    ],
+    quotes: [
+      "Mi enfoque es construir sistemas empresariales que no solo sean rentables, sino sostenibles, seguros y diseñados para escalar.",
+      "",
+    ],
+    locations: [
+      "Nacido en Austria",
+      "Nacido en Bélgica",
+    ],
+  },
+
+  caseStudyPages: {
+    nextCaseStudy: "Siguiente caso de estudio",
+    problem: "Problema",
+    solution: "Solución",
+    outcome: "Resultado",
+    hospitality: {
+      title: "Sistema operativo hotelero",
+      problem: "Un grupo hotelero en crecimiento con múltiples propiedades funcionaba con herramientas desconectadas, procesos manuales y experiencias de huéspedes inconsistentes. La gestión de ingresos, la coordinación del personal y la comunicación con los huéspedes estaban fragmentadas entre hojas de cálculo y soluciones improvisadas.",
+      solution: "Diseñamos e implementamos un sistema operativo digital completo — integrando la gestión de reservas, la programación del personal, la comunicación con los huéspedes y la supervisión financiera en una plataforma estructurada. La estrategia cubrió el rediseño operativo, la selección de tecnología y la incorporación del equipo.",
+      outcome: "Operaciones unificadas en todas las propiedades. La eficiencia del personal mejoró, las puntuaciones de satisfacción de los huéspedes aumentaron y el grupo obtuvo una visibilidad clara de las métricas de rendimiento — todo funcionando a través de un solo sistema.",
+    },
+    healthcare: {
+      title: "Digitalización sanitaria",
+      problem: "Una clínica de fisioterapia luchaba contra el caos en los flujos de trabajo clínicos — la programación de pacientes, los registros de tratamiento, la facturación y la comunicación se manejaban a través de sistemas separados y desconectados. El personal dedicaba más tiempo a la administración que a la atención al paciente.",
+      solution: "Diseñamos un sistema de operaciones estructurado para la clínica, integrando la gestión de pacientes, la programación de citas, la documentación de tratamientos y la facturación en un flujo de trabajo digital cohesivo — con A.D.A.M. Healthcare manejando la capa de gestión de documentos y cuentas.",
+      outcome: "El tiempo administrativo se redujo significativamente. El rendimiento de pacientes mejoró. La clínica ahora opera con un flujo de trabajo digital claro y estructurado que mantiene al personal clínico enfocado en la atención, no en el papeleo.",
+    },
+    consulting: {
+      title: "Profesionalización de consultoría",
+      problem: "Una práctica de consultoría entregaba valor pero de manera inconsistente — las propuestas eran improvisadas, la gestión de proyectos era reactiva y la comunicación con los clientes dependía enteramente de las relaciones personales del fundador. El negocio no podía escalar sin un cambio estructural.",
+      solution: "Transformamos la práctica de consultoría de una operación impulsada por emociones a un servicio profesional estructurado. Esto incluyó plantillas de propuestas estandarizadas, flujos de trabajo de gestión de proyectos, procesos de incorporación de clientes y un marco claro de entrega de servicios.",
+      outcome: "La práctica ahora entrega un servicio profesional consistente independientemente de qué miembro del equipo lidere. La retención de clientes mejoró, las tasas de referencia aumentaron y el negocio está posicionado para un crecimiento escalable.",
+    },
+  },
+
   languages: {
     en: "English",
     es: "Español",
@@ -608,11 +823,11 @@ const es: typeof en = {
 const sk: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Váš strategický partner v automatizácii podnikania a oslovovaní.",
-    subtitle: "Poháňame A.D.A.M. & E.V.A. — operačné automatizačné systémy pre moderný rast.",
+    tagline: "Komplexný rozvoj podnikania a architektúra rastu.",
+    subtitle: "Navrhujeme, reštrukturalizujeme a budujeme podnikateľskú architektúru od základov po škálovateľný rast — poháňaný stratégiou, prevádzkou a technológiou.",
     description: "Andy'K Group International LTD je inovačná spoločnosť so sídlom vo Veľkej Británii, ktorá kombinuje obchodnú inteligenciu, automatizáciu a strategické oslovovanie.",
-    descriptionExtra: "S klientmi po celej Európe a Latinskej Amerike vytvárame praktické nástroje, ktoré pomáhajú spoločnostiam rásť, štruktúrovať sa a škálovať — inteligentne.",
-    descriptionSystems: "Naše operačné automatizačné systémy A.D.A.M. & E.V.A. transformujú spôsob, akým startupy, malé a stredné podniky a verejné inštitúcie pracujú s dokumentmi, začleňovaním klientov a komunikáciou.",
+    descriptionExtra: "S klientmi po celej Európe a Latinskej Amerike budujeme štruktúrované prostredia rastu, kde stratégia, prevádzka a technológia smerujú jedným smerom.",
+    descriptionSystems: "Strategické služby kombinujúce obchodný rozvoj, prevádzkovú architektúru a technológiu — pomáhajúce startupom, malým a stredným podnikom a verejným inštitúciám škálovať so štruktúrou.",
     quote: "Jedna štruktúra. Jeden tok. Jeden systém.",
     quoteSubtitle: "Vytvorené pre rast.",
     location: "Londýn, Veľká Británia",
@@ -621,7 +836,9 @@ const sk: typeof en = {
 
   hero: {
     ctaPrimary: "Povedzte nám o sebe",
-    ctaSecondary: "Zistite, ako funguje A.D.A.M.",
+    ctaSecondary: "Zistite, ako pracujeme",
+    emailPlaceholder: "Vaša e-mailová adresa",
+    getInContact: "Kontaktujte nás",
   },
 
   banner: {
@@ -636,34 +853,46 @@ const sk: typeof en = {
   },
 
   services: {
-    heading: "Čo",
-    headingItalic: "dodávame.",
-    subtitle: "Komplexné riešenia v oblasti technológií, poradenstva a digitálnej transformácie.",
+    heading: "Naše",
+    headingItalic: "služby",
+    subtitle: "Strategické služby kombinujúce obchodný rozvoj, prevádzkovú architektúru a technológiu.",
     items: [
-      {
-        title: "Strategické obchodné poradenstvo",
-        description: "Odborné vedenie na zdokonalenie vašich obchodných stratégií a optimalizáciu operácií pre rast.",
-      },
-      {
-        title: "Riešenia automatizácie a AI",
-        description: "Implementujte špičkovú automatizáciu a AI na zjednodušenie pracovných postupov a zvýšenie efektívnosti.",
-      },
-      {
-        title: "Vstup na trh a oslovenie",
-        description: "Rozšírte svoj dosah pomocou strategických plánov vstupu na trh a efektívnych kampaní oslovenia.",
-      },
-      {
-        title: "Verejný sektor a vládne zmluvy",
-        description: "Orientujte sa v zložitostiach verejného obstarávania a zabezpečte si hodnotné zmluvy.",
-      },
-      {
-        title: "Duševné vlastníctvo a licencie",
-        description: "Chráňte a využívajte svoje duševné aktíva prostredníctvom inteligentných licenčných a IP stratégií.",
-      },
-      {
-        title: "Rozvoj značky a digitálna prítomnosť",
-        description: "Vytvorte silnú identitu značky a zosilnite svoju prítomnosť na digitálnych platformách.",
-      },
+      { title: "End-to-End", description: "Strategický obchodný rozvoj a architektúra rastu" },
+      { title: "B2B", description: "Generovanie leadov, kampane oslovenia a správa pipeline" },
+      { title: "B2G", description: "Stratégia verejného sektora, poradenstvo k tenderom a obstarávanie" },
+      { title: "IT Services", description: "Architektúra systémov, vývoj platforiem a automatizácia" },
+      { title: "A.D.A.M.", description: "Automatizovaný správca dokumentov a účtov" },
+      { title: "E.V.A.", description: "Ekonomická virtuálna poradkyňa" },
+    ],
+  },
+
+  endToEnd: {
+    heading: "End-to-End",
+    headingItalic: "Rozvoj",
+    description: "Navrhujeme, reštrukturalizujeme a budujeme podnikateľskú architektúru od základov po škálovateľný rast. Poháňané systémom A.D.A.M. Štrukturálna transformácia — zosúladenie stratégie, príjmov, prevádzky, pozicionovania a realizácie do jedného systému.",
+    bullets: [
+      { title: "Štrukturálna jasnosť", description: "Definovanie organizačnej hierarchie, rolí a zodpovednosti naprieč každou vrstvou podnikania." },
+      { title: "Architektúra príjmov", description: "Navrhovanie cenových, monetizačných a príjmových systémov pre udržateľný rast." },
+      { title: "Pozicionovanie na trhu", description: "Zdokonaľovanie značky, hodnotovej ponuky a konkurenčnej výhody na cieľovom trhu." },
+      { title: "Prevádzkový redizajn", description: "Reštrukturalizácia interných procesov, pracovných postupov a koordinácie tímov pre maximálnu efektivitu." },
+      { title: "Systémová integrácia", description: "Prepojenie nástrojov, platforiem a dátových tokov do jedného prevádzkovéo ekosystému." },
+      { title: "Expanzia a kontrola rastu", description: "Budovanie škálovateľnej expanznej stratégie s dlhodobým pozicionovaním a kontrolovanou realizáciou." },
+    ],
+  },
+
+  lovedBy: {
+    headingBold: "Postavené na",
+    headingItalic: "dôvere.",
+    headingLine2: "Poháňané výsledkami.",
+  },
+
+  caseStudies: {
+    heading: "Prípadové",
+    headingItalic: "štúdie",
+    cards: [
+      { shortTitle: "Hotelový operačný systém", title: "Ako sme vyriešili fragmentované hotelové operácie pomocou našich služieb", description: "Vybudovali sme kompletný digitálny operačný systém pre hoteliersku skupinu — od stratégie po realizáciu.", link: "Dozvedieť sa viac" },
+      { shortTitle: "Digitalizácia zdravotníctva", title: "Ako sme vyriešili chaos v klinických procesoch pomocou našich služieb", description: "Navrhli sme štruktúrovaný operačný systém pre fyzioterapeutickú kliniku s integráciou A.D.A.M. Healthcare.", link: "Dozvedieť sa viac" },
+      { shortTitle: "Profesionalizácia poradenstva", title: "Ako sme vyriešili nekonzistentné poradenstvo pomocou našich služieb", description: "Transformovali sme emocionálnu poradenskú prax na štruktúrovanú, škálovateľnú profesionálnu službu.", link: "Dozvedieť sa viac" },
     ],
   },
 
@@ -847,7 +1076,7 @@ const sk: typeof en = {
 
   contact: {
     heading: "Pošlite nám správu",
-    subtitle: "Vyplňte formulár nižšie a ozveme sa vám do 24 hodín.",
+    subtitle: "Vyplňte formulár nižšie a ozveme sa vám čo najskôr.",
     labelName: "Celé meno",
     labelEmail: "E-mailová adresa",
     labelCompany: "Názov spoločnosti",
@@ -882,6 +1111,80 @@ const sk: typeof en = {
     readMore: "Čítať viac",
   },
 
+  nav: {
+    about: "O nás",
+    caseStudies: "Prípadové štúdie",
+    pricing: "Ceny",
+    contact: "Kontakt",
+    services: "Služby",
+    groupSystems: "Systémy",
+    groupBusiness: "Obchodné služby",
+    groupIT: "IT služby",
+    adamDesc: "Automatizovaný správca dokumentov a účtov",
+    endToEnd: "End-to-End",
+    endToEndDesc: "Strategický rozvoj podnikania a architektúra rastu",
+    b2bDev: "B2B rozvoj",
+    b2bDevDesc: "Generovanie leadov a kampane oslovovania",
+    b2gPublic: "B2G Verejný sektor",
+    b2gPublicDesc: "Verejné súťaže a obstarávanie",
+    sysArch: "Architektúra systémov",
+    sysArchDesc: "Návrh a plánovanie podnikových systémov",
+    platformDev: "Vývoj platforiem",
+    platformDevDesc: "Portály, dashboardy a vlastné systémy",
+    automation: "Automatizácia a integrácie",
+    automationDesc: "Automatizácia CRM, ERP a pracovných procesov",
+    cto: "CTO-as-a-Service",
+    ctoDesc: "Technické vedenie na požiadanie",
+  },
+
+  founders: {
+    eyebrow: "Ľudia za tým",
+    heading: "Spoznajte",
+    headingItalic: "zakladateľov",
+    connect: "Spojiť sa",
+    roles: [
+      "Zakladateľ a strategický obchodný developer",
+      "Spoluzakladateľ a CTO",
+    ],
+    bios: [
+      "Viac ako 15 rokov skúseností v predaji, pohostinstve, rozvoji podnikania a operačnej stratégii. Andrej sa špecializuje na škálovateľné rastové systémy pre B2B, B2G a medzinárodné vzťahy s klientmi.",
+      "Technický architekt za A.D.A.M., Kobe využíva svoje rozsiahle odborné znalosti na premenu akejkoľvek myšlienky na realitu.",
+    ],
+    quotes: [
+      "Môj cieľ je budovať obchodné systémy, ktoré sú nielen ziskové — ale udržateľné, bezpečné a navrhnuté na škálovanie.",
+      "",
+    ],
+    locations: [
+      "Narodený v Rakúsku",
+      "Narodený v Belgicku",
+    ],
+  },
+
+  caseStudyPages: {
+    nextCaseStudy: "Ďalšia prípadová štúdia",
+    problem: "Problém",
+    solution: "Riešenie",
+    outcome: "Výsledok",
+    hospitality: {
+      title: "Hotelový operačný systém",
+      problem: "Rastúca hotelová skupina s viacerými nehnuteľnosťami fungovala na odpojených nástrojoch, manuálnych procesoch a nekonzistentných zážitkoch hostí. Riadenie príjmov, koordinácia personálu a komunikácia s hosťami boli fragmentované medzi tabuľkami a improvizovanými riešeniami.",
+      solution: "Navrhli a implementovali sme kompletný digitálny operačný systém — integráciou správy rezervácií, plánovania personálu, komunikácie s hosťami a finančného dohľadu do jednej štruktúrovanej platformy. Stratégia pokrývala operačný redizajn, výber technológií a onboarding tímu.",
+      outcome: "Zjednotené operácie naprieč všetkými nehnuteľnosťami. Efektivita personálu sa zlepšila, skóre spokojnosti hostí vzrástlo a skupina získala jasnú viditeľnosť do výkonnostných metrík — všetko bežiace cez jeden systém.",
+    },
+    healthcare: {
+      title: "Digitalizácia zdravotníctva",
+      problem: "Fyzioterapeutická klinika zápasila s chaosom v klinických pracovných procesoch — plánovanie pacientov, záznamy o liečbe, fakturácia a komunikácia boli riadené cez oddelené, neprepojené systémy. Personál trávil viac času administratívou než starostlivosťou o pacientov.",
+      solution: "Navrhli sme štruktúrovaný operačný systém pre kliniku, integrujúci správu pacientov, plánovanie termínov, dokumentáciu liečby a fakturáciu do súdržného digitálneho pracovného procesu — s A.D.A.M. Healthcare riadiacim vrstvu správy dokumentov a účtov.",
+      outcome: "Administratívny čas sa výrazne znížil. Priepustnosť pacientov sa zlepšila. Klinika teraz funguje s jasným, štruktúrovaným digitálnym pracovným procesom, ktorý udržuje klinický personál zameraný na starostlivosť, nie na papierovanie.",
+    },
+    consulting: {
+      title: "Profesionalizácia poradenstva",
+      problem: "Poradenská prax dodávala hodnotu, ale nekonzistentne — návrhy boli improvizované, riadenie projektov bolo reaktívne a komunikácia s klientmi závisela výlučne od osobných vzťahov zakladateľa. Firma nemohla rásť bez štrukturálnej zmeny.",
+      solution: "Transformovali sme poradenskú prax z emocionálne riadenej prevádzky na štruktúrovanú profesionálnu službu. To zahŕňalo štandardizované šablóny návrhov, pracovné procesy riadenia projektov, procesy onboardingu klientov a jasný rámec poskytovania služieb.",
+      outcome: "Prax teraz dodáva konzistentný profesionálny servis bez ohľadu na to, ktorý člen tímu vedie. Retencia klientov sa zlepšila, miera odporúčaní vzrástla a firma je pozicionovaná pre škálovateľný rast.",
+    },
+  },
+
   languages: {
     en: "English",
     es: "Español",
@@ -896,11 +1199,11 @@ const sk: typeof en = {
 const nl: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Uw strategische partner in bedrijfsautomatisering en outreach.",
-    subtitle: "Aandrijving voor A.D.A.M. & E.V.A. — de operationele automatiseringssystemen voor moderne groei.",
+    tagline: "End-to-end bedrijfsontwikkeling en groeiarchitectuur.",
+    subtitle: "Wij ontwerpen, herstructureren en bouwen bedrijfsarchitectuur van basis tot schaalbare groei — aangedreven door strategie, operaties en technologie.",
     description: "Andy'K Group International LTD is een in het VK gevestigd innovatiebedrijf dat business intelligence, automatisering en strategische outreach combineert.",
-    descriptionExtra: "Met klanten in heel Europa en Latijns-Amerika bouwen we praktische tools om bedrijven te helpen groeien, structureren en schalen — intelligent.",
-    descriptionSystems: "Onze operationele automatiseringssystemen A.D.A.M. & E.V.A. transformeren hoe startups, MKB-bedrijven en openbare instellingen werken met documenten, klant onboarding en communicatie.",
+    descriptionExtra: "Met klanten in heel Europa en Latijns-Amerika bouwen we gestructureerde groeiomgevingen waar strategie, operaties en technologie in één richting bewegen.",
+    descriptionSystems: "Strategische diensten die bedrijfsontwikkeling, operationele architectuur en technologie combineren — startups, MKB-bedrijven en publieke instellingen helpen schalen met structuur.",
     quote: "Eén structuur. Eén stroom. Eén systeem.",
     quoteSubtitle: "Gebouwd voor groei.",
     location: "Londen, VK",
@@ -909,7 +1212,9 @@ const nl: typeof en = {
 
   hero: {
     ctaPrimary: "Vertel ons over uzelf",
-    ctaSecondary: "Ontdek hoe A.D.A.M. werkt",
+    ctaSecondary: "Ontdek hoe wij werken",
+    emailPlaceholder: "Uw e-mailadres",
+    getInContact: "Neem contact op",
   },
 
   banner: {
@@ -924,40 +1229,52 @@ const nl: typeof en = {
   },
 
   services: {
-    heading: "Wat we",
-    headingItalic: "leveren.",
-    subtitle: "Uitgebreide oplossingen op het gebied van technologie, consultancy en digitale transformatie.",
+    heading: "Onze",
+    headingItalic: "diensten",
+    subtitle: "Strategische diensten die bedrijfsontwikkeling, operationele architectuur en technologie combineren.",
     items: [
-      {
-        title: "Strategisch bedrijfsadvies",
-        description: "Deskundige begeleiding om uw bedrijfsstrategieën te verfijnen en operaties te optimaliseren voor groei.",
-      },
-      {
-        title: "Automatisering & AI-oplossingen",
-        description: "Implementeer geavanceerde automatisering en AI om workflows te stroomlijnen en efficiëntie te verhogen.",
-      },
-      {
-        title: "Markttoetreding & outreach",
-        description: "Breid uw bereik uit met strategische markttoetredingsplannen en effectieve outreach-campagnes.",
-      },
-      {
-        title: "Publieke sector & overheidscontracten",
-        description: "Navigeer door de complexiteit van aanbestedingen in de publieke sector en verkrijg waardevolle contracten.",
-      },
-      {
-        title: "Intellectueel eigendom & licenties",
-        description: "Bescherm en benut uw intellectuele activa door middel van slimme licentie- en IE-strategieën.",
-      },
-      {
-        title: "Merkontwikkeling & digitale aanwezigheid",
-        description: "Bouw een sterke merkidentiteit op en versterk uw aanwezigheid op digitale platforms.",
-      },
+      { title: "End-to-End", description: "Strategische bedrijfsontwikkeling en groeiarchitectuur" },
+      { title: "B2B", description: "Leadgeneratie, outreach-campagnes en pipelinebeheer" },
+      { title: "B2G", description: "Publieke sectorstrategie, aanbestedingsadvies en inkoop" },
+      { title: "IT Services", description: "Systeemarchitectuur, platformontwikkeling en automatisering" },
+      { title: "A.D.A.M.", description: "Geautomatiseerd Document- en Accountbeheer" },
+      { title: "E.V.A.", description: "Economisch Virtueel Adviseur" },
+    ],
+  },
+
+  endToEnd: {
+    heading: "End-to-End",
+    headingItalic: "Ontwikkeling",
+    description: "Wij ontwerpen, herstructureren en bouwen bedrijfsarchitectuur van basis tot schaalbare groei. Aangedreven door A.D.A.M. Structurele transformatie — strategie, omzet, operaties, positionering en uitvoering in één systeem.",
+    bullets: [
+      { title: "Structurele helderheid", description: "Organisatiehiërarchie, rollen en verantwoordelijkheden definiëren binnen elke bedrijfslaag." },
+      { title: "Omzetarchitectuur", description: "Prijsstelling, monetisatie en omzetstroomsystemen ontwerpen voor duurzame groei." },
+      { title: "Marktpositionering", description: "Merk, waardepropositie en concurrentievoordeel verfijnen in uw doelmarkt." },
+      { title: "Operationeel herontwerp", description: "Interne workflows, processen en teamcoördinatie herstructureren voor maximale efficiëntie." },
+      { title: "Systeemintegratie", description: "Tools, platforms en datastromen verbinden tot één uniform operationeel ecosysteem." },
+      { title: "Expansie en groeicontrole", description: "Schaalbare expansiestrategie bouwen met langetermijnpositionering en gecontroleerde uitvoering." },
+    ],
+  },
+
+  lovedBy: {
+    headingBold: "Gebouwd op",
+    headingItalic: "vertrouwen.",
+    headingLine2: "Gedreven door resultaten.",
+  },
+
+  caseStudies: {
+    heading: "Case",
+    headingItalic: "studies",
+    cards: [
+      { shortTitle: "Hotel besturingssysteem", title: "Hoe wij gefragmenteerde hoteloperaties oplosten met onze diensten", description: "Een volledig digitaal besturingssysteem gebouwd voor een hotelgroep — van strategie tot uitvoering.", link: "Meer informatie" },
+      { shortTitle: "Digitalisering gezondheidszorg", title: "Hoe wij klinische werkstroomchaos oplosten met onze diensten", description: "Een gestructureerd operatiesysteem ontworpen voor een fysiotherapiekliniek, met A.D.A.M. Healthcare-integratie.", link: "Meer informatie" },
+      { shortTitle: "Professionalisering consultancy", title: "Hoe wij inconsistente adviesverlening oplosten met onze diensten", description: "Een emotionele adviespraktijk getransformeerd tot een gestructureerde, schaalbare professionele dienst.", link: "Meer informatie" },
     ],
   },
 
   roadmap: {
     heading: "Hoe A.D.A.M.",
-    headingItalic: "Werkt",
+    headingItalic: "werkt",
     subtitle: "Van eerste contact tot projectlancering in zes gestructureerde stappen.",
     steps: [
       {
@@ -1135,7 +1452,7 @@ const nl: typeof en = {
 
   contact: {
     heading: "Stuur ons een bericht",
-    subtitle: "Vul het onderstaande formulier in en we nemen binnen 24 uur contact met u op.",
+    subtitle: "Vul het onderstaande formulier in en we nemen zo snel mogelijk contact met u op.",
     labelName: "Volledige naam",
     labelEmail: "E-mailadres",
     labelCompany: "Bedrijfsnaam",
@@ -1170,6 +1487,80 @@ const nl: typeof en = {
     readMore: "Lees meer",
   },
 
+  nav: {
+    about: "Over ons",
+    caseStudies: "Casestudies",
+    pricing: "Tarieven",
+    contact: "Contact",
+    services: "Diensten",
+    groupSystems: "Systemen",
+    groupBusiness: "Zakelijke diensten",
+    groupIT: "IT-diensten",
+    adamDesc: "Geautomatiseerde Document- & Accountmanager",
+    endToEnd: "End-to-End",
+    endToEndDesc: "Strategische bedrijfsontwikkeling en groeiarchitectuur",
+    b2bDev: "B2B-ontwikkeling",
+    b2bDevDesc: "Leadgeneratie en outreachcampagnes",
+    b2gPublic: "B2G Publieke sector",
+    b2gPublicDesc: "Overheidsopdrachten en aanbestedingen",
+    sysArch: "Systeemarchitectuur",
+    sysArchDesc: "Ontwerp en planning van bedrijfssystemen",
+    platformDev: "Platformontwikkeling",
+    platformDevDesc: "Portalen, dashboards en maatwerkoplossingen",
+    automation: "Automatisering & integraties",
+    automationDesc: "CRM-, ERP- en workflowautomatisering",
+    cto: "CTO-as-a-Service",
+    ctoDesc: "Technisch leiderschap op aanvraag",
+  },
+
+  founders: {
+    eyebrow: "De mensen erachter",
+    heading: "Ontmoet de",
+    headingItalic: "oprichters",
+    connect: "Verbinden",
+    roles: [
+      "Oprichter & Strategisch Business Developer",
+      "Medeoprichter & CTO",
+    ],
+    bios: [
+      "Meer dan 15 jaar ervaring in sales, horeca, bedrijfsontwikkeling en operationele strategie. Andrej is gespecialiseerd in schaalbare groeisystemen voor B2B, B2G en internationale klantrelaties.",
+      "De technische architect achter A.D.A.M., Kobe zet zijn uitgebreide expertise in om elk idee werkelijkheid te maken.",
+    ],
+    quotes: [
+      "Mijn focus is het bouwen van bedrijfssystemen die niet alleen winstgevend zijn — maar duurzaam, veilig en ontworpen om te schalen.",
+      "",
+    ],
+    locations: [
+      "Geboren in Oostenrijk",
+      "Geboren in België",
+    ],
+  },
+
+  caseStudyPages: {
+    nextCaseStudy: "Volgende casestudie",
+    problem: "Probleem",
+    solution: "Oplossing",
+    outcome: "Resultaat",
+    hospitality: {
+      title: "Horecabeheersysteem",
+      problem: "Een groeiende horecagroep met meerdere vestigingen werkte met losgekoppelde tools, handmatige processen en inconsistente gastervaringen. Omzetbeheer, personeelscoördinatie en gastcommunicatie waren versnipperd over spreadsheets en ad-hocoplossingen.",
+      solution: "We ontworpen en implementeerden een compleet digitaal operationeel systeem — waarbij reserveringsbeheer, personeelsplanning, gastcommunicatie en financieel toezicht werden geïntegreerd in één gestructureerd platform. De strategie omvatte operationeel herontwerp, technologieselectie en teamonboarding.",
+      outcome: "Uniforme operaties over alle vestigingen. De personeelsefficiëntie verbeterde, gasttevredenheidsscores stegen en de groep kreeg duidelijk zicht op prestatie-indicatoren — alles draaiend via één systeem.",
+    },
+    healthcare: {
+      title: "Digitalisering gezondheidszorg",
+      problem: "Een fysiotherapiekliniek worstelde met chaos in klinische werkprocessen — patiëntenplanning, behandelregistraties, facturering en communicatie werden allemaal via aparte, losgekoppelde systemen afgehandeld. Medewerkers besteedden meer tijd aan administratie dan aan patiëntenzorg.",
+      solution: "We ontwierpen een gestructureerd operationeel systeem voor de kliniek, waarbij patiëntenbeheer, afsprakenplanning, behandeldocumentatie en facturering werden geïntegreerd in een samenhangende digitale workflow — met A.D.A.M. Healthcare voor het document- en accountbeheer.",
+      outcome: "Administratietijd aanzienlijk verminderd. Patiëntendoorvoer verbeterd. De kliniek werkt nu met een duidelijke, gestructureerde digitale workflow die klinisch personeel gefocust houdt op zorg, niet op papierwerk.",
+    },
+    consulting: {
+      title: "Professionalisering consultancy",
+      problem: "Een adviesbureau leverde waarde maar inconsistent — voorstellen waren ad-hoc, projectmanagement was reactief en klantcommunicatie hing volledig af van de persoonlijke relaties van de oprichter. Het bedrijf kon niet schalen zonder structurele verandering.",
+      solution: "We transformeerden de adviesorganisatie van een emotiegedreven operatie naar een gestructureerde, professionele dienstverlening. Dit omvatte gestandaardiseerde voorstelsjablonen, projectmanagementworkflows, klantonboardingprocessen en een duidelijk dienstverleningskader.",
+      outcome: "De praktijk levert nu consistente, professionele dienstverlening ongeacht welk teamlid de leiding heeft. Klantbehoud verbeterde, verwijzingspercentages stegen en het bedrijf is gepositioneerd voor schaalbare groei.",
+    },
+  },
+
   languages: {
     en: "English",
     es: "Español",
@@ -1184,11 +1575,11 @@ const nl: typeof en = {
 const pt: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Seu parceiro estratégico em automação empresarial e divulgação.",
-    subtitle: "Alimentando A.D.A.M. & E.V.A. — os sistemas de automação operacional para crescimento moderno.",
+    tagline: "Desenvolvimento empresarial completo e arquitetura de crescimento.",
+    subtitle: "Projetamos, reestruturamos e arquitetamos negócios da base ao crescimento escalável — impulsionados por estratégia, operações e tecnologia.",
     description: "Andy'K Group International LTD é uma empresa de inovação sediada no Reino Unido, combinando inteligência empresarial, automatização e divulgação estratégica.",
-    descriptionExtra: "Com clientes em toda a Europa e América Latina, construímos ferramentas práticas para ajudar empresas a crescer, estruturar e escalar — de forma inteligente.",
-    descriptionSystems: "Nossos sistemas de automação operacional A.D.A.M. & E.V.A. estão transformando como startups, PMEs e instituições públicas trabalham com documentos, integração de clientes e comunicação.",
+    descriptionExtra: "Com clientes em toda a Europa e América Latina, construímos ambientes de crescimento estruturados onde estratégia, operações e tecnologia avançam numa só direção.",
+    descriptionSystems: "Serviços estratégicos que combinam desenvolvimento empresarial, arquitetura operacional e tecnologia — ajudando startups, PMEs e instituições públicas a escalar com estrutura.",
     quote: "Uma estrutura. Um fluxo. Um sistema.",
     quoteSubtitle: "Construído para crescimento.",
     location: "Londres, Reino Unido",
@@ -1197,7 +1588,9 @@ const pt: typeof en = {
 
   hero: {
     ctaPrimary: "Conte-nos sobre você",
-    ctaSecondary: "Saiba como funciona A.D.A.M.",
+    ctaSecondary: "Saiba como trabalhamos",
+    emailPlaceholder: "Seu endereço de e-mail",
+    getInContact: "Entre em contato",
   },
 
   banner: {
@@ -1212,41 +1605,53 @@ const pt: typeof en = {
   },
 
   services: {
-    heading: "O que",
-    headingItalic: "entregamos.",
-    subtitle: "Soluções abrangentes em tecnologia, consultoria e transformação digital.",
+    heading: "Nossos",
+    headingItalic: "serviços",
+    subtitle: "Serviços estratégicos que combinam desenvolvimento empresarial, arquitetura operacional e tecnologia.",
     items: [
-      {
-        title: "Consultoria Estratégica de Negócios",
-        description: "Orientação especializada para refinar suas estratégias de negócios e otimizar operações para crescimento.",
-      },
-      {
-        title: "Soluções de Automação e IA",
-        description: "Implemente automação e IA de ponta para simplificar fluxos de trabalho e aumentar a eficiência.",
-      },
-      {
-        title: "Entrada no Mercado e Divulgação",
-        description: "Expanda seu alcance com planos estratégicos de entrada no mercado e campanhas de divulgação eficazes.",
-      },
-      {
-        title: "Setor Público e Contratos Governamentais",
-        description: "Navegue pelas complexidades da aquisição do setor público e garanta contratos valiosos.",
-      },
-      {
-        title: "Propriedade Intelectual e Licenciamento",
-        description: "Proteja e aproveite seus ativos intelectuais através de estratégias inteligentes de licenciamento e PI.",
-      },
-      {
-        title: "Desenvolvimento de Marca e Presença Digital",
-        description: "Construa uma forte identidade de marca e amplifique sua presença em plataformas digitais.",
-      },
+      { title: "End-to-End", description: "Desenvolvimento empresarial estratégico e arquitetura de crescimento" },
+      { title: "B2B", description: "Geração de leads, campanhas de divulgação e gestão de pipeline" },
+      { title: "B2G", description: "Estratégia do setor público, consultoria de licitações e aquisições" },
+      { title: "IT Services", description: "Arquitetura de sistemas, desenvolvimento de plataformas e automação" },
+      { title: "A.D.A.M.", description: "Gestor Automatizado de Documentos e Contas" },
+      { title: "E.V.A.", description: "Conselheira Virtual Económica" },
+    ],
+  },
+
+  endToEnd: {
+    heading: "End-to-End",
+    headingItalic: "Desenvolvimento",
+    description: "Projetamos, reestruturamos e arquitetamos negócios da base ao crescimento escalável. Impulsionado pelo A.D.A.M. Transformação estrutural — alinhando estratégia, receita, operações, posicionamento e execução num único sistema.",
+    bullets: [
+      { title: "Clareza estrutural", description: "Definição de hierarquia organizacional, funções e responsabilidades em cada camada do negócio." },
+      { title: "Arquitetura de receita", description: "Desenho de sistemas de preços, monetização e fluxo de receita para crescimento sustentável." },
+      { title: "Posicionamento de mercado", description: "Refinamento da marca, proposta de valor e vantagem competitiva no mercado-alvo." },
+      { title: "Redesenho operacional", description: "Reestruturação de fluxos internos, processos e coordenação de equipas para máxima eficiência." },
+      { title: "Integração de sistemas", description: "Conexão de ferramentas, plataformas e fluxos de dados num ecossistema operacional unificado." },
+      { title: "Expansão e controlo de crescimento", description: "Construção de estratégia de expansão escalável com posicionamento de longo prazo e execução controlada." },
+    ],
+  },
+
+  lovedBy: {
+    headingBold: "Construído sobre",
+    headingItalic: "confiança.",
+    headingLine2: "Movido por resultados.",
+  },
+
+  caseStudies: {
+    heading: "Casos de",
+    headingItalic: "estudo",
+    cards: [
+      { shortTitle: "Sistema operacional hoteleiro", title: "Como resolvemos operações hoteleiras fragmentadas com nossos serviços", description: "Construímos um sistema operacional digital completo para um grupo hoteleiro — da estratégia à execução.", link: "Saiba mais" },
+      { shortTitle: "Digitalização da saúde", title: "Como resolvemos o caos clínico com nossos serviços", description: "Projetamos um sistema operacional estruturado para uma clínica de fisioterapia, integrando A.D.A.M. Healthcare.", link: "Saiba mais" },
+      { shortTitle: "Profissionalização de consultoria", title: "Como resolvemos a inconsistência em consultoria com nossos serviços", description: "Transformamos uma prática de consultoria emocional num serviço profissional estruturado e escalável.", link: "Saiba mais" },
     ],
   },
 
   roadmap: {
-    heading: "Como funciona",
-    headingItalic: "A.D.A.M.",
-    subtitle: "Do primeiro contato ao lançamento do projeto em seis etapas estruturadas.",
+    heading: "Como o A.D.A.M.",
+    headingItalic: "funciona",
+    subtitle: "Do primeiro contacto ao lançamento do projeto em seis passos estruturados.",
     steps: [
       {
         title: "Questionário",
@@ -1423,7 +1828,7 @@ const pt: typeof en = {
 
   contact: {
     heading: "Envie-nos uma mensagem",
-    subtitle: "Preencha o formulário abaixo e entraremos em contato em até 24 horas.",
+    subtitle: "Preencha o formulário abaixo e entraremos em contato o mais breve possível.",
     labelName: "Nome completo",
     labelEmail: "Endereço de e-mail",
     labelCompany: "Nome da empresa",
@@ -1458,6 +1863,80 @@ const pt: typeof en = {
     readMore: "Leia mais",
   },
 
+  nav: {
+    about: "Sobre",
+    caseStudies: "Estudos de caso",
+    pricing: "Preços",
+    contact: "Contato",
+    services: "Serviços",
+    groupSystems: "Sistemas",
+    groupBusiness: "Serviços empresariais",
+    groupIT: "Serviços de TI",
+    adamDesc: "Gestor Automatizado de Documentos e Contas",
+    endToEnd: "End-to-End",
+    endToEndDesc: "Desenvolvimento empresarial estratégico e arquitetura de crescimento",
+    b2bDev: "Desenvolvimento B2B",
+    b2bDevDesc: "Geração de leads e campanhas de divulgação",
+    b2gPublic: "B2G Setor público",
+    b2gPublicDesc: "Licitações governamentais e aquisições",
+    sysArch: "Arquitetura de sistemas",
+    sysArchDesc: "Projeto e planejamento de sistemas empresariais",
+    platformDev: "Desenvolvimento de plataformas",
+    platformDevDesc: "Portais, dashboards e sistemas personalizados",
+    automation: "Automação e integrações",
+    automationDesc: "Automação de CRM, ERP e fluxos de trabalho",
+    cto: "CTO-as-a-Service",
+    ctoDesc: "Liderança técnica sob demanda",
+  },
+
+  founders: {
+    eyebrow: "As pessoas por trás",
+    heading: "Conheça os",
+    headingItalic: "fundadores",
+    connect: "Conectar",
+    roles: [
+      "Fundador e Desenvolvedor Empresarial Estratégico",
+      "Cofundador e CTO",
+    ],
+    bios: [
+      "Mais de 15 anos de liderança em vendas, hospitalidade, desenvolvimento empresarial e estratégia operacional. Andrej é especialista em sistemas de crescimento escalável para B2B, B2G e relações internacionais com clientes.",
+      "O arquiteto técnico por trás do A.D.A.M., Kobe utiliza sua vasta experiência para transformar qualquer ideia em realidade.",
+    ],
+    quotes: [
+      "Meu foco é construir sistemas empresariais que não sejam apenas lucrativos — mas sustentáveis, seguros e projetados para escalar.",
+      "",
+    ],
+    locations: [
+      "Nascido na Áustria",
+      "Nascido na Bélgica",
+    ],
+  },
+
+  caseStudyPages: {
+    nextCaseStudy: "Próximo estudo de caso",
+    problem: "Problema",
+    solution: "Solução",
+    outcome: "Resultado",
+    hospitality: {
+      title: "Sistema operacional hoteleiro",
+      problem: "Um grupo hoteleiro em crescimento com múltiplas propriedades funcionava com ferramentas desconectadas, processos manuais e experiências inconsistentes para os hóspedes. A gestão de receitas, a coordenação de pessoal e a comunicação com os hóspedes estavam fragmentadas entre planilhas e soluções improvisadas.",
+      solution: "Projetamos e implementamos um sistema operacional digital completo — integrando gestão de reservas, programação de pessoal, comunicação com hóspedes e supervisão financeira em uma plataforma estruturada. A estratégia cobriu redesenho operacional, seleção de tecnologia e integração da equipe.",
+      outcome: "Operações unificadas em todas as propriedades. A eficiência do pessoal melhorou, as pontuações de satisfação dos hóspedes aumentaram e o grupo ganhou visibilidade clara das métricas de desempenho — tudo funcionando através de um único sistema.",
+    },
+    healthcare: {
+      title: "Digitalização da saúde",
+      problem: "Uma clínica de fisioterapia enfrentava dificuldades com o caos nos fluxos de trabalho clínicos — agendamento de pacientes, registros de tratamento, faturamento e comunicação eram tratados por sistemas separados e desconectados. A equipe gastava mais tempo com administração do que com o atendimento ao paciente.",
+      solution: "Projetamos um sistema operacional estruturado para a clínica, integrando gestão de pacientes, agendamento de consultas, documentação de tratamentos e faturamento em um fluxo de trabalho digital coeso — com A.D.A.M. Healthcare gerenciando a camada de gestão de documentos e contas.",
+      outcome: "O tempo administrativo foi significativamente reduzido. A produtividade dos pacientes melhorou. A clínica agora opera com um fluxo de trabalho digital claro e estruturado que mantém a equipe clínica focada no atendimento, não na burocracia.",
+    },
+    consulting: {
+      title: "Profissionalização de consultoria",
+      problem: "Uma prática de consultoria entregava valor, mas de forma inconsistente — as propostas eram improvisadas, a gestão de projetos era reativa e a comunicação com os clientes dependia inteiramente das relações pessoais do fundador. O negócio não podia escalar sem mudança estrutural.",
+      solution: "Transformamos a prática de consultoria de uma operação movida por emoções em um serviço profissional estruturado. Isso incluiu modelos de propostas padronizados, fluxos de trabalho de gestão de projetos, processos de integração de clientes e uma estrutura clara de entrega de serviços.",
+      outcome: "A prática agora entrega um serviço profissional consistente, independentemente de qual membro da equipe está liderando. A retenção de clientes melhorou, as taxas de indicação aumentaram e o negócio está posicionado para crescimento escalável.",
+    },
+  },
+
   languages: {
     en: "English",
     es: "Español",
@@ -1472,11 +1951,11 @@ const pt: typeof en = {
 const de: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Ihr strategischer Partner in Unternehmensautomatisierung und Outreach.",
-    subtitle: "Antrieb für A.D.A.M. & E.V.A. — die operativen Automatisierungssysteme für modernes Wachstum.",
+    tagline: "End-to-End-Geschäftsentwicklung und Wachstumsarchitektur.",
+    subtitle: "Wir entwerfen, restrukturieren und bauen Unternehmensarchitektur von der Basis bis zum skalierbaren Wachstum — angetrieben von Strategie, Betrieb und Technologie.",
     description: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Innovationsunternehmen, das Business Intelligence, Automatisierung und strategisches Outreach kombiniert.",
-    descriptionExtra: "Mit Kunden in ganz Europa und Lateinamerika bauen wir praktische Tools, um Unternehmen zu helfen, zu wachsen, zu strukturieren und zu skalieren — intelligent.",
-    descriptionSystems: "Unsere operativen Automatisierungssysteme A.D.A.M. & E.V.A. transformieren, wie Startups, KMUs und öffentliche Institutionen mit Dokumenten, Kunden-Onboarding und Kommunikation arbeiten.",
+    descriptionExtra: "Mit Kunden in ganz Europa und Lateinamerika bauen wir strukturierte Wachstumsumgebungen, in denen Strategie, Betrieb und Technologie in eine Richtung bewegen.",
+    descriptionSystems: "Strategische Dienstleistungen, die Geschäftsentwicklung, operative Architektur und Technologie kombinieren — Startups, KMUs und öffentlichen Institutionen helfen, mit Struktur zu skalieren.",
     quote: "Eine Struktur. Ein Ablauf. Ein System.",
     quoteSubtitle: "Gebaut für Wachstum.",
     location: "London, Großbritannien",
@@ -1485,7 +1964,9 @@ const de: typeof en = {
 
   hero: {
     ctaPrimary: "Erzählen Sie uns von sich",
-    ctaSecondary: "Erfahren Sie, wie A.D.A.M. funktioniert",
+    ctaSecondary: "Erfahren Sie, wie wir arbeiten",
+    emailPlaceholder: "Ihre E-Mail-Adresse",
+    getInContact: "Kontakt aufnehmen",
   },
 
   banner: {
@@ -1500,41 +1981,53 @@ const de: typeof en = {
   },
 
   services: {
-    heading: "Was wir",
-    headingItalic: "liefern.",
-    subtitle: "Umfassende Lösungen in Technologie, Beratung und digitaler Transformation.",
+    heading: "Unsere",
+    headingItalic: "Dienstleistungen",
+    subtitle: "Strategische Dienstleistungen, die Geschäftsentwicklung, operative Architektur und Technologie kombinieren.",
     items: [
-      {
-        title: "Strategische Unternehmensberatung",
-        description: "Fachkundige Anleitung zur Verfeinerung Ihrer Unternehmensstrategien und Optimierung von Abläufen für Wachstum.",
-      },
-      {
-        title: "Automatisierungs- & KI-Lösungen",
-        description: "Implementieren Sie hochmoderne Automatisierung und KI, um Arbeitsabläufe zu optimieren und die Effizienz zu steigern.",
-      },
-      {
-        title: "Markteintritt & Outreach",
-        description: "Erweitern Sie Ihre Reichweite mit strategischen Markteintritts plänen und effektiven Outreach-Kampagnen.",
-      },
-      {
-        title: "Öffentlicher Sektor & Regierungsverträge",
-        description: "Navigieren Sie durch die Komplexität der öffentlichen Beschaffung und sichern Sie wertvolle Verträge.",
-      },
-      {
-        title: "Geistiges Eigentum & Lizenzierung",
-        description: "Schützen und nutzen Sie Ihre geistigen Vermögenswerte durch intelligente Lizenzierungs- und IP-Strategien.",
-      },
-      {
-        title: "Markenentwicklung & digitale Präsenz",
-        description: "Bauen Sie eine starke Markenidentität auf und verstärken Sie Ihre Präsenz auf digitalen Plattformen.",
-      },
+      { title: "End-to-End", description: "Strategische Geschäftsentwicklung und Wachstumsarchitektur" },
+      { title: "B2B", description: "Lead-Generierung, Outreach-Kampagnen und Pipeline-Management" },
+      { title: "B2G", description: "Öffentlicher-Sektor-Strategie, Ausschreibungsberatung und Beschaffung" },
+      { title: "IT Services", description: "Systemarchitektur, Plattformentwicklung und Automatisierung" },
+      { title: "A.D.A.M.", description: "Automatisierter Dokument- und Account-Manager" },
+      { title: "E.V.A.", description: "Wirtschaftliche Virtuelle Beraterin" },
+    ],
+  },
+
+  endToEnd: {
+    heading: "End-to-End",
+    headingItalic: "Entwicklung",
+    description: "Wir entwerfen, restrukturieren und bauen Unternehmensarchitektur von der Basis bis zum skalierbaren Wachstum. Angetrieben von A.D.A.M. Strukturelle Transformation — Strategie, Umsatz, Betrieb, Positionierung und Ausführung in ein System integriert.",
+    bullets: [
+      { title: "Strukturelle Klarheit", description: "Definition von Organisationshierarchie, Rollen und Verantwortlichkeiten über alle Geschäftsebenen." },
+      { title: "Umsatzarchitektur", description: "Gestaltung von Preis-, Monetarisierungs- und Umsatzflusssystemen für nachhaltiges Wachstum." },
+      { title: "Marktpositionierung", description: "Verfeinerung von Marke, Wertversprechen und Wettbewerbsvorteil in Ihrem Zielmarkt." },
+      { title: "Operatives Redesign", description: "Umstrukturierung interner Workflows, Prozesse und Teamkoordination für maximale Effizienz." },
+      { title: "Systemintegration", description: "Verbindung von Tools, Plattformen und Datenflüssen zu einem einheitlichen operativen Ökosystem." },
+      { title: "Expansion und Wachstumskontrolle", description: "Aufbau einer skalierbaren Expansionsstrategie mit langfristiger Positionierung und kontrollierter Umsetzung." },
+    ],
+  },
+
+  lovedBy: {
+    headingBold: "Gebaut auf",
+    headingItalic: "Vertrauen.",
+    headingLine2: "Angetrieben von Ergebnissen.",
+  },
+
+  caseStudies: {
+    heading: "Fall-",
+    headingItalic: "studien",
+    cards: [
+      { shortTitle: "Hotel-Betriebssystem", title: "Wie wir fragmentierte Hotelbetriebe mit unseren Dienstleistungen lösten", description: "Ein komplettes digitales Betriebssystem für eine Hotelgruppe aufgebaut — von der Strategie bis zur Umsetzung.", link: "Mehr erfahren" },
+      { shortTitle: "Digitalisierung im Gesundheitswesen", title: "Wie wir klinisches Workflow-Chaos mit unseren Dienstleistungen lösten", description: "Ein strukturiertes Betriebssystem für eine Physiotherapie-Klinik entworfen, mit A.D.A.M. Healthcare-Integration.", link: "Mehr erfahren" },
+      { shortTitle: "Professionalisierung der Beratung", title: "Wie wir inkonsistente Beratungsleistung mit unseren Dienstleistungen lösten", description: "Eine emotionale Beratungspraxis in einen strukturierten, skalierbaren professionellen Service transformiert.", link: "Mehr erfahren" },
     ],
   },
 
   roadmap: {
     heading: "Wie A.D.A.M.",
     headingItalic: "funktioniert",
-    subtitle: "Vom ersten Kontakt bis zum Projektstart in sechs strukturierten Schritten.",
+    subtitle: "Vom Erstkontakt bis zum Projektstart in sechs strukturierten Schritten.",
     steps: [
       {
         title: "Fragebogen",
@@ -1711,7 +2204,7 @@ const de: typeof en = {
 
   contact: {
     heading: "Senden Sie uns eine Nachricht",
-    subtitle: "Füllen Sie das Formular unten aus und wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    subtitle: "Füllen Sie das Formular unten aus und wir melden uns so schnell wie möglich bei Ihnen.",
     labelName: "Vollständiger Name",
     labelEmail: "E-Mail-Adresse",
     labelCompany: "Firmenname",
@@ -1744,6 +2237,80 @@ const de: typeof en = {
     learnMore: "Mehr erfahren",
     contactUs: "Kontaktieren Sie uns",
     readMore: "Mehr lesen",
+  },
+
+  nav: {
+    about: "Über uns",
+    caseStudies: "Fallstudien",
+    pricing: "Preise",
+    contact: "Kontakt",
+    services: "Dienstleistungen",
+    groupSystems: "Systeme",
+    groupBusiness: "Geschäftsdienstleistungen",
+    groupIT: "IT-Dienstleistungen",
+    adamDesc: "Automatisierter Dokument- & Kontomanager",
+    endToEnd: "End-to-End",
+    endToEndDesc: "Strategische Geschäftsentwicklung und Wachstumsarchitektur",
+    b2bDev: "B2B-Entwicklung",
+    b2bDevDesc: "Lead-Generierung und Outreach-Kampagnen",
+    b2gPublic: "B2G Öffentlicher Sektor",
+    b2gPublicDesc: "Ausschreibungen und öffentliches Beschaffungswesen",
+    sysArch: "Systemarchitektur",
+    sysArchDesc: "Geschäftssystemdesign und -planung",
+    platformDev: "Plattformentwicklung",
+    platformDevDesc: "Portale, Dashboards und maßgeschneiderte Systeme",
+    automation: "Automatisierung & Integrationen",
+    automationDesc: "CRM-, ERP- und Workflow-Automatisierung",
+    cto: "CTO-as-a-Service",
+    ctoDesc: "Technische Führung auf Abruf",
+  },
+
+  founders: {
+    eyebrow: "Die Menschen dahinter",
+    heading: "Lernen Sie die",
+    headingItalic: "Gründer kennen",
+    connect: "Verbinden",
+    roles: [
+      "Gründer & Strategischer Business Developer",
+      "Mitgründer & CTO",
+    ],
+    bios: [
+      "Über 15 Jahre Führungserfahrung in Vertrieb, Gastgewerbe, Geschäftsentwicklung und operativer Strategie. Andrej spezialisiert sich auf skalierbare Wachstumssysteme für B2B, B2G und internationale Kundenbeziehungen.",
+      "Der technische Architekt hinter A.D.A.M., Kobe nutzt seine umfassende Expertise, um jede Idee in die Realität umzusetzen.",
+    ],
+    quotes: [
+      "Mein Fokus liegt darauf, Geschäftssysteme zu bauen, die nicht nur profitabel sind — sondern nachhaltig, sicher und für Skalierung konzipiert.",
+      "",
+    ],
+    locations: [
+      "Geboren in Österreich",
+      "Geboren in Belgien",
+    ],
+  },
+
+  caseStudyPages: {
+    nextCaseStudy: "Nächste Fallstudie",
+    problem: "Problem",
+    solution: "Lösung",
+    outcome: "Ergebnis",
+    hospitality: {
+      title: "Hotel-Betriebssystem",
+      problem: "Eine wachsende Hotelgruppe mit mehreren Häusern arbeitete mit unverbundenen Tools, manuellen Prozessen und inkonsistenten Gästeerlebnissen. Umsatzmanagement, Personalkoordination und Gästekommunikation waren über Tabellen und Ad-hoc-Lösungen verstreut.",
+      solution: "Wir haben ein vollständiges digitales Betriebssystem entworfen und implementiert — mit Integration von Reservierungsmanagement, Personalplanung, Gästekommunikation und Finanzaufsicht in einer strukturierten Plattform. Die Strategie umfasste operative Neugestaltung, Technologieauswahl und Teameinarbeitung.",
+      outcome: "Einheitliche Abläufe über alle Standorte hinweg. Die Personaleffizienz verbesserte sich, die Gästezufriedenheitswerte stiegen und die Gruppe gewann klare Einsicht in Leistungskennzahlen — alles über ein System.",
+    },
+    healthcare: {
+      title: "Digitalisierung Gesundheitswesen",
+      problem: "Eine Physiotherapiepraxis kämpfte mit Chaos in klinischen Arbeitsabläufen — Patientenplanung, Behandlungsdokumentation, Abrechnung und Kommunikation liefen über separate, unverbundene Systeme. Das Personal verbrachte mehr Zeit mit Verwaltung als mit Patientenversorgung.",
+      solution: "Wir entwarfen ein strukturiertes Betriebssystem für die Klinik, das Patientenmanagement, Terminplanung, Behandlungsdokumentation und Abrechnung in einem zusammenhängenden digitalen Workflow integriert — mit A.D.A.M. Healthcare für die Dokument- und Kontoverwaltung.",
+      outcome: "Die Verwaltungszeit wurde erheblich reduziert. Der Patientendurchsatz verbesserte sich. Die Klinik arbeitet nun mit einem klaren, strukturierten digitalen Workflow, der das klinische Personal auf die Versorgung fokussiert, nicht auf Papierkram.",
+    },
+    consulting: {
+      title: "Professionalisierung Beratung",
+      problem: "Eine Beratungspraxis lieferte Mehrwert, aber inkonsistent — Angebote waren improvisiert, Projektmanagement war reaktiv und die Kundenkommunikation hing ausschließlich von den persönlichen Beziehungen des Gründers ab. Das Unternehmen konnte ohne strukturelle Änderung nicht skalieren.",
+      solution: "Wir transformierten die Beratungspraxis von einem emotional gesteuerten Betrieb in einen strukturierten, professionellen Service. Dies umfasste standardisierte Angebotsvorlagen, Projektmanagement-Workflows, Kundenonboarding-Prozesse und ein klares Leistungserbringungsrahmenwerk.",
+      outcome: "Die Praxis liefert nun konsistente, professionelle Dienstleistungen unabhängig davon, welches Teammitglied die Leitung hat. Die Kundenbindung verbesserte sich, Empfehlungsraten stiegen und das Unternehmen ist für skalierbares Wachstum positioniert.",
+    },
   },
 
   languages: {

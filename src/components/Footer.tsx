@@ -1,6 +1,6 @@
 "use client";
 
-import { COMPANY, FOOTER_LINKS } from "@/lib/data";
+import { COMPANY } from "@/lib/data";
 import CompanyLogo from "./CompanyLogo";
 import { useCurrency } from "@/context/CurrencyContext";
 import { useLanguage } from "@/context/LanguageContext";
@@ -11,6 +11,15 @@ import type { Locale } from "@/lib/translations";
 export default function Footer() {
   const { currency, setCurrency } = useCurrency();
   const { locale, setLocale, t } = useLanguage();
+
+  const footerLinks = [
+    { label: t.footer.linkHome, href: "#hero" },
+    { label: t.footer.linkSystems, href: "#systems" },
+    { label: t.footer.linkPricing, href: "#pricing" },
+    { label: t.footer.linkContact, href: "#contact" },
+    { label: t.footer.linkPrivacy, href: "/privacy-policy" },
+    { label: t.footer.linkClientPortal, href: "https://adameva.app" },
+  ];
 
   return (
     <footer className="border-t border-grid-300 py-12 px-8">
@@ -25,11 +34,10 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center gap-6 flex-wrap justify-center">
-          {FOOTER_LINKS.map((link) => (
+          {footerLinks.map((link) => (
             <a
-              key={link.label}
+              key={link.href}
               href={link.href}
-
               className="text-[13px] text-muted-2 hover:text-muted transition-colors"
             >
               {link.label}
