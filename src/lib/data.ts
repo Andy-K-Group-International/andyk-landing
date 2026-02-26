@@ -1,13 +1,13 @@
 export const COMPANY = {
   name: "Andy'K Group International LTD",
-  tagline: "Your strategic partner in end-to-end business automation & outreach.",
-  subtitle: "End-to-end solution for your business, powered by A.D.A.M. & E.V.A. — the framework for modern growth.",
+  tagline: "End-to-end business development & growth architecture.",
+  subtitle: "We design, restructure, and architect businesses from foundation to scalable growth — powered by strategy, operations, and technology.",
   description:
     "Andy'K Group International LTD is a UK-based innovation company, combining business intelligence, automation, and strategic outreach.",
   descriptionExtra:
-    "With clients across Europe and Latin America, we build practical tools to help companies grow, structure, and scale — intelligently.",
+    "With clients across Europe and Latin America, we build structured growth environments where strategy, operations, and technology move in one direction.",
   descriptionSystems:
-    "Our operational automation systems A.D.A.M. & E.V.A. are transforming how startups, SMEs, and public institutions work with documents, client onboarding, and communication.",
+    "Strategic services combining business development, operational architecture, and technology — helping startups, SMEs, and public institutions scale with structure.",
   companyNumber: "16453500",
   address: "86–90 Paul Street, London, EC2A 4NE, United Kingdom",
   phone: "+44 330 027 1319",
@@ -347,6 +347,7 @@ export const BILLING_TERMS = {
 
 export const NAV_LINKS = [
   { label: "About", href: "#about" },
+  { label: "Case Studies", href: "#case-studies" },
   { label: "Pricing", href: "#pricing" },
   { label: "Contact", href: "#contact" },
 ];
@@ -355,25 +356,43 @@ export const NAV_SERVICES = [
   {
     group: "Systems",
     items: [
-      { label: "A.D.A.M.", description: "Automated Document & Account Manager", href: "#systems" },
-      { label: "E.V.A.", description: "Economic Virtual Adviser", href: "#systems" },
+      { label: "A.D.A.M.", description: "Automated Document & Account Manager", href: "https://adameva.app" },
     ],
   },
   {
     group: "Business Services",
     items: [
-      { label: "B2B Development", description: "Lead generation & outreach campaigns", href: "#pricing" },
-      { label: "B2G Public Sector", description: "Government tenders & procurement", href: "#pricing" },
+      { label: "End-to-End", description: "Strategic business development & growth architecture", href: "#end-to-end" },
+      { label: "B2B Development", description: "Lead generation & outreach campaigns", href: "#pricing-b2b" },
+      { label: "B2G Public Sector", description: "Government tenders & procurement", href: "#pricing-b2g" },
     ],
   },
   {
     group: "IT Services",
     items: [
-      { label: "System Architecture", description: "Business system design & planning", href: "#pricing" },
-      { label: "Platform Development", description: "Portals, dashboards & custom systems", href: "#pricing" },
-      { label: "Automation & Integrations", description: "CRM, ERP & workflow automation", href: "#pricing" },
-      { label: "CTO-as-a-Service", description: "Technical leadership on demand", href: "#pricing" },
+      { label: "System Architecture", description: "Business system design & planning", href: "#pricing-tech" },
+      { label: "Platform Development", description: "Portals, dashboards & custom systems", href: "#pricing-tech" },
+      { label: "Automation & Integrations", description: "CRM, ERP & workflow automation", href: "#pricing-tech" },
+      { label: "CTO-as-a-Service", description: "Technical leadership on demand", href: "#pricing-tech" },
     ],
+  },
+];
+
+export const CASE_STUDIES = [
+  {
+    slug: "hospitality",
+    titleKey: "hospitality",
+    link: "/case-studies/hospitality",
+  },
+  {
+    slug: "healthcare",
+    titleKey: "healthcare",
+    link: "/case-studies/healthcare",
+  },
+  {
+    slug: "consulting",
+    titleKey: "consulting",
+    link: "/case-studies/consulting",
   },
 ];
 
