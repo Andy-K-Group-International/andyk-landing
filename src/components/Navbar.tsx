@@ -67,7 +67,7 @@ export default function Navbar() {
       group: t.nav.groupSystems,
       isIT: false,
       items: [
-        { label: "A.D.A.M.", description: t.nav.adamDesc, href: "https://adameva.app" },
+        { label: "A.D.A.M.", description: t.nav.adamDesc, href: "#systems" },
       ],
     },
     {
