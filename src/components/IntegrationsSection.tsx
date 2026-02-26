@@ -1,15 +1,16 @@
 "use client";
 
+import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 
-const SERVICE_CARDS = [
+const SERVICE_CARDS: { href: string | null; accent: string }[] = [
   { href: null, accent: "rgba(201,112,125,0.12)" },
   { href: null, accent: "rgba(49,38,59,0.08)" },
   { href: null, accent: "rgba(49,38,59,0.08)" },
   { href: null, accent: "rgba(49,38,59,0.08)" },
   { href: null, accent: "rgba(245,192,192,0.15)" },
   { href: null, accent: "rgba(245,192,192,0.10)" },
-] as const;
+];
 
 const SERVICE_ICONS = [
   // Layers — End-to-End
