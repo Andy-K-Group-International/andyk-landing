@@ -1,21 +1,20 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Hero() {
   const { t } = useLanguage();
+  const router = useRouter();
   const [email, setEmail] = useState("");
 
-  function handleSubmit(e: React.FormEvent) {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const contactForm = document.getElementById("contact-email") as HTMLInputElement | null;
-    if (contactForm && email) {
-      contactForm.value = email;
-      contactForm.dispatchEvent(new Event("input", { bubbles: true }));
-    }
-    document.getElementById("contact-email")?.closest("section")?.scrollIntoView({ behavior: "smooth" });
-  }
+    if (!email) return;
+    localStorage.setItem("andyk_email", email);
+    router.push(`/questionnaire?email=${encodeURIComponent(email)}`);
+  };
 
   return (
     <section id="hero" className="text-center py-20 px-8 max-w-[900px] mx-auto">
@@ -33,20 +32,21 @@ export default function Hero() {
         <br />
         {t.company.subtitleLine2}
       </p>
-      <form onSubmit={handleSubmit} className="flex justify-center gap-3 flex-wrap max-w-[480px] mx-auto">
+      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-[480px] mx-auto">
         <input
           type="email"
-          autoComplete="email"
+          required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder={t.hero.emailPlaceholder}
-          className="flex-1 min-w-[200px] h-12 px-4 text-sm border border-grid-500 bg-white text-foreground placeholder:text-muted-2 focus:outline-none focus:ring-2 focus:ring-highlight/30 focus:border-highlight transition-colors"
+          placeholder="you@company.com"
+          autoComplete="email"
+          className="w-full sm:flex-1 h-12 px-4 text-sm rounded-lg border border-[rgba(255,255,255,0.08)] bg-[rgba(255,255,255,0.03)] text-foreground placeholder:text-[rgba(255,255,255,0.3)] focus:outline-none focus:border-highlight focus:ring-1 focus:ring-highlight/30 transition-colors"
         />
         <button
           type="submit"
-          className="relative inline-flex items-center justify-center h-12 px-5 text-sm font-medium text-foreground btn-primary-gradient cursor-pointer"
+          className="relative inline-flex items-center justify-center h-12 px-6 text-sm font-medium text-foreground btn-primary-gradient w-full sm:w-auto shrink-0"
         >
-          <span className="relative z-10">{t.hero.getInContact}</span>
+          <span className="relative z-10">{t.hero.ctaPrimary}</span>
         </button>
       </form>
     </section>
