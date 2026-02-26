@@ -3,6 +3,7 @@ import { IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import { CurrencyProvider } from "@/context/CurrencyContext";
 import { LanguageProvider } from "@/context/LanguageContext";
 import CookieBanner from "@/components/CookieBanner";
+import LocaleUrlSync from "@/components/LocaleUrlSync";
 import "./globals.css";
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -93,6 +94,7 @@ export default function RootLayout({
       >
         <LanguageProvider>
           <CurrencyProvider>
+            <LocaleUrlSync />
             {children}
             <CookieBanner />
           </CurrencyProvider>

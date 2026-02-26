@@ -2,10 +2,23 @@
 
 import { createContext, useContext, useState, useEffect, useCallback } from "react";
 import type { CurrencyCode, ExchangeRates } from "@/lib/currency";
-import { fetchRates, convertPrice, formatPrice } from "@/lib/currency";
+import { CURRENCIES, fetchRates, convertPrice, formatPrice } from "@/lib/currency";
 
 const COOKIE_KEY = "andy-k-currency";
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 365; // 1 year
+
+const VALID_CODES = new Set(CURRENCIES.map((c) => c.code));
+
+/** Map browser locale regions to likely currencies */
+const REGION_CURRENCY_MAP: Record<string, CurrencyCode> = {
+  GB: "GBP", UK: "GBP",
+  US: "USD",
+  BR: "BRL",
+  PY: "PYG",
+  // EU / DACH / Benelux / other EUR countries
+  DE: "EUR", AT: "EUR", NL: "EUR", BE: "EUR", ES: "EUR", PT: "EUR",
+  FR: "EUR", IT: "EUR", IE: "EUR", SK: "EUR", FI: "EUR", LU: "EUR",
+};
 
 function getCookie(name: string): string | null {
   const match = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
@@ -14,6 +27,22 @@ function getCookie(name: string): string | null {
 
 function setCookie(name: string, value: string) {
   document.cookie = `${name}=${encodeURIComponent(value)};path=/;max-age=${COOKIE_MAX_AGE};SameSite=Lax`;
+}
+
+/** Detect currency from browser language/locale */
+function detectBrowserCurrency(): CurrencyCode | null {
+  if (typeof navigator === "undefined") return null;
+  const languages = navigator.languages ?? [navigator.language];
+  for (const lang of languages) {
+    const parts = lang.split("-");
+    if (parts.length >= 2) {
+      const region = parts[parts.length - 1].toUpperCase();
+      if (REGION_CURRENCY_MAP[region]) {
+        return REGION_CURRENCY_MAP[region];
+      }
+    }
+  }
+  return null;
 }
 
 interface CurrencyContextValue {
@@ -34,10 +63,17 @@ export function CurrencyProvider({ children }: { children: React.ReactNode }) {
   const [currency, setCurrencyState] = useState<CurrencyCode>("EUR");
   const [rates, setRates] = useState<ExchangeRates | null>(null);
 
-  // Load from cookie on mount
+  // Load from cookie on mount, falling back to browser locale detection
   useEffect(() => {
     const saved = getCookie(COOKIE_KEY) as CurrencyCode | null;
-    if (saved) setCurrencyState(saved);
+    if (saved && VALID_CODES.has(saved)) {
+      setCurrencyState(saved);
+    } else {
+      const detected = detectBrowserCurrency();
+      if (detected) {
+        setCurrencyState(detected);
+      }
+    }
   }, []);
 
   // Persist to cookie on change
