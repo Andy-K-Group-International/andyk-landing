@@ -1,3 +1,4 @@
+// @sync: shared with /root/adam/src/lib/questionnaire-schema.ts
 export type QuestionType =
   | "text"
   | "url"

@@ -1,3 +1,4 @@
+// @sync: shared with /root/adam/src/lib/supabase/admin.ts
 import { createClient } from "@supabase/supabase-js";
 
 export function createAdminClient() {
