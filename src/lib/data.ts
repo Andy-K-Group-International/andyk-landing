@@ -1,7 +1,7 @@
 export const COMPANY = {
   name: "Andy'K Group International LTD",
-  tagline: "Your strategic partner in business automation & outreach.",
-  subtitle: "Powering A.D.A.M. & E.V.A. — the operational automation systems for modern growth.",
+  tagline: "Your strategic partner in end-to-end business automation & outreach.",
+  subtitle: "End-to-end solution for your business, powered by A.D.A.M. & E.V.A. — the framework for modern growth.",
   description:
     "Andy'K Group International LTD is a UK-based innovation company, combining business intelligence, automation, and strategic outreach.",
   descriptionExtra:
@@ -175,8 +175,8 @@ export const ADAM_ROADMAP = [
 export const PRICING_B2B = [
   {
     name: "CORE",
-    basePrice: 950,
-    baseCurrency: "EUR" as const,
+    basePrice: 1025,
+    baseCurrency: "GBP" as const,
     period: "/ month",
     features: [
       "40 qualified leads per month",
@@ -188,8 +188,8 @@ export const PRICING_B2B = [
   },
   {
     name: "ADVANCE",
-    basePrice: 1350,
-    baseCurrency: "EUR" as const,
+    basePrice: 1445,
+    baseCurrency: "GBP" as const,
     period: "/ month",
     highlighted: true,
     features: [
@@ -202,8 +202,8 @@ export const PRICING_B2B = [
   },
   {
     name: "VANGUARD",
-    basePrice: 1750,
-    baseCurrency: "EUR" as const,
+    basePrice: 1850,
+    baseCurrency: "GBP" as const,
     period: "/ month",
     features: [
       "80 qualified leads per month",
@@ -215,8 +215,8 @@ export const PRICING_B2B = [
   },
   {
     name: "PRESTIGE",
-    basePrice: 2400,
-    baseCurrency: "EUR" as const,
+    basePrice: 2450,
+    baseCurrency: "GBP" as const,
     period: "/ month",
     prefix: "from",
     features: [
@@ -232,7 +232,7 @@ export const PRICING_B2B = [
 export const PRICING_B2G = [
   {
     name: "GovStarter",
-    basePrice: 650,
+    basePrice: 800,
     baseCurrency: "GBP" as const,
     period: "/ month",
     features: [
@@ -244,7 +244,7 @@ export const PRICING_B2G = [
   },
   {
     name: "GovExpand",
-    basePrice: 1050,
+    basePrice: 1300,
     baseCurrency: "GBP" as const,
     period: "/ month",
     highlighted: true,
@@ -257,7 +257,7 @@ export const PRICING_B2G = [
   },
   {
     name: "GovElite",
-    basePrice: 1650,
+    basePrice: 2175,
     baseCurrency: "GBP" as const,
     period: "/ month",
     features: [
