@@ -52,7 +52,7 @@ export default function TermsAndConditionsPage() {
               <p><strong className="text-foreground">Company number:</strong> 16453500</p>
               <p><strong className="text-foreground">Registered office:</strong> 86&ndash;90 Paul Street, London, EC2A 4NE, United Kingdom</p>
               <p><strong className="text-foreground">Email:</strong> info@andykgroupinternational.com</p>
-              <p><strong className="text-foreground">Website:</strong> www.andykgroupinternational.com</p>
+              <p><strong className="text-foreground">Website:</strong> andykgroupinternational.com</p>
             </div>
           </section>
 

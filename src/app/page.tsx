@@ -1,13 +1,13 @@
 import TopBanner from "@/components/TopBanner";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import LogoBar from "@/components/LogoBar";
 import TronDivider from "@/components/TronDivider";
+import FaqSection from "@/components/FaqSection";
 import RoadmapSection from "@/components/RoadmapSection";
 import TestimonialPair from "@/components/TestimonialPair";
 import PricingSection from "@/components/PricingSection";
+import CaseStudyCards from "@/components/CaseStudyCards";
 import LovedBySection from "@/components/LovedBySection";
-import FaqSection from "@/components/FaqSection";
 import IntegrationsSection from "@/components/IntegrationsSection";
 import ContactForm from "@/components/ContactForm";
 import CtaSection from "@/components/CtaSection";
@@ -27,7 +27,7 @@ const jsonLd = {
         url: "https://andykgroupinternational.com/full-logo.png",
       },
       description:
-        "UK-based innovation company combining business intelligence, automation, and strategic outreach. Powering A.D.A.M. & E.V.A. operational automation systems.",
+        "UK-based strategic services company combining business development, operational architecture, and technology to help businesses scale with structure.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "86-90 Paul Street",
@@ -52,7 +52,7 @@ const jsonLd = {
       "@type": "WebPage",
       "@id": "https://andykgroupinternational.com/#webpage",
       url: "https://andykgroupinternational.com",
-      name: "Andy'K Group International LTD | B2B & B2G Business Automation",
+      name: "Andy'K Group International LTD | End-to-End Business Development & Growth Architecture",
       isPartOf: {
         "@id": "https://andykgroupinternational.com/#website",
       },
@@ -60,14 +60,14 @@ const jsonLd = {
         "@id": "https://andykgroupinternational.com/#organization",
       },
       description:
-        "Strategic partner in business automation & outreach. Powering the A.D.A.M. & E.V.A. systems for B2B lead generation, document automation, and government tender strategy.",
+        "Strategic partner in end-to-end business development and growth architecture. Combining strategy, operations, and technology to help businesses scale.",
     },
   ],
 };
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
+    <main className="overflow-x-hidden pt-[60px]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -81,7 +81,11 @@ export default function Home() {
         <Hero />
       </div>
 
-      <LogoBar />
+      <TronDivider />
+
+      {/* End-to-End Service Section */}
+      <FaqSection />
+
       <TronDivider />
 
       {/* A.D.A.M. Roadmap Section */}
@@ -99,10 +103,12 @@ export default function Home() {
       {/* Pricing Plans */}
       <PricingSection />
 
+      {/* Case Studies */}
+      <CaseStudyCards />
+
       <TronDivider />
 
       <LovedBySection />
-      <FaqSection />
       <IntegrationsSection />
       <ContactForm />
       <CtaSection />
