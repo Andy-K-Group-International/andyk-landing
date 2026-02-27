@@ -86,6 +86,9 @@ export default function Home() {
       {/* End-to-End Service Section */}
       <FaqSection />
 
+      {/* Case Studies */}
+      <CaseStudyCards />
+
       <TronDivider />
 
       {/* A.D.A.M. Roadmap Section */}
@@ -102,9 +105,6 @@ export default function Home() {
 
       {/* Pricing Plans */}
       <PricingSection />
-
-      {/* Case Studies */}
-      <CaseStudyCards />
 
       <TronDivider />
 
