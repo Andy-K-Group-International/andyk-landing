@@ -103,13 +103,15 @@ export default function Home() {
 
       <TronDivider />
 
+      {/* Our Services */}
+      <IntegrationsSection />
+
       {/* Pricing Plans */}
       <PricingSection />
 
       <TronDivider />
 
       <LovedBySection />
-      <IntegrationsSection />
       <ContactForm />
       <CtaSection />
       <Footer />
