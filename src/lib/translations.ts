@@ -387,7 +387,7 @@ const en = {
       "Co-Founder & CTO",
     ],
     bios: [
-      "15+ years of leadership in sales, hospitality, business development, and operational strategy. Andrej specializes in scalable growth systems for B2B, B2G, and international client relations.",
+      "Fifteen+ years of leadership in sales, hospitality, business development, and operational strategy. Andrej specializes in scalable growth systems for B2B, B2G, and international client relations.",
       "The technical architect behind A.D.A.M., Kobe leverages his extensive expertise to transform any idea into reality.",
     ],
     quotes: [
@@ -781,7 +781,7 @@ const es: typeof en = {
       "Cofundador y CTO",
     ],
     bios: [
-      "Más de 15 años de liderazgo en ventas, hostelería, desarrollo empresarial y estrategia operativa. Andrej se especializa en sistemas de crecimiento escalable para B2B, B2G y relaciones internacionales con clientes.",
+      "Más de quince años de liderazgo en ventas, hostelería, desarrollo empresarial y estrategia operativa. Andrej se especializa en sistemas de crecimiento escalable para B2B, B2G y relaciones internacionales con clientes.",
       "El arquitecto técnico detrás de A.D.A.M., Kobe aprovecha su amplia experiencia para transformar cualquier idea en realidad.",
     ],
     quotes: [
@@ -1165,7 +1165,7 @@ const sk: typeof en = {
       "Spoluzakladateľ a CTO",
     ],
     bios: [
-      "Viac ako 15 rokov skúseností v predaji, pohostinstve, rozvoji podnikania a operačnej stratégii. Andrej sa špecializuje na škálovateľné rastové systémy pre B2B, B2G a medzinárodné vzťahy s klientmi.",
+      "Viac ako pätnásť rokov skúseností v predaji, pohostinstve, rozvoji podnikania a operačnej stratégii. Andrej sa špecializuje na škálovateľné rastové systémy pre B2B, B2G a medzinárodné vzťahy s klientmi.",
       "Technický architekt za A.D.A.M., Kobe využíva svoje rozsiahle odborné znalosti na premenu akejkoľvek myšlienky na realitu.",
     ],
     quotes: [
@@ -1549,7 +1549,7 @@ const nl: typeof en = {
       "Medeoprichter & CTO",
     ],
     bios: [
-      "Meer dan 15 jaar ervaring in sales, horeca, bedrijfsontwikkeling en operationele strategie. Andrej is gespecialiseerd in schaalbare groeisystemen voor B2B, B2G en internationale klantrelaties.",
+      "Meer dan vijftien jaar ervaring in sales, horeca, bedrijfsontwikkeling en operationele strategie. Andrej is gespecialiseerd in schaalbare groeisystemen voor B2B, B2G en internationale klantrelaties.",
       "De technische architect achter A.D.A.M., Kobe zet zijn uitgebreide expertise in om elk idee werkelijkheid te maken.",
     ],
     quotes: [
@@ -1933,7 +1933,7 @@ const pt: typeof en = {
       "Cofundador e CTO",
     ],
     bios: [
-      "Mais de 15 anos de liderança em vendas, hospitalidade, desenvolvimento empresarial e estratégia operacional. Andrej é especialista em sistemas de crescimento escalável para B2B, B2G e relações internacionais com clientes.",
+      "Mais de quinze anos de liderança em vendas, hospitalidade, desenvolvimento empresarial e estratégia operacional. Andrej é especialista em sistemas de crescimento escalável para B2B, B2G e relações internacionais com clientes.",
       "O arquiteto técnico por trás do A.D.A.M., Kobe utiliza sua vasta experiência para transformar qualquer ideia em realidade.",
     ],
     quotes: [
@@ -2317,7 +2317,7 @@ const de: typeof en = {
       "Mitgründer & CTO",
     ],
     bios: [
-      "Über 15 Jahre Führungserfahrung in Vertrieb, Gastgewerbe, Geschäftsentwicklung und operativer Strategie. Andrej spezialisiert sich auf skalierbare Wachstumssysteme für B2B, B2G und internationale Kundenbeziehungen.",
+      "Über fünfzehn Jahre Führungserfahrung in Vertrieb, Gastgewerbe, Geschäftsentwicklung und operativer Strategie. Andrej spezialisiert sich auf skalierbare Wachstumssysteme für B2B, B2G und internationale Kundenbeziehungen.",
       "Der technische Architekt hinter A.D.A.M., Kobe nutzt seine umfassende Expertise, um jede Idee in die Realität umzusetzen.",
     ],
     quotes: [
