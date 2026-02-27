@@ -96,15 +96,15 @@ export default function Home() {
 
       <TronDivider />
 
+      {/* Our Services */}
+      <IntegrationsSection />
+
+      <TronDivider />
+
       {/* Founders */}
       <section className="relative pt-12 pb-14 px-8 max-w-[1200px] mx-auto">
         <TestimonialPair />
       </section>
-
-      <TronDivider />
-
-      {/* Our Services */}
-      <IntegrationsSection />
 
       {/* Pricing Plans */}
       <PricingSection />

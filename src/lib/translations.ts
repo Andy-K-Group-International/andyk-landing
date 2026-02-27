@@ -79,7 +79,7 @@ const en = {
   // End-to-End section
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Development",
+    headingItalic: "Business Development",
     description: "We design, restructure, and architect businesses from foundation to scalable growth. Powered using A.D.A.M. Structural transformation — aligning strategy, revenue, operations, positioning, and execution into one system.",
     bullets: [
       { title: "Structural clarity", description: "Defining organizational hierarchy, roles, and accountability across every business layer." },
@@ -493,7 +493,7 @@ const es: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Desarrollo",
+    headingItalic: "Desarrollo Empresarial",
     description: "Diseñamos, reestructuramos y arquitectamos negocios desde los cimientos hasta el crecimiento escalable. Impulsado por A.D.A.M. Transformación estructural — alineando estrategia, ingresos, operaciones, posicionamiento y ejecución en un solo sistema.",
     bullets: [
       { title: "Claridad estructural", description: "Definición de jerarquía organizativa, roles y responsabilidad en cada capa del negocio." },
@@ -877,7 +877,7 @@ const sk: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Rozvoj",
+    headingItalic: "Obchodný Rozvoj",
     description: "Navrhujeme, reštrukturalizujeme a budujeme podnikateľskú architektúru od základov po škálovateľný rast. Poháňané systémom A.D.A.M. Štrukturálna transformácia — zosúladenie stratégie, príjmov, prevádzky, pozicionovania a realizácie do jedného systému.",
     bullets: [
       { title: "Štrukturálna jasnosť", description: "Definovanie organizačnej hierarchie, rolí a zodpovednosti naprieč každou vrstvou podnikania." },
@@ -1261,7 +1261,7 @@ const nl: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Ontwikkeling",
+    headingItalic: "Bedrijfsontwikkeling",
     description: "Wij ontwerpen, herstructureren en bouwen bedrijfsarchitectuur van basis tot schaalbare groei. Aangedreven door A.D.A.M. Structurele transformatie — strategie, omzet, operaties, positionering en uitvoering in één systeem.",
     bullets: [
       { title: "Structurele helderheid", description: "Organisatiehiërarchie, rollen en verantwoordelijkheden definiëren binnen elke bedrijfslaag." },
@@ -1645,7 +1645,7 @@ const pt: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Desenvolvimento",
+    headingItalic: "Desenvolvimento Empresarial",
     description: "Projetamos, reestruturamos e arquitetamos negócios da base ao crescimento escalável. Impulsionado pelo A.D.A.M. Transformação estrutural — alinhando estratégia, receita, operações, posicionamento e execução num único sistema.",
     bullets: [
       { title: "Clareza estrutural", description: "Definição de hierarquia organizacional, funções e responsabilidades em cada camada do negócio." },
@@ -2029,7 +2029,7 @@ const de: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Entwicklung",
+    headingItalic: "Geschäftsentwicklung",
     description: "Wir entwerfen, restrukturieren und bauen Unternehmensarchitektur von der Basis bis zum skalierbaren Wachstum. Angetrieben von A.D.A.M. Strukturelle Transformation — Strategie, Umsatz, Betrieb, Positionierung und Ausführung in ein System integriert.",
     bullets: [
       { title: "Strukturelle Klarheit", description: "Definition von Organisationshierarchie, Rollen und Verantwortlichkeiten über alle Geschäftsebenen." },
