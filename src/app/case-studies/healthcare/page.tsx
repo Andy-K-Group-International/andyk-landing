@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import CaseStudyPage from "@/components/CaseStudyPage";
+import HealthcareCaseStudy from "@/components/HealthcareCaseStudy";
 
 export const metadata: Metadata = {
   description:
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function HealthcareCaseStudyPage() {
-  return <CaseStudyPage slug="healthcare" />;
+  return <HealthcareCaseStudy />;
 }
