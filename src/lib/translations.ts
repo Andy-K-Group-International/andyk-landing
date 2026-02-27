@@ -19,8 +19,9 @@ const en = {
   // Company information
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "End-to-end business development & growth architecture.",
-    subtitle: "We design, restructure, and architect businesses from foundation to scalable growth — powered by strategy, operations, and technology.",
+    tagline: "End-to-End Business Development & Growth Architecture",
+    subtitle: "Integrated B2B, B2G & IT Services",
+    subtitleLine2: "Powered by A.D.A.M. — Guided by E.V.A.",
     description: "Andy'K Group International LTD is a UK-based innovation company, combining business intelligence, automation, and strategic outreach.",
     descriptionExtra: "With clients across Europe and Latin America, we build structured growth environments where strategy, operations, and technology move in one direction.",
     descriptionSystems: "Strategic services combining business development, operational architecture, and technology — helping startups, SMEs, and public institutions scale with structure.",
@@ -447,8 +448,9 @@ const en = {
 const es: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Desarrollo empresarial integral y arquitectura de crecimiento.",
-    subtitle: "Diseñamos, reestructuramos y arquitectamos negocios desde los cimientos hasta el crecimiento escalable — impulsados por estrategia, operaciones y tecnología.",
+    tagline: "Desarrollo Empresarial Integral y Arquitectura de Crecimiento",
+    subtitle: "Servicios Integrados B2B, B2G y TI",
+    subtitleLine2: "Impulsado por A.D.A.M. — Guiado por E.V.A.",
     description: "Andy'K Group International LTD es una empresa de innovación con sede en el Reino Unido que combina inteligencia empresarial, automatización y divulgación estratégica.",
     descriptionExtra: "Con clientes en toda Europa y América Latina, construimos entornos de crecimiento estructurados donde la estrategia, las operaciones y la tecnología avanzan en una sola dirección.",
     descriptionSystems: "Servicios estratégicos que combinan desarrollo empresarial, arquitectura operativa y tecnología — ayudando a startups, PYMEs e instituciones públicas a escalar con estructura.",
@@ -823,8 +825,9 @@ const es: typeof en = {
 const sk: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Komplexný rozvoj podnikania a architektúra rastu.",
-    subtitle: "Navrhujeme, reštrukturalizujeme a budujeme podnikateľskú architektúru od základov po škálovateľný rast — poháňaný stratégiou, prevádzkou a technológiou.",
+    tagline: "Komplexný Rozvoj Podnikania a Architektúra Rastu",
+    subtitle: "Integrované Služby B2B, B2G a IT",
+    subtitleLine2: "Poháňané systémom A.D.A.M. — Vedené systémom E.V.A.",
     description: "Andy'K Group International LTD je inovačná spoločnosť so sídlom vo Veľkej Británii, ktorá kombinuje obchodnú inteligenciu, automatizáciu a strategické oslovovanie.",
     descriptionExtra: "S klientmi po celej Európe a Latinskej Amerike budujeme štruktúrované prostredia rastu, kde stratégia, prevádzka a technológia smerujú jedným smerom.",
     descriptionSystems: "Strategické služby kombinujúce obchodný rozvoj, prevádzkovú architektúru a technológiu — pomáhajúce startupom, malým a stredným podnikom a verejným inštitúciám škálovať so štruktúrou.",
@@ -1199,8 +1202,9 @@ const sk: typeof en = {
 const nl: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "End-to-end bedrijfsontwikkeling en groeiarchitectuur.",
-    subtitle: "Wij ontwerpen, herstructureren en bouwen bedrijfsarchitectuur van basis tot schaalbare groei — aangedreven door strategie, operaties en technologie.",
+    tagline: "End-to-End Bedrijfsontwikkeling & Groeiarchitectuur",
+    subtitle: "Geïntegreerde B2B, B2G & IT-Diensten",
+    subtitleLine2: "Aangedreven door A.D.A.M. — Geleid door E.V.A.",
     description: "Andy'K Group International LTD is een in het VK gevestigd innovatiebedrijf dat business intelligence, automatisering en strategische outreach combineert.",
     descriptionExtra: "Met klanten in heel Europa en Latijns-Amerika bouwen we gestructureerde groeiomgevingen waar strategie, operaties en technologie in één richting bewegen.",
     descriptionSystems: "Strategische diensten die bedrijfsontwikkeling, operationele architectuur en technologie combineren — startups, MKB-bedrijven en publieke instellingen helpen schalen met structuur.",
@@ -1575,8 +1579,9 @@ const nl: typeof en = {
 const pt: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Desenvolvimento empresarial completo e arquitetura de crescimento.",
-    subtitle: "Projetamos, reestruturamos e arquitetamos negócios da base ao crescimento escalável — impulsionados por estratégia, operações e tecnologia.",
+    tagline: "Desenvolvimento Empresarial Completo e Arquitetura de Crescimento",
+    subtitle: "Serviços Integrados B2B, B2G e TI",
+    subtitleLine2: "Impulsionado pelo A.D.A.M. — Guiado pela E.V.A.",
     description: "Andy'K Group International LTD é uma empresa de inovação sediada no Reino Unido, combinando inteligência empresarial, automatização e divulgação estratégica.",
     descriptionExtra: "Com clientes em toda a Europa e América Latina, construímos ambientes de crescimento estruturados onde estratégia, operações e tecnologia avançam numa só direção.",
     descriptionSystems: "Serviços estratégicos que combinam desenvolvimento empresarial, arquitetura operacional e tecnologia — ajudando startups, PMEs e instituições públicas a escalar com estrutura.",
@@ -1951,8 +1956,9 @@ const pt: typeof en = {
 const de: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "End-to-End-Geschäftsentwicklung und Wachstumsarchitektur.",
-    subtitle: "Wir entwerfen, restrukturieren und bauen Unternehmensarchitektur von der Basis bis zum skalierbaren Wachstum — angetrieben von Strategie, Betrieb und Technologie.",
+    tagline: "End-to-End-Geschäftsentwicklung & Wachstumsarchitektur",
+    subtitle: "Integrierte B2B, B2G & IT-Dienstleistungen",
+    subtitleLine2: "Angetrieben von A.D.A.M. — Geführt von E.V.A.",
     description: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Innovationsunternehmen, das Business Intelligence, Automatisierung und strategisches Outreach kombiniert.",
     descriptionExtra: "Mit Kunden in ganz Europa und Lateinamerika bauen wir strukturierte Wachstumsumgebungen, in denen Strategie, Betrieb und Technologie in eine Richtung bewegen.",
     descriptionSystems: "Strategische Dienstleistungen, die Geschäftsentwicklung, operative Architektur und Technologie kombinieren — Startups, KMUs und öffentlichen Institutionen helfen, mit Struktur zu skalieren.",
