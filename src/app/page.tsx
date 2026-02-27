@@ -12,6 +12,7 @@ import IntegrationsSection from "@/components/IntegrationsSection";
 import ContactForm from "@/components/ContactForm";
 import CtaSection from "@/components/CtaSection";
 import Footer from "@/components/Footer";
+import FlagshipSystems from "@/components/FlagshipSystems";
 import { HeroBackground } from "@/components/BackgroundGrid";
 
 const jsonLd = {
@@ -86,10 +87,13 @@ export default function Home() {
       {/* End-to-End Service Section */}
       <FaqSection />
 
+      {/* Case Studies */}
+      <CaseStudyCards />
+
       <TronDivider />
 
-      {/* A.D.A.M. Roadmap Section */}
-      <RoadmapSection />
+      {/* About */}
+      <LovedBySection />
 
       <TronDivider />
 
@@ -100,16 +104,26 @@ export default function Home() {
 
       <TronDivider />
 
-      {/* Pricing Plans */}
-      <PricingSection />
-
-      {/* Case Studies */}
-      <CaseStudyCards />
+      {/* Our Services */}
+      <IntegrationsSection />
 
       <TronDivider />
 
-      <LovedBySection />
-      <IntegrationsSection />
+      {/* Pricing Plans */}
+      <PricingSection />
+
+      <TronDivider />
+
+      {/* A.D.A.M. & E.V.A. Flagship Systems */}
+      <FlagshipSystems />
+
+      <TronDivider />
+
+      {/* How A.D.A.M. Works */}
+      <RoadmapSection />
+
+      <TronDivider />
+
       <ContactForm />
       <CtaSection />
       <Footer />

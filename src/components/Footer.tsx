@@ -18,6 +18,10 @@ export default function Footer() {
     { label: t.footer.linkPricing, href: "#pricing" },
     { label: t.footer.linkContact, href: "#contact" },
     { label: t.footer.linkPrivacy, href: "/privacy-policy" },
+    { label: t.footer.linkCookies, href: "/cookies-policy" },
+    { label: t.footer.linkTerms, href: "/terms-and-conditions" },
+    { label: t.footer.linkDisclaimer, href: "/disclaimer" },
+    { label: t.footer.linkLegalNotice, href: "/company-information" },
     { label: t.footer.linkClientPortal, href: "https://adameva.app" },
   ];
 

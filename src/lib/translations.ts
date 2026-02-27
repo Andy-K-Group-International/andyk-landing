@@ -19,8 +19,9 @@ const en = {
   // Company information
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "End-to-end business development & growth architecture.",
-    subtitle: "We design, restructure, and architect businesses from foundation to scalable growth — powered by strategy, operations, and technology.",
+    tagline: "End-to-End Business Development & Growth Architecture",
+    subtitle: "Integrated B2B, B2G & IT Services",
+    subtitleLine2: "Powered by A.D.A.M. — Guided by E.V.A.",
     description: "Andy'K Group International LTD is a UK-based innovation company, combining business intelligence, automation, and strategic outreach.",
     descriptionExtra: "With clients across Europe and Latin America, we build structured growth environments where strategy, operations, and technology move in one direction.",
     descriptionSystems: "Strategic services combining business development, operational architecture, and technology — helping startups, SMEs, and public institutions scale with structure.",
@@ -72,21 +73,13 @@ const en = {
         title: "IT Services",
         description: "System architecture, platform development & automation",
       },
-      {
-        title: "A.D.A.M.",
-        description: "Automated Document & Account Manager",
-      },
-      {
-        title: "E.V.A.",
-        description: "Economic Virtual Adviser",
-      },
     ],
   },
 
   // End-to-End section
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Development",
+    headingItalic: "Business Development",
     description: "We design, restructure, and architect businesses from foundation to scalable growth. Powered using A.D.A.M. Structural transformation — aligning strategy, revenue, operations, positioning, and execution into one system.",
     bullets: [
       { title: "Structural clarity", description: "Defining organizational hierarchy, roles, and accountability across every business layer." },
@@ -103,6 +96,11 @@ const en = {
     headingBold: "Built on",
     headingItalic: "trust.",
     headingLine2: "Driven by results.",
+    paragraph1: "Andy'K Group International LTD is a UK-based innovation company delivering End-to-End Business Development & Growth Architecture across B2B, B2G, and technology-driven environments.",
+    paragraph2: "We align positioning, revenue design, operations, and execution into one structured growth system.",
+    paragraph3: "Powered by A.D.A.M. and guided by E.V.A., we build scalable ecosystems designed for long-term performance.",
+    quote: "One structure. One flow. One system.",
+    tagline: "BUILT FOR GROWTH.",
   },
 
   // Case Studies section
@@ -342,6 +340,10 @@ const en = {
     linkPricing: "Pricing",
     linkContact: "Contact",
     linkPrivacy: "Privacy Policy",
+    linkCookies: "Cookies Policy",
+    linkTerms: "Terms of Use",
+    linkDisclaimer: "Website Disclaimer",
+    linkLegalNotice: "Legal Notice",
     linkClientPortal: "Client Portal",
     selectLanguage: "Language",
     selectCurrency: "Currency",
@@ -385,7 +387,7 @@ const en = {
       "Co-Founder & CTO",
     ],
     bios: [
-      "15+ years of leadership in sales, hospitality, business development, and operational strategy. Andrej specializes in scalable growth systems for B2B, B2G, and international client relations.",
+      "Fifteen+ years of leadership in sales, hospitality, business development, and operational strategy. Andrej specializes in scalable growth systems for B2B, B2G, and international client relations.",
       "The technical architect behind A.D.A.M., Kobe leverages his extensive expertise to transform any idea into reality.",
     ],
     quotes: [
@@ -447,8 +449,9 @@ const en = {
 const es: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Desarrollo empresarial integral y arquitectura de crecimiento.",
-    subtitle: "Diseñamos, reestructuramos y arquitectamos negocios desde los cimientos hasta el crecimiento escalable — impulsados por estrategia, operaciones y tecnología.",
+    tagline: "Desarrollo Empresarial Integral y Arquitectura de Crecimiento",
+    subtitle: "Servicios Integrados B2B, B2G y TI",
+    subtitleLine2: "Impulsado por A.D.A.M. — Guiado por E.V.A.",
     description: "Andy'K Group International LTD es una empresa de innovación con sede en el Reino Unido que combina inteligencia empresarial, automatización y divulgación estratégica.",
     descriptionExtra: "Con clientes en toda Europa y América Latina, construimos entornos de crecimiento estructurados donde la estrategia, las operaciones y la tecnología avanzan en una sola dirección.",
     descriptionSystems: "Servicios estratégicos que combinan desarrollo empresarial, arquitectura operativa y tecnología — ayudando a startups, PYMEs e instituciones públicas a escalar con estructura.",
@@ -485,14 +488,12 @@ const es: typeof en = {
       { title: "B2B", description: "Generación de leads, campañas de divulgación y gestión de pipeline" },
       { title: "B2G", description: "Estrategia del sector público, asesoramiento en licitaciones y contratación" },
       { title: "IT Services", description: "Arquitectura de sistemas, desarrollo de plataformas y automatización" },
-      { title: "A.D.A.M.", description: "Gestor Automatizado de Documentos y Cuentas" },
-      { title: "E.V.A.", description: "Asesora Virtual Económica" },
     ],
   },
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Desarrollo",
+    headingItalic: "Desarrollo Empresarial",
     description: "Diseñamos, reestructuramos y arquitectamos negocios desde los cimientos hasta el crecimiento escalable. Impulsado por A.D.A.M. Transformación estructural — alineando estrategia, ingresos, operaciones, posicionamiento y ejecución en un solo sistema.",
     bullets: [
       { title: "Claridad estructural", description: "Definición de jerarquía organizativa, roles y responsabilidad en cada capa del negocio." },
@@ -707,6 +708,10 @@ const es: typeof en = {
     linkPricing: "Precios",
     linkContact: "Contacto",
     linkPrivacy: "Política de privacidad",
+    linkCookies: "Política de cookies",
+    linkTerms: "Condiciones de uso",
+    linkDisclaimer: "Aviso legal del sitio",
+    linkLegalNotice: "Aviso legal",
     linkClientPortal: "Portal del cliente",
     selectLanguage: "Idioma",
     selectCurrency: "Moneda",
@@ -723,6 +728,11 @@ const es: typeof en = {
     headingBold: "Construido sobre",
     headingItalic: "confianza.",
     headingLine2: "Impulsado por resultados.",
+    paragraph1: "Andy'K Group International LTD es una empresa de innovación con sede en el Reino Unido que ofrece Desarrollo Empresarial End-to-End y Arquitectura de Crecimiento en entornos B2B, B2G y tecnológicos.",
+    paragraph2: "Alineamos posicionamiento, diseño de ingresos, operaciones y ejecución en un sistema de crecimiento estructurado.",
+    paragraph3: "Impulsado por A.D.A.M. y guiado por E.V.A., construimos ecosistemas escalables diseñados para el rendimiento a largo plazo.",
+    quote: "Una estructura. Un flujo. Un sistema.",
+    tagline: "CONSTRUIDO PARA CRECER.",
   },
 
   caseStudies: {
@@ -771,7 +781,7 @@ const es: typeof en = {
       "Cofundador y CTO",
     ],
     bios: [
-      "Más de 15 años de liderazgo en ventas, hostelería, desarrollo empresarial y estrategia operativa. Andrej se especializa en sistemas de crecimiento escalable para B2B, B2G y relaciones internacionales con clientes.",
+      "Más de quince años de liderazgo en ventas, hostelería, desarrollo empresarial y estrategia operativa. Andrej se especializa en sistemas de crecimiento escalable para B2B, B2G y relaciones internacionales con clientes.",
       "El arquitecto técnico detrás de A.D.A.M., Kobe aprovecha su amplia experiencia para transformar cualquier idea en realidad.",
     ],
     quotes: [
@@ -823,8 +833,9 @@ const es: typeof en = {
 const sk: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Komplexný rozvoj podnikania a architektúra rastu.",
-    subtitle: "Navrhujeme, reštrukturalizujeme a budujeme podnikateľskú architektúru od základov po škálovateľný rast — poháňaný stratégiou, prevádzkou a technológiou.",
+    tagline: "Komplexný Rozvoj Podnikania a Architektúra Rastu",
+    subtitle: "Integrované Služby B2B, B2G a IT",
+    subtitleLine2: "Poháňané systémom A.D.A.M. — Vedené systémom E.V.A.",
     description: "Andy'K Group International LTD je inovačná spoločnosť so sídlom vo Veľkej Británii, ktorá kombinuje obchodnú inteligenciu, automatizáciu a strategické oslovovanie.",
     descriptionExtra: "S klientmi po celej Európe a Latinskej Amerike budujeme štruktúrované prostredia rastu, kde stratégia, prevádzka a technológia smerujú jedným smerom.",
     descriptionSystems: "Strategické služby kombinujúce obchodný rozvoj, prevádzkovú architektúru a technológiu — pomáhajúce startupom, malým a stredným podnikom a verejným inštitúciám škálovať so štruktúrou.",
@@ -861,14 +872,12 @@ const sk: typeof en = {
       { title: "B2B", description: "Generovanie leadov, kampane oslovenia a správa pipeline" },
       { title: "B2G", description: "Stratégia verejného sektora, poradenstvo k tenderom a obstarávanie" },
       { title: "IT Services", description: "Architektúra systémov, vývoj platforiem a automatizácia" },
-      { title: "A.D.A.M.", description: "Automatizovaný správca dokumentov a účtov" },
-      { title: "E.V.A.", description: "Ekonomická virtuálna poradkyňa" },
     ],
   },
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Rozvoj",
+    headingItalic: "Obchodný Rozvoj",
     description: "Navrhujeme, reštrukturalizujeme a budujeme podnikateľskú architektúru od základov po škálovateľný rast. Poháňané systémom A.D.A.M. Štrukturálna transformácia — zosúladenie stratégie, príjmov, prevádzky, pozicionovania a realizácie do jedného systému.",
     bullets: [
       { title: "Štrukturálna jasnosť", description: "Definovanie organizačnej hierarchie, rolí a zodpovednosti naprieč každou vrstvou podnikania." },
@@ -884,6 +893,11 @@ const sk: typeof en = {
     headingBold: "Postavené na",
     headingItalic: "dôvere.",
     headingLine2: "Poháňané výsledkami.",
+    paragraph1: "Andy'K Group International LTD je inovačná spoločnosť so sídlom vo Veľkej Británii, ktorá poskytuje End-to-End obchodný rozvoj a architektúru rastu v prostrediach B2B, B2G a technologicky orientovaných odvetviach.",
+    paragraph2: "Zosúlaďujeme pozicionovanie, dizajn príjmov, prevádzku a realizáciu do jedného štruktúrovaného systému rastu.",
+    paragraph3: "Poháňané systémom A.D.A.M. a vedené systémom E.V.A., budujeme škálovateľné ekosystémy navrhnuté pre dlhodobý výkon.",
+    quote: "Jedna štruktúra. Jeden tok. Jeden systém.",
+    tagline: "VYTVORENÉ PRE RAST.",
   },
 
   caseStudies: {
@@ -1099,6 +1113,10 @@ const sk: typeof en = {
     linkPricing: "Ceny",
     linkContact: "Kontakt",
     linkPrivacy: "Zásady ochrany osobných údajov",
+    linkCookies: "Zásady používania cookies",
+    linkTerms: "Podmienky používania",
+    linkDisclaimer: "Vyhlásenie o odmietnutí zodpovednosti",
+    linkLegalNotice: "Právne upozornenie",
     linkClientPortal: "Klientsky portál",
     selectLanguage: "Jazyk",
     selectCurrency: "Mena",
@@ -1147,7 +1165,7 @@ const sk: typeof en = {
       "Spoluzakladateľ a CTO",
     ],
     bios: [
-      "Viac ako 15 rokov skúseností v predaji, pohostinstve, rozvoji podnikania a operačnej stratégii. Andrej sa špecializuje na škálovateľné rastové systémy pre B2B, B2G a medzinárodné vzťahy s klientmi.",
+      "Viac ako pätnásť rokov skúseností v predaji, pohostinstve, rozvoji podnikania a operačnej stratégii. Andrej sa špecializuje na škálovateľné rastové systémy pre B2B, B2G a medzinárodné vzťahy s klientmi.",
       "Technický architekt za A.D.A.M., Kobe využíva svoje rozsiahle odborné znalosti na premenu akejkoľvek myšlienky na realitu.",
     ],
     quotes: [
@@ -1199,8 +1217,9 @@ const sk: typeof en = {
 const nl: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "End-to-end bedrijfsontwikkeling en groeiarchitectuur.",
-    subtitle: "Wij ontwerpen, herstructureren en bouwen bedrijfsarchitectuur van basis tot schaalbare groei — aangedreven door strategie, operaties en technologie.",
+    tagline: "End-to-End Bedrijfsontwikkeling & Groeiarchitectuur",
+    subtitle: "Geïntegreerde B2B, B2G & IT-Diensten",
+    subtitleLine2: "Aangedreven door A.D.A.M. — Geleid door E.V.A.",
     description: "Andy'K Group International LTD is een in het VK gevestigd innovatiebedrijf dat business intelligence, automatisering en strategische outreach combineert.",
     descriptionExtra: "Met klanten in heel Europa en Latijns-Amerika bouwen we gestructureerde groeiomgevingen waar strategie, operaties en technologie in één richting bewegen.",
     descriptionSystems: "Strategische diensten die bedrijfsontwikkeling, operationele architectuur en technologie combineren — startups, MKB-bedrijven en publieke instellingen helpen schalen met structuur.",
@@ -1237,14 +1256,12 @@ const nl: typeof en = {
       { title: "B2B", description: "Leadgeneratie, outreach-campagnes en pipelinebeheer" },
       { title: "B2G", description: "Publieke sectorstrategie, aanbestedingsadvies en inkoop" },
       { title: "IT Services", description: "Systeemarchitectuur, platformontwikkeling en automatisering" },
-      { title: "A.D.A.M.", description: "Geautomatiseerd Document- en Accountbeheer" },
-      { title: "E.V.A.", description: "Economisch Virtueel Adviseur" },
     ],
   },
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Ontwikkeling",
+    headingItalic: "Bedrijfsontwikkeling",
     description: "Wij ontwerpen, herstructureren en bouwen bedrijfsarchitectuur van basis tot schaalbare groei. Aangedreven door A.D.A.M. Structurele transformatie — strategie, omzet, operaties, positionering en uitvoering in één systeem.",
     bullets: [
       { title: "Structurele helderheid", description: "Organisatiehiërarchie, rollen en verantwoordelijkheden definiëren binnen elke bedrijfslaag." },
@@ -1260,6 +1277,11 @@ const nl: typeof en = {
     headingBold: "Gebouwd op",
     headingItalic: "vertrouwen.",
     headingLine2: "Gedreven door resultaten.",
+    paragraph1: "Andy'K Group International LTD is een in het VK gevestigd innovatiebedrijf dat End-to-End bedrijfsontwikkeling en groeiarchitectuur levert in B2B, B2G en technologiegedreven omgevingen.",
+    paragraph2: "Wij stemmen positionering, omzetontwerp, operaties en uitvoering af in één gestructureerd groeisysteem.",
+    paragraph3: "Aangedreven door A.D.A.M. en geleid door E.V.A., bouwen we schaalbare ecosystemen ontworpen voor langetermijnprestaties.",
+    quote: "Eén structuur. Eén stroom. Eén systeem.",
+    tagline: "GEBOUWD VOOR GROEI.",
   },
 
   caseStudies: {
@@ -1475,6 +1497,10 @@ const nl: typeof en = {
     linkPricing: "Prijzen",
     linkContact: "Contact",
     linkPrivacy: "Privacybeleid",
+    linkCookies: "Cookiebeleid",
+    linkTerms: "Gebruiksvoorwaarden",
+    linkDisclaimer: "Website disclaimer",
+    linkLegalNotice: "Juridische kennisgeving",
     linkClientPortal: "Klantportaal",
     selectLanguage: "Taal",
     selectCurrency: "Valuta",
@@ -1523,7 +1549,7 @@ const nl: typeof en = {
       "Medeoprichter & CTO",
     ],
     bios: [
-      "Meer dan 15 jaar ervaring in sales, horeca, bedrijfsontwikkeling en operationele strategie. Andrej is gespecialiseerd in schaalbare groeisystemen voor B2B, B2G en internationale klantrelaties.",
+      "Meer dan vijftien jaar ervaring in sales, horeca, bedrijfsontwikkeling en operationele strategie. Andrej is gespecialiseerd in schaalbare groeisystemen voor B2B, B2G en internationale klantrelaties.",
       "De technische architect achter A.D.A.M., Kobe zet zijn uitgebreide expertise in om elk idee werkelijkheid te maken.",
     ],
     quotes: [
@@ -1575,8 +1601,9 @@ const nl: typeof en = {
 const pt: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Desenvolvimento empresarial completo e arquitetura de crescimento.",
-    subtitle: "Projetamos, reestruturamos e arquitetamos negócios da base ao crescimento escalável — impulsionados por estratégia, operações e tecnologia.",
+    tagline: "Desenvolvimento Empresarial Completo e Arquitetura de Crescimento",
+    subtitle: "Serviços Integrados B2B, B2G e TI",
+    subtitleLine2: "Impulsionado pelo A.D.A.M. — Guiado pela E.V.A.",
     description: "Andy'K Group International LTD é uma empresa de inovação sediada no Reino Unido, combinando inteligência empresarial, automatização e divulgação estratégica.",
     descriptionExtra: "Com clientes em toda a Europa e América Latina, construímos ambientes de crescimento estruturados onde estratégia, operações e tecnologia avançam numa só direção.",
     descriptionSystems: "Serviços estratégicos que combinam desenvolvimento empresarial, arquitetura operacional e tecnologia — ajudando startups, PMEs e instituições públicas a escalar com estrutura.",
@@ -1613,14 +1640,12 @@ const pt: typeof en = {
       { title: "B2B", description: "Geração de leads, campanhas de divulgação e gestão de pipeline" },
       { title: "B2G", description: "Estratégia do setor público, consultoria de licitações e aquisições" },
       { title: "IT Services", description: "Arquitetura de sistemas, desenvolvimento de plataformas e automação" },
-      { title: "A.D.A.M.", description: "Gestor Automatizado de Documentos e Contas" },
-      { title: "E.V.A.", description: "Conselheira Virtual Económica" },
     ],
   },
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Desenvolvimento",
+    headingItalic: "Desenvolvimento Empresarial",
     description: "Projetamos, reestruturamos e arquitetamos negócios da base ao crescimento escalável. Impulsionado pelo A.D.A.M. Transformação estrutural — alinhando estratégia, receita, operações, posicionamento e execução num único sistema.",
     bullets: [
       { title: "Clareza estrutural", description: "Definição de hierarquia organizacional, funções e responsabilidades em cada camada do negócio." },
@@ -1636,6 +1661,11 @@ const pt: typeof en = {
     headingBold: "Construído sobre",
     headingItalic: "confiança.",
     headingLine2: "Movido por resultados.",
+    paragraph1: "Andy'K Group International LTD é uma empresa de inovação sediada no Reino Unido que oferece Desenvolvimento Empresarial End-to-End e Arquitetura de Crescimento em ambientes B2B, B2G e orientados por tecnologia.",
+    paragraph2: "Alinhamos posicionamento, design de receita, operações e execução em um sistema de crescimento estruturado.",
+    paragraph3: "Impulsionado pelo A.D.A.M. e guiado pela E.V.A., construímos ecossistemas escaláveis projetados para desempenho de longo prazo.",
+    quote: "Uma estrutura. Um fluxo. Um sistema.",
+    tagline: "CONSTRUÍDO PARA CRESCIMENTO.",
   },
 
   caseStudies: {
@@ -1851,6 +1881,10 @@ const pt: typeof en = {
     linkPricing: "Preços",
     linkContact: "Contato",
     linkPrivacy: "Política de privacidade",
+    linkCookies: "Política de cookies",
+    linkTerms: "Termos de uso",
+    linkDisclaimer: "Aviso legal do site",
+    linkLegalNotice: "Aviso legal",
     linkClientPortal: "Portal do cliente",
     selectLanguage: "Idioma",
     selectCurrency: "Moeda",
@@ -1899,7 +1933,7 @@ const pt: typeof en = {
       "Cofundador e CTO",
     ],
     bios: [
-      "Mais de 15 anos de liderança em vendas, hospitalidade, desenvolvimento empresarial e estratégia operacional. Andrej é especialista em sistemas de crescimento escalável para B2B, B2G e relações internacionais com clientes.",
+      "Mais de quinze anos de liderança em vendas, hospitalidade, desenvolvimento empresarial e estratégia operacional. Andrej é especialista em sistemas de crescimento escalável para B2B, B2G e relações internacionais com clientes.",
       "O arquiteto técnico por trás do A.D.A.M., Kobe utiliza sua vasta experiência para transformar qualquer ideia em realidade.",
     ],
     quotes: [
@@ -1951,8 +1985,9 @@ const pt: typeof en = {
 const de: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "End-to-End-Geschäftsentwicklung und Wachstumsarchitektur.",
-    subtitle: "Wir entwerfen, restrukturieren und bauen Unternehmensarchitektur von der Basis bis zum skalierbaren Wachstum — angetrieben von Strategie, Betrieb und Technologie.",
+    tagline: "End-to-End-Geschäftsentwicklung & Wachstumsarchitektur",
+    subtitle: "Integrierte B2B, B2G & IT-Dienstleistungen",
+    subtitleLine2: "Angetrieben von A.D.A.M. — Geführt von E.V.A.",
     description: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Innovationsunternehmen, das Business Intelligence, Automatisierung und strategisches Outreach kombiniert.",
     descriptionExtra: "Mit Kunden in ganz Europa und Lateinamerika bauen wir strukturierte Wachstumsumgebungen, in denen Strategie, Betrieb und Technologie in eine Richtung bewegen.",
     descriptionSystems: "Strategische Dienstleistungen, die Geschäftsentwicklung, operative Architektur und Technologie kombinieren — Startups, KMUs und öffentlichen Institutionen helfen, mit Struktur zu skalieren.",
@@ -1989,14 +2024,12 @@ const de: typeof en = {
       { title: "B2B", description: "Lead-Generierung, Outreach-Kampagnen und Pipeline-Management" },
       { title: "B2G", description: "Öffentlicher-Sektor-Strategie, Ausschreibungsberatung und Beschaffung" },
       { title: "IT Services", description: "Systemarchitektur, Plattformentwicklung und Automatisierung" },
-      { title: "A.D.A.M.", description: "Automatisierter Dokument- und Account-Manager" },
-      { title: "E.V.A.", description: "Wirtschaftliche Virtuelle Beraterin" },
     ],
   },
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Entwicklung",
+    headingItalic: "Geschäftsentwicklung",
     description: "Wir entwerfen, restrukturieren und bauen Unternehmensarchitektur von der Basis bis zum skalierbaren Wachstum. Angetrieben von A.D.A.M. Strukturelle Transformation — Strategie, Umsatz, Betrieb, Positionierung und Ausführung in ein System integriert.",
     bullets: [
       { title: "Strukturelle Klarheit", description: "Definition von Organisationshierarchie, Rollen und Verantwortlichkeiten über alle Geschäftsebenen." },
@@ -2012,6 +2045,11 @@ const de: typeof en = {
     headingBold: "Gebaut auf",
     headingItalic: "Vertrauen.",
     headingLine2: "Angetrieben von Ergebnissen.",
+    paragraph1: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Innovationsunternehmen, das End-to-End Geschäftsentwicklung und Wachstumsarchitektur in B2B-, B2G- und technologiegetriebenen Umgebungen liefert.",
+    paragraph2: "Wir stimmen Positionierung, Umsatzgestaltung, Betrieb und Umsetzung in ein strukturiertes Wachstumssystem ab.",
+    paragraph3: "Angetrieben von A.D.A.M. und geführt von E.V.A., bauen wir skalierbare Ökosysteme, die für langfristige Leistung konzipiert sind.",
+    quote: "Eine Struktur. Ein Ablauf. Ein System.",
+    tagline: "GEBAUT FÜR WACHSTUM.",
   },
 
   caseStudies: {
@@ -2227,6 +2265,10 @@ const de: typeof en = {
     linkPricing: "Preise",
     linkContact: "Kontakt",
     linkPrivacy: "Datenschutzerklärung",
+    linkCookies: "Cookie-Richtlinie",
+    linkTerms: "Nutzungsbedingungen",
+    linkDisclaimer: "Website-Haftungsausschluss",
+    linkLegalNotice: "Impressum",
     linkClientPortal: "Kundenportal",
     selectLanguage: "Sprache",
     selectCurrency: "Währung",
@@ -2275,7 +2317,7 @@ const de: typeof en = {
       "Mitgründer & CTO",
     ],
     bios: [
-      "Über 15 Jahre Führungserfahrung in Vertrieb, Gastgewerbe, Geschäftsentwicklung und operativer Strategie. Andrej spezialisiert sich auf skalierbare Wachstumssysteme für B2B, B2G und internationale Kundenbeziehungen.",
+      "Über fünfzehn Jahre Führungserfahrung in Vertrieb, Gastgewerbe, Geschäftsentwicklung und operativer Strategie. Andrej spezialisiert sich auf skalierbare Wachstumssysteme für B2B, B2G und internationale Kundenbeziehungen.",
       "Der technische Architekt hinter A.D.A.M., Kobe nutzt seine umfassende Expertise, um jede Idee in die Realität umzusetzen.",
     ],
     quotes: [

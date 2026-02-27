@@ -30,6 +30,8 @@ export default function Hero() {
       </p>
       <p className="text-base leading-relaxed text-muted-2 font-light max-w-[540px] mx-auto mb-9">
         {t.company.subtitle}
+        <br />
+        {t.company.subtitleLine2}
       </p>
       <form onSubmit={handleSubmit} className="flex justify-center gap-3 flex-wrap max-w-[480px] mx-auto">
         <input
