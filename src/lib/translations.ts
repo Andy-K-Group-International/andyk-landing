@@ -73,14 +73,6 @@ const en = {
         title: "IT Services",
         description: "System architecture, platform development & automation",
       },
-      {
-        title: "A.D.A.M.",
-        description: "Automated Document & Account Manager",
-      },
-      {
-        title: "E.V.A.",
-        description: "Economic Virtual Adviser",
-      },
     ],
   },
 
@@ -496,8 +488,6 @@ const es: typeof en = {
       { title: "B2B", description: "Generación de leads, campañas de divulgación y gestión de pipeline" },
       { title: "B2G", description: "Estrategia del sector público, asesoramiento en licitaciones y contratación" },
       { title: "IT Services", description: "Arquitectura de sistemas, desarrollo de plataformas y automatización" },
-      { title: "A.D.A.M.", description: "Gestor Automatizado de Documentos y Cuentas" },
-      { title: "E.V.A.", description: "Asesora Virtual Económica" },
     ],
   },
 
@@ -882,8 +872,6 @@ const sk: typeof en = {
       { title: "B2B", description: "Generovanie leadov, kampane oslovenia a správa pipeline" },
       { title: "B2G", description: "Stratégia verejného sektora, poradenstvo k tenderom a obstarávanie" },
       { title: "IT Services", description: "Architektúra systémov, vývoj platforiem a automatizácia" },
-      { title: "A.D.A.M.", description: "Automatizovaný správca dokumentov a účtov" },
-      { title: "E.V.A.", description: "Ekonomická virtuálna poradkyňa" },
     ],
   },
 
@@ -1268,8 +1256,6 @@ const nl: typeof en = {
       { title: "B2B", description: "Leadgeneratie, outreach-campagnes en pipelinebeheer" },
       { title: "B2G", description: "Publieke sectorstrategie, aanbestedingsadvies en inkoop" },
       { title: "IT Services", description: "Systeemarchitectuur, platformontwikkeling en automatisering" },
-      { title: "A.D.A.M.", description: "Geautomatiseerd Document- en Accountbeheer" },
-      { title: "E.V.A.", description: "Economisch Virtueel Adviseur" },
     ],
   },
 
@@ -1654,8 +1640,6 @@ const pt: typeof en = {
       { title: "B2B", description: "Geração de leads, campanhas de divulgação e gestão de pipeline" },
       { title: "B2G", description: "Estratégia do setor público, consultoria de licitações e aquisições" },
       { title: "IT Services", description: "Arquitetura de sistemas, desenvolvimento de plataformas e automação" },
-      { title: "A.D.A.M.", description: "Gestor Automatizado de Documentos e Contas" },
-      { title: "E.V.A.", description: "Conselheira Virtual Económica" },
     ],
   },
 
@@ -2040,8 +2024,6 @@ const de: typeof en = {
       { title: "B2B", description: "Lead-Generierung, Outreach-Kampagnen und Pipeline-Management" },
       { title: "B2G", description: "Öffentlicher-Sektor-Strategie, Ausschreibungsberatung und Beschaffung" },
       { title: "IT Services", description: "Systemarchitektur, Plattformentwicklung und Automatisierung" },
-      { title: "A.D.A.M.", description: "Automatisierter Dokument- und Account-Manager" },
-      { title: "E.V.A.", description: "Wirtschaftliche Virtuelle Beraterin" },
     ],
   },
 
