@@ -20,19 +20,29 @@ export default function LovedBySection() {
           <br />
           {t.lovedBy.headingLine2}
         </h2>
-        <p className="text-center text-lg text-muted font-light mb-12 max-w-[600px] mx-auto">
-          {t.company.descriptionExtra}
-        </p>
+
+        {/* Body paragraphs */}
+        <div className="max-w-[700px] mx-auto mt-10 space-y-5">
+          <p className="text-base leading-relaxed text-muted font-light text-center">
+            {t.lovedBy.paragraph1}
+          </p>
+          <p className="text-base leading-relaxed text-muted font-light text-center">
+            {t.lovedBy.paragraph2}
+          </p>
+          <p className="text-base leading-relaxed text-muted font-light text-center">
+            {t.lovedBy.paragraph3}
+          </p>
+        </div>
 
         {/* Quote */}
         <div className="text-center max-w-[740px] mx-auto py-10">
           <blockquote className="text-2xl md:text-3xl font-bold tracking-tight text-foreground mb-4 font-serif font-light italic">
-            {"\u201C"}{t.company.quote}{"\u201D"}
+            {"\u201C"}{t.lovedBy.quote}{"\u201D"}
           </blockquote>
           <div className="flex items-center justify-center gap-3">
             <span className="w-8 h-[1px] bg-rose" />
-            <span className="text-xs uppercase tracking-widest text-muted-2">
-              {t.company.quoteSubtitle}
+            <span className="text-xs uppercase tracking-widest text-muted-2 font-bold">
+              {t.lovedBy.tagline}
             </span>
             <span className="w-8 h-[1px] bg-rose" />
           </div>

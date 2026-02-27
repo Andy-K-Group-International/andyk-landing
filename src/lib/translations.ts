@@ -104,6 +104,11 @@ const en = {
     headingBold: "Built on",
     headingItalic: "trust.",
     headingLine2: "Driven by results.",
+    paragraph1: "Andy'K Group International LTD is a UK-based innovation company delivering structured growth across B2B, B2G, and technology-driven environments.",
+    paragraph2: "We integrate strategy, execution, and proprietary systems into one unified growth architecture — aligning positioning, revenue design, operations, and technology.",
+    paragraph3: "Powered by A.D.A.M. and guided by E.V.A., we create scalable business ecosystems built for long-term performance.",
+    quote: "One structure. One flow. One system.",
+    tagline: "BUILT FOR GROWTH.",
   },
 
   // Case Studies section
@@ -725,6 +730,11 @@ const es: typeof en = {
     headingBold: "Construido sobre",
     headingItalic: "confianza.",
     headingLine2: "Impulsado por resultados.",
+    paragraph1: "Andy'K Group International LTD es una empresa de innovación con sede en el Reino Unido que ofrece crecimiento estructurado en entornos B2B, B2G y tecnológicos.",
+    paragraph2: "Integramos estrategia, ejecución y sistemas propietarios en una arquitectura de crecimiento unificada — alineando posicionamiento, diseño de ingresos, operaciones y tecnología.",
+    paragraph3: "Impulsado por A.D.A.M. y guiado por E.V.A., creamos ecosistemas empresariales escalables diseñados para el rendimiento a largo plazo.",
+    quote: "Una estructura. Un flujo. Un sistema.",
+    tagline: "CONSTRUIDO PARA CRECER.",
   },
 
   caseStudies: {
@@ -887,6 +897,11 @@ const sk: typeof en = {
     headingBold: "Postavené na",
     headingItalic: "dôvere.",
     headingLine2: "Poháňané výsledkami.",
+    paragraph1: "Andy'K Group International LTD je inovačná spoločnosť so sídlom vo Veľkej Británii, ktorá poskytuje štruktúrovaný rast v prostrediach B2B, B2G a technologicky orientovaných odvetviach.",
+    paragraph2: "Integrujeme stratégiu, realizáciu a vlastné systémy do jednej zjednotenej architektúry rastu — zosúlaďujúc pozicionovanie, dizajn príjmov, prevádzku a technológiu.",
+    paragraph3: "Poháňané systémom A.D.A.M. a vedené systémom E.V.A., vytvárame škálovateľné podnikateľské ekosystémy navrhnuté pre dlhodobý výkon.",
+    quote: "Jedna štruktúra. Jeden tok. Jeden systém.",
+    tagline: "VYTVORENÉ PRE RAST.",
   },
 
   caseStudies: {
@@ -1264,6 +1279,11 @@ const nl: typeof en = {
     headingBold: "Gebouwd op",
     headingItalic: "vertrouwen.",
     headingLine2: "Gedreven door resultaten.",
+    paragraph1: "Andy'K Group International LTD is een in het VK gevestigd innovatiebedrijf dat gestructureerde groei levert in B2B, B2G en technologiegedreven omgevingen.",
+    paragraph2: "Wij integreren strategie, uitvoering en eigen systemen in één uniforme groeiarchitectuur — positionering, omzetontwerp, operaties en technologie op één lijn.",
+    paragraph3: "Aangedreven door A.D.A.M. en geleid door E.V.A., creëren we schaalbare bedrijfsecosystemen gebouwd voor langetermijnprestaties.",
+    quote: "Eén structuur. Eén stroom. Eén systeem.",
+    tagline: "GEBOUWD VOOR GROEI.",
   },
 
   caseStudies: {
@@ -1641,6 +1661,11 @@ const pt: typeof en = {
     headingBold: "Construído sobre",
     headingItalic: "confiança.",
     headingLine2: "Movido por resultados.",
+    paragraph1: "Andy'K Group International LTD é uma empresa de inovação sediada no Reino Unido que oferece crescimento estruturado em ambientes B2B, B2G e orientados por tecnologia.",
+    paragraph2: "Integramos estratégia, execução e sistemas proprietários em uma arquitetura de crescimento unificada — alinhando posicionamento, design de receita, operações e tecnologia.",
+    paragraph3: "Impulsionado pelo A.D.A.M. e guiado pela E.V.A., criamos ecossistemas empresariais escaláveis construídos para desempenho de longo prazo.",
+    quote: "Uma estrutura. Um fluxo. Um sistema.",
+    tagline: "CONSTRUÍDO PARA CRESCIMENTO.",
   },
 
   caseStudies: {
@@ -2018,6 +2043,11 @@ const de: typeof en = {
     headingBold: "Gebaut auf",
     headingItalic: "Vertrauen.",
     headingLine2: "Angetrieben von Ergebnissen.",
+    paragraph1: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Innovationsunternehmen, das strukturiertes Wachstum in B2B-, B2G- und technologiegetriebenen Umgebungen liefert.",
+    paragraph2: "Wir integrieren Strategie, Umsetzung und proprietäre Systeme in eine einheitliche Wachstumsarchitektur — Positionierung, Umsatzgestaltung, Betrieb und Technologie aufeinander abgestimmt.",
+    paragraph3: "Angetrieben von A.D.A.M. und geführt von E.V.A., schaffen wir skalierbare Geschäftsökosysteme, die für langfristige Leistung gebaut sind.",
+    quote: "Eine Struktur. Ein Ablauf. Ein System.",
+    tagline: "GEBAUT FÜR WACHSTUM.",
   },
 
   caseStudies: {
