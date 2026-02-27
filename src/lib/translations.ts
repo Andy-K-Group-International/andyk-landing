@@ -131,7 +131,7 @@ const en = {
 
   // Roadmap section (A.D.A.M.)
   roadmap: {
-    heading: "How A.D.A.M.",
+    heading: "How A.D.A.M. & E.V.A.",
     headingItalic: "Works",
     subtitle: "From first contact to project launch in six structured steps.",
     steps: [
@@ -507,7 +507,7 @@ const es: typeof en = {
 
   roadmap: {
     heading: "Cómo funciona",
-    headingItalic: "A.D.A.M.",
+    headingItalic: "A.D.A.M. & E.V.A.",
     subtitle: "Del primer contacto al lanzamiento del proyecto en seis pasos estructurados.",
     steps: [
       {
@@ -912,7 +912,7 @@ const sk: typeof en = {
 
   roadmap: {
     heading: "Ako funguje",
-    headingItalic: "A.D.A.M.",
+    headingItalic: "A.D.A.M. & E.V.A.",
     subtitle: "Od prvého kontaktu po spustenie projektu v šiestich štruktúrovaných krokoch.",
     steps: [
       {
@@ -1295,7 +1295,7 @@ const nl: typeof en = {
   },
 
   roadmap: {
-    heading: "Hoe A.D.A.M.",
+    heading: "Hoe A.D.A.M. & E.V.A.",
     headingItalic: "werkt",
     subtitle: "Van eerste contact tot projectlancering in zes gestructureerde stappen.",
     steps: [
@@ -1679,7 +1679,7 @@ const pt: typeof en = {
   },
 
   roadmap: {
-    heading: "Como o A.D.A.M.",
+    heading: "Como o A.D.A.M. & E.V.A.",
     headingItalic: "funciona",
     subtitle: "Do primeiro contacto ao lançamento do projeto em seis passos estruturados.",
     steps: [
@@ -2063,7 +2063,7 @@ const de: typeof en = {
   },
 
   roadmap: {
-    heading: "Wie A.D.A.M.",
+    heading: "Wie A.D.A.M. & E.V.A.",
     headingItalic: "funktioniert",
     subtitle: "Vom Erstkontakt bis zum Projektstart in sechs strukturierten Schritten.",
     steps: [

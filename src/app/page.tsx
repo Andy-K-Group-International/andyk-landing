@@ -91,13 +91,8 @@ export default function Home() {
 
       <TronDivider />
 
-      {/* A.D.A.M. Roadmap Section */}
-      <RoadmapSection />
-
-      <TronDivider />
-
-      {/* Our Services */}
-      <IntegrationsSection />
+      {/* About */}
+      <LovedBySection />
 
       <TronDivider />
 
@@ -106,12 +101,23 @@ export default function Home() {
         <TestimonialPair />
       </section>
 
+      <TronDivider />
+
+      {/* Our Services */}
+      <IntegrationsSection />
+
+      <TronDivider />
+
       {/* Pricing Plans */}
       <PricingSection />
 
       <TronDivider />
 
-      <LovedBySection />
+      {/* A.D.A.M. & E.V.A. Roadmap Section */}
+      <RoadmapSection />
+
+      <TronDivider />
+
       <ContactForm />
       <CtaSection />
       <Footer />

@@ -4,10 +4,10 @@ import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 
 const SERVICE_CARDS: { href: string | null; accent: string }[] = [
-  { href: null, accent: "rgba(201,112,125,0.12)" },
-  { href: null, accent: "rgba(49,38,59,0.08)" },
-  { href: null, accent: "rgba(49,38,59,0.08)" },
-  { href: null, accent: "rgba(49,38,59,0.08)" },
+  { href: "#end-to-end", accent: "rgba(201,112,125,0.12)" },
+  { href: "#pricing-b2b", accent: "rgba(49,38,59,0.08)" },
+  { href: "#pricing-b2g", accent: "rgba(49,38,59,0.08)" },
+  { href: "#pricing-tech", accent: "rgba(49,38,59,0.08)" },
 ];
 
 const SERVICE_ICONS = [
