@@ -12,6 +12,7 @@ import IntegrationsSection from "@/components/IntegrationsSection";
 import ContactForm from "@/components/ContactForm";
 import CtaSection from "@/components/CtaSection";
 import Footer from "@/components/Footer";
+import FlagshipSystems from "@/components/FlagshipSystems";
 import { HeroBackground } from "@/components/BackgroundGrid";
 
 const jsonLd = {
@@ -113,7 +114,12 @@ export default function Home() {
 
       <TronDivider />
 
-      {/* A.D.A.M. & E.V.A. Roadmap Section */}
+      {/* A.D.A.M. & E.V.A. Flagship Systems */}
+      <FlagshipSystems />
+
+      <TronDivider />
+
+      {/* How A.D.A.M. Works */}
       <RoadmapSection />
 
       <TronDivider />
