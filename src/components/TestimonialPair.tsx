@@ -53,7 +53,7 @@ export default function TestimonialPair() {
         <h3 className="text-[clamp(1.5rem,1.2rem+1vw,2rem)] font-bold tracking-tight text-foreground">
           Meet the{" "}
           <span className="font-serif font-light italic text-[1.15em]">
-            founders
+            founder
           </span>
         </h3>
       </div>

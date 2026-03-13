@@ -114,7 +114,18 @@ export const STATS = [
   { value: "98%", label: "Client satisfaction rate" },
 ];
 
-export const FOUNDERS = [
+export const FOUNDERS: {
+  name: string;
+  role: string;
+  image: string;
+  linkedin: string;
+  email?: string;
+  website?: string;
+  websiteLabel?: string;
+  bio: string;
+  quote?: string;
+  location?: string;
+}[] = [
   {
     name: "Andrej Kneisl",
     role: "Founder & Strategic Business Developer",
@@ -125,17 +136,6 @@ export const FOUNDERS = [
     quote:
       "My focus is building business systems that are not only profitable — but sustainable, secure, and designed to scale.",
     location: "Born in Austria",
-  },
-  {
-    name: "Kobe Janssens",
-    role: "Co-Founder & CTO",
-    image: "/co-founder.jpg",
-    linkedin: "https://www.linkedin.com/in/kobe-janssens-46a93613b/",
-    email: "cto@andykgroupinternational.com",
-    website: "https://kobejanssens.com/",
-    websiteLabel: "Portfolio",
-    bio: "The technical architect behind A.D.A.M., Kobe leverages his extensive expertise to transform any idea into reality.",
-    location: "Born in Belgium",
   },
 ];
 
