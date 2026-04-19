@@ -80,6 +80,20 @@ export default function Footer() {
           </select>
         </div>
       </div>
+      <div className="max-w-[1200px] mx-auto mt-6 pt-6 border-t border-grid-300 text-center">
+        <p className="text-xs text-muted-2">
+          Official record label for{" "}
+          <a
+            href="https://djandyk-landing.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline transition-colors"
+            style={{ color: "#5CB198" }}
+          >
+            DJ Andy&apos;K
+          </a>
+        </p>
+      </div>
     </footer>
   );
 }
