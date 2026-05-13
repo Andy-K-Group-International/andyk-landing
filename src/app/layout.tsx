@@ -18,7 +18,7 @@ const ibmPlexMono = IBM_Plex_Mono({
   weight: ["400", "500", "700"],
 });
 
-const SITE_URL = "https://andykgroupinternational.com";
+const SITE_URL = "https://andykgroup.com";
 const SITE_TITLE =
   "Andy'K Group International LTD | B2B & B2G Business Automation";
 const SITE_DESCRIPTION =

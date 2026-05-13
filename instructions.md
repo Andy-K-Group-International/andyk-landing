@@ -4,7 +4,7 @@ The screenshots I now provide will be the change of the co-founder sections wher
 what we want this type of layout but our kinda styling: ![[Pasted image 20260210152644.png]]
 
 Next, we want to remove the current pictures since we haven't built our Adam software, but we want to proceed and create like a roadmap with arrows of the multiple steps. I will paste them below if you have forgotten. Also, make it more clear and easy to contact us, different contrast,
-- [ ] websrape the conent from here or go to the website -> /add-dir /home/kobe/Documents/andyk/andykgroupinternational.com
+- [ ] websrape the conent from here or go to the website -> /add-dir /home/kobe/Documents/andyk/andykgroup.com
 - [ ] plus add pricing plans:
 
 ⸻

@@ -329,7 +329,7 @@ const en = {
     buttonSend: "Send Message",
     privacyText: "By submitting this form, you agree to our terms of service and privacy policy.",
     successHeading: "Message prepared",
-    successText: "Your email client should have opened. If not, email us directly at info@andykgroupinternational.com",
+    successText: "Your email client should have opened. If not, email us directly at info@andykgroup.com",
   },
 
   // Footer
@@ -698,7 +698,7 @@ const es: typeof en = {
     buttonSend: "Enviar mensaje",
     privacyText: "Al enviar este formulario, acepta nuestros términos de servicio y política de privacidad.",
     successHeading: "Mensaje preparado",
-    successText: "Su cliente de correo electrónico debería haberse abierto. Si no, envíenos un correo electrónico directamente a info@andykgroupinternational.com",
+    successText: "Su cliente de correo electrónico debería haberse abierto. Si no, envíenos un correo electrónico directamente a info@andykgroup.com",
   },
 
   footer: {
@@ -1103,7 +1103,7 @@ const sk: typeof en = {
     buttonSend: "Odoslať správu",
     privacyText: "Odoslaním tohto formulára súhlasíte s našimi podmienkami služby a zásadami ochrany osobných údajov.",
     successHeading: "Správa pripravená",
-    successText: "Váš e-mailový klient by sa mal otvoriť. Ak nie, napíšte nám priamo na info@andykgroupinternational.com",
+    successText: "Váš e-mailový klient by sa mal otvoriť. Ak nie, napíšte nám priamo na info@andykgroup.com",
   },
 
   footer: {
@@ -1487,7 +1487,7 @@ const nl: typeof en = {
     buttonSend: "Bericht verzenden",
     privacyText: "Door dit formulier in te dienen, gaat u akkoord met onze servicevoorwaarden en privacybeleid.",
     successHeading: "Bericht voorbereid",
-    successText: "Uw e-mailclient zou moeten zijn geopend. Zo niet, stuur ons dan rechtstreeks een e-mail naar info@andykgroupinternational.com",
+    successText: "Uw e-mailclient zou moeten zijn geopend. Zo niet, stuur ons dan rechtstreeks een e-mail naar info@andykgroup.com",
   },
 
   footer: {
@@ -1871,7 +1871,7 @@ const pt: typeof en = {
     buttonSend: "Enviar mensagem",
     privacyText: "Ao enviar este formulário, você concorda com nossos termos de serviço e política de privacidade.",
     successHeading: "Mensagem preparada",
-    successText: "Seu cliente de e-mail deve ter aberto. Caso contrário, envie-nos um e-mail diretamente para info@andykgroupinternational.com",
+    successText: "Seu cliente de e-mail deve ter aberto. Caso contrário, envie-nos um e-mail diretamente para info@andykgroup.com",
   },
 
   footer: {
@@ -2255,7 +2255,7 @@ const de: typeof en = {
     buttonSend: "Nachricht senden",
     privacyText: "Durch das Absenden dieses Formulars stimmen Sie unseren Nutzungsbedingungen und Datenschutzrichtlinien zu.",
     successHeading: "Nachricht vorbereitet",
-    successText: "Ihr E-Mail-Client sollte sich geöffnet haben. Falls nicht, senden Sie uns direkt eine E-Mail an info@andykgroupinternational.com",
+    successText: "Ihr E-Mail-Client sollte sich geöffnet haben. Falls nicht, senden Sie uns direkt eine E-Mail an info@andykgroup.com",
   },
 
   footer: {

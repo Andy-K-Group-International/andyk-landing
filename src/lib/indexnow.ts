@@ -1,5 +1,5 @@
 const INDEXNOW_KEY = "a1b2c3d4e5f6g7di";
-const HOST = "andykgroupinternational.com";
+const HOST = "andykgroup.com";
 
 export async function pingIndexNow(urls: string | string[]) {
   await fetch("https://api.indexnow.org/indexnow", {

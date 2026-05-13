@@ -51,8 +51,8 @@ export default function TermsAndConditionsPage() {
               <p><strong className="text-foreground">Company name:</strong> Andy&apos;K Group International LTD</p>
               <p><strong className="text-foreground">Company number:</strong> 16453500</p>
               <p><strong className="text-foreground">Registered office:</strong> 86&ndash;90 Paul Street, London, EC2A 4NE, United Kingdom</p>
-              <p><strong className="text-foreground">Email:</strong> info@andykgroupinternational.com</p>
-              <p><strong className="text-foreground">Website:</strong> andykgroupinternational.com</p>
+              <p><strong className="text-foreground">Email:</strong> info@andykgroup.com</p>
+              <p><strong className="text-foreground">Website:</strong> andykgroup.com</p>
             </div>
           </section>
 
@@ -251,7 +251,7 @@ export default function TermsAndConditionsPage() {
             <h2 className="text-lg font-semibold text-foreground mb-3">14. Contact</h2>
             <p>
               If you have any questions about these Terms, contact us at:
-              info@andykgroupinternational.com
+              info@andykgroup.com
             </p>
           </section>
         </article>

@@ -35,7 +35,7 @@ export default async function OgImage() {
 
         {/* Logo */}
         <img
-          src="https://andykgroupinternational.com/full-logo.png"
+          src="https://andykgroup.com/full-logo.png"
           alt="Andy'K Group International"
           height={80}
           style={{ marginBottom: 40 }}

@@ -42,10 +42,10 @@ const CATEGORIES = [
       "Required for security, network management, and core functionality (including secure areas and form submission).",
     locked: true,
     cookies: [
-      { name: "cookie_consent_status", provider: "andykgroupinternational.com", purpose: "Stores your cookie consent choice", duration: "6 months" },
-      { name: "cookie_consent_preferences", provider: "andykgroupinternational.com", purpose: "Stores category preferences", duration: "6 months" },
-      { name: "csrf_token", provider: "andykgroupinternational.com", purpose: "CSRF protection for forms", duration: "Session" },
-      { name: "session_id", provider: "andykgroupinternational.com", purpose: "Maintains session state", duration: "Session" },
+      { name: "cookie_consent_status", provider: "andykgroup.com", purpose: "Stores your cookie consent choice", duration: "6 months" },
+      { name: "cookie_consent_preferences", provider: "andykgroup.com", purpose: "Stores category preferences", duration: "6 months" },
+      { name: "csrf_token", provider: "andykgroup.com", purpose: "CSRF protection for forms", duration: "Session" },
+      { name: "session_id", provider: "andykgroup.com", purpose: "Maintains session state", duration: "Session" },
     ],
   },
   {
@@ -70,8 +70,8 @@ const CATEGORIES = [
       "Remembers your preferences (e.g., language, region, saved settings, login session if applicable).",
     locked: false,
     cookies: [
-      { name: "site_language", provider: "andykgroupinternational.com", purpose: "Saves language preference", duration: "12 months" },
-      { name: "region_preference", provider: "andykgroupinternational.com", purpose: "Saves region selection", duration: "12 months" },
+      { name: "site_language", provider: "andykgroup.com", purpose: "Saves language preference", duration: "12 months" },
+      { name: "region_preference", provider: "andykgroup.com", purpose: "Saves region selection", duration: "12 months" },
     ],
   },
   {

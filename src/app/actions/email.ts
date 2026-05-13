@@ -22,7 +22,7 @@ async function sendEmail({
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      from: "Andy'K Group <info@andykgroupinternational.com>",
+      from: "Andy'K Group <info@andykgroup.com>",
       to: [to],
       subject,
       text,
@@ -148,7 +148,7 @@ You will hear from us shortly with next steps.
 
 Best regards,
 Andy'K Group International
-info@andykgroupinternational.com
+info@andykgroup.com
 +44 330 027 1319`,
   });
 }

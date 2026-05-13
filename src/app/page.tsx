@@ -20,12 +20,12 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://andykgroupinternational.com/#organization",
+      "@id": "https://andykgroup.com/#organization",
       name: "Andy'K Group International LTD",
-      url: "https://andykgroupinternational.com",
+      url: "https://andykgroup.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://andykgroupinternational.com/full-logo.png",
+        url: "https://andykgroup.com/full-logo.png",
       },
       description:
         "UK-based strategic services company combining business development, operational architecture, and technology to help businesses scale with structure.",
@@ -36,29 +36,29 @@ const jsonLd = {
         postalCode: "EC2A 4NE",
         addressCountry: "GB",
       },
-      email: "info@andykgroupinternational.com",
+      email: "info@andykgroup.com",
       telephone: "+44 330 027 1319",
       sameAs: ["https://www.linkedin.com/company/80971657/"],
     },
     {
       "@type": "WebSite",
-      "@id": "https://andykgroupinternational.com/#website",
-      url: "https://andykgroupinternational.com",
+      "@id": "https://andykgroup.com/#website",
+      url: "https://andykgroup.com",
       name: "Andy'K Group International",
       publisher: {
-        "@id": "https://andykgroupinternational.com/#organization",
+        "@id": "https://andykgroup.com/#organization",
       },
     },
     {
       "@type": "WebPage",
-      "@id": "https://andykgroupinternational.com/#webpage",
-      url: "https://andykgroupinternational.com",
+      "@id": "https://andykgroup.com/#webpage",
+      url: "https://andykgroup.com",
       name: "Andy'K Group International LTD | End-to-End Business Development & Growth Architecture",
       isPartOf: {
-        "@id": "https://andykgroupinternational.com/#website",
+        "@id": "https://andykgroup.com/#website",
       },
       about: {
-        "@id": "https://andykgroupinternational.com/#organization",
+        "@id": "https://andykgroup.com/#organization",
       },
       description:
         "Strategic partner in end-to-end business development and growth architecture. Combining strategy, operations, and technology to help businesses scale.",

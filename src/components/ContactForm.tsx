@@ -62,7 +62,7 @@ export default function ContactForm() {
       `Name: ${name}\nEmail: ${email}\nCompany: ${company || "N/A"}\n\nMessage:\n${message}`
     );
 
-    window.location.href = `mailto:info@andykgroupinternational.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@andykgroup.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   }
 

@@ -30,7 +30,7 @@ export default function PrivacyPolicyPage() {
           <p className="text-sm text-muted-2 font-mono">Andy&apos;K Group International LTD</p>
           <p className="text-sm text-muted-2 font-mono">Registered Company Number: 16453500</p>
           <p className="text-sm text-muted-2 font-mono">86&ndash;90 Paul Street, London, EC2A 4NE, United Kingdom</p>
-          <p className="text-sm text-muted-2 font-mono">Email: info@andykgroupinternational.com</p>
+          <p className="text-sm text-muted-2 font-mono">Email: info@andykgroup.com</p>
         </div>
 
         <div className="border-t border-grid-300" />
@@ -138,7 +138,7 @@ export default function PrivacyPolicyPage() {
             </ul>
             <p className="mt-2">
               To exercise any of these rights, please contact us at:
-              info@andykgroupinternational.com.
+              info@andykgroup.com.
             </p>
           </section>
 
@@ -181,7 +181,7 @@ export default function PrivacyPolicyPage() {
             </p>
             <div className="mt-3 text-sm font-mono text-muted-2 space-y-0.5">
               <p className="font-medium text-foreground">Andy&apos;K Group International LTD</p>
-              <p>Email: info@andykgroupinternational.com</p>
+              <p>Email: info@andykgroup.com</p>
               <p>Address: 86&ndash;90 Paul Street, London, EC2A 4NE, United Kingdom</p>
             </div>
           </section>

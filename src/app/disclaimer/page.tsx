@@ -153,7 +153,7 @@ export default function DisclaimerPage() {
             <h2 className="text-lg font-semibold text-foreground mb-3">9) Contact</h2>
             <p>
               If you have questions about this Disclaimer, contact us at:
-              info@andykgroupinternational.com
+              info@andykgroup.com
             </p>
           </section>
         </article>

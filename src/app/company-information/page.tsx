@@ -54,8 +54,8 @@ export default function CompanyInformationPage() {
           <section>
             <h2 className="text-lg font-semibold text-foreground mb-3">2) Contact</h2>
             <div className="space-y-1">
-              <p><strong className="text-foreground">Email:</strong> info@andykgroupinternational.com</p>
-              <p><strong className="text-foreground">Website:</strong> andykgroupinternational.com</p>
+              <p><strong className="text-foreground">Email:</strong> info@andykgroup.com</p>
+              <p><strong className="text-foreground">Website:</strong> andykgroup.com</p>
             </div>
           </section>
 

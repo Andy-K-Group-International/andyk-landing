@@ -17,7 +17,7 @@ import ReviewPage from "./ReviewPage";
 import { ArrowLeft, ArrowRight, Check, RotateCcw, PartyPopper, Loader2 } from "lucide-react";
 import confetti from "canvas-confetti";
 
-const STAFF_EMAIL = "info@andykgroupinternational.com";
+const STAFF_EMAIL = "info@andykgroup.com";
 
 const SECTION_ORDER = [
   "pre-qualification",

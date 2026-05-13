@@ -11,10 +11,10 @@ export const COMPANY = {
   companyNumber: "16453500",
   address: "86–90 Paul Street, London, EC2A 4NE, United Kingdom",
   phone: "+44 330 027 1319",
-  email: "info@andykgroupinternational.com",
+  email: "info@andykgroup.com",
   socials: {
     linkedin: "https://www.linkedin.com/company/80971657/",
-    email: "info@andykgroupinternational.com",
+    email: "info@andykgroup.com",
   },
   logoUrl:
     "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/305703b2e_Andykgroup-LOGO.png",
@@ -131,7 +131,7 @@ export const FOUNDERS: {
     role: "Founder & Strategic Business Developer",
     image: "/ceo.jpeg",
     linkedin: "https://www.linkedin.com/in/disandrejkneisl/",
-    email: "ceo@andykgroupinternational.com",
+    email: "ceo@andykgroup.com",
     bio: "15+ years of leadership in sales, hospitality, business development, and operational strategy. Andrej specializes in scalable growth systems for B2B, B2G, and international client relations.",
     quote:
       "My focus is building business systems that are not only profitable — but sustainable, secure, and designed to scale.",

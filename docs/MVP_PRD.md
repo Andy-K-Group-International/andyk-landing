@@ -118,7 +118,7 @@ src/app/onboarding/
 **Implementation in `layout.tsx`:**
 ```typescript
 export const metadata: Metadata = {
-  metadataBase: new URL("https://andykgroupinternational.com"),
+  metadataBase: new URL("https://andykgroup.com"),
   title: {
     default: "Andy'K Group International | B2B & B2G Business Automation",
     template: "%s | Andy'K Group International",
@@ -234,7 +234,7 @@ export const metadata: Metadata = {
 **Priority:** LOW
 
 **Requirements:**
-- Review content from `/home/kobe/Documents/andyk/andykgroupinternational.com/`
+- Review content from `/home/kobe/Documents/andyk/andykgroup.com/`
 - Ensure pricing, services, and company info are consistent
 - Corporate site is a Base44-generated SPA — extract any missing content
 - Key: ensure `data.ts` has all services, pricing matches instructions.md
