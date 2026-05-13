@@ -44,7 +44,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://andykgroup.com/#website",
       url: "https://andykgroup.com",
-      name: "Andy'K Group International",
+      name: "Andy'K Group International LTD",
       publisher: {
         "@id": "https://andykgroup.com/#organization",
       },

@@ -1,8 +1,8 @@
 import UnifiedQuestionnaireFlow from "@/components/questionnaire/UnifiedQuestionnaireFlow";
 
 export const metadata = {
-  title: "Strategic Questionnaire | Andy\u0027K Group International",
-  description: "Complete the strategic pre-qualification and questionnaire to begin your engagement with Andy\u0027K Group International.",
+  title: "Strategic Questionnaire | Andy\u0027K Group International LTD",
+  description: "Complete the strategic pre-qualification and questionnaire to begin your engagement with Andy\u0027K Group International LTD.",
 };
 
 export default function QuestionnairePage() {

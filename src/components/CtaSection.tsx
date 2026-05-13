@@ -44,13 +44,13 @@ export default function CtaSection() {
 
             <div className="flex gap-4 flex-wrap mb-10">
               <a
-                href="#"
+                href="https://adam.andykgroup.com/questionnaire"
                 className="relative inline-flex items-center justify-center h-12 px-6 text-sm font-medium text-foreground btn-primary-gradient"
               >
                 <span className="relative z-10">{t.cta.ctaPrimary}</span>
               </a>
               <a
-                href={`mailto:${COMPANY.email}?subject=Custom Quote Request`}
+                href="https://adam.andykgroup.com/questionnaire"
                 className="inline-flex items-center justify-center h-12 px-6 text-sm font-medium border border-white/30 text-white hover:bg-white/10 transition-all"
               >
                 {t.cta.ctaSecondary}

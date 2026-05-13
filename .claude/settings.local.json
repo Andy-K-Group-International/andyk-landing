@@ -4,7 +4,9 @@
       "Bash(xargs sed -i '' 's/andykgroupinternational\\\\.com/andykgroup.com/g')",
       "Bash(git -C /Users/andrejkneisl/andyk-landing add .)",
       "Bash(git -C /Users/andrejkneisl/andyk-landing commit -m \"Replace andykgroupinternational.com with andykgroup.com\")",
-      "Bash(git -C /Users/andrejkneisl/andyk-landing push)"
+      "Bash(git -C /Users/andrejkneisl/andyk-landing push)",
+      "Bash(curl *)",
+      "Bash(python3 *)"
     ]
   }
 }

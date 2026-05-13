@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 export const alt =
-  "Andy'K Group International — Business Automation & Outreach";
+  "Andy'K Group International LTD — Business Automation & Outreach";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -36,7 +36,7 @@ export default async function OgImage() {
         {/* Logo */}
         <img
           src="https://andykgroup.com/full-logo.png"
-          alt="Andy'K Group International"
+          alt="Andy'K Group International LTD"
           height={80}
           style={{ marginBottom: 40 }}
         />

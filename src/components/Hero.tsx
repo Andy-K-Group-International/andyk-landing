@@ -13,7 +13,7 @@ export default function Hero() {
     e.preventDefault();
     if (!email) return;
     localStorage.setItem("andyk_email", email);
-    router.push(`/questionnaire?email=${encodeURIComponent(email)}`);
+    router.push(`https://adam.andykgroup.com/questionnaire?email=${encodeURIComponent(email)}`);
   };
 
   return (

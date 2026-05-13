@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: SITE_TITLE,
-    template: "%s | Andy'K Group International",
+    template: "%s | Andy'K Group International LTD",
   },
   description: SITE_DESCRIPTION,
   keywords: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "ADAM",
     "EVA",
     "document automation",
-    "Andy'K Group International",
+    "Andy'K Group International LTD",
     "UK automation company",
   ],
   authors: [{ name: "Andy'K Group International LTD" }],
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_GB",
     url: SITE_URL,
-    siteName: "Andy'K Group International",
+    siteName: "Andy'K Group International LTD",
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     images: [
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Andy'K Group International — Business Automation & Outreach",
+        alt: "Andy'K Group International LTD — Business Automation & Outreach",
       },
     ],
   },

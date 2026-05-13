@@ -72,7 +72,7 @@ Pre-Qualification Answers:
 ${answerLines}
 
 Best regards,
-Andy'K Group International`,
+Andy'K Group International LTD`,
   });
 }
 
@@ -116,7 +116,7 @@ All Answers:
 ${answerLines}
 
 Best regards,
-Andy'K Group International`,
+Andy'K Group International LTD`,
   });
 }
 
@@ -133,10 +133,10 @@ export async function sendClientConfirmation({
 
   return await sendEmail({
     to: clientEmail,
-    subject: "We've received your questionnaire — Andy'K Group International",
+    subject: "We've received your questionnaire — Andy'K Group International LTD",
     text: `Dear ${clientName},
 
-Thank you for completing your questionnaire with Andy'K Group International.
+Thank you for completing your questionnaire with Andy'K Group International LTD.
 
 We have received your submission and our team is reviewing it.${
       isE2E
@@ -147,7 +147,7 @@ We have received your submission and our team is reviewing it.${
 You will hear from us shortly with next steps.
 
 Best regards,
-Andy'K Group International
+Andy'K Group International LTD
 info@andykgroup.com
 +44 330 027 1319`,
   });
