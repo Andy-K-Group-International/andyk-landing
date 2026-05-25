@@ -17,7 +17,7 @@ export default function MockAgentPanel() {
           <div className="w-5 h-5 rounded-full bg-highlight/20 flex items-center justify-center text-[8px] font-bold text-highlight shrink-0">A</div>
           <div className="bg-highlight/5 rounded-lg px-3 py-2 text-muted">
             <p className="text-[10px] text-muted-2 mb-1">Analysed client profile in 4s</p>
-            Proposal generated with 3 service packages: B2B Lead Gen (&euro;15K), A.D.A.M. License (&euro;8K/mo), and Market Entry Strategy (&euro;22K).
+            Proposal generated with 3 service packages: Business Architecture (&euro;15K), A.D.A.M. License (&euro;8K/mo), and Market Entry Strategy (&euro;22K).
           </div>
         </div>
         <div className="flex gap-1.5 pl-7">

@@ -306,7 +306,6 @@ export const NAV_SERVICES = [
     group: "Business Services",
     items: [
       { label: "End-to-End", description: "Strategic business development & growth architecture", href: "#end-to-end" },
-      { label: "B2B Development", description: "Business development architecture & strategic growth infrastructure", href: "#end-to-end" },
       { label: "B2G Public Sector", description: "Government tenders & procurement", href: "#pricing-b2g" },
     ],
   },

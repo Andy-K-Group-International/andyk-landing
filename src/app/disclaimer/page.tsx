@@ -69,8 +69,8 @@ export default function DisclaimerPage() {
           <section>
             <h2 className="text-lg font-semibold text-foreground mb-3">3) No guarantees / results may vary</h2>
             <p>
-              Where we describe services such as business development, lead generation, outreach
-              support, tender research, bid support, market entry, consulting, or similar services,
+              Where we describe services such as business development, public sector procurement,
+              tender research, bid support, market entry, consulting, or similar services,
               you acknowledge that outcomes depend on multiple factors outside our control
               (including third-party responses, market conditions, procurement decisions, internal
               client processes, and timing).

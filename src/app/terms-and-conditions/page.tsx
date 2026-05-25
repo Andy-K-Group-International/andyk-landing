@@ -91,7 +91,7 @@ export default function TermsAndConditionsPage() {
             <h2 className="text-lg font-semibold text-foreground mb-3">4. No guarantee of outcomes</h2>
             <p>
               Any examples, projections, timelines, or performance indicators presented on the
-              website are illustrative only. Business development, lead generation, tender research,
+              website are illustrative only. Business development, public sector procurement, tender research,
               and related services involve factors outside our control. We do not guarantee specific
               results unless explicitly agreed in a signed contract.
             </p>

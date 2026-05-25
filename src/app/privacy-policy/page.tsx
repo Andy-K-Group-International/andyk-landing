@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
               Andy&apos;K Group International LTD (&ldquo;we&rdquo;, &ldquo;us&rdquo;,
               &ldquo;our&rdquo;) is committed to protecting and respecting your privacy. This
               Privacy Policy explains how we collect, use, and safeguard personal data in
-              connection with our B2G and B2B lead generation and outreach services conducted
+              connection with our business development and advisory services conducted
               across multiple languages and regions.
             </p>
             <p className="mt-2">
@@ -56,14 +56,14 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-lg font-semibold text-foreground mb-3">1. Data We Collect</h2>
             <p>
-              We collect personal data necessary for B2B lead generation and outreach, including
+              We collect personal data necessary for our business development and advisory services, including
               but not limited to:
             </p>
             <ul className="list-disc pl-6 mt-2 space-y-1">
               <li>Business contact details (name, job title, company name, business email, phone number)</li>
               <li>Communication content (emails, call recordings, meeting notes)</li>
               <li>Technical data (IP addresses, device information, browsing behavior when you visit our website)</li>
-              <li>Language preferences and regional data for outreach customization</li>
+              <li>Language preferences and regional data for service customization</li>
             </ul>
           </section>
 
@@ -73,8 +73,8 @@ export default function PrivacyPolicyPage() {
             <p>We use your personal data to:</p>
             <ul className="list-disc pl-6 mt-2 space-y-1">
               <li>Identify and contact potential business clients and partners</li>
-              <li>Customize communication and outreach based on language and region</li>
-              <li>Provide, manage, and improve our B2B lead generation and outreach services</li>
+              <li>Customize communication based on language and region</li>
+              <li>Provide, manage, and improve our business development and advisory services</li>
               <li>Comply with legal and regulatory obligations</li>
             </ul>
           </section>
@@ -85,7 +85,7 @@ export default function PrivacyPolicyPage() {
             <p>Our processing of your data is based on one or more of the following:</p>
             <ul className="list-disc pl-6 mt-2 space-y-1">
               <li>Your consent (where applicable)</li>
-              <li>Legitimate interests: To conduct and improve our business outreach activities, provided this does not override your rights</li>
+              <li>Legitimate interests: To conduct and improve our business development activities, provided this does not override your rights</li>
               <li>Compliance with legal obligations</li>
             </ul>
           </section>

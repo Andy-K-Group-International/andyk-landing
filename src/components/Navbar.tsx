@@ -75,7 +75,6 @@ export default function Navbar() {
       isIT: false,
       items: [
         { label: t.nav.endToEnd, description: t.nav.endToEndDesc, href: "#end-to-end" },
-        { label: t.nav.b2bDev, description: t.nav.b2bDevDesc, href: "#end-to-end" },
         { label: t.nav.b2gPublic, description: t.nav.b2gPublicDesc, href: "#pricing-b2g" },
       ],
     },

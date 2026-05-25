@@ -280,7 +280,7 @@ export default function UnifiedQuestionnaireFlow({ initialEmail }: { initialEmai
     return SECTION_ORDER.filter((sectionId) => {
       if (sectionId === "pre-qualification") return false;
       if (sectionId === "review") return false; // Handled separately
-      if (sectionId === "e2e") return serviceType === "e2e";
+      if (sectionId === "e2e") return serviceType === "e2e" || selectedSegments.includes("end_to_end");
       if (sectionId === "b2b") return serviceType === "b2b" || selectedSegments.includes("B2B");
       if (sectionId === "b2g") return serviceType === "b2g" || selectedSegments.includes("B2G");
       if (sectionId === "adam") return serviceType === "adam" || selectedSegments.includes("ADAM");
@@ -337,7 +337,7 @@ export default function UnifiedQuestionnaireFlow({ initialEmail }: { initialEmai
       const segs = Array.isArray(value) ? value : [];
       setSelectedSegments(segs);
       // If E2E is selected, override service type
-      if (segs.includes("E2E")) setServiceType("e2e");
+      if (segs.includes("E2E") || segs.includes("end_to_end")) setServiceType("e2e");
       else if (segs.includes("B2B") && segs.length === 1) setServiceType("b2b");
       else if (segs.includes("B2G") && segs.length === 1) setServiceType("b2g");
       else if (segs.includes("ADAM") && segs.length === 1) setServiceType("adam");

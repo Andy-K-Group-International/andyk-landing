@@ -62,10 +62,6 @@ const en = {
         description: "Strategic business development & growth architecture",
       },
       {
-        title: "B2B",
-        description: "Business development architecture, growth infrastructure & strategic positioning",
-      },
-      {
         title: "B2G",
         description: "Public sector strategy, tender advisory & procurement",
       },
@@ -185,7 +181,6 @@ const en = {
     headingItalic: "every stage",
     subtitle: "Structured advisory and business development — combining strategy, public sector expertise, and technology infrastructure to help you scale.",
     eyebrow: "Transparent pricing",
-    tabB2B: "B2B Business Development",
     tabB2G: "B2G Public Sector",
     tabTech: "Technology / CTO",
     commitment: "Starting from 3 months",
@@ -200,48 +195,6 @@ const en = {
     billingMinimum: "Initial commitment of 3\u201312 months",
     billingRenewal: "Transitions to rolling monthly subscription after delivery",
     billingCancellation: "15-day cancellation notice",
-
-    // B2B Plans
-    b2bCore: {
-      name: "CORE",
-      features: [
-        "40 qualified leads per month",
-        "1 market / 1 target persona",
-        "Email outreach + cold calling",
-        "Monthly reporting",
-        "Onboarding strategy session",
-      ],
-    },
-    b2bAdvance: {
-      name: "ADVANCE",
-      features: [
-        "60 qualified leads per month",
-        "2 markets coverage",
-        "Multi-touch outreach campaigns",
-        "Performance optimization",
-        "Monthly strategy review",
-      ],
-    },
-    b2bVanguard: {
-      name: "VANGUARD",
-      features: [
-        "80 qualified leads per month",
-        "Multi-market campaigns",
-        "CRM pipeline setup",
-        "Lead scoring system",
-        "Strategic outreach architecture",
-      ],
-    },
-    b2bPrestige: {
-      name: "PRESTIGE",
-      features: [
-        "120+ qualified leads",
-        "Branded outreach campaigns",
-        "Custom call & email scripts",
-        "Strategic business development consulting",
-        "Executive-level reporting",
-      ],
-    },
 
     // B2G Plans
     b2gStarter: {
@@ -377,8 +330,6 @@ const en = {
     adamDesc: "Automated Document & Account Manager",
     endToEnd: "End-to-End",
     endToEndDesc: "Strategic business development & growth architecture",
-    b2bDev: "B2B Development",
-    b2bDevDesc: "Business development architecture & strategic growth infrastructure",
     b2gPublic: "B2G Public Sector",
     b2gPublicDesc: "Government tenders & procurement",
     sysArch: "System Architecture",
@@ -500,7 +451,6 @@ const es: typeof en = {
     subtitle: "Servicios estratégicos que combinan desarrollo empresarial, arquitectura operativa y tecnología.",
     items: [
       { title: "End-to-End", description: "Desarrollo empresarial estratégico y arquitectura de crecimiento" },
-      { title: "B2B", description: "Arquitectura de desarrollo empresarial, infraestructura de crecimiento y posicionamiento estratégico" },
       { title: "B2G", description: "Estrategia del sector público, asesoramiento en licitaciones y contratación" },
       { title: "IT Services", description: "Arquitectura de sistemas, desarrollo de plataformas y automatización" },
     ],
@@ -559,7 +509,6 @@ const es: typeof en = {
     headingItalic: "cada etapa",
     subtitle: "Asesoramiento estructurado y desarrollo empresarial — combinando estrategia, experiencia en el sector público e infraestructura tecnológica para ayudarle a escalar.",
     eyebrow: "Precios transparentes",
-    tabB2B: "Desarrollo Empresarial B2B",
     tabB2G: "Sector Público B2G",
     tabTech: "Tecnología / CTO",
     commitment: "Desde 3 meses",
@@ -574,47 +523,6 @@ const es: typeof en = {
     billingMinimum: "Compromiso inicial de 3\u201312 meses",
     billingRenewal: "Transición a suscripción mensual continua tras la entrega",
     billingCancellation: "Aviso de cancelación de 15 días",
-
-    b2bCore: {
-      name: "CORE",
-      features: [
-        "40 leads cualificados por mes",
-        "1 mercado / 1 persona objetivo",
-        "Divulgación por correo electrónico + llamadas en frío",
-        "Informes mensuales",
-        "Sesión de estrategia de incorporación",
-      ],
-    },
-    b2bAdvance: {
-      name: "ADVANCE",
-      features: [
-        "60 leads cualificados por mes",
-        "Cobertura de 2 mercados",
-        "Campañas de divulgación multitáctil",
-        "Optimización de rendimiento",
-        "Revisión de estrategia mensual",
-      ],
-    },
-    b2bVanguard: {
-      name: "VANGUARD",
-      features: [
-        "80 leads cualificados por mes",
-        "Campañas multimercado",
-        "Configuración de pipeline CRM",
-        "Sistema de puntuación de leads",
-        "Arquitectura de divulgación estratégica",
-      ],
-    },
-    b2bPrestige: {
-      name: "PRESTIGE",
-      features: [
-        "120+ leads cualificados",
-        "Campañas de divulgación de marca",
-        "Scripts personalizados de llamadas y correos electrónicos",
-        "Consultoría estratégica de desarrollo empresarial",
-        "Informes a nivel ejecutivo",
-      ],
-    },
 
     b2gStarter: {
       name: "GovStarter",
@@ -786,8 +694,6 @@ const es: typeof en = {
     adamDesc: "Gestor Automatizado de Documentos y Cuentas",
     endToEnd: "End-to-End",
     endToEndDesc: "Desarrollo empresarial estratégico y arquitectura de crecimiento",
-    b2bDev: "Desarrollo B2B",
-    b2bDevDesc: "Arquitectura de desarrollo empresarial e infraestructura de crecimiento estratégico",
     b2gPublic: "Sector Público B2G",
     b2gPublicDesc: "Licitaciones gubernamentales y contratación pública",
     sysArch: "Arquitectura de sistemas",
@@ -898,7 +804,6 @@ const sk: typeof en = {
     subtitle: "Strategické služby kombinujúce obchodný rozvoj, prevádzkovú architektúru a technológiu.",
     items: [
       { title: "End-to-End", description: "Strategický obchodný rozvoj a architektúra rastu" },
-      { title: "B2B", description: "Architektúra obchodného rozvoja, rastová infraštruktúra a strategické pozicionovanie" },
       { title: "B2G", description: "Stratégia verejného sektora, poradenstvo k tenderom a obstarávanie" },
       { title: "IT Services", description: "Architektúra systémov, vývoj platforiem a automatizácia" },
     ],
@@ -992,7 +897,6 @@ const sk: typeof en = {
     headingItalic: "každú fázu",
     subtitle: "Štruktúrované poradenstvo a obchodný rozvoj — kombinujúce stratégiu, odbornosť vo verejnom sektore a technologickú infraštruktúru, aby ste mohli škálovať.",
     eyebrow: "Transparentné ceny",
-    tabB2B: "B2B obchodný rozvoj",
     tabB2G: "B2G verejný sektor",
     tabTech: "Technológia / CTO",
     commitment: "Od 3 mesiacov",
@@ -1007,47 +911,6 @@ const sk: typeof en = {
     billingMinimum: "Počiatočný záväzok 3\u201312 mesiacov",
     billingRenewal: "Po dodaní prechod na priebežné mesačné predplatné",
     billingCancellation: "15-dňová výpovedná lehota",
-
-    b2bCore: {
-      name: "CORE",
-      features: [
-        "40 kvalifikovaných leadov mesačne",
-        "1 trh / 1 cieľová osoba",
-        "E-mailové oslovenie + studené volanie",
-        "Mesačné vykazovanie",
-        "Začlenenie strategickej relácie",
-      ],
-    },
-    b2bAdvance: {
-      name: "ADVANCE",
-      features: [
-        "60 kvalifikovaných leadov mesačne",
-        "Pokrytie 2 trhov",
-        "Viacdotykové kampane oslovenia",
-        "Optimalizácia výkonu",
-        "Mesačná kontrola stratégie",
-      ],
-    },
-    b2bVanguard: {
-      name: "VANGUARD",
-      features: [
-        "80 kvalifikovaných leadov mesačne",
-        "Viac trhové kampane",
-        "Nastavenie CRM pipeline",
-        "Systém hodnotenia leadov",
-        "Strategická architektúra oslovenia",
-      ],
-    },
-    b2bPrestige: {
-      name: "PRESTIGE",
-      features: [
-        "120+ kvalifikovaných leadov",
-        "Značkové kampane oslovenia",
-        "Vlastné skripty hovorov a e-mailov",
-        "Strategické obchodné rozvojové poradenstvo",
-        "Vykazovanie na úrovni vedenia",
-      ],
-    },
 
     b2gStarter: {
       name: "GovStarter",
@@ -1184,8 +1047,6 @@ const sk: typeof en = {
     adamDesc: "Automatizovaný správca dokumentov a účtov",
     endToEnd: "End-to-End",
     endToEndDesc: "Strategický rozvoj podnikania a architektúra rastu",
-    b2bDev: "B2B rozvoj",
-    b2bDevDesc: "Architektúra obchodného rozvoja a strategická rastová infraštruktúra",
     b2gPublic: "B2G Verejný sektor",
     b2gPublicDesc: "Verejné súťaže a obstarávanie",
     sysArch: "Architektúra systémov",
@@ -1296,7 +1157,6 @@ const nl: typeof en = {
     subtitle: "Strategische diensten die bedrijfsontwikkeling, operationele architectuur en technologie combineren.",
     items: [
       { title: "End-to-End", description: "Strategische bedrijfsontwikkeling en groeiarchitectuur" },
-      { title: "B2B", description: "Bedrijfsontwikkelingsarchitectuur, groeiinfrastructuur & strategische positionering" },
       { title: "B2G", description: "Publieke sectorstrategie, aanbestedingsadvies en inkoop" },
       { title: "IT Services", description: "Systeemarchitectuur, platformontwikkeling en automatisering" },
     ],
@@ -1390,7 +1250,6 @@ const nl: typeof en = {
     headingItalic: "elke fase",
     subtitle: "Gestructureerd advies en bedrijfsontwikkeling — een combinatie van strategie, expertise in de publieke sector en technologische infrastructuur om u te helpen schalen.",
     eyebrow: "Transparante prijzen",
-    tabB2B: "B2B bedrijfsontwikkeling",
     tabB2G: "B2G publieke sector",
     tabTech: "Technologie / CTO",
     commitment: "Vanaf 3 maanden",
@@ -1405,47 +1264,6 @@ const nl: typeof en = {
     billingMinimum: "Initiële verbintenis van 3\u201312 maanden",
     billingRenewal: "Gaat over naar doorlopend maandabonnement na oplevering",
     billingCancellation: "15 dagen opzegtermijn",
-
-    b2bCore: {
-      name: "CORE",
-      features: [
-        "40 gekwalificeerde leads per maand",
-        "1 markt / 1 doelpersona",
-        "E-mail outreach + cold calling",
-        "Maandelijkse rapportage",
-        "Onboarding strategiesessie",
-      ],
-    },
-    b2bAdvance: {
-      name: "ADVANCE",
-      features: [
-        "60 gekwalificeerde leads per maand",
-        "2 markten dekking",
-        "Multi-touch outreach campagnes",
-        "Prestatie-optimalisatie",
-        "Maandelijkse strategiebeoordeling",
-      ],
-    },
-    b2bVanguard: {
-      name: "VANGUARD",
-      features: [
-        "80 gekwalificeerde leads per maand",
-        "Multi-markt campagnes",
-        "CRM pipeline opzet",
-        "Lead scoring systeem",
-        "Strategische outreach architectuur",
-      ],
-    },
-    b2bPrestige: {
-      name: "PRESTIGE",
-      features: [
-        "120+ gekwalificeerde leads",
-        "Merk outreach campagnes",
-        "Aangepaste bel- en e-mailscripts",
-        "Strategisch bedrijfsontwikkelingsadvies",
-        "Rapportage op directieniveau",
-      ],
-    },
 
     b2gStarter: {
       name: "GovStarter",
@@ -1582,8 +1400,6 @@ const nl: typeof en = {
     adamDesc: "Geautomatiseerde Document- & Accountmanager",
     endToEnd: "End-to-End",
     endToEndDesc: "Strategische bedrijfsontwikkeling en groeiarchitectuur",
-    b2bDev: "B2B-ontwikkeling",
-    b2bDevDesc: "Bedrijfsontwikkelingsarchitectuur & strategische groeiinfrastructuur",
     b2gPublic: "B2G Publieke sector",
     b2gPublicDesc: "Overheidsopdrachten en aanbestedingen",
     sysArch: "Systeemarchitectuur",
@@ -1694,7 +1510,6 @@ const pt: typeof en = {
     subtitle: "Serviços estratégicos que combinam desenvolvimento empresarial, arquitetura operacional e tecnologia.",
     items: [
       { title: "End-to-End", description: "Desenvolvimento empresarial estratégico e arquitetura de crescimento" },
-      { title: "B2B", description: "Arquitetura de desenvolvimento empresarial, infraestrutura de crescimento e posicionamento estratégico" },
       { title: "B2G", description: "Estratégia do setor público, consultoria de licitações e aquisições" },
       { title: "IT Services", description: "Arquitetura de sistemas, desenvolvimento de plataformas e automação" },
     ],
@@ -1788,7 +1603,6 @@ const pt: typeof en = {
     headingItalic: "cada estágio",
     subtitle: "Assessoria estruturada e desenvolvimento de negócios — combinando estratégia, expertise no setor público e infraestrutura tecnológica para ajudá-lo a escalar.",
     eyebrow: "Preços transparentes",
-    tabB2B: "Desenvolvimento de Negócios B2B",
     tabB2G: "Setor Público B2G",
     tabTech: "Tecnologia / CTO",
     commitment: "A partir de 3 meses",
@@ -1803,47 +1617,6 @@ const pt: typeof en = {
     billingMinimum: "Compromisso inicial de 3\u201312 meses",
     billingRenewal: "Transição para assinatura mensal contínua após entrega",
     billingCancellation: "Aviso de cancelamento de 15 dias",
-
-    b2bCore: {
-      name: "CORE",
-      features: [
-        "40 leads qualificados por mês",
-        "1 mercado / 1 persona alvo",
-        "Divulgação por e-mail + cold calling",
-        "Relatórios mensais",
-        "Sessão de estratégia de integração",
-      ],
-    },
-    b2bAdvance: {
-      name: "ADVANCE",
-      features: [
-        "60 leads qualificados por mês",
-        "Cobertura de 2 mercados",
-        "Campanhas de divulgação multi-toque",
-        "Otimização de desempenho",
-        "Revisão de estratégia mensal",
-      ],
-    },
-    b2bVanguard: {
-      name: "VANGUARD",
-      features: [
-        "80 leads qualificados por mês",
-        "Campanhas multi-mercado",
-        "Configuração de pipeline CRM",
-        "Sistema de pontuação de leads",
-        "Arquitetura de divulgação estratégica",
-      ],
-    },
-    b2bPrestige: {
-      name: "PRESTIGE",
-      features: [
-        "120+ leads qualificados",
-        "Campanhas de divulgação de marca",
-        "Scripts personalizados de chamada e e-mail",
-        "Consultoria estratégica de desenvolvimento de negócios",
-        "Relatórios de nível executivo",
-      ],
-    },
 
     b2gStarter: {
       name: "GovStarter",
@@ -1980,8 +1753,6 @@ const pt: typeof en = {
     adamDesc: "Gestor Automatizado de Documentos e Contas",
     endToEnd: "End-to-End",
     endToEndDesc: "Desenvolvimento empresarial estratégico e arquitetura de crescimento",
-    b2bDev: "Desenvolvimento B2B",
-    b2bDevDesc: "Arquitetura de desenvolvimento empresarial e infraestrutura de crescimento estratégico",
     b2gPublic: "B2G Setor público",
     b2gPublicDesc: "Licitações governamentais e aquisições",
     sysArch: "Arquitetura de sistemas",
@@ -2092,7 +1863,6 @@ const de: typeof en = {
     subtitle: "Strategische Dienstleistungen, die Geschäftsentwicklung, operative Architektur und Technologie kombinieren.",
     items: [
       { title: "End-to-End", description: "Strategische Geschäftsentwicklung und Wachstumsarchitektur" },
-      { title: "B2B", description: "Geschäftsentwicklungsarchitektur, Wachstumsinfrastruktur & strategische Positionierung" },
       { title: "B2G", description: "Öffentlicher-Sektor-Strategie, Ausschreibungsberatung und Beschaffung" },
       { title: "IT Services", description: "Systemarchitektur, Plattformentwicklung und Automatisierung" },
     ],
@@ -2186,7 +1956,6 @@ const de: typeof en = {
     headingItalic: "jede Phase",
     subtitle: "Strukturierte Beratung und Geschäftsentwicklung — Kombination aus Strategie, Public-Sector-Expertise und technologischer Infrastruktur, um Sie beim Skalieren zu unterstützen.",
     eyebrow: "Transparente Preise",
-    tabB2B: "B2B-Geschäftsentwicklung",
     tabB2G: "B2G-Öffentlicher Sektor",
     tabTech: "Technologie / CTO",
     commitment: "Ab 3 Monaten",
@@ -2201,47 +1970,6 @@ const de: typeof en = {
     billingMinimum: "Anfangsverpflichtung von 3\u201312 Monaten",
     billingRenewal: "\u00DCbergang zu laufendem Monatsabonnement nach Lieferung",
     billingCancellation: "15 Tage K\u00FCndigungsfrist",
-
-    b2bCore: {
-      name: "CORE",
-      features: [
-        "40 qualifizierte Leads pro Monat",
-        "1 Markt / 1 Zielpersona",
-        "E-Mail-Outreach + Kaltakquise",
-        "Monatliches Reporting",
-        "Onboarding-Strategiesitzung",
-      ],
-    },
-    b2bAdvance: {
-      name: "ADVANCE",
-      features: [
-        "60 qualifizierte Leads pro Monat",
-        "2 Märkte Abdeckung",
-        "Multi-Touch-Outreach-Kampagnen",
-        "Performance-Optimierung",
-        "Monatliche Strategieüberprüfung",
-      ],
-    },
-    b2bVanguard: {
-      name: "VANGUARD",
-      features: [
-        "80 qualifizierte Leads pro Monat",
-        "Multi-Markt-Kampagnen",
-        "CRM-Pipeline-Einrichtung",
-        "Lead-Scoring-System",
-        "Strategische Outreach-Architektur",
-      ],
-    },
-    b2bPrestige: {
-      name: "PRESTIGE",
-      features: [
-        "120+ qualifizierte Leads",
-        "Marken-Outreach-Kampagnen",
-        "Benutzerdefinierte Anruf- und E-Mail-Skripte",
-        "Strategische Geschäftsentwicklungsberatung",
-        "Reporting auf Führungsebene",
-      ],
-    },
 
     b2gStarter: {
       name: "GovStarter",
@@ -2378,8 +2106,6 @@ const de: typeof en = {
     adamDesc: "Automatisierter Dokument- & Kontomanager",
     endToEnd: "End-to-End",
     endToEndDesc: "Strategische Geschäftsentwicklung und Wachstumsarchitektur",
-    b2bDev: "B2B-Entwicklung",
-    b2bDevDesc: "Geschäftsentwicklungsarchitektur & strategische Wachstumsinfrastruktur",
     b2gPublic: "B2G Öffentlicher Sektor",
     b2gPublicDesc: "Ausschreibungen und öffentliches Beschaffungswesen",
     sysArch: "Systemarchitektur",
