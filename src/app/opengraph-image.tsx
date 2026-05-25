@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 export const alt =
-  "Andy'K Group International LTD — Business Automation & Outreach";
+  "Andy'K Group International LTD — End-to-End Business Development Architecture";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -52,7 +52,7 @@ export default async function OgImage() {
             marginBottom: 20,
           }}
         >
-          B2B & B2G Business Automation
+          End-to-End Business Development Architecture
         </div>
 
         <div
@@ -64,8 +64,7 @@ export default async function OgImage() {
             maxWidth: 800,
           }}
         >
-          Powering A.D.A.M. & E.V.A. — operational automation systems for
-          modern growth
+          Business Operating Systems · Public Sector Expansion · A.D.A.M. Operating Infrastructure
         </div>
 
         {/* Accent line */}

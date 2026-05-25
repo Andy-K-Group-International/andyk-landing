@@ -20,26 +20,30 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 const SITE_URL = "https://andykgroup.com";
 const SITE_TITLE =
-  "Andy'K Group International LTD | B2B & B2G Business Automation";
+  "Andy'K Group | End-to-End Business Development Architecture";
 const SITE_DESCRIPTION =
-  "Strategic partner in business automation & outreach. Powering the A.D.A.M. & E.V.A. systems for B2B lead generation, document automation, and government tender strategy.";
+  "Andy'K Group designs and operates end-to-end business development systems, public sector expansion strategies, and AI-powered operating infrastructure for growth-stage companies.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: SITE_TITLE,
-    template: "%s | Andy'K Group International LTD",
+    template: "%s | Andy'K Group",
   },
   description: SITE_DESCRIPTION,
   keywords: [
-    "business automation",
-    "B2B lead generation",
+    "end-to-end business development",
+    "business development architecture",
+    "business operating system",
+    "strategic growth infrastructure",
+    "public sector expansion",
+    "government procurement strategy",
     "B2G tenders",
-    "ADAM",
-    "EVA",
-    "document automation",
+    "EU tender support",
+    "consortium structuring",
+    "A.D.A.M. operating system",
     "Andy'K Group International LTD",
-    "UK automation company",
+    "UK business development",
   ],
   authors: [{ name: "Andy'K Group International LTD" }],
   creator: "Andy'K Group International LTD",
@@ -59,7 +63,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Andy'K Group International LTD — Business Automation & Outreach",
+        alt: "Andy'K Group International LTD — End-to-End Business Development Architecture",
       },
     ],
   },

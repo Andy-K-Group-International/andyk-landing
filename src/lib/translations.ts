@@ -20,9 +20,9 @@ const en = {
   company: {
     name: "Andy'K Group International LTD",
     tagline: "End-to-End Business Development & Growth Architecture",
-    subtitle: "Integrated B2B, B2G & IT Services",
+    subtitle: "Business Operating Systems · Strategic Growth Infrastructure",
     subtitleLine2: "Powered by A.D.A.M. — Guided by E.V.A.",
-    description: "Andy'K Group International LTD is a UK-based innovation company, combining business intelligence, automation, and strategic outreach.",
+    description: "Andy'K Group International LTD is a UK-based strategic firm architecting Business Operating Systems — combining growth infrastructure, operational design, and technology.",
     descriptionExtra: "With clients across Europe and Latin America, we build structured growth environments where strategy, operations, and technology move in one direction.",
     descriptionSystems: "Strategic services combining business development, operational architecture, and technology — helping startups, SMEs, and public institutions scale with structure.",
     quote: "One structure. One flow. One system.",
@@ -41,12 +41,12 @@ const en = {
 
   // Top banner
   banner: {
-    b2bLead: "B2B Lead Generation:",
-    b2bText: "targeted outreach & pipeline management",
+    b2bLead: "Business Architecture:",
+    b2bText: "end-to-end growth systems & operational design",
     adamSystem: "A.D.A.M. System:",
     adamText: "automated documents, proposals & client lifecycle",
     b2gTender: "B2G Tender Strategy:",
-    b2gText: "public procurement & bid preparation",
+    b2gText: "procurement intelligence & public sector expansion",
     trusted: "Trusted across:",
     trustedText: "LATAM, Benelux, DACH & US",
   },
@@ -63,7 +63,7 @@ const en = {
       },
       {
         title: "B2B",
-        description: "Lead generation, outreach campaigns & pipeline management",
+        description: "Business development architecture, growth infrastructure & strategic positioning",
       },
       {
         title: "B2G",
@@ -79,7 +79,7 @@ const en = {
   // End-to-End section
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Business Development",
+    headingItalic: "Business Development Architecture",
     description: "We design, restructure, and architect businesses from foundation to scalable growth. Powered using A.D.A.M. Structural transformation — aligning strategy, revenue, operations, positioning, and execution into one system.",
     bullets: [
       { title: "Structural clarity", description: "Defining organizational hierarchy, roles, and accountability across every business layer." },
@@ -89,6 +89,21 @@ const en = {
       { title: "System integration", description: "Connecting tools, platforms, and data flows into one unified operational ecosystem." },
       { title: "Expansion & growth control", description: "Building scalable expansion strategy with long-term positioning and controlled execution." },
     ],
+  },
+
+  // End-to-End qualification flow
+  endToEndQualification: {
+    title: "How we engage",
+    description: "End-to-End Business Development projects are internally reviewed and selectively approved based on strategic fit, operational scope, and long-term alignment.",
+    steps: [
+      "Submit Assessment",
+      "Internal Review",
+      "Strategic Fit Evaluation",
+      "Qualification Call",
+      "Proposal",
+    ],
+    ctaAssessment: "Submit Your Business Assessment",
+    ctaReview: "Request Strategic Review",
   },
 
   // Loved By / About section
@@ -232,28 +247,28 @@ const en = {
     b2gStarter: {
       name: "GovStarter",
       features: [
-        "5 verified public tenders per month",
-        "Eligibility review",
-        "Basic bid advisory",
-        "Monthly consultation",
+        "Procurement intelligence: 5 verified opportunities/month",
+        "Eligibility & compliance review",
+        "Tender architecture advisory",
+        "Monthly strategic consultation",
       ],
     },
     b2gExpand: {
       name: "GovExpand",
       features: [
-        "10 verified tenders",
-        "Pre-bid checklist",
-        "Strategy consultation",
-        "Tender pipeline building",
+        "Active public sector pipeline: 10 verified tenders",
+        "Compliance workflow review",
+        "Public sector strategy consultation",
+        "Government expansion pipeline structuring",
       ],
     },
     b2gElite: {
       name: "GovElite",
       features: [
-        "1 full proposal draft per month",
-        "Tender roadmap development",
-        "Consortium matchmaking",
-        "Priority advisory support",
+        "Full bid architecture & proposal drafting",
+        "Tender roadmap & procurement strategy",
+        "Consortium structuring & partner identification",
+        "Priority strategic advisory support",
       ],
     },
 
@@ -363,7 +378,7 @@ const en = {
     endToEnd: "End-to-End",
     endToEndDesc: "Strategic business development & growth architecture",
     b2bDev: "B2B Development",
-    b2bDevDesc: "Lead generation & outreach campaigns",
+    b2bDevDesc: "Business development architecture & strategic growth infrastructure",
     b2gPublic: "B2G Public Sector",
     b2gPublicDesc: "Government tenders & procurement",
     sysArch: "System Architecture",
@@ -450,9 +465,9 @@ const es: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
     tagline: "Desarrollo Empresarial Integral y Arquitectura de Crecimiento",
-    subtitle: "Servicios Integrados B2B, B2G y TI",
+    subtitle: "Sistemas Operativos Empresariales · Infraestructura de Crecimiento Estratégico",
     subtitleLine2: "Impulsado por A.D.A.M. — Guiado por E.V.A.",
-    description: "Andy'K Group International LTD es una empresa de innovación con sede en el Reino Unido que combina inteligencia empresarial, automatización y divulgación estratégica.",
+    description: "Andy'K Group International LTD es una empresa estratégica con sede en el Reino Unido que diseña Sistemas Operativos Empresariales — combinando infraestructura de crecimiento, diseño operativo y tecnología.",
     descriptionExtra: "Con clientes en toda Europa y América Latina, construimos entornos de crecimiento estructurados donde la estrategia, las operaciones y la tecnología avanzan en una sola dirección.",
     descriptionSystems: "Servicios estratégicos que combinan desarrollo empresarial, arquitectura operativa y tecnología — ayudando a startups, PYMEs e instituciones públicas a escalar con estructura.",
     quote: "Una estructura. Un flujo. Un sistema.",
@@ -469,12 +484,12 @@ const es: typeof en = {
   },
 
   banner: {
-    b2bLead: "Generación de leads B2B:",
-    b2bText: "divulgación dirigida y gestión de pipeline",
+    b2bLead: "Arquitectura empresarial:",
+    b2bText: "sistemas de crecimiento integral y diseño operativo",
     adamSystem: "Sistema A.D.A.M.:",
     adamText: "documentos automatizados, propuestas y ciclo de vida del cliente",
-    b2gTender: "Estrategia de licitación B2G:",
-    b2gText: "contratación pública y preparación de ofertas",
+    b2gTender: "Estrategia B2G:",
+    b2gText: "inteligencia de contratación y expansión del sector público",
     trusted: "Confianza en:",
     trustedText: "LATAM, Benelux, DACH y EE.UU.",
   },
@@ -485,7 +500,7 @@ const es: typeof en = {
     subtitle: "Servicios estratégicos que combinan desarrollo empresarial, arquitectura operativa y tecnología.",
     items: [
       { title: "End-to-End", description: "Desarrollo empresarial estratégico y arquitectura de crecimiento" },
-      { title: "B2B", description: "Generación de leads, campañas de divulgación y gestión de pipeline" },
+      { title: "B2B", description: "Arquitectura de desarrollo empresarial, infraestructura de crecimiento y posicionamiento estratégico" },
       { title: "B2G", description: "Estrategia del sector público, asesoramiento en licitaciones y contratación" },
       { title: "IT Services", description: "Arquitectura de sistemas, desarrollo de plataformas y automatización" },
     ],
@@ -493,7 +508,7 @@ const es: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Desarrollo Empresarial",
+    headingItalic: "Desarrollo Empresarial y Arquitectura",
     description: "Diseñamos, reestructuramos y arquitectamos negocios desde los cimientos hasta el crecimiento escalable. Impulsado por A.D.A.M. Transformación estructural — alineando estrategia, ingresos, operaciones, posicionamiento y ejecución en un solo sistema.",
     bullets: [
       { title: "Claridad estructural", description: "Definición de jerarquía organizativa, roles y responsabilidad en cada capa del negocio." },
@@ -604,28 +619,28 @@ const es: typeof en = {
     b2gStarter: {
       name: "GovStarter",
       features: [
-        "5 licitaciones públicas verificadas por mes",
-        "Revisión de elegibilidad",
-        "Asesoramiento básico de oferta",
-        "Consulta mensual",
+        "Inteligencia de contratación: 5 oportunidades verificadas/mes",
+        "Revisión de elegibilidad y cumplimiento",
+        "Asesoramiento en arquitectura de licitaciones",
+        "Consulta estratégica mensual",
       ],
     },
     b2gExpand: {
       name: "GovExpand",
       features: [
-        "10 licitaciones verificadas",
-        "Lista de verificación previa a la oferta",
-        "Consulta de estrategia",
-        "Construcción de pipeline de licitaciones",
+        "Pipeline de sector público activo: 10 licitaciones verificadas",
+        "Revisión del flujo de trabajo de cumplimiento",
+        "Consulta de estrategia del sector público",
+        "Estructuración del pipeline de expansión gubernamental",
       ],
     },
     b2gElite: {
       name: "GovElite",
       features: [
-        "1 borrador de propuesta completo por mes",
-        "Desarrollo de hoja de ruta de licitaciones",
-        "Emparejamiento de consorcios",
-        "Soporte de asesoramiento prioritario",
+        "Arquitectura de oferta completa y redacción de propuestas",
+        "Hoja de ruta de licitaciones y estrategia de contratación",
+        "Estructuración de consorcios e identificación de socios",
+        "Soporte de asesoramiento estratégico prioritario",
       ],
     },
 
@@ -724,6 +739,20 @@ const es: typeof en = {
     readMore: "Leer más",
   },
 
+  endToEndQualification: {
+    title: "Cómo colaboramos",
+    description: "Los proyectos de Desarrollo Empresarial End-to-End se revisan internamente y se aprueban de manera selectiva según el ajuste estratégico, el alcance operativo y la alineación a largo plazo.",
+    steps: [
+      "Enviar evaluación",
+      "Revisión interna",
+      "Evaluación de idoneidad estratégica",
+      "Llamada de calificación",
+      "Propuesta",
+    ],
+    ctaAssessment: "Envíe su evaluación empresarial",
+    ctaReview: "Solicitar revisión estratégica",
+  },
+
   lovedBy: {
     headingBold: "Construido sobre",
     headingItalic: "confianza.",
@@ -758,7 +787,7 @@ const es: typeof en = {
     endToEnd: "End-to-End",
     endToEndDesc: "Desarrollo empresarial estratégico y arquitectura de crecimiento",
     b2bDev: "Desarrollo B2B",
-    b2bDevDesc: "Generación de leads y campañas de divulgación",
+    b2bDevDesc: "Arquitectura de desarrollo empresarial e infraestructura de crecimiento estratégico",
     b2gPublic: "Sector Público B2G",
     b2gPublicDesc: "Licitaciones gubernamentales y contratación pública",
     sysArch: "Arquitectura de sistemas",
@@ -834,9 +863,9 @@ const sk: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
     tagline: "Komplexný Rozvoj Podnikania a Architektúra Rastu",
-    subtitle: "Integrované Služby B2B, B2G a IT",
+    subtitle: "Obchodné prevádzkové systémy · Strategická rastová infraštruktúra",
     subtitleLine2: "Poháňané systémom A.D.A.M. — Vedené systémom E.V.A.",
-    description: "Andy'K Group International LTD je inovačná spoločnosť so sídlom vo Veľkej Británii, ktorá kombinuje obchodnú inteligenciu, automatizáciu a strategické oslovovanie.",
+    description: "Andy'K Group International LTD je strategická spoločnosť so sídlom vo Veľkej Británii, ktorá buduje obchodné prevádzkové systémy — kombinujúce rastovú infraštruktúru, prevádzkový dizajn a technológiu.",
     descriptionExtra: "S klientmi po celej Európe a Latinskej Amerike budujeme štruktúrované prostredia rastu, kde stratégia, prevádzka a technológia smerujú jedným smerom.",
     descriptionSystems: "Strategické služby kombinujúce obchodný rozvoj, prevádzkovú architektúru a technológiu — pomáhajúce startupom, malým a stredným podnikom a verejným inštitúciám škálovať so štruktúrou.",
     quote: "Jedna štruktúra. Jeden tok. Jeden systém.",
@@ -853,12 +882,12 @@ const sk: typeof en = {
   },
 
   banner: {
-    b2bLead: "Generovanie B2B leadov:",
-    b2bText: "cielené oslovenie a správa pipeline",
+    b2bLead: "Obchodná architektúra:",
+    b2bText: "komplexné rastové systémy a prevádzkový dizajn",
     adamSystem: "Systém A.D.A.M.:",
     adamText: "automatizované dokumenty, návrhy a životný cyklus klienta",
-    b2gTender: "Stratégia B2G tenderov:",
-    b2gText: "verejné obstarávanie a príprava ponúk",
+    b2gTender: "Stratégia B2G:",
+    b2gText: "výzveda obstarávania a expanzia verejného sektora",
     trusted: "Dôveryhodné naprieč:",
     trustedText: "LATAM, Benelux, DACH a USA",
   },
@@ -869,7 +898,7 @@ const sk: typeof en = {
     subtitle: "Strategické služby kombinujúce obchodný rozvoj, prevádzkovú architektúru a technológiu.",
     items: [
       { title: "End-to-End", description: "Strategický obchodný rozvoj a architektúra rastu" },
-      { title: "B2B", description: "Generovanie leadov, kampane oslovenia a správa pipeline" },
+      { title: "B2B", description: "Architektúra obchodného rozvoja, rastová infraštruktúra a strategické pozicionovanie" },
       { title: "B2G", description: "Stratégia verejného sektora, poradenstvo k tenderom a obstarávanie" },
       { title: "IT Services", description: "Architektúra systémov, vývoj platforiem a automatizácia" },
     ],
@@ -877,7 +906,7 @@ const sk: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Obchodný Rozvoj",
+    headingItalic: "Obchodný Rozvoj a Architektúra",
     description: "Navrhujeme, reštrukturalizujeme a budujeme podnikateľskú architektúru od základov po škálovateľný rast. Poháňané systémom A.D.A.M. Štrukturálna transformácia — zosúladenie stratégie, príjmov, prevádzky, pozicionovania a realizácie do jedného systému.",
     bullets: [
       { title: "Štrukturálna jasnosť", description: "Definovanie organizačnej hierarchie, rolí a zodpovednosti naprieč každou vrstvou podnikania." },
@@ -887,6 +916,20 @@ const sk: typeof en = {
       { title: "Systémová integrácia", description: "Prepojenie nástrojov, platforiem a dátových tokov do jedného prevádzkovéo ekosystému." },
       { title: "Expanzia a kontrola rastu", description: "Budovanie škálovateľnej expanznej stratégie s dlhodobým pozicionovaním a kontrolovanou realizáciou." },
     ],
+  },
+
+  endToEndQualification: {
+    title: "Ako spolupracujeme",
+    description: "Projekty End-to-End obchodného rozvoja sú interne preverované a selektívne schvaľované na základe strategického súladu, prevádzkového rozsahu a dlhodobého zosúladenia.",
+    steps: [
+      "Odoslať hodnotenie",
+      "Interná kontrola",
+      "Hodnotenie strategickej vhodnosti",
+      "Kvalifikačný hovor",
+      "Návrh",
+    ],
+    ctaAssessment: "Odoslať obchodné hodnotenie",
+    ctaReview: "Požiadať o strategickú kontrolu",
   },
 
   lovedBy: {
@@ -1009,28 +1052,28 @@ const sk: typeof en = {
     b2gStarter: {
       name: "GovStarter",
       features: [
-        "5 overených verejných tenderov mesačne",
-        "Kontrola oprávnenosti",
-        "Základné poradenstvo k ponuke",
-        "Mesačná konzultácia",
+        "Výzveda obstarávania: 5 overených príležitostí/mesiac",
+        "Kontrola oprávnenosti a súladu",
+        "Poradenstvo k architektúre tenderov",
+        "Mesačná strategická konzultácia",
       ],
     },
     b2gExpand: {
       name: "GovExpand",
       features: [
-        "10 overených tenderov",
-        "Zoznam kontrol pred ponukou",
-        "Strategická konzultácia",
-        "Budovanie pipeline tenderov",
+        "Aktívny pipeline verejného sektora: 10 overených tenderov",
+        "Kontrola pracovného toku súladu",
+        "Konzultácia stratégie verejného sektora",
+        "Štruktúrovanie pipeline vládnej expanzie",
       ],
     },
     b2gElite: {
       name: "GovElite",
       features: [
-        "1 kompletný návrh návrhu mesačne",
-        "Vývoj cestovnej mapy tenderov",
-        "Spárenie konzorcia",
-        "Prioritná poradenská podpora",
+        "Kompletná architektúra ponuky a tvorba návrhov",
+        "Cestovná mapa tenderov a stratégia obstarávania",
+        "Štruktúrovanie konzorcií a identifikácia partnerov",
+        "Prioritná strategická poradenská podpora",
       ],
     },
 
@@ -1142,7 +1185,7 @@ const sk: typeof en = {
     endToEnd: "End-to-End",
     endToEndDesc: "Strategický rozvoj podnikania a architektúra rastu",
     b2bDev: "B2B rozvoj",
-    b2bDevDesc: "Generovanie leadov a kampane oslovovania",
+    b2bDevDesc: "Architektúra obchodného rozvoja a strategická rastová infraštruktúra",
     b2gPublic: "B2G Verejný sektor",
     b2gPublicDesc: "Verejné súťaže a obstarávanie",
     sysArch: "Architektúra systémov",
@@ -1218,9 +1261,9 @@ const nl: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
     tagline: "End-to-End Bedrijfsontwikkeling & Groeiarchitectuur",
-    subtitle: "Geïntegreerde B2B, B2G & IT-Diensten",
+    subtitle: "Bedrijfsbesturingssystemen · Strategische Groeiinfrastructuur",
     subtitleLine2: "Aangedreven door A.D.A.M. — Geleid door E.V.A.",
-    description: "Andy'K Group International LTD is een in het VK gevestigd innovatiebedrijf dat business intelligence, automatisering en strategische outreach combineert.",
+    description: "Andy'K Group International LTD is een in het VK gevestigde strategische onderneming die Business Operating Systems ontwerpt — met een combinatie van groeiinfrastructuur, operationeel ontwerp en technologie.",
     descriptionExtra: "Met klanten in heel Europa en Latijns-Amerika bouwen we gestructureerde groeiomgevingen waar strategie, operaties en technologie in één richting bewegen.",
     descriptionSystems: "Strategische diensten die bedrijfsontwikkeling, operationele architectuur en technologie combineren — startups, MKB-bedrijven en publieke instellingen helpen schalen met structuur.",
     quote: "Eén structuur. Eén stroom. Eén systeem.",
@@ -1237,12 +1280,12 @@ const nl: typeof en = {
   },
 
   banner: {
-    b2bLead: "B2B leadgeneratie:",
-    b2bText: "gerichte outreach en pipelinebeheer",
+    b2bLead: "Bedrijfsarchitectuur:",
+    b2bText: "end-to-end groeisystemen & operationeel ontwerp",
     adamSystem: "A.D.A.M. Systeem:",
     adamText: "geautomatiseerde documenten, voorstellen en klantlevenscyclus",
-    b2gTender: "B2G aanbestedingsstrategie:",
-    b2gText: "openbare aanbesteding en voorbereiding van offertes",
+    b2gTender: "B2G Strategie:",
+    b2gText: "inkoop-intelligentie & uitbreiding publieke sector",
     trusted: "Vertrouwd in:",
     trustedText: "LATAM, Benelux, DACH en VS",
   },
@@ -1253,7 +1296,7 @@ const nl: typeof en = {
     subtitle: "Strategische diensten die bedrijfsontwikkeling, operationele architectuur en technologie combineren.",
     items: [
       { title: "End-to-End", description: "Strategische bedrijfsontwikkeling en groeiarchitectuur" },
-      { title: "B2B", description: "Leadgeneratie, outreach-campagnes en pipelinebeheer" },
+      { title: "B2B", description: "Bedrijfsontwikkelingsarchitectuur, groeiinfrastructuur & strategische positionering" },
       { title: "B2G", description: "Publieke sectorstrategie, aanbestedingsadvies en inkoop" },
       { title: "IT Services", description: "Systeemarchitectuur, platformontwikkeling en automatisering" },
     ],
@@ -1261,7 +1304,7 @@ const nl: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Bedrijfsontwikkeling",
+    headingItalic: "Bedrijfsontwikkeling & Architectuur",
     description: "Wij ontwerpen, herstructureren en bouwen bedrijfsarchitectuur van basis tot schaalbare groei. Aangedreven door A.D.A.M. Structurele transformatie — strategie, omzet, operaties, positionering en uitvoering in één systeem.",
     bullets: [
       { title: "Structurele helderheid", description: "Organisatiehiërarchie, rollen en verantwoordelijkheden definiëren binnen elke bedrijfslaag." },
@@ -1271,6 +1314,20 @@ const nl: typeof en = {
       { title: "Systeemintegratie", description: "Tools, platforms en datastromen verbinden tot één uniform operationeel ecosysteem." },
       { title: "Expansie en groeicontrole", description: "Schaalbare expansiestrategie bouwen met langetermijnpositionering en gecontroleerde uitvoering." },
     ],
+  },
+
+  endToEndQualification: {
+    title: "Hoe wij samenwerken",
+    description: "End-to-End bedrijfsontwikkelingsprojecten worden intern beoordeeld en selectief goedgekeurd op basis van strategische fit, operationele reikwijdte en langetermijnafstemming.",
+    steps: [
+      "Beoordeling indienen",
+      "Interne review",
+      "Strategische geschiktheidsevaluatie",
+      "Kwalificatiegesprek",
+      "Voorstel",
+    ],
+    ctaAssessment: "Dien uw bedrijfsbeoordeling in",
+    ctaReview: "Strategische review aanvragen",
   },
 
   lovedBy: {
@@ -1393,28 +1450,28 @@ const nl: typeof en = {
     b2gStarter: {
       name: "GovStarter",
       features: [
-        "5 geverifieerde openbare aanbestedingen per maand",
-        "Geschiktheidsbeoordeling",
-        "Basis biedadvies",
-        "Maandelijkse consultatie",
+        "Inkoop-intelligentie: 5 geverifieerde kansen/maand",
+        "Geschiktheids- & nalevingsreview",
+        "Aanbestedingsarchitectuur advies",
+        "Maandelijkse strategische consultatie",
       ],
     },
     b2gExpand: {
       name: "GovExpand",
       features: [
-        "10 geverifieerde aanbestedingen",
-        "Pre-bid checklist",
-        "Strategie consultatie",
-        "Aanbestedingspipeline opbouw",
+        "Actieve publieke sector pipeline: 10 geverifieerde aanbestedingen",
+        "Compliance workflow review",
+        "Publieke sector strategie consultatie",
+        "Structurering van de overheidsuitbreidingspipeline",
       ],
     },
     b2gElite: {
       name: "GovElite",
       features: [
-        "1 volledig voorstelconcept per maand",
-        "Aanbestedingsroadmap ontwikkeling",
-        "Consortium matchmaking",
-        "Prioritaire adviesondersteuning",
+        "Volledige biedarchitectuur & voorstelschrijven",
+        "Aanbestedingsroadmap & inkoopstrategie",
+        "Consortiumstructurering & partneridentificatie",
+        "Prioritaire strategische adviesondersteuning",
       ],
     },
 
@@ -1526,7 +1583,7 @@ const nl: typeof en = {
     endToEnd: "End-to-End",
     endToEndDesc: "Strategische bedrijfsontwikkeling en groeiarchitectuur",
     b2bDev: "B2B-ontwikkeling",
-    b2bDevDesc: "Leadgeneratie en outreachcampagnes",
+    b2bDevDesc: "Bedrijfsontwikkelingsarchitectuur & strategische groeiinfrastructuur",
     b2gPublic: "B2G Publieke sector",
     b2gPublicDesc: "Overheidsopdrachten en aanbestedingen",
     sysArch: "Systeemarchitectuur",
@@ -1602,9 +1659,9 @@ const pt: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
     tagline: "Desenvolvimento Empresarial Completo e Arquitetura de Crescimento",
-    subtitle: "Serviços Integrados B2B, B2G e TI",
+    subtitle: "Sistemas Operacionais Empresariais · Infraestrutura de Crescimento Estratégico",
     subtitleLine2: "Impulsionado pelo A.D.A.M. — Guiado pela E.V.A.",
-    description: "Andy'K Group International LTD é uma empresa de inovação sediada no Reino Unido, combinando inteligência empresarial, automatização e divulgação estratégica.",
+    description: "Andy'K Group International LTD é uma empresa estratégica sediada no Reino Unido que projeta Sistemas Operacionais Empresariais — combinando infraestrutura de crescimento, design operacional e tecnologia.",
     descriptionExtra: "Com clientes em toda a Europa e América Latina, construímos ambientes de crescimento estruturados onde estratégia, operações e tecnologia avançam numa só direção.",
     descriptionSystems: "Serviços estratégicos que combinam desenvolvimento empresarial, arquitetura operacional e tecnologia — ajudando startups, PMEs e instituições públicas a escalar com estrutura.",
     quote: "Uma estrutura. Um fluxo. Um sistema.",
@@ -1621,12 +1678,12 @@ const pt: typeof en = {
   },
 
   banner: {
-    b2bLead: "Geração de leads B2B:",
-    b2bText: "divulgação direcionada e gestão de pipeline",
+    b2bLead: "Arquitetura empresarial:",
+    b2bText: "sistemas de crescimento end-to-end e design operacional",
     adamSystem: "Sistema A.D.A.M.:",
     adamText: "documentos automatizados, propostas e ciclo de vida do cliente",
-    b2gTender: "Estratégia de licitação B2G:",
-    b2gText: "aquisição pública e preparação de propostas",
+    b2gTender: "Estratégia B2G:",
+    b2gText: "inteligência de procurement e expansão do setor público",
     trusted: "Confiável em:",
     trustedText: "LATAM, Benelux, DACH e EUA",
   },
@@ -1637,7 +1694,7 @@ const pt: typeof en = {
     subtitle: "Serviços estratégicos que combinam desenvolvimento empresarial, arquitetura operacional e tecnologia.",
     items: [
       { title: "End-to-End", description: "Desenvolvimento empresarial estratégico e arquitetura de crescimento" },
-      { title: "B2B", description: "Geração de leads, campanhas de divulgação e gestão de pipeline" },
+      { title: "B2B", description: "Arquitetura de desenvolvimento empresarial, infraestrutura de crescimento e posicionamento estratégico" },
       { title: "B2G", description: "Estratégia do setor público, consultoria de licitações e aquisições" },
       { title: "IT Services", description: "Arquitetura de sistemas, desenvolvimento de plataformas e automação" },
     ],
@@ -1645,7 +1702,7 @@ const pt: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Desenvolvimento Empresarial",
+    headingItalic: "Desenvolvimento Empresarial e Arquitetura",
     description: "Projetamos, reestruturamos e arquitetamos negócios da base ao crescimento escalável. Impulsionado pelo A.D.A.M. Transformação estrutural — alinhando estratégia, receita, operações, posicionamento e execução num único sistema.",
     bullets: [
       { title: "Clareza estrutural", description: "Definição de hierarquia organizacional, funções e responsabilidades em cada camada do negócio." },
@@ -1655,6 +1712,20 @@ const pt: typeof en = {
       { title: "Integração de sistemas", description: "Conexão de ferramentas, plataformas e fluxos de dados num ecossistema operacional unificado." },
       { title: "Expansão e controlo de crescimento", description: "Construção de estratégia de expansão escalável com posicionamento de longo prazo e execução controlada." },
     ],
+  },
+
+  endToEndQualification: {
+    title: "Como colaboramos",
+    description: "Os projetos de Desenvolvimento Empresarial End-to-End são revisados internamente e aprovados seletivamente com base no ajuste estratégico, escopo operacional e alinhamento de longo prazo.",
+    steps: [
+      "Enviar avaliação",
+      "Revisão interna",
+      "Avaliação de adequação estratégica",
+      "Chamada de qualificação",
+      "Proposta",
+    ],
+    ctaAssessment: "Envie sua avaliação empresarial",
+    ctaReview: "Solicitar revisão estratégica",
   },
 
   lovedBy: {
@@ -1777,28 +1848,28 @@ const pt: typeof en = {
     b2gStarter: {
       name: "GovStarter",
       features: [
-        "5 licitações públicas verificadas por mês",
-        "Revisão de elegibilidade",
-        "Assessoria básica de propostas",
-        "Consulta mensal",
+        "Inteligência de procurement: 5 oportunidades verificadas/mês",
+        "Revisão de elegibilidade e conformidade",
+        "Assessoria em arquitetura de licitações",
+        "Consulta estratégica mensal",
       ],
     },
     b2gExpand: {
       name: "GovExpand",
       features: [
-        "10 licitações verificadas",
-        "Checklist pré-proposta",
-        "Consulta de estratégia",
-        "Construção de pipeline de licitações",
+        "Pipeline do setor público ativo: 10 licitações verificadas",
+        "Revisão do fluxo de trabalho de conformidade",
+        "Consulta de estratégia do setor público",
+        "Estruturação do pipeline de expansão governamental",
       ],
     },
     b2gElite: {
       name: "GovElite",
       features: [
-        "1 rascunho de proposta completo por mês",
-        "Desenvolvimento de roadmap de licitações",
-        "Matchmaking de consórcio",
-        "Suporte de assessoria prioritário",
+        "Arquitetura completa de propostas e redação",
+        "Roteiro de licitações e estratégia de procurement",
+        "Estruturação de consórcio e identificação de parceiros",
+        "Suporte de assessoria estratégica prioritária",
       ],
     },
 
@@ -1910,7 +1981,7 @@ const pt: typeof en = {
     endToEnd: "End-to-End",
     endToEndDesc: "Desenvolvimento empresarial estratégico e arquitetura de crescimento",
     b2bDev: "Desenvolvimento B2B",
-    b2bDevDesc: "Geração de leads e campanhas de divulgação",
+    b2bDevDesc: "Arquitetura de desenvolvimento empresarial e infraestrutura de crescimento estratégico",
     b2gPublic: "B2G Setor público",
     b2gPublicDesc: "Licitações governamentais e aquisições",
     sysArch: "Arquitetura de sistemas",
@@ -1986,9 +2057,9 @@ const de: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
     tagline: "End-to-End-Geschäftsentwicklung & Wachstumsarchitektur",
-    subtitle: "Integrierte B2B, B2G & IT-Dienstleistungen",
+    subtitle: "Business Operating Systems · Strategische Wachstumsinfrastruktur",
     subtitleLine2: "Angetrieben von A.D.A.M. — Geführt von E.V.A.",
-    description: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Innovationsunternehmen, das Business Intelligence, Automatisierung und strategisches Outreach kombiniert.",
+    description: "Andy'K Group International LTD ist ein in Großbritannien ansässiges strategisches Unternehmen, das Business Operating Systems entwirft — mit einer Kombination aus Wachstumsinfrastruktur, operativem Design und Technologie.",
     descriptionExtra: "Mit Kunden in ganz Europa und Lateinamerika bauen wir strukturierte Wachstumsumgebungen, in denen Strategie, Betrieb und Technologie in eine Richtung bewegen.",
     descriptionSystems: "Strategische Dienstleistungen, die Geschäftsentwicklung, operative Architektur und Technologie kombinieren — Startups, KMUs und öffentlichen Institutionen helfen, mit Struktur zu skalieren.",
     quote: "Eine Struktur. Ein Ablauf. Ein System.",
@@ -2005,12 +2076,12 @@ const de: typeof en = {
   },
 
   banner: {
-    b2bLead: "B2B-Lead-Generierung:",
-    b2bText: "gezieltes Outreach und Pipeline-Management",
+    b2bLead: "Unternehmensarchitektur:",
+    b2bText: "End-to-End-Wachstumssysteme & operatives Design",
     adamSystem: "A.D.A.M. System:",
     adamText: "automatisierte Dokumente, Angebote und Kundenlebenszyklus",
-    b2gTender: "B2G-Ausschreibungsstrategie:",
-    b2gText: "öffentliche Beschaffung und Angebotsvorbereitung",
+    b2gTender: "B2G-Strategie:",
+    b2gText: "Beschaffungsintelligenz & Expansion im öffentlichen Sektor",
     trusted: "Vertraut in:",
     trustedText: "LATAM, Benelux, DACH und USA",
   },
@@ -2021,7 +2092,7 @@ const de: typeof en = {
     subtitle: "Strategische Dienstleistungen, die Geschäftsentwicklung, operative Architektur und Technologie kombinieren.",
     items: [
       { title: "End-to-End", description: "Strategische Geschäftsentwicklung und Wachstumsarchitektur" },
-      { title: "B2B", description: "Lead-Generierung, Outreach-Kampagnen und Pipeline-Management" },
+      { title: "B2B", description: "Geschäftsentwicklungsarchitektur, Wachstumsinfrastruktur & strategische Positionierung" },
       { title: "B2G", description: "Öffentlicher-Sektor-Strategie, Ausschreibungsberatung und Beschaffung" },
       { title: "IT Services", description: "Systemarchitektur, Plattformentwicklung und Automatisierung" },
     ],
@@ -2029,7 +2100,7 @@ const de: typeof en = {
 
   endToEnd: {
     heading: "End-to-End",
-    headingItalic: "Geschäftsentwicklung",
+    headingItalic: "Geschäftsentwicklung & Architektur",
     description: "Wir entwerfen, restrukturieren und bauen Unternehmensarchitektur von der Basis bis zum skalierbaren Wachstum. Angetrieben von A.D.A.M. Strukturelle Transformation — Strategie, Umsatz, Betrieb, Positionierung und Ausführung in ein System integriert.",
     bullets: [
       { title: "Strukturelle Klarheit", description: "Definition von Organisationshierarchie, Rollen und Verantwortlichkeiten über alle Geschäftsebenen." },
@@ -2039,6 +2110,20 @@ const de: typeof en = {
       { title: "Systemintegration", description: "Verbindung von Tools, Plattformen und Datenflüssen zu einem einheitlichen operativen Ökosystem." },
       { title: "Expansion und Wachstumskontrolle", description: "Aufbau einer skalierbaren Expansionsstrategie mit langfristiger Positionierung und kontrollierter Umsetzung." },
     ],
+  },
+
+  endToEndQualification: {
+    title: "Wie wir zusammenarbeiten",
+    description: "End-to-End-Geschäftsentwicklungsprojekte werden intern geprüft und selektiv auf der Grundlage von strategischer Passung, operativem Umfang und langfristiger Ausrichtung genehmigt.",
+    steps: [
+      "Bewerbung einreichen",
+      "Interne Prüfung",
+      "Strategische Eignungsbewertung",
+      "Qualifikationsgespräch",
+      "Angebot",
+    ],
+    ctaAssessment: "Reichen Sie Ihre Unternehmensbewertung ein",
+    ctaReview: "Strategische Prüfung anfordern",
   },
 
   lovedBy: {
@@ -2161,28 +2246,28 @@ const de: typeof en = {
     b2gStarter: {
       name: "GovStarter",
       features: [
-        "5 verifizierte öffentliche Ausschreibungen pro Monat",
-        "Berechtigungsprüfung",
-        "Grundlegende Angebotsberatung",
-        "Monatliche Konsultation",
+        "Beschaffungsintelligenz: 5 verifizierte Möglichkeiten/Monat",
+        "Eignungs- & Compliance-Prüfung",
+        "Ausschreibungsarchitektur-Beratung",
+        "Monatliche strategische Konsultation",
       ],
     },
     b2gExpand: {
       name: "GovExpand",
       features: [
-        "10 verifizierte Ausschreibungen",
-        "Pre-Bid-Checkliste",
-        "Strategiekonsultation",
-        "Ausschreibungs-Pipeline-Aufbau",
+        "Aktive Public-Sector-Pipeline: 10 verifizierte Ausschreibungen",
+        "Compliance-Workflow-Review",
+        "Öffentlicher-Sektor-Strategie-Konsultation",
+        "Strukturierung der Government-Expansions-Pipeline",
       ],
     },
     b2gElite: {
       name: "GovElite",
       features: [
-        "1 vollständiger Angebotsentwurf pro Monat",
-        "Ausschreibungs-Roadmap-Entwicklung",
-        "Konsortiums-Matchmaking",
-        "Prioritäre Beratungsunterstützung",
+        "Vollständige Angebotsarchitektur & Angebotserstellung",
+        "Ausschreibungs-Roadmap & Beschaffungsstrategie",
+        "Konsortiumsstrukturierung & Partneridentifikation",
+        "Prioritäre strategische Beratungsunterstützung",
       ],
     },
 
@@ -2294,7 +2379,7 @@ const de: typeof en = {
     endToEnd: "End-to-End",
     endToEndDesc: "Strategische Geschäftsentwicklung und Wachstumsarchitektur",
     b2bDev: "B2B-Entwicklung",
-    b2bDevDesc: "Lead-Generierung und Outreach-Kampagnen",
+    b2bDevDesc: "Geschäftsentwicklungsarchitektur & strategische Wachstumsinfrastruktur",
     b2gPublic: "B2G Öffentlicher Sektor",
     b2gPublicDesc: "Ausschreibungen und öffentliches Beschaffungswesen",
     sysArch: "Systemarchitektur",

@@ -1,8 +1,15 @@
 import UnifiedQuestionnaireFlow from "@/components/questionnaire/UnifiedQuestionnaireFlow";
 
 export const metadata = {
-  title: "Strategic Questionnaire | Andy\u0027K Group International LTD",
-  description: "Complete the strategic pre-qualification and questionnaire to begin your engagement with Andy\u0027K Group International LTD.",
+  title: "Submit Your Business Assessment | Andy'K Group",
+  description:
+    "Submit your business assessment to begin the End-to-End Business Development qualification process. Internally reviewed and selectively approved based on strategic fit.",
+  openGraph: {
+    title: "Submit Your Business Assessment | Andy'K Group",
+    description:
+      "Submit your business assessment to begin the End-to-End Business Development qualification process. Internally reviewed and selectively approved based on strategic fit.",
+    url: "https://andykgroup.com/questionnaire",
+  },
 };
 
 export default function QuestionnairePage() {

@@ -3,7 +3,7 @@ export const COMPANY = {
   tagline: "End-to-end business development & growth architecture.",
   subtitle: "We design, restructure, and architect businesses from foundation to scalable growth — powered by strategy, operations, and technology.",
   description:
-    "Andy'K Group International LTD is a UK-based innovation company, combining business intelligence, automation, and strategic outreach.",
+    "Andy'K Group International LTD is a UK-based strategic firm architecting Business Operating Systems — combining growth infrastructure, operational design, and technology.",
   descriptionExtra:
     "With clients across Europe and Latin America, we build structured growth environments where strategy, operations, and technology move in one direction.",
   descriptionSystems:
@@ -30,24 +30,24 @@ export const COMPANY = {
 
 export const SERVICES = [
   {
-    title: "Strategic Business Consulting",
+    title: "Business Architecture & Strategy",
     description:
-      "Expert guidance to refine your business strategies and optimize operations for growth.",
+      "Structural clarity, revenue design, and operational frameworks built for scalable growth.",
   },
   {
-    title: "Automation & AI Solutions",
+    title: "AI-Powered Systems",
     description:
-      "Implement cutting-edge automation and AI to streamline workflows and boost efficiency.",
+      "A.D.A.M. and E.V.A. — business process orchestration, client lifecycle management, and operational intelligence.",
   },
   {
-    title: "Market Entry & Outreach",
+    title: "Market Positioning & Expansion",
     description:
-      "Expand your reach with strategic market entry plans and effective outreach campaigns.",
+      "Strategic market entry, competitive positioning, and international expansion architecture.",
   },
   {
     title: "Public Sector & Government Contracts",
     description:
-      "Navigate the complexities of public sector procurement and secure valuable contracts.",
+      "Procurement intelligence, tender architecture, consortium structuring, and public sector expansion.",
   },
   {
     title: "Intellectual Property & Licensing",
@@ -55,24 +55,24 @@ export const SERVICES = [
       "Protect and leverage your intellectual assets through smart licensing and IP strategies.",
   },
   {
-    title: "Brand Development & Digital Presence",
+    title: "Platform & System Development",
     description:
-      "Build a strong brand identity and amplify your presence across digital platforms.",
+      "Custom operational platforms, internal portals, and automated workflow infrastructure.",
   },
 ];
 
 export const ADAM_FEATURES = [
-  "Proposal, Strategy, Contract & Invoice automation",
-  "Follow-ups, Scheduling, Human engagement",
-  "Works for B2B, B2G, and Licensing",
-  "Keeps your clients active and loyal",
+  "Operational workflow automation — proposals, contracts & invoices",
+  "Client lifecycle management & structured onboarding systems",
+  "Business process orchestration for B2B, B2G & Licensing",
+  "Strategic reporting & performance oversight",
 ];
 
 export const EVA_FEATURES = [
-  "Smart follow-ups, scheduling & human-style messages",
-  "Built for public sector & growth teams",
-  "Keeps communication active & personal",
-  "Connects directly with A.D.A.M. system",
+  "Internal operations coordination & workflow support",
+  "Reporting, documentation & process intelligence",
+  "Stakeholder communication & onboarding assistance",
+  "Seamlessly integrated with the A.D.A.M. system",
 ];
 
 export const ADAM_SHOWCASE = [
@@ -172,63 +172,6 @@ export const ADAM_ROADMAP = [
   },
 ];
 
-export const PRICING_B2B = [
-  {
-    name: "CORE",
-    basePrice: 1025,
-    baseCurrency: "GBP" as const,
-    period: "/ month",
-    features: [
-      "40 qualified leads per month",
-      "1 market / 1 target persona",
-      "Email outreach + cold calling",
-      "Monthly reporting",
-      "Onboarding strategy session",
-    ],
-  },
-  {
-    name: "ADVANCE",
-    basePrice: 1445,
-    baseCurrency: "GBP" as const,
-    period: "/ month",
-    highlighted: true,
-    features: [
-      "60 qualified leads per month",
-      "2 markets coverage",
-      "Multi-touch outreach campaigns",
-      "Performance optimization",
-      "Monthly strategy review",
-    ],
-  },
-  {
-    name: "VANGUARD",
-    basePrice: 1850,
-    baseCurrency: "GBP" as const,
-    period: "/ month",
-    features: [
-      "80 qualified leads per month",
-      "Multi-market campaigns",
-      "CRM pipeline setup",
-      "Lead scoring system",
-      "Strategic outreach architecture",
-    ],
-  },
-  {
-    name: "PRESTIGE",
-    basePrice: 2450,
-    baseCurrency: "GBP" as const,
-    period: "/ month",
-    prefix: "from",
-    features: [
-      "120+ qualified leads",
-      "Branded outreach campaigns",
-      "Custom call & email scripts",
-      "Strategic business development consulting",
-      "Executive-level reporting",
-    ],
-  },
-];
-
 export const PRICING_B2G = [
   {
     name: "GovStarter",
@@ -236,10 +179,10 @@ export const PRICING_B2G = [
     baseCurrency: "GBP" as const,
     period: "/ month",
     features: [
-      "5 verified public tenders per month",
-      "Eligibility review",
-      "Basic bid advisory",
-      "Monthly consultation",
+      "Procurement intelligence: 5 verified opportunities/month",
+      "Eligibility & compliance review",
+      "Tender architecture advisory",
+      "Monthly strategic consultation",
     ],
   },
   {
@@ -249,10 +192,10 @@ export const PRICING_B2G = [
     period: "/ month",
     highlighted: true,
     features: [
-      "10 verified tenders",
-      "Pre-bid checklist",
-      "Strategy consultation",
-      "Tender pipeline building",
+      "Active public sector pipeline: 10 verified tenders",
+      "Compliance workflow review",
+      "Public sector strategy consultation",
+      "Government expansion pipeline structuring",
     ],
   },
   {
@@ -261,10 +204,10 @@ export const PRICING_B2G = [
     baseCurrency: "GBP" as const,
     period: "/ month",
     features: [
-      "1 full proposal draft per month",
-      "Tender roadmap development",
-      "Consortium matchmaking",
-      "Priority advisory support",
+      "Full bid architecture & proposal drafting",
+      "Tender roadmap & procurement strategy",
+      "Consortium structuring & partner identification",
+      "Priority strategic advisory support",
     ],
   },
 ];
@@ -363,7 +306,7 @@ export const NAV_SERVICES = [
     group: "Business Services",
     items: [
       { label: "End-to-End", description: "Strategic business development & growth architecture", href: "#end-to-end" },
-      { label: "B2B Development", description: "Lead generation & outreach campaigns", href: "#pricing-b2b" },
+      { label: "B2B Development", description: "Business development architecture & strategic growth infrastructure", href: "#end-to-end" },
       { label: "B2G Public Sector", description: "Government tenders & procurement", href: "#pricing-b2g" },
     ],
   },

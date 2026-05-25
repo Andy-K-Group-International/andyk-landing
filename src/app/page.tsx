@@ -28,7 +28,7 @@ const jsonLd = {
         url: "https://andykgroup.com/full-logo.png",
       },
       description:
-        "UK-based strategic services company combining business development, operational architecture, and technology to help businesses scale with structure.",
+        "End-to-End Business Development Architecture & AI-Powered Operating Systems. We design, restructure, and architect businesses from foundation to scalable growth.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "86-90 Paul Street",
@@ -39,6 +39,39 @@ const jsonLd = {
       email: "info@andykgroup.com",
       telephone: "+44 330 027 1319",
       sameAs: ["https://www.linkedin.com/company/80971657/"],
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Business Development & Operating System Services",
+        itemListElement: [
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "End-to-End Business Development",
+              description:
+                "Strategic business development architecture from foundation to scalable growth — aligning strategy, revenue, operations, and execution into one system.",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "Public Sector Expansion & Government Procurement Strategy",
+              description:
+                "B2G procurement intelligence, tender architecture, EU tender support, and consortium structuring for companies expanding into public markets.",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "A.D.A.M. — AI-Powered Business Development Operating System",
+              description:
+                "Operational workflow automation for proposals, contracts, client lifecycle management, and business process orchestration.",
+            },
+          },
+        ],
+      },
     },
     {
       "@type": "WebSite",
@@ -53,7 +86,7 @@ const jsonLd = {
       "@type": "WebPage",
       "@id": "https://andykgroup.com/#webpage",
       url: "https://andykgroup.com",
-      name: "Andy'K Group International LTD | End-to-End Business Development & Growth Architecture",
+      name: "Andy'K Group | End-to-End Business Development Architecture",
       isPartOf: {
         "@id": "https://andykgroup.com/#website",
       },
@@ -61,7 +94,7 @@ const jsonLd = {
         "@id": "https://andykgroup.com/#organization",
       },
       description:
-        "Strategic partner in end-to-end business development and growth architecture. Combining strategy, operations, and technology to help businesses scale.",
+        "Andy'K Group designs and operates end-to-end business development systems, public sector expansion strategies, and AI-powered operating infrastructure for growth-stage companies.",
     },
   ],
 };

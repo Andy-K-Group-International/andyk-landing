@@ -14,8 +14,9 @@ export default function Footer() {
 
   const footerLinks = [
     { label: t.footer.linkHome, href: "#hero" },
+    { label: "End-to-End", href: "#end-to-end" },
     { label: t.footer.linkSystems, href: "#systems" },
-    { label: t.footer.linkPricing, href: "#pricing" },
+    { label: "B2G / Public Sector", href: "#pricing-b2g" },
     { label: t.footer.linkContact, href: "#contact" },
     { label: t.footer.linkPrivacy, href: "/privacy-policy" },
     { label: t.footer.linkCookies, href: "/cookies-policy" },

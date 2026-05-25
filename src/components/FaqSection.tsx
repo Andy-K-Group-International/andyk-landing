@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/context/LanguageContext";
+import { COMPANY } from "@/lib/data";
 
 const E2E_ICONS = [
   // Target - Structural clarity
@@ -105,6 +106,48 @@ export default function FaqSection() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Qualification flow */}
+        <div className="mt-20 max-w-[760px] mx-auto text-center">
+          <span className="text-[10px] uppercase tracking-[0.25em] text-muted-2 font-mono block mb-5">
+            {t.endToEndQualification.title}
+          </span>
+          <p className="text-base text-muted leading-relaxed mb-10 max-w-[640px] mx-auto">
+            {t.endToEndQualification.description}
+          </p>
+
+          {/* Flow steps */}
+          <div className="flex flex-wrap items-center justify-center gap-2 mb-10">
+            {t.endToEndQualification.steps.map((step, i) => (
+              <div key={step} className="flex items-center gap-2">
+                <span className="px-4 py-2 text-sm font-medium text-foreground border border-grid-300 rounded-lg bg-white">
+                  {step}
+                </span>
+                {i < t.endToEndQualification.steps.length - 1 && (
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-4 h-4 text-muted-2 hidden sm:block shrink-0">
+                    <path d="M6 4l4 4-4 4" />
+                  </svg>
+                )}
+              </div>
+            ))}
+          </div>
+
+          {/* CTAs */}
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <a
+              href="https://adam.andykgroup.com/questionnaire"
+              className="relative inline-flex items-center justify-center h-12 px-6 text-sm font-medium text-foreground btn-primary-gradient"
+            >
+              <span className="relative z-10">{t.endToEndQualification.ctaAssessment}</span>
+            </a>
+            <a
+              href={`mailto:${COMPANY.email}?subject=Strategic Review Request`}
+              className="inline-flex items-center justify-center h-12 px-6 text-sm font-medium text-foreground border border-grid-300 hover:border-foreground/30 transition-colors rounded-lg"
+            >
+              {t.endToEndQualification.ctaReview}
+            </a>
+          </div>
         </div>
       </div>
     </section>

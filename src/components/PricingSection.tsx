@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
-import { PRICING_B2B, PRICING_B2G, PRICING_TECH } from "@/lib/data";
+import { PRICING_B2G, PRICING_TECH } from "@/lib/data";
 import { COMPANY } from "@/lib/data";
 import { useCurrency } from "@/context/CurrencyContext";
 import { useLanguage } from "@/context/LanguageContext";
@@ -9,7 +9,7 @@ import type { CurrencyCode } from "@/lib/currency";
 import TabSwitcher from "@/components/TabSwitcher";
 
 // Tab IDs are constant
-const TAB_IDS = ["b2b", "b2g", "tech"] as const;
+const TAB_IDS = ["b2g", "tech"] as const;
 
 
 function CheckIcon() {
@@ -123,13 +123,13 @@ function PricingCardComponent({ card, translatedName, translatedFeatures }: { ca
 
 export default function PricingSection() {
   const { t } = useLanguage();
-  const [activeTab, setActiveTab] = useState<string>("b2b");
+  const [activeTab, setActiveTab] = useState<string>("b2g");
   const [slideDirection, setSlideDirection] = useState<"left" | "right">("right");
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
 
   const switchToTabFromHash = useCallback((hash: string, scroll = false) => {
-    const match = hash.match(/^#pricing-?(b2b|b2g|tech)$/);
+    const match = hash.match(/^#pricing-?(b2g|tech)$/);
     if (match) {
       const tab = match[1];
       if (TAB_IDS.includes(tab as typeof TAB_IDS[number])) {
@@ -151,13 +151,11 @@ export default function PricingSection() {
   }, [switchToTabFromHash]);
 
   // Translation keys for each pricing plan, in the same order as data arrays
-  const B2B_KEYS = [t.pricing.b2bCore, t.pricing.b2bAdvance, t.pricing.b2bVanguard, t.pricing.b2bPrestige] as const;
   const B2G_KEYS = [t.pricing.b2gStarter, t.pricing.b2gExpand, t.pricing.b2gElite] as const;
   const TECH_KEYS = [t.pricing.techArchitecture, t.pricing.techPlatforms, t.pricing.techAutomation, t.pricing.techAudit, t.pricing.techCTO] as const;
 
   // Build tabs dynamically based on translations
   const TABS = [
-    { id: "b2b", label: t.pricing.tabB2B, data: PRICING_B2B, keys: B2B_KEYS },
     { id: "b2g", label: t.pricing.tabB2G, data: PRICING_B2G, keys: B2G_KEYS },
     { id: "tech", label: t.pricing.tabTech, data: PRICING_TECH, keys: TECH_KEYS },
   ];

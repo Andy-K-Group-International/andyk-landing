@@ -25,9 +25,9 @@ export default function FlagshipSystems() {
           <span className="text-[10px] uppercase tracking-widest text-rose-dark font-medium">In Development</span>
         </div>
         <h3 className="text-2xl font-bold text-foreground mb-1">A.D.A.M.</h3>
-        <p className="text-sm text-muted-2 mb-4">Automated Document &amp; Account Manager</p>
+        <p className="text-sm text-muted-2 mb-4">AI-powered Business Development Operating System</p>
         <p className="text-base text-muted leading-relaxed mb-6 max-w-xl">
-          Our flagship system handles the full client lifecycle &mdash; from first contact to ongoing account management &mdash; so you can focus on what matters.
+          A.D.A.M. orchestrates your full operational workflow &mdash; from proposal and contract architecture to structured onboarding and client lifecycle management &mdash; in one unified business process system.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
           {ADAM_FEATURES.map((f) => (
@@ -53,9 +53,9 @@ export default function FlagshipSystems() {
           <span className="text-[10px] uppercase tracking-widest text-rose-dark font-medium">Coming Soon</span>
         </div>
         <h3 className="text-2xl font-bold text-foreground mb-1">E.V.A.</h3>
-        <p className="text-sm text-muted-2 mb-4">Economic Virtual Adviser</p>
+        <p className="text-sm text-muted-2 mb-4">Operational Business Intelligence Assistant</p>
         <p className="text-base text-muted leading-relaxed mb-6 max-w-xl">
-          Smart follow-ups, scheduling &amp; human-style messages designed for public sector and growth teams &mdash; keeping communication active, personal, and connected to A.D.A.M.
+          E.V.A. coordinates internal operations, delivers reporting intelligence, and supports onboarding workflows &mdash; keeping your business processes running with clarity and connected to A.D.A.M.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
           {EVA_FEATURES.map((f) => (

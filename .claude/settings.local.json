@@ -6,7 +6,13 @@
       "Bash(git -C /Users/andrejkneisl/andyk-landing commit -m \"Replace andykgroupinternational.com with andykgroup.com\")",
       "Bash(git -C /Users/andrejkneisl/andyk-landing push)",
       "Bash(curl *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(./node_modules/.bin/next build *)",
+      "Bash(pnpm --version)",
+      "Bash(npm install *)",
+      "Bash(npx --prefix . next build)"
     ]
   }
 }
