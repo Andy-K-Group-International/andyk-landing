@@ -12,7 +12,12 @@
       "Bash(./node_modules/.bin/next build *)",
       "Bash(pnpm --version)",
       "Bash(npm install *)",
-      "Bash(npx --prefix . next build)"
+      "Bash(npx --prefix . next build)",
+      "Bash(kill %1)",
+      "Bash(npx playwright *)",
+      "Bash(awk '/endToEnd: \\\\{/,/endToEndQualification:/' /Users/andrejkneisl/andyk-landing/src/lib/translations.ts)",
+      "Bash(node *)",
+      "Bash(npx puppeteer *)"
     ]
   }
 }

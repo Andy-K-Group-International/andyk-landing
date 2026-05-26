@@ -1,19 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Hero() {
   const { t } = useLanguage();
-  const router = useRouter();
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
     localStorage.setItem("andyk_email", email);
-    router.push(`https://adam.andykgroup.com/questionnaire?email=${encodeURIComponent(email)}`);
+    window.location.href = `https://adam.andykgroup.com/questionnaire?email=${encodeURIComponent(email)}`;
   };
 
   return (
