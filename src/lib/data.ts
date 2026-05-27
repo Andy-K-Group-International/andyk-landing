@@ -37,7 +37,7 @@ export const SERVICES = [
   {
     title: "Operational Implementation Systems",
     description:
-      "A.D.A.M. and E.V.A. — structured implementation platform, client lifecycle management, and operational delivery.",
+      "A.D.A.M. and E.V.E. — structured implementation platform, client lifecycle management, and operational delivery.",
   },
   {
     title: "Market Positioning & Expansion",
@@ -68,7 +68,7 @@ export const ADAM_FEATURES = [
   "Strategic reporting & performance oversight",
 ];
 
-export const EVA_FEATURES = [
+export const EVE_FEATURES = [
   "Execution management — milestone tracking & delivery accountability",
   "Client reporting, documentation & delivery intelligence",
   "Onboarding coordination & stakeholder communication",
@@ -340,7 +340,7 @@ export const CASE_STUDIES = [
 
 export const FOOTER_LINKS = [
   { label: "Home", href: "#hero" },
-  { label: "A.D.A.M. & E.V.A.", href: "#systems" },
+  { label: "A.D.A.M. & E.V.E.", href: "#systems" },
   { label: "Pricing", href: "#pricing" },
   { label: "Contact", href: "#contact" },
   { label: "Privacy Policy", href: "/privacy-policy" },

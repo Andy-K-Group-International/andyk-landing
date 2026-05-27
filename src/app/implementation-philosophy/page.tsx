@@ -147,7 +147,7 @@ export default function ImplementationPhilosophyPage() {
               Governance is not compliance paperwork. In our model, governance means that every decision, milestone, and deliverable has a defined owner, a defined timeline, and a defined review mechanism.
             </p>
             <p className="mt-3">
-              E.V.A. (Execution &amp; Validation Architecture) — the operational delivery layer of A.D.A.M. — ensures that milestones are tracked, deliverables are validated, and client reporting is structured and consistent. Nothing falls through the cracks because the system itself prevents it.
+              E.V.E. (Execution &amp; Validation Architecture) — the operational delivery layer of A.D.A.M. — ensures that milestones are tracked, deliverables are validated, and client reporting is structured and consistent. Nothing falls through the cracks because the system itself prevents it.
             </p>
             <p className="mt-3">
               This is the operational governance model that growing businesses need — not ad-hoc follow-ups, not dependency on one person&apos;s memory, but structured lifecycle visibility from start to finish.

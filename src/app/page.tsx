@@ -147,7 +147,7 @@ export default function Home() {
 
       <TronDivider />
 
-      {/* A.D.A.M. & E.V.A. Flagship Systems */}
+      {/* A.D.A.M. & E.V.E. Flagship Systems */}
       <FlagshipSystems />
 
       <TronDivider />

@@ -122,13 +122,13 @@ export default function WhatIsAdamPage() {
           {/* 5 */}
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-3 tracking-tight">
-              E.V.A. — The Delivery Layer
+              E.V.E. — The Delivery Layer
             </h2>
             <p>
-              A.D.A.M. works in close integration with <strong className="text-foreground font-medium">E.V.A.</strong> — Execution &amp; Validation Architecture. If A.D.A.M. is the operational backbone, E.V.A. is the delivery nerve system.
+              A.D.A.M. works in close integration with <strong className="text-foreground font-medium">E.V.E.</strong> — Execution &amp; Validation Architecture. If A.D.A.M. is the operational backbone, E.V.E. is the delivery nerve system.
             </p>
             <p className="mt-3">
-              E.V.A. manages execution milestones, validates deliverable completion, coordinates client reporting, and ensures that every engagement maintains operational accountability from start to finish. Together, A.D.A.M. and E.V.A. create a complete operational implementation system.
+              E.V.E. manages execution milestones, validates deliverable completion, coordinates client reporting, and ensures that every engagement maintains operational accountability from start to finish. Together, A.D.A.M. and E.V.E. create a complete operational implementation system.
             </p>
           </section>
 

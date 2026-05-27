@@ -9,7 +9,7 @@
  * - pt: Portuguese
  * - de: German (formal - Sie)
  *
- * Brand names remain unchanged: Andy'K Group International LTD, A.D.A.M., E.V.A.
+ * Brand names remain unchanged: Andy'K Group International LTD, A.D.A.M., E.V.E.
  */
 
 export type Locale = "en" | "es" | "sk" | "nl" | "pt" | "de";
@@ -109,7 +109,7 @@ const en = {
     headingLine2: "Built to eliminate chaos.",
     paragraph1: "Andy'K Group International LTD is a UK-based operational implementation architecture company — eliminating operational chaos and delivering structured transformation across B2G, end-to-end business architecture, and technology-driven engagements.",
     paragraph2: "We eliminate operational chaos across onboarding, implementation and lifecycle management.",
-    paragraph3: "A.D.A.M. structures operations. E.V.A. manages execution, milestones, and delivery tracking. Humans make strategic decisions.",
+    paragraph3: "A.D.A.M. structures operations. E.V.E. manages execution, milestones, and delivery tracking. Humans make strategic decisions.",
     quote: "One structure. One flow. One system.",
     tagline: "BUILT FOR OPERATIONAL CLARITY.",
   },
@@ -304,7 +304,7 @@ const en = {
   footer: {
     copyright: "© 2026",
     linkHome: "Home",
-    linkSystems: "A.D.A.M. & E.V.A.",
+    linkSystems: "A.D.A.M. & E.V.E.",
     linkPricing: "Pricing",
     linkContact: "Contact",
     linkPrivacy: "Privacy Policy",
@@ -627,7 +627,7 @@ const es: typeof en = {
   footer: {
     copyright: "© 2026",
     linkHome: "Inicio",
-    linkSystems: "A.D.A.M. & E.V.A.",
+    linkSystems: "A.D.A.M. & E.V.E.",
     linkPricing: "Precios",
     linkContact: "Contacto",
     linkPrivacy: "Política de privacidad",
@@ -667,7 +667,7 @@ const es: typeof en = {
     headingLine2: "Construido para eliminar el caos.",
     paragraph1: "Andy'K Group International LTD es una empresa de arquitectura de implementación operativa con sede en el Reino Unido — eliminando el caos operativo y entregando transformación estructurada en entornos B2G, arquitectura empresarial integral y tecnológicos.",
     paragraph2: "Eliminamos el caos operativo en incorporación, implementación y gestión del ciclo de vida.",
-    paragraph3: "A.D.A.M. estructura las operaciones. E.V.A. gestiona la ejecución, los hitos y el seguimiento de entregas. Los humanos toman decisiones estratégicas.",
+    paragraph3: "A.D.A.M. estructura las operaciones. E.V.E. gestiona la ejecución, los hitos y el seguimiento de entregas. Los humanos toman decisiones estratégicas.",
     quote: "Una estructura. Un flujo. Un sistema.",
     tagline: "CONSTRUIDO PARA LA CLARIDAD OPERATIVA.",
   },
@@ -843,7 +843,7 @@ const sk: typeof en = {
     headingLine2: "Vytvorené na elimináciu chaosu.",
     paragraph1: "Andy'K Group International LTD je spoločnosť architektúry operatívnej implementácie so sídlom vo Veľkej Británii — eliminujúca prevádzkový chaos a poskytujúca štruktúrovanú transformáciu v prostrediach B2G, komplexnej podnikovej architektúry a technologicky orientovaných odvetviach.",
     paragraph2: "Eliminujeme prevádzkový chaos v onboardingu, implementácii a riadení životného cyklu.",
-    paragraph3: "A.D.A.M. štruktúruje operácie. E.V.A. riadi realizáciu, míľniky a sledovanie dodávok. Ľudia prijímajú strategické rozhodnutia.",
+    paragraph3: "A.D.A.M. štruktúruje operácie. E.V.E. riadi realizáciu, míľniky a sledovanie dodávok. Ľudia prijímajú strategické rozhodnutia.",
     quote: "Jedna štruktúra. Jeden tok. Jeden systém.",
     tagline: "VYTVORENÉ PRE PREVÁDZKOVÚ JASNOSŤ.",
   },
@@ -1015,7 +1015,7 @@ const sk: typeof en = {
   footer: {
     copyright: "© 2026",
     linkHome: "Domov",
-    linkSystems: "A.D.A.M. & E.V.A.",
+    linkSystems: "A.D.A.M. & E.V.E.",
     linkPricing: "Ceny",
     linkContact: "Kontakt",
     linkPrivacy: "Zásady ochrany osobných údajov",
@@ -1196,7 +1196,7 @@ const nl: typeof en = {
     headingLine2: "Gebouwd om chaos te elimineren.",
     paragraph1: "Andy'K Group International LTD is een in het VK gevestigd bedrijf voor operationele implementatiearchitectuur — dat operationele chaos elimineert en gestructureerde transformatie levert in B2G, end-to-end bedrijfsarchitectuur en technologiegedreven omgevingen.",
     paragraph2: "Wij elimineren operationele chaos in onboarding, implementatie en lifecycle management.",
-    paragraph3: "A.D.A.M. structureert operaties. E.V.A. beheert uitvoering, mijlpalen en leveringsregistratie. Mensen nemen strategische beslissingen.",
+    paragraph3: "A.D.A.M. structureert operaties. E.V.E. beheert uitvoering, mijlpalen en leveringsregistratie. Mensen nemen strategische beslissingen.",
     quote: "Eén structuur. Eén stroom. Eén systeem.",
     tagline: "GEBOUWD VOOR OPERATIONELE HELDERHEID.",
   },
@@ -1368,7 +1368,7 @@ const nl: typeof en = {
   footer: {
     copyright: "© 2026",
     linkHome: "Home",
-    linkSystems: "A.D.A.M. & E.V.A.",
+    linkSystems: "A.D.A.M. & E.V.E.",
     linkPricing: "Prijzen",
     linkContact: "Contact",
     linkPrivacy: "Privacybeleid",
@@ -1549,7 +1549,7 @@ const pt: typeof en = {
     headingLine2: "Construído para eliminar o caos.",
     paragraph1: "Andy'K Group International LTD é uma empresa de arquitetura de implementação operacional sediada no Reino Unido — eliminando o caos operacional e entregando transformação estruturada em ambientes B2G, arquitetura empresarial integrada e orientados por tecnologia.",
     paragraph2: "Eliminamos o caos operacional em onboarding, implementação e gestão do ciclo de vida.",
-    paragraph3: "A.D.A.M. estrutura as operações. E.V.A. gere a execução, marcos e rastreamento de entregas. Os humanos tomam decisões estratégicas.",
+    paragraph3: "A.D.A.M. estrutura as operações. E.V.E. gere a execução, marcos e rastreamento de entregas. Os humanos tomam decisões estratégicas.",
     quote: "Uma estrutura. Um fluxo. Um sistema.",
     tagline: "CONSTRUÍDO PARA CLAREZA OPERACIONAL.",
   },
@@ -1721,7 +1721,7 @@ const pt: typeof en = {
   footer: {
     copyright: "© 2026",
     linkHome: "Início",
-    linkSystems: "A.D.A.M. & E.V.A.",
+    linkSystems: "A.D.A.M. & E.V.E.",
     linkPricing: "Preços",
     linkContact: "Contato",
     linkPrivacy: "Política de privacidade",
@@ -1902,7 +1902,7 @@ const de: typeof en = {
     headingLine2: "Gebaut um Chaos zu eliminieren.",
     paragraph1: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Unternehmen für operative Implementierungsarchitektur — das operatives Chaos eliminiert und strukturierte Transformation in B2G-, End-to-End-Unternehmensarchitektur- und technologiegetriebenen Umgebungen liefert.",
     paragraph2: "Wir eliminieren operatives Chaos in Onboarding, Implementierung und Lifecycle-Management.",
-    paragraph3: "A.D.A.M. strukturiert den Betrieb. E.V.A. verwaltet Ausführung, Meilensteine und Lieferungsverfolgung. Menschen treffen strategische Entscheidungen.",
+    paragraph3: "A.D.A.M. strukturiert den Betrieb. E.V.E. verwaltet Ausführung, Meilensteine und Lieferungsverfolgung. Menschen treffen strategische Entscheidungen.",
     quote: "Eine Struktur. Ein Ablauf. Ein System.",
     tagline: "GEBAUT FÜR OPERATIVE KLARHEIT.",
   },
@@ -2074,7 +2074,7 @@ const de: typeof en = {
   footer: {
     copyright: "© 2026",
     linkHome: "Startseite",
-    linkSystems: "A.D.A.M. & E.V.A.",
+    linkSystems: "A.D.A.M. & E.V.E.",
     linkPricing: "Preise",
     linkContact: "Kontakt",
     linkPrivacy: "Datenschutzerklärung",
