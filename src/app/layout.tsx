@@ -20,9 +20,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 const SITE_URL = "https://andykgroup.com";
 const SITE_TITLE =
-  "Andy'K Group | End-to-End Business Development Architecture";
+  "Andy'K Group | End-to-End Business Architecture & Operational Implementation";
 const SITE_DESCRIPTION =
-  "Andy'K Group designs and operates end-to-end business development systems, public sector expansion strategies, and AI-powered operating infrastructure for growth-stage companies.";
+  "Andy'K Group eliminates operational chaos across onboarding, implementation, and lifecycle management. Operational implementation architecture for growth-stage companies — powered by A.D.A.M.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -32,18 +32,18 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   keywords: [
-    "end-to-end business development",
-    "business development architecture",
+    "operational implementation architecture",
+    "business architecture",
+    "operational chaos elimination",
+    "implementation-first business operations",
     "business operating system",
-    "strategic growth infrastructure",
+    "structured implementation lifecycle",
     "public sector expansion",
     "government procurement strategy",
     "B2G tenders",
-    "EU tender support",
-    "consortium structuring",
-    "A.D.A.M. operating system",
+    "A.D.A.M. operational platform",
     "Andy'K Group International LTD",
-    "UK business development",
+    "UK operational implementation",
   ],
   authors: [{ name: "Andy'K Group International LTD" }],
   creator: "Andy'K Group International LTD",

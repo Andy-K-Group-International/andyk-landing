@@ -17,6 +17,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+    // Philosophy / product pages
+    {
+      url: `${BASE_URL}/implementation-philosophy`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/what-is-adam`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
     // Case studies
     {
       url: `${BASE_URL}/case-studies/hospitality`,

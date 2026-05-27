@@ -1,13 +1,13 @@
 export const COMPANY = {
   name: "Andy'K Group International LTD",
-  tagline: "End-to-end business development & growth architecture.",
-  subtitle: "We design, restructure, and architect businesses from foundation to scalable growth — powered by strategy, operations, and technology.",
+  tagline: "End-to-end business architecture & operational implementation.",
+  subtitle: "We eliminate operational chaos across onboarding, implementation and lifecycle management — powered by A.D.A.M. and structured delivery.",
   description:
-    "Andy'K Group International LTD is a UK-based strategic firm architecting Business Operating Systems — combining growth infrastructure, operational design, and technology.",
+    "Andy'K Group International LTD is a UK-based operational implementation architecture company — eliminating operational chaos across onboarding, implementation, and lifecycle management.",
   descriptionExtra:
-    "With clients across Europe and Latin America, we build structured growth environments where strategy, operations, and technology move in one direction.",
+    "With clients across Europe and Latin America, we build structured implementation environments where strategy, operations, and technology move in one direction.",
   descriptionSystems:
-    "Strategic services combining business development, operational architecture, and technology — helping startups, SMEs, and public institutions scale with structure.",
+    "Operational implementation services combining structured delivery, business architecture, and technology — helping companies achieve operational clarity at scale.",
   companyNumber: "16453500",
   address: "86–90 Paul Street, London, EC2A 4NE, United Kingdom",
   phone: "+44 330 027 1319",
@@ -35,9 +35,9 @@ export const SERVICES = [
       "Structural clarity, revenue design, and operational frameworks built for scalable growth.",
   },
   {
-    title: "AI-Powered Systems",
+    title: "Operational Implementation Systems",
     description:
-      "A.D.A.M. and E.V.A. — business process orchestration, client lifecycle management, and operational intelligence.",
+      "A.D.A.M. and E.V.A. — structured implementation platform, client lifecycle management, and operational delivery.",
   },
   {
     title: "Market Positioning & Expansion",
@@ -69,10 +69,10 @@ export const ADAM_FEATURES = [
 ];
 
 export const EVA_FEATURES = [
-  "Internal operations coordination & workflow support",
-  "Reporting, documentation & process intelligence",
-  "Stakeholder communication & onboarding assistance",
-  "Seamlessly integrated with the A.D.A.M. system",
+  "Execution management — milestone tracking & delivery accountability",
+  "Client reporting, documentation & delivery intelligence",
+  "Onboarding coordination & stakeholder communication",
+  "Fully integrated with the A.D.A.M. operational platform",
 ];
 
 export const ADAM_SHOWCASE = [
@@ -128,13 +128,13 @@ export const FOUNDERS: {
 }[] = [
   {
     name: "Andrej Kneisl",
-    role: "Founder & Strategic Business Developer",
+    role: "Founder & Operational Architect",
     image: "/ceo.jpeg",
     linkedin: "https://www.linkedin.com/in/disandrejkneisl/",
     email: "ceo@andykgroup.com",
-    bio: "15+ years of leadership in sales, hospitality, business development, and operational strategy. Andrej specializes in scalable growth systems for B2B, B2G, and international client relations.",
+    bio: "15+ years of leadership in operational strategy, business development, and implementation architecture. Andrej specializes in eliminating operational chaos — building structured implementation systems for B2B, B2G, and international client engagements.",
     quote:
-      "My focus is building business systems that are not only profitable — but sustainable, secure, and designed to scale.",
+      "My focus is building implementation systems that don't just look good on paper — they eliminate chaos, create operational clarity, and scale with structure.",
     location: "Born in Austria",
   },
 ];

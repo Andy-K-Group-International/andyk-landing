@@ -28,7 +28,7 @@ const jsonLd = {
         url: "https://andykgroup.com/full-logo.png",
       },
       description:
-        "End-to-End Business Development Architecture & AI-Powered Operating Systems. We design, restructure, and architect businesses from foundation to scalable growth.",
+        "End-to-End Business Architecture & Operational Implementation. We eliminate operational chaos across onboarding, implementation, and lifecycle management. A.D.A.M. structures operations. Humans make strategic decisions.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "86-90 Paul Street",
@@ -65,9 +65,9 @@ const jsonLd = {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "A.D.A.M. — AI-Powered Business Development Operating System",
+              name: "A.D.A.M. — Operational Implementation Platform",
               description:
-                "Operational workflow automation for proposals, contracts, client lifecycle management, and business process orchestration.",
+                "Structured operational platform for proposals, contracts, client lifecycle management, and implementation delivery. A.D.A.M. structures operations. Humans make strategic decisions.",
             },
           },
         ],
@@ -86,7 +86,7 @@ const jsonLd = {
       "@type": "WebPage",
       "@id": "https://andykgroup.com/#webpage",
       url: "https://andykgroup.com",
-      name: "Andy'K Group | End-to-End Business Development Architecture",
+      name: "Andy'K Group | End-to-End Business Architecture & Operational Implementation",
       isPartOf: {
         "@id": "https://andykgroup.com/#website",
       },
@@ -94,7 +94,7 @@ const jsonLd = {
         "@id": "https://andykgroup.com/#organization",
       },
       description:
-        "Andy'K Group designs and operates end-to-end business development systems, public sector expansion strategies, and AI-powered operating infrastructure for growth-stage companies.",
+        "Andy'K Group designs and operates end-to-end operational implementation systems, public sector expansion strategies, and structured business architecture for growth-stage companies.",
     },
   ],
 };

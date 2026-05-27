@@ -19,14 +19,14 @@ const en = {
   // Company information
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "End-to-End Business Development & Growth Architecture",
-    subtitle: "Business Operating Systems · Strategic Growth Infrastructure",
-    subtitleLine2: "Powered by A.D.A.M. — Guided by E.V.A.",
-    description: "Andy'K Group International LTD is a UK-based strategic firm architecting Business Operating Systems — combining growth infrastructure, operational design, and technology.",
-    descriptionExtra: "With clients across Europe and Latin America, we build structured growth environments where strategy, operations, and technology move in one direction.",
-    descriptionSystems: "Strategic services combining business development, operational architecture, and technology — helping startups, SMEs, and public institutions scale with structure.",
+    tagline: "End-to-End Business Architecture & Operational Implementation",
+    subtitle: "Operational Implementation Architecture · Business Operating Systems",
+    subtitleLine2: "A.D.A.M. structures operations. Humans make strategic decisions.",
+    description: "Andy'K Group International LTD is a UK-based operational implementation architecture company — eliminating operational chaos across onboarding, implementation, and lifecycle management.",
+    descriptionExtra: "With clients across Europe and Latin America, we build structured implementation environments where strategy, operations, and technology move in one direction.",
+    descriptionSystems: "Operational implementation services combining structured delivery, business architecture, and technology — helping companies achieve operational clarity at scale.",
     quote: "One structure. One flow. One system.",
-    quoteSubtitle: "Built for growth.",
+    quoteSubtitle: "Built for operational clarity.",
     location: "London, UK",
     ukCompany: "UK Limited Company",
   },
@@ -41,10 +41,10 @@ const en = {
 
   // Top banner
   banner: {
-    b2bLead: "Business Architecture:",
-    b2bText: "end-to-end growth systems & operational design",
+    b2bLead: "Operational Architecture:",
+    b2bText: "structured implementation lifecycle & operational clarity",
     adamSystem: "A.D.A.M. System:",
-    adamText: "automated documents, proposals & client lifecycle",
+    adamText: "operational implementation platform — structured delivery & client lifecycle",
     b2gTender: "B2G Tender Strategy:",
     b2gText: "procurement intelligence & public sector expansion",
     trusted: "Trusted across:",
@@ -55,11 +55,11 @@ const en = {
   services: {
     heading: "Our",
     headingItalic: "services",
-    subtitle: "Strategic services combining business development, operational architecture, and technology.",
+    subtitle: "Operational implementation services — combining structured delivery, business architecture, and technology.",
     items: [
       {
         title: "End-to-End",
-        description: "Strategic business development & growth architecture",
+        description: "Strategic implementation partnership — operational transformation engagement, selective by application",
       },
       {
         title: "B2G",
@@ -74,23 +74,23 @@ const en = {
 
   // End-to-End section
   endToEnd: {
-    heading: "End-to-End",
-    headingItalic: "Business Development Architecture",
-    description: "We design, restructure, and architect businesses from foundation to scalable growth. Powered using A.D.A.M. Structural transformation — aligning strategy, revenue, operations, positioning, and execution into one system.",
+    heading: "Strategic Implementation",
+    headingItalic: "Partnership",
+    description: "We eliminate operational chaos across onboarding, implementation, and lifecycle management. A selective engagement — structured rollout, implementation-first. A.D.A.M. structures operations. Humans make strategic decisions.",
     bullets: [
-      { title: "Structural clarity", description: "Defining organizational hierarchy, roles, and accountability across every business layer." },
+      { title: "Operational clarity", description: "Eliminating chaos across every business layer — defining structure, accountability, and execution flow." },
       { title: "Revenue architecture", description: "Designing pricing, monetization, and revenue flow systems built for sustainable growth." },
       { title: "Market positioning", description: "Refining your brand, value proposition, and competitive advantage in your target market." },
-      { title: "Operational redesign", description: "Restructuring internal workflows, processes, and team coordination for maximum efficiency." },
+      { title: "Implementation redesign", description: "Structured implementation lifecycle — from onboarding to delivery tracking and ongoing optimization." },
       { title: "System integration", description: "Connecting tools, platforms, and data flows into one unified operational ecosystem." },
-      { title: "Expansion & growth control", description: "Building scalable expansion strategy with long-term positioning and controlled execution." },
+      { title: "Structured lifecycle control", description: "Building scalable implementation frameworks with long-term operational clarity and controlled execution." },
     ],
   },
 
   // End-to-End qualification flow
   endToEndQualification: {
     title: "How we engage",
-    description: "End-to-End Business Development projects are internally reviewed and selectively approved based on strategic fit, operational scope, and long-term alignment.",
+    description: "Strategic Implementation Partnerships are internally reviewed and selectively approved — by application only. Structured rollout. Implementation-first. Operational clarity across every engagement.",
     steps: [
       "Submit Assessment",
       "Internal Review",
@@ -98,20 +98,20 @@ const en = {
       "Qualification Call",
       "Proposal",
     ],
-    ctaAssessment: "Submit Your Business Assessment",
-    ctaReview: "Request Strategic Review",
+    ctaAssessment: "Apply for Implementation",
+    ctaReview: "Request Operational Assessment",
   },
 
   // Loved By / About section
   lovedBy: {
     headingBold: "Built on",
-    headingItalic: "trust.",
-    headingLine2: "Driven by results.",
-    paragraph1: "Andy'K Group International LTD is a UK-based innovation company delivering End-to-End Business Development & Growth Architecture across B2B, B2G, and technology-driven environments.",
-    paragraph2: "We align positioning, revenue design, operations, and execution into one structured growth system.",
-    paragraph3: "Powered by A.D.A.M. and guided by E.V.A., we build scalable ecosystems designed for long-term performance.",
+    headingItalic: "structure.",
+    headingLine2: "Built to eliminate chaos.",
+    paragraph1: "Andy'K Group International LTD is a UK-based operational implementation architecture company — eliminating operational chaos and delivering structured transformation across B2B, B2G, and technology-driven engagements.",
+    paragraph2: "We eliminate operational chaos across onboarding, implementation and lifecycle management.",
+    paragraph3: "A.D.A.M. structures operations. E.V.A. manages execution, milestones, and delivery tracking. Humans make strategic decisions.",
     quote: "One structure. One flow. One system.",
-    tagline: "BUILT FOR GROWTH.",
+    tagline: "BUILT FOR OPERATIONAL CLARITY.",
   },
 
   // Case Studies section
@@ -275,9 +275,9 @@ const en = {
     eyebrow: "Get in touch",
     heading: "Let's build something",
     headingItalic: "together.",
-    subtitle: "Whether you need consulting, technology solutions, or a strategic partner for international expansion — we're ready to talk.",
+    subtitle: "Whether you need operational implementation, strategic architecture, or a structured transformation partner — we're ready to review your application.",
     ctaPrimary: "Tell Us About You",
-    ctaSecondary: "Request a Custom Quote",
+    ctaSecondary: "Request Operational Assessment",
     followLinkedIn: "Follow us on LinkedIn",
   },
 
@@ -349,15 +349,15 @@ const en = {
     headingItalic: "founders",
     connect: "Connect",
     roles: [
-      "Founder & Strategic Business Developer",
+      "Founder & Operational Architect",
       "Co-Founder & CTO",
     ],
     bios: [
-      "Fifteen+ years of leadership in sales, hospitality, business development, and operational strategy. Andrej specializes in scalable growth systems for B2B, B2G, and international client relations.",
-      "The technical architect behind A.D.A.M., Kobe leverages his extensive expertise to transform any idea into reality.",
+      "Fifteen+ years of leadership in operational strategy, business development, and implementation architecture. Andrej specializes in eliminating operational chaos — building structured implementation systems for B2B, B2G, and international client engagements.",
+      "The technical architect behind A.D.A.M., Kobe builds the operational infrastructure that makes implementation-first strategy a reality.",
     ],
     quotes: [
-      "My focus is building business systems that are not only profitable — but sustainable, secure, and designed to scale.",
+      "My focus is building implementation systems that don't just look good on paper — they eliminate chaos, create operational clarity, and scale with structure.",
       "",
     ],
     locations: [
@@ -415,14 +415,14 @@ const en = {
 const es: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Desarrollo Empresarial Integral y Arquitectura de Crecimiento",
-    subtitle: "Sistemas Operativos Empresariales · Infraestructura de Crecimiento Estratégico",
-    subtitleLine2: "Impulsado por A.D.A.M. — Guiado por E.V.A.",
-    description: "Andy'K Group International LTD es una empresa estratégica con sede en el Reino Unido que diseña Sistemas Operativos Empresariales — combinando infraestructura de crecimiento, diseño operativo y tecnología.",
-    descriptionExtra: "Con clientes en toda Europa y América Latina, construimos entornos de crecimiento estructurados donde la estrategia, las operaciones y la tecnología avanzan en una sola dirección.",
-    descriptionSystems: "Servicios estratégicos que combinan desarrollo empresarial, arquitectura operativa y tecnología — ayudando a startups, PYMEs e instituciones públicas a escalar con estructura.",
+    tagline: "Arquitectura Empresarial Integral e Implementación Operativa",
+    subtitle: "Arquitectura de Implementación Operativa · Sistemas Operativos Empresariales",
+    subtitleLine2: "A.D.A.M. estructura las operaciones. Los humanos toman decisiones estratégicas.",
+    description: "Andy'K Group International LTD es una empresa de arquitectura de implementación operativa con sede en el Reino Unido — eliminando el caos operativo en incorporación, implementación y gestión del ciclo de vida.",
+    descriptionExtra: "Con clientes en toda Europa y América Latina, construimos entornos de implementación estructurados donde la estrategia, las operaciones y la tecnología avanzan en una sola dirección.",
+    descriptionSystems: "Servicios de implementación operativa que combinan entrega estructurada, arquitectura empresarial y tecnología — ayudando a empresas a lograr claridad operativa a escala.",
     quote: "Una estructura. Un flujo. Un sistema.",
-    quoteSubtitle: "Construido para crecer.",
+    quoteSubtitle: "Construido para la claridad operativa.",
     location: "Londres, Reino Unido",
     ukCompany: "Empresa Limitada del Reino Unido",
   },
@@ -435,10 +435,10 @@ const es: typeof en = {
   },
 
   banner: {
-    b2bLead: "Arquitectura empresarial:",
-    b2bText: "sistemas de crecimiento integral y diseño operativo",
+    b2bLead: "Arquitectura Operativa:",
+    b2bText: "ciclo de vida de implementación estructurada y claridad operativa",
     adamSystem: "Sistema A.D.A.M.:",
-    adamText: "documentos automatizados, propuestas y ciclo de vida del cliente",
+    adamText: "plataforma de implementación operativa — entrega estructurada y ciclo de vida del cliente",
     b2gTender: "Estrategia B2G:",
     b2gText: "inteligencia de contratación y expansión del sector público",
     trusted: "Confianza en:",
@@ -448,25 +448,25 @@ const es: typeof en = {
   services: {
     heading: "Nuestros",
     headingItalic: "servicios",
-    subtitle: "Servicios estratégicos que combinan desarrollo empresarial, arquitectura operativa y tecnología.",
+    subtitle: "Servicios de implementación operativa — combinando entrega estructurada, arquitectura empresarial y tecnología.",
     items: [
-      { title: "End-to-End", description: "Desarrollo empresarial estratégico y arquitectura de crecimiento" },
+      { title: "End-to-End", description: "Asociación de implementación estratégica — compromiso de transformación operativa, selectivo por solicitud" },
       { title: "B2G", description: "Estrategia del sector público, asesoramiento en licitaciones y contratación" },
       { title: "IT Services", description: "Arquitectura de sistemas, desarrollo de plataformas y automatización" },
     ],
   },
 
   endToEnd: {
-    heading: "End-to-End",
-    headingItalic: "Desarrollo Empresarial y Arquitectura",
-    description: "Diseñamos, reestructuramos y arquitectamos negocios desde los cimientos hasta el crecimiento escalable. Impulsado por A.D.A.M. Transformación estructural — alineando estrategia, ingresos, operaciones, posicionamiento y ejecución en un solo sistema.",
+    heading: "Asociación de",
+    headingItalic: "Implementación Estratégica",
+    description: "Eliminamos el caos operativo en incorporación, implementación y gestión del ciclo de vida. Un compromiso selectivo — implementación estructurada desde el primer momento. A.D.A.M. estructura las operaciones. Los humanos toman decisiones estratégicas.",
     bullets: [
-      { title: "Claridad estructural", description: "Definición de jerarquía organizativa, roles y responsabilidad en cada capa del negocio." },
+      { title: "Claridad operativa", description: "Eliminando el caos en cada capa empresarial — definiendo estructura, responsabilidad y flujo de ejecución." },
       { title: "Arquitectura de ingresos", description: "Diseño de sistemas de precios, monetización y flujo de ingresos para un crecimiento sostenible." },
       { title: "Posicionamiento de mercado", description: "Refinamiento de marca, propuesta de valor y ventaja competitiva en su mercado objetivo." },
-      { title: "Rediseño operativo", description: "Reestructuración de flujos internos, procesos y coordinación de equipos para máxima eficiencia." },
+      { title: "Rediseño de implementación", description: "Ciclo de vida de implementación estructurado — desde la incorporación hasta el seguimiento de entregas y optimización continua." },
       { title: "Integración de sistemas", description: "Conexión de herramientas, plataformas y flujos de datos en un ecosistema operativo unificado." },
-      { title: "Expansión y control de crecimiento", description: "Estrategia de expansión escalable con posicionamiento a largo plazo y ejecución controlada." },
+      { title: "Control del ciclo de vida estructurado", description: "Construcción de marcos de implementación escalables con claridad operativa a largo plazo y ejecución controlada." },
     ],
   },
 
@@ -600,9 +600,9 @@ const es: typeof en = {
     eyebrow: "Póngase en contacto",
     heading: "Construyamos algo",
     headingItalic: "juntos.",
-    subtitle: "Ya sea que necesite consultoría, soluciones tecnológicas o un socio estratégico para expansión internacional — estamos listos para hablar.",
+    subtitle: "Ya sea que necesite implementación operativa, arquitectura estratégica o un socio de transformación estructurada — estamos listos para revisar su solicitud.",
     ctaPrimary: "Cuéntenos sobre usted",
-    ctaSecondary: "Solicitar presupuesto personalizado",
+    ctaSecondary: "Solicitar evaluación operativa",
     followLinkedIn: "Síguenos en LinkedIn",
   },
 
@@ -649,7 +649,7 @@ const es: typeof en = {
 
   endToEndQualification: {
     title: "Cómo colaboramos",
-    description: "Los proyectos de Desarrollo Empresarial End-to-End se revisan internamente y se aprueban de manera selectiva según el ajuste estratégico, el alcance operativo y la alineación a largo plazo.",
+    description: "Las Asociaciones de Implementación Estratégica se revisan internamente y se aprueban de manera selectiva — solo por solicitud. Implementación estructurada. Claridad operativa en cada compromiso.",
     steps: [
       "Enviar evaluación",
       "Revisión interna",
@@ -657,19 +657,19 @@ const es: typeof en = {
       "Llamada de calificación",
       "Propuesta",
     ],
-    ctaAssessment: "Envíe su evaluación empresarial",
-    ctaReview: "Solicitar revisión estratégica",
+    ctaAssessment: "Solicitar implementación",
+    ctaReview: "Solicitar evaluación operativa",
   },
 
   lovedBy: {
     headingBold: "Construido sobre",
-    headingItalic: "confianza.",
-    headingLine2: "Impulsado por resultados.",
-    paragraph1: "Andy'K Group International LTD es una empresa de innovación con sede en el Reino Unido que ofrece Desarrollo Empresarial End-to-End y Arquitectura de Crecimiento en entornos B2B, B2G y tecnológicos.",
-    paragraph2: "Alineamos posicionamiento, diseño de ingresos, operaciones y ejecución en un sistema de crecimiento estructurado.",
-    paragraph3: "Impulsado por A.D.A.M. y guiado por E.V.A., construimos ecosistemas escalables diseñados para el rendimiento a largo plazo.",
+    headingItalic: "estructura.",
+    headingLine2: "Construido para eliminar el caos.",
+    paragraph1: "Andy'K Group International LTD es una empresa de arquitectura de implementación operativa con sede en el Reino Unido — eliminando el caos operativo y entregando transformación estructurada en entornos B2B, B2G y tecnológicos.",
+    paragraph2: "Eliminamos el caos operativo en incorporación, implementación y gestión del ciclo de vida.",
+    paragraph3: "A.D.A.M. estructura las operaciones. E.V.A. gestiona la ejecución, los hitos y el seguimiento de entregas. Los humanos toman decisiones estratégicas.",
     quote: "Una estructura. Un flujo. Un sistema.",
-    tagline: "CONSTRUIDO PARA CRECER.",
+    tagline: "CONSTRUIDO PARA LA CLARIDAD OPERATIVA.",
   },
 
   caseStudies: {
@@ -712,15 +712,15 @@ const es: typeof en = {
     headingItalic: "fundadores",
     connect: "Conectar",
     roles: [
-      "Fundador y Desarrollador Empresarial Estratégico",
+      "Fundador y Arquitecto Operativo",
       "Cofundador y CTO",
     ],
     bios: [
-      "Más de quince años de liderazgo en ventas, hostelería, desarrollo empresarial y estrategia operativa. Andrej se especializa en sistemas de crecimiento escalable para B2B, B2G y relaciones internacionales con clientes.",
-      "El arquitecto técnico detrás de A.D.A.M., Kobe aprovecha su amplia experiencia para transformar cualquier idea en realidad.",
+      "Más de quince años de liderazgo en estrategia operativa, desarrollo empresarial y arquitectura de implementación. Andrej se especializa en eliminar el caos operativo — construyendo sistemas de implementación estructurados para B2B, B2G y compromisos internacionales con clientes.",
+      "El arquitecto técnico detrás de A.D.A.M., Kobe construye la infraestructura operativa que hace realidad la estrategia de implementación prioritaria.",
     ],
     quotes: [
-      "Mi enfoque es construir sistemas empresariales que no solo sean rentables, sino sostenibles, seguros y diseñados para escalar.",
+      "Mi enfoque es construir sistemas de implementación que no solo se vean bien en papel — eliminan el caos, crean claridad operativa y escalan con estructura.",
       "",
     ],
     locations: [
@@ -768,14 +768,14 @@ const es: typeof en = {
 const sk: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Komplexný Rozvoj Podnikania a Architektúra Rastu",
-    subtitle: "Obchodné prevádzkové systémy · Strategická rastová infraštruktúra",
-    subtitleLine2: "Poháňané systémom A.D.A.M. — Vedené systémom E.V.A.",
-    description: "Andy'K Group International LTD je strategická spoločnosť so sídlom vo Veľkej Británii, ktorá buduje obchodné prevádzkové systémy — kombinujúce rastovú infraštruktúru, prevádzkový dizajn a technológiu.",
-    descriptionExtra: "S klientmi po celej Európe a Latinskej Amerike budujeme štruktúrované prostredia rastu, kde stratégia, prevádzka a technológia smerujú jedným smerom.",
-    descriptionSystems: "Strategické služby kombinujúce obchodný rozvoj, prevádzkovú architektúru a technológiu — pomáhajúce startupom, malým a stredným podnikom a verejným inštitúciám škálovať so štruktúrou.",
+    tagline: "Komplexná Obchodná Architektúra a Operatívna Implementácia",
+    subtitle: "Architektúra Operatívnej Implementácie · Obchodné Prevádzkové Systémy",
+    subtitleLine2: "A.D.A.M. štruktúruje operácie. Ľudia prijímajú strategické rozhodnutia.",
+    description: "Andy'K Group International LTD je spoločnosť architektúry operatívnej implementácie so sídlom vo Veľkej Británii — eliminujúca prevádzkový chaos v onboardingu, implementácii a riadení životného cyklu.",
+    descriptionExtra: "S klientmi po celej Európe a Latinskej Amerike budujeme štruktúrované implementačné prostredia, kde stratégia, prevádzka a technológia smerujú jedným smerom.",
+    descriptionSystems: "Služby operatívnej implementácie kombinujúce štruktúrované dodávky, obchodnú architektúru a technológiu — pomáhajúce spoločnostiam dosiahnuť prevádzkovú jasnosť v škálovaní.",
     quote: "Jedna štruktúra. Jeden tok. Jeden systém.",
-    quoteSubtitle: "Vytvorené pre rast.",
+    quoteSubtitle: "Vytvorené pre prevádzkovú jasnosť.",
     location: "Londýn, Veľká Británia",
     ukCompany: "Spoločnosť s ručením obmedzeným Veľkej Británie",
   },
@@ -788,10 +788,10 @@ const sk: typeof en = {
   },
 
   banner: {
-    b2bLead: "Obchodná architektúra:",
-    b2bText: "komplexné rastové systémy a prevádzkový dizajn",
+    b2bLead: "Prevádzková architektúra:",
+    b2bText: "štruktúrovaný implementačný životný cyklus a prevádzková jasnosť",
     adamSystem: "Systém A.D.A.M.:",
-    adamText: "automatizované dokumenty, návrhy a životný cyklus klienta",
+    adamText: "platforma operatívnej implementácie — štruktúrované dodávky a životný cyklus klienta",
     b2gTender: "Stratégia B2G:",
     b2gText: "výzveda obstarávania a expanzia verejného sektora",
     trusted: "Dôveryhodné naprieč:",
@@ -801,31 +801,31 @@ const sk: typeof en = {
   services: {
     heading: "Naše",
     headingItalic: "služby",
-    subtitle: "Strategické služby kombinujúce obchodný rozvoj, prevádzkovú architektúru a technológiu.",
+    subtitle: "Služby operatívnej implementácie — kombinujúce štruktúrované dodávky, obchodnú architektúru a technológiu.",
     items: [
-      { title: "End-to-End", description: "Strategický obchodný rozvoj a architektúra rastu" },
+      { title: "End-to-End", description: "Strategické implementačné partnerstvo — angažmán operatívnej transformácie, selektívne na základe žiadosti" },
       { title: "B2G", description: "Stratégia verejného sektora, poradenstvo k tenderom a obstarávanie" },
       { title: "IT Services", description: "Architektúra systémov, vývoj platforiem a automatizácia" },
     ],
   },
 
   endToEnd: {
-    heading: "End-to-End",
-    headingItalic: "Obchodný Rozvoj a Architektúra",
-    description: "Navrhujeme, reštrukturalizujeme a budujeme podnikateľskú architektúru od základov po škálovateľný rast. Poháňané systémom A.D.A.M. Štrukturálna transformácia — zosúladenie stratégie, príjmov, prevádzky, pozicionovania a realizácie do jedného systému.",
+    heading: "Strategické",
+    headingItalic: "Implementačné Partnerstvo",
+    description: "Eliminujeme prevádzkový chaos v onboardingu, implementácii a riadení životného cyklu. Selektívny angažmán — štruktúrovaný rollout, implementácia na prvom mieste. A.D.A.M. štruktúruje operácie. Ľudia prijímajú strategické rozhodnutia.",
     bullets: [
-      { title: "Štrukturálna jasnosť", description: "Definovanie organizačnej hierarchie, rolí a zodpovednosti naprieč každou vrstvou podnikania." },
+      { title: "Prevádzková jasnosť", description: "Eliminovanie chaosu na každej obchodnej vrstve — definovanie štruktúry, zodpovednosti a toku realizácie." },
       { title: "Architektúra príjmov", description: "Navrhovanie cenových, monetizačných a príjmových systémov pre udržateľný rast." },
       { title: "Pozicionovanie na trhu", description: "Zdokonaľovanie značky, hodnotovej ponuky a konkurenčnej výhody na cieľovom trhu." },
-      { title: "Prevádzkový redizajn", description: "Reštrukturalizácia interných procesov, pracovných postupov a koordinácie tímov pre maximálnu efektivitu." },
-      { title: "Systémová integrácia", description: "Prepojenie nástrojov, platforiem a dátových tokov do jedného prevádzkovéo ekosystému." },
-      { title: "Expanzia a kontrola rastu", description: "Budovanie škálovateľnej expanznej stratégie s dlhodobým pozicionovaním a kontrolovanou realizáciou." },
+      { title: "Redizajn implementácie", description: "Štruktúrovaný implementačný životný cyklus — od onboardingu po sledovanie dodávok a priebežnú optimalizáciu." },
+      { title: "Systémová integrácia", description: "Prepojenie nástrojov, platforiem a dátových tokov do jedného prevádzkového ekosystému." },
+      { title: "Kontrola štruktúrovaného životného cyklu", description: "Budovanie škálovateľných implementačných rámcov s dlhodobou prevádzkovou jasnosťou a kontrolovanou realizáciou." },
     ],
   },
 
   endToEndQualification: {
     title: "Ako spolupracujeme",
-    description: "Projekty End-to-End obchodného rozvoja sú interne preverované a selektívne schvaľované na základe strategického súladu, prevádzkového rozsahu a dlhodobého zosúladenia.",
+    description: "Strategické implementačné partnerstvá sú interne preverované a selektívne schvaľované — iba na základe žiadosti. Štruktúrovaný rollout. Prevádzková jasnosť pri každom angažmáne.",
     steps: [
       "Odoslať hodnotenie",
       "Interná kontrola",
@@ -833,19 +833,19 @@ const sk: typeof en = {
       "Kvalifikačný hovor",
       "Návrh",
     ],
-    ctaAssessment: "Odoslať obchodné hodnotenie",
-    ctaReview: "Požiadať o strategickú kontrolu",
+    ctaAssessment: "Požiadať o implementáciu",
+    ctaReview: "Požiadať o prevádzkové hodnotenie",
   },
 
   lovedBy: {
     headingBold: "Postavené na",
-    headingItalic: "dôvere.",
-    headingLine2: "Poháňané výsledkami.",
-    paragraph1: "Andy'K Group International LTD je inovačná spoločnosť so sídlom vo Veľkej Británii, ktorá poskytuje End-to-End obchodný rozvoj a architektúru rastu v prostrediach B2B, B2G a technologicky orientovaných odvetviach.",
-    paragraph2: "Zosúlaďujeme pozicionovanie, dizajn príjmov, prevádzku a realizáciu do jedného štruktúrovaného systému rastu.",
-    paragraph3: "Poháňané systémom A.D.A.M. a vedené systémom E.V.A., budujeme škálovateľné ekosystémy navrhnuté pre dlhodobý výkon.",
+    headingItalic: "štruktúre.",
+    headingLine2: "Vytvorené na elimináciu chaosu.",
+    paragraph1: "Andy'K Group International LTD je spoločnosť architektúry operatívnej implementácie so sídlom vo Veľkej Británii — eliminujúca prevádzkový chaos a poskytujúca štruktúrovanú transformáciu v prostrediach B2B, B2G a technologicky orientovaných odvetviach.",
+    paragraph2: "Eliminujeme prevádzkový chaos v onboardingu, implementácii a riadení životného cyklu.",
+    paragraph3: "A.D.A.M. štruktúruje operácie. E.V.A. riadi realizáciu, míľniky a sledovanie dodávok. Ľudia prijímajú strategické rozhodnutia.",
     quote: "Jedna štruktúra. Jeden tok. Jeden systém.",
-    tagline: "VYTVORENÉ PRE RAST.",
+    tagline: "VYTVORENÉ PRE PREVÁDZKOVÚ JASNOSŤ.",
   },
 
   caseStudies: {
@@ -988,9 +988,9 @@ const sk: typeof en = {
     eyebrow: "Kontaktujte nás",
     heading: "Postavme niečo",
     headingItalic: "spoločne.",
-    subtitle: "Či už potrebujete poradenstvo, technologické riešenia alebo strategického partnera pre medzinárodnú expanziu — sme pripravení hovoriť.",
+    subtitle: "Či už potrebujete operatívnu implementáciu, strategickú architektúru alebo partnera pre štruktúrovanú transformáciu — sme pripravení preskúmať vašu žiadosť.",
     ctaPrimary: "Povedzte nám o sebe",
-    ctaSecondary: "Požiadať o cenovú ponuku na mieru",
+    ctaSecondary: "Požiadať o prevádzkové hodnotenie",
     followLinkedIn: "Sledujte nás na LinkedIn",
   },
 
@@ -1065,15 +1065,15 @@ const sk: typeof en = {
     headingItalic: "zakladateľov",
     connect: "Spojiť sa",
     roles: [
-      "Zakladateľ a strategický obchodný developer",
+      "Zakladateľ a Prevádzkový Architekt",
       "Spoluzakladateľ a CTO",
     ],
     bios: [
-      "Viac ako pätnásť rokov skúseností v predaji, pohostinstve, rozvoji podnikania a operačnej stratégii. Andrej sa špecializuje na škálovateľné rastové systémy pre B2B, B2G a medzinárodné vzťahy s klientmi.",
-      "Technický architekt za A.D.A.M., Kobe využíva svoje rozsiahle odborné znalosti na premenu akejkoľvek myšlienky na realitu.",
+      "Viac ako pätnásť rokov vedenia v operatívnej stratégii, rozvoji podnikania a architektúre implementácie. Andrej sa špecializuje na elimináciu prevádzkového chaosu — budovanie štruktúrovaných implementačných systémov pre B2B, B2G a medzinárodné angažmány s klientmi.",
+      "Technický architekt za A.D.A.M., Kobe buduje prevádzkovú infraštruktúru, ktorá robí stratégiu implementácie na prvom mieste realitou.",
     ],
     quotes: [
-      "Môj cieľ je budovať obchodné systémy, ktoré sú nielen ziskové — ale udržateľné, bezpečné a navrhnuté na škálovanie.",
+      "Môj cieľ je budovať implementačné systémy, ktoré nielen vyzerajú dobre na papieri — eliminujú chaos, vytvárajú prevádzkovú jasnosť a škálujú so štruktúrou.",
       "",
     ],
     locations: [
@@ -1121,14 +1121,14 @@ const sk: typeof en = {
 const nl: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "End-to-End Bedrijfsontwikkeling & Groeiarchitectuur",
-    subtitle: "Bedrijfsbesturingssystemen · Strategische Groeiinfrastructuur",
-    subtitleLine2: "Aangedreven door A.D.A.M. — Geleid door E.V.A.",
-    description: "Andy'K Group International LTD is een in het VK gevestigde strategische onderneming die Business Operating Systems ontwerpt — met een combinatie van groeiinfrastructuur, operationeel ontwerp en technologie.",
-    descriptionExtra: "Met klanten in heel Europa en Latijns-Amerika bouwen we gestructureerde groeiomgevingen waar strategie, operaties en technologie in één richting bewegen.",
-    descriptionSystems: "Strategische diensten die bedrijfsontwikkeling, operationele architectuur en technologie combineren — startups, MKB-bedrijven en publieke instellingen helpen schalen met structuur.",
+    tagline: "End-to-End Bedrijfsarchitectuur & Operationele Implementatie",
+    subtitle: "Operationele Implementatiearchitectuur · Bedrijfsbesturingssystemen",
+    subtitleLine2: "A.D.A.M. structureert operaties. Mensen nemen strategische beslissingen.",
+    description: "Andy'K Group International LTD is een in het VK gevestigd bedrijf voor operationele implementatiearchitectuur — dat operationele chaos elimineert in onboarding, implementatie en lifecycle management.",
+    descriptionExtra: "Met klanten in heel Europa en Latijns-Amerika bouwen we gestructureerde implementatieomgevingen waar strategie, operaties en technologie in één richting bewegen.",
+    descriptionSystems: "Operationele implementatiediensten die gestructureerde levering, bedrijfsarchitectuur en technologie combineren — bedrijven helpen operationele helderheid op schaal te bereiken.",
     quote: "Eén structuur. Eén stroom. Eén systeem.",
-    quoteSubtitle: "Gebouwd voor groei.",
+    quoteSubtitle: "Gebouwd voor operationele helderheid.",
     location: "Londen, VK",
     ukCompany: "VK Limited Company",
   },
@@ -1141,10 +1141,10 @@ const nl: typeof en = {
   },
 
   banner: {
-    b2bLead: "Bedrijfsarchitectuur:",
-    b2bText: "end-to-end groeisystemen & operationeel ontwerp",
+    b2bLead: "Operationele architectuur:",
+    b2bText: "gestructureerde implementatielifecycle & operationele helderheid",
     adamSystem: "A.D.A.M. Systeem:",
-    adamText: "geautomatiseerde documenten, voorstellen en klantlevenscyclus",
+    adamText: "operationeel implementatieplatform — gestructureerde levering & klantlevenscyclus",
     b2gTender: "B2G Strategie:",
     b2gText: "inkoop-intelligentie & uitbreiding publieke sector",
     trusted: "Vertrouwd in:",
@@ -1154,31 +1154,31 @@ const nl: typeof en = {
   services: {
     heading: "Onze",
     headingItalic: "diensten",
-    subtitle: "Strategische diensten die bedrijfsontwikkeling, operationele architectuur en technologie combineren.",
+    subtitle: "Operationele implementatiediensten — gestructureerde levering, bedrijfsarchitectuur en technologie.",
     items: [
-      { title: "End-to-End", description: "Strategische bedrijfsontwikkeling en groeiarchitectuur" },
+      { title: "End-to-End", description: "Strategisch implementatiepartnerschap — operationele transformatie-engagement, selectief op aanvraag" },
       { title: "B2G", description: "Publieke sectorstrategie, aanbestedingsadvies en inkoop" },
       { title: "IT Services", description: "Systeemarchitectuur, platformontwikkeling en automatisering" },
     ],
   },
 
   endToEnd: {
-    heading: "End-to-End",
-    headingItalic: "Bedrijfsontwikkeling & Architectuur",
-    description: "Wij ontwerpen, herstructureren en bouwen bedrijfsarchitectuur van basis tot schaalbare groei. Aangedreven door A.D.A.M. Structurele transformatie — strategie, omzet, operaties, positionering en uitvoering in één systeem.",
+    heading: "Strategisch",
+    headingItalic: "Implementatiepartnerschap",
+    description: "Wij elimineren operationele chaos in onboarding, implementatie en lifecycle management. Een selectieve samenwerking — gestructureerde uitrol, implementatie eerst. A.D.A.M. structureert operaties. Mensen nemen strategische beslissingen.",
     bullets: [
-      { title: "Structurele helderheid", description: "Organisatiehiërarchie, rollen en verantwoordelijkheden definiëren binnen elke bedrijfslaag." },
+      { title: "Operationele helderheid", description: "Chaos elimineren in elke bedrijfslaag — structuur, verantwoordelijkheid en uitvoeringsstroom definiëren." },
       { title: "Omzetarchitectuur", description: "Prijsstelling, monetisatie en omzetstroomsystemen ontwerpen voor duurzame groei." },
       { title: "Marktpositionering", description: "Merk, waardepropositie en concurrentievoordeel verfijnen in uw doelmarkt." },
-      { title: "Operationeel herontwerp", description: "Interne workflows, processen en teamcoördinatie herstructureren voor maximale efficiëntie." },
+      { title: "Implementatie herontwerp", description: "Gestructureerde implementatielifecycle — van onboarding tot leveringsregistratie en doorlopende optimalisatie." },
       { title: "Systeemintegratie", description: "Tools, platforms en datastromen verbinden tot één uniform operationeel ecosysteem." },
-      { title: "Expansie en groeicontrole", description: "Schaalbare expansiestrategie bouwen met langetermijnpositionering en gecontroleerde uitvoering." },
+      { title: "Gestructureerde lifecycle controle", description: "Schaalbare implementatiekaders bouwen met langetermijn operationele helderheid en gecontroleerde uitvoering." },
     ],
   },
 
   endToEndQualification: {
     title: "Hoe wij samenwerken",
-    description: "End-to-End bedrijfsontwikkelingsprojecten worden intern beoordeeld en selectief goedgekeurd op basis van strategische fit, operationele reikwijdte en langetermijnafstemming.",
+    description: "Strategische Implementatiepartnerschappen worden intern beoordeeld en selectief goedgekeurd — alleen op aanvraag. Gestructureerde uitrol. Operationele helderheid in elke samenwerking.",
     steps: [
       "Beoordeling indienen",
       "Interne review",
@@ -1186,19 +1186,19 @@ const nl: typeof en = {
       "Kwalificatiegesprek",
       "Voorstel",
     ],
-    ctaAssessment: "Dien uw bedrijfsbeoordeling in",
-    ctaReview: "Strategische review aanvragen",
+    ctaAssessment: "Aanvragen voor implementatie",
+    ctaReview: "Operationele beoordeling aanvragen",
   },
 
   lovedBy: {
     headingBold: "Gebouwd op",
-    headingItalic: "vertrouwen.",
-    headingLine2: "Gedreven door resultaten.",
-    paragraph1: "Andy'K Group International LTD is een in het VK gevestigd innovatiebedrijf dat End-to-End bedrijfsontwikkeling en groeiarchitectuur levert in B2B, B2G en technologiegedreven omgevingen.",
-    paragraph2: "Wij stemmen positionering, omzetontwerp, operaties en uitvoering af in één gestructureerd groeisysteem.",
-    paragraph3: "Aangedreven door A.D.A.M. en geleid door E.V.A., bouwen we schaalbare ecosystemen ontworpen voor langetermijnprestaties.",
+    headingItalic: "structuur.",
+    headingLine2: "Gebouwd om chaos te elimineren.",
+    paragraph1: "Andy'K Group International LTD is een in het VK gevestigd bedrijf voor operationele implementatiearchitectuur — dat operationele chaos elimineert en gestructureerde transformatie levert in B2B, B2G en technologiegedreven omgevingen.",
+    paragraph2: "Wij elimineren operationele chaos in onboarding, implementatie en lifecycle management.",
+    paragraph3: "A.D.A.M. structureert operaties. E.V.A. beheert uitvoering, mijlpalen en leveringsregistratie. Mensen nemen strategische beslissingen.",
     quote: "Eén structuur. Eén stroom. Eén systeem.",
-    tagline: "GEBOUWD VOOR GROEI.",
+    tagline: "GEBOUWD VOOR OPERATIONELE HELDERHEID.",
   },
 
   caseStudies: {
@@ -1341,9 +1341,9 @@ const nl: typeof en = {
     eyebrow: "Neem contact op",
     heading: "Laten we iets",
     headingItalic: "samen bouwen.",
-    subtitle: "Of u nu advies nodig heeft, technologische oplossingen of een strategische partner voor internationale expansie — we staan klaar om te praten.",
+    subtitle: "Of u nu operationele implementatie, strategische architectuur of een gestructureerde transformatiepartner nodig heeft — we zijn klaar om uw aanvraag te beoordelen.",
     ctaPrimary: "Vertel ons over uzelf",
-    ctaSecondary: "Vraag een offerte op maat aan",
+    ctaSecondary: "Operationele beoordeling aanvragen",
     followLinkedIn: "Volg ons op LinkedIn",
   },
 
@@ -1418,15 +1418,15 @@ const nl: typeof en = {
     headingItalic: "oprichters",
     connect: "Verbinden",
     roles: [
-      "Oprichter & Strategisch Business Developer",
+      "Oprichter & Operationeel Architect",
       "Medeoprichter & CTO",
     ],
     bios: [
-      "Meer dan vijftien jaar ervaring in sales, horeca, bedrijfsontwikkeling en operationele strategie. Andrej is gespecialiseerd in schaalbare groeisystemen voor B2B, B2G en internationale klantrelaties.",
-      "De technische architect achter A.D.A.M., Kobe zet zijn uitgebreide expertise in om elk idee werkelijkheid te maken.",
+      "Meer dan vijftien jaar leiderschap in operationele strategie, bedrijfsontwikkeling en implementatiearchitectuur. Andrej is gespecialiseerd in het elimineren van operationele chaos — het bouwen van gestructureerde implementatiesystemen voor B2B, B2G en internationale klantengagementen.",
+      "De technische architect achter A.D.A.M., Kobe bouwt de operationele infrastructuur die implementatie-eerste strategie werkelijkheid maakt.",
     ],
     quotes: [
-      "Mijn focus is het bouwen van bedrijfssystemen die niet alleen winstgevend zijn — maar duurzaam, veilig en ontworpen om te schalen.",
+      "Mijn focus is het bouwen van implementatiesystemen die niet alleen goed op papier staan — ze elimineren chaos, creëren operationele helderheid en schalen met structuur.",
       "",
     ],
     locations: [
@@ -1474,14 +1474,14 @@ const nl: typeof en = {
 const pt: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "Desenvolvimento Empresarial Completo e Arquitetura de Crescimento",
-    subtitle: "Sistemas Operacionais Empresariais · Infraestrutura de Crescimento Estratégico",
-    subtitleLine2: "Impulsionado pelo A.D.A.M. — Guiado pela E.V.A.",
-    description: "Andy'K Group International LTD é uma empresa estratégica sediada no Reino Unido que projeta Sistemas Operacionais Empresariais — combinando infraestrutura de crescimento, design operacional e tecnologia.",
-    descriptionExtra: "Com clientes em toda a Europa e América Latina, construímos ambientes de crescimento estruturados onde estratégia, operações e tecnologia avançam numa só direção.",
-    descriptionSystems: "Serviços estratégicos que combinam desenvolvimento empresarial, arquitetura operacional e tecnologia — ajudando startups, PMEs e instituições públicas a escalar com estrutura.",
+    tagline: "Arquitetura Empresarial Completa e Implementação Operacional",
+    subtitle: "Arquitetura de Implementação Operacional · Sistemas Operacionais Empresariais",
+    subtitleLine2: "A.D.A.M. estrutura as operações. Os humanos tomam decisões estratégicas.",
+    description: "Andy'K Group International LTD é uma empresa de arquitetura de implementação operacional sediada no Reino Unido — eliminando o caos operacional em onboarding, implementação e gestão do ciclo de vida.",
+    descriptionExtra: "Com clientes em toda a Europa e América Latina, construímos ambientes de implementação estruturados onde estratégia, operações e tecnologia avançam numa só direção.",
+    descriptionSystems: "Serviços de implementação operacional combinando entrega estruturada, arquitetura empresarial e tecnologia — ajudando empresas a alcançar clareza operacional em escala.",
     quote: "Uma estrutura. Um fluxo. Um sistema.",
-    quoteSubtitle: "Construído para crescimento.",
+    quoteSubtitle: "Construído para clareza operacional.",
     location: "Londres, Reino Unido",
     ukCompany: "Empresa Limitada do Reino Unido",
   },
@@ -1494,10 +1494,10 @@ const pt: typeof en = {
   },
 
   banner: {
-    b2bLead: "Arquitetura empresarial:",
-    b2bText: "sistemas de crescimento end-to-end e design operacional",
+    b2bLead: "Arquitetura Operacional:",
+    b2bText: "ciclo de vida de implementação estruturada e clareza operacional",
     adamSystem: "Sistema A.D.A.M.:",
-    adamText: "documentos automatizados, propostas e ciclo de vida do cliente",
+    adamText: "plataforma de implementação operacional — entrega estruturada e ciclo de vida do cliente",
     b2gTender: "Estratégia B2G:",
     b2gText: "inteligência de procurement e expansão do setor público",
     trusted: "Confiável em:",
@@ -1507,31 +1507,31 @@ const pt: typeof en = {
   services: {
     heading: "Nossos",
     headingItalic: "serviços",
-    subtitle: "Serviços estratégicos que combinam desenvolvimento empresarial, arquitetura operacional e tecnologia.",
+    subtitle: "Serviços de implementação operacional — combinando entrega estruturada, arquitetura empresarial e tecnologia.",
     items: [
-      { title: "End-to-End", description: "Desenvolvimento empresarial estratégico e arquitetura de crescimento" },
+      { title: "End-to-End", description: "Parceria de implementação estratégica — engagement de transformação operacional, seletivo por candidatura" },
       { title: "B2G", description: "Estratégia do setor público, consultoria de licitações e aquisições" },
       { title: "IT Services", description: "Arquitetura de sistemas, desenvolvimento de plataformas e automação" },
     ],
   },
 
   endToEnd: {
-    heading: "End-to-End",
-    headingItalic: "Desenvolvimento Empresarial e Arquitetura",
-    description: "Projetamos, reestruturamos e arquitetamos negócios da base ao crescimento escalável. Impulsionado pelo A.D.A.M. Transformação estrutural — alinhando estratégia, receita, operações, posicionamento e execução num único sistema.",
+    heading: "Parceria de",
+    headingItalic: "Implementação Estratégica",
+    description: "Eliminamos o caos operacional em onboarding, implementação e gestão do ciclo de vida. Um engagement seletivo — rollout estruturado, implementação em primeiro lugar. A.D.A.M. estrutura as operações. Os humanos tomam decisões estratégicas.",
     bullets: [
-      { title: "Clareza estrutural", description: "Definição de hierarquia organizacional, funções e responsabilidades em cada camada do negócio." },
+      { title: "Clareza operacional", description: "Eliminando o caos em cada camada empresarial — definindo estrutura, responsabilidade e fluxo de execução." },
       { title: "Arquitetura de receita", description: "Desenho de sistemas de preços, monetização e fluxo de receita para crescimento sustentável." },
       { title: "Posicionamento de mercado", description: "Refinamento da marca, proposta de valor e vantagem competitiva no mercado-alvo." },
-      { title: "Redesenho operacional", description: "Reestruturação de fluxos internos, processos e coordenação de equipas para máxima eficiência." },
+      { title: "Redesenho de implementação", description: "Ciclo de vida de implementação estruturado — do onboarding ao rastreamento de entregas e otimização contínua." },
       { title: "Integração de sistemas", description: "Conexão de ferramentas, plataformas e fluxos de dados num ecossistema operacional unificado." },
-      { title: "Expansão e controlo de crescimento", description: "Construção de estratégia de expansão escalável com posicionamento de longo prazo e execução controlada." },
+      { title: "Controlo de ciclo de vida estruturado", description: "Construção de frameworks de implementação escaláveis com clareza operacional de longo prazo e execução controlada." },
     ],
   },
 
   endToEndQualification: {
     title: "Como colaboramos",
-    description: "Os projetos de Desenvolvimento Empresarial End-to-End são revisados internamente e aprovados seletivamente com base no ajuste estratégico, escopo operacional e alinhamento de longo prazo.",
+    description: "Parcerias de Implementação Estratégica são revisadas internamente e aprovadas seletivamente — apenas por candidatura. Rollout estruturado. Clareza operacional em cada engagement.",
     steps: [
       "Enviar avaliação",
       "Revisão interna",
@@ -1539,19 +1539,19 @@ const pt: typeof en = {
       "Chamada de qualificação",
       "Proposta",
     ],
-    ctaAssessment: "Envie sua avaliação empresarial",
-    ctaReview: "Solicitar revisão estratégica",
+    ctaAssessment: "Candidatar-se para implementação",
+    ctaReview: "Solicitar avaliação operacional",
   },
 
   lovedBy: {
     headingBold: "Construído sobre",
-    headingItalic: "confiança.",
-    headingLine2: "Movido por resultados.",
-    paragraph1: "Andy'K Group International LTD é uma empresa de inovação sediada no Reino Unido que oferece Desenvolvimento Empresarial End-to-End e Arquitetura de Crescimento em ambientes B2B, B2G e orientados por tecnologia.",
-    paragraph2: "Alinhamos posicionamento, design de receita, operações e execução em um sistema de crescimento estruturado.",
-    paragraph3: "Impulsionado pelo A.D.A.M. e guiado pela E.V.A., construímos ecossistemas escaláveis projetados para desempenho de longo prazo.",
+    headingItalic: "estrutura.",
+    headingLine2: "Construído para eliminar o caos.",
+    paragraph1: "Andy'K Group International LTD é uma empresa de arquitetura de implementação operacional sediada no Reino Unido — eliminando o caos operacional e entregando transformação estruturada em ambientes B2B, B2G e orientados por tecnologia.",
+    paragraph2: "Eliminamos o caos operacional em onboarding, implementação e gestão do ciclo de vida.",
+    paragraph3: "A.D.A.M. estrutura as operações. E.V.A. gere a execução, marcos e rastreamento de entregas. Os humanos tomam decisões estratégicas.",
     quote: "Uma estrutura. Um fluxo. Um sistema.",
-    tagline: "CONSTRUÍDO PARA CRESCIMENTO.",
+    tagline: "CONSTRUÍDO PARA CLAREZA OPERACIONAL.",
   },
 
   caseStudies: {
@@ -1694,9 +1694,9 @@ const pt: typeof en = {
     eyebrow: "Entre em contato",
     heading: "Vamos construir algo",
     headingItalic: "juntos.",
-    subtitle: "Se você precisa de consultoria, soluções tecnológicas ou um parceiro estratégico para expansão internacional — estamos prontos para conversar.",
+    subtitle: "Se precisa de implementação operacional, arquitetura estratégica ou um parceiro de transformação estruturada — estamos prontos para analisar a sua candidatura.",
     ctaPrimary: "Conte-nos sobre você",
-    ctaSecondary: "Solicitar orçamento personalizado",
+    ctaSecondary: "Solicitar avaliação operacional",
     followLinkedIn: "Siga-nos no LinkedIn",
   },
 
@@ -1771,15 +1771,15 @@ const pt: typeof en = {
     headingItalic: "fundadores",
     connect: "Conectar",
     roles: [
-      "Fundador e Desenvolvedor Empresarial Estratégico",
+      "Fundador e Arquiteto Operacional",
       "Cofundador e CTO",
     ],
     bios: [
-      "Mais de quinze anos de liderança em vendas, hospitalidade, desenvolvimento empresarial e estratégia operacional. Andrej é especialista em sistemas de crescimento escalável para B2B, B2G e relações internacionais com clientes.",
-      "O arquiteto técnico por trás do A.D.A.M., Kobe utiliza sua vasta experiência para transformar qualquer ideia em realidade.",
+      "Mais de quinze anos de liderança em estratégia operacional, desenvolvimento empresarial e arquitetura de implementação. Andrej é especialista em eliminar o caos operacional — construindo sistemas de implementação estruturados para B2B, B2G e engagements internacionais com clientes.",
+      "O arquiteto técnico por trás do A.D.A.M., Kobe constrói a infraestrutura operacional que torna a estratégia de implementação em primeiro lugar uma realidade.",
     ],
     quotes: [
-      "Meu foco é construir sistemas empresariais que não sejam apenas lucrativos — mas sustentáveis, seguros e projetados para escalar.",
+      "Meu foco é construir sistemas de implementação que não apenas pareçam bons no papel — eles eliminam o caos, criam clareza operacional e escalam com estrutura.",
       "",
     ],
     locations: [
@@ -1827,14 +1827,14 @@ const pt: typeof en = {
 const de: typeof en = {
   company: {
     name: "Andy'K Group International LTD",
-    tagline: "End-to-End-Geschäftsentwicklung & Wachstumsarchitektur",
-    subtitle: "Business Operating Systems · Strategische Wachstumsinfrastruktur",
-    subtitleLine2: "Angetrieben von A.D.A.M. — Geführt von E.V.A.",
-    description: "Andy'K Group International LTD ist ein in Großbritannien ansässiges strategisches Unternehmen, das Business Operating Systems entwirft — mit einer Kombination aus Wachstumsinfrastruktur, operativem Design und Technologie.",
-    descriptionExtra: "Mit Kunden in ganz Europa und Lateinamerika bauen wir strukturierte Wachstumsumgebungen, in denen Strategie, Betrieb und Technologie in eine Richtung bewegen.",
-    descriptionSystems: "Strategische Dienstleistungen, die Geschäftsentwicklung, operative Architektur und Technologie kombinieren — Startups, KMUs und öffentlichen Institutionen helfen, mit Struktur zu skalieren.",
+    tagline: "End-to-End-Unternehmensarchitektur & Operative Implementierung",
+    subtitle: "Operative Implementierungsarchitektur · Business Operating Systems",
+    subtitleLine2: "A.D.A.M. strukturiert den Betrieb. Menschen treffen strategische Entscheidungen.",
+    description: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Unternehmen für operative Implementierungsarchitektur — das operatives Chaos in Onboarding, Implementierung und Lifecycle-Management eliminiert.",
+    descriptionExtra: "Mit Kunden in ganz Europa und Lateinamerika bauen wir strukturierte Implementierungsumgebungen, in denen Strategie, Betrieb und Technologie in eine Richtung bewegen.",
+    descriptionSystems: "Operative Implementierungsdienstleistungen, die strukturierte Lieferung, Unternehmensarchitektur und Technologie kombinieren — Unternehmen helfen, operative Klarheit in der Skalierung zu erreichen.",
     quote: "Eine Struktur. Ein Ablauf. Ein System.",
-    quoteSubtitle: "Gebaut für Wachstum.",
+    quoteSubtitle: "Gebaut für operative Klarheit.",
     location: "London, Großbritannien",
     ukCompany: "UK Limited Company",
   },
@@ -1847,10 +1847,10 @@ const de: typeof en = {
   },
 
   banner: {
-    b2bLead: "Unternehmensarchitektur:",
-    b2bText: "End-to-End-Wachstumssysteme & operatives Design",
+    b2bLead: "Operative Architektur:",
+    b2bText: "strukturierter Implementierungs-Lifecycle & operative Klarheit",
     adamSystem: "A.D.A.M. System:",
-    adamText: "automatisierte Dokumente, Angebote und Kundenlebenszyklus",
+    adamText: "operative Implementierungsplattform — strukturierte Lieferung & Kundenlebenszyklus",
     b2gTender: "B2G-Strategie:",
     b2gText: "Beschaffungsintelligenz & Expansion im öffentlichen Sektor",
     trusted: "Vertraut in:",
@@ -1860,31 +1860,31 @@ const de: typeof en = {
   services: {
     heading: "Unsere",
     headingItalic: "Dienstleistungen",
-    subtitle: "Strategische Dienstleistungen, die Geschäftsentwicklung, operative Architektur und Technologie kombinieren.",
+    subtitle: "Operative Implementierungsdienstleistungen — strukturierte Lieferung, Unternehmensarchitektur und Technologie.",
     items: [
-      { title: "End-to-End", description: "Strategische Geschäftsentwicklung und Wachstumsarchitektur" },
+      { title: "End-to-End", description: "Strategische Implementierungspartnerschaft — operatives Transformations-Engagement, selektiv auf Bewerbung" },
       { title: "B2G", description: "Öffentlicher-Sektor-Strategie, Ausschreibungsberatung und Beschaffung" },
       { title: "IT Services", description: "Systemarchitektur, Plattformentwicklung und Automatisierung" },
     ],
   },
 
   endToEnd: {
-    heading: "End-to-End",
-    headingItalic: "Geschäftsentwicklung & Architektur",
-    description: "Wir entwerfen, restrukturieren und bauen Unternehmensarchitektur von der Basis bis zum skalierbaren Wachstum. Angetrieben von A.D.A.M. Strukturelle Transformation — Strategie, Umsatz, Betrieb, Positionierung und Ausführung in ein System integriert.",
+    heading: "Strategische",
+    headingItalic: "Implementierungspartnerschaft",
+    description: "Wir eliminieren operatives Chaos in Onboarding, Implementierung und Lifecycle-Management. Ein selektives Engagement — strukturierter Rollout, Implementierung zuerst. A.D.A.M. strukturiert den Betrieb. Menschen treffen strategische Entscheidungen.",
     bullets: [
-      { title: "Strukturelle Klarheit", description: "Definition von Organisationshierarchie, Rollen und Verantwortlichkeiten über alle Geschäftsebenen." },
+      { title: "Operative Klarheit", description: "Chaos auf jeder Unternehmensebene eliminieren — Struktur, Verantwortlichkeit und Ausführungsfluss definieren." },
       { title: "Umsatzarchitektur", description: "Gestaltung von Preis-, Monetarisierungs- und Umsatzflusssystemen für nachhaltiges Wachstum." },
       { title: "Marktpositionierung", description: "Verfeinerung von Marke, Wertversprechen und Wettbewerbsvorteil in Ihrem Zielmarkt." },
-      { title: "Operatives Redesign", description: "Umstrukturierung interner Workflows, Prozesse und Teamkoordination für maximale Effizienz." },
+      { title: "Implementierungs-Redesign", description: "Strukturierter Implementierungs-Lifecycle — von Onboarding bis Lieferungsverfolgung und kontinuierlicher Optimierung." },
       { title: "Systemintegration", description: "Verbindung von Tools, Plattformen und Datenflüssen zu einem einheitlichen operativen Ökosystem." },
-      { title: "Expansion und Wachstumskontrolle", description: "Aufbau einer skalierbaren Expansionsstrategie mit langfristiger Positionierung und kontrollierter Umsetzung." },
+      { title: "Strukturierte Lifecycle-Kontrolle", description: "Skalierbare Implementierungsrahmen aufbauen mit langfristiger operativer Klarheit und kontrollierter Ausführung." },
     ],
   },
 
   endToEndQualification: {
     title: "Wie wir zusammenarbeiten",
-    description: "End-to-End-Geschäftsentwicklungsprojekte werden intern geprüft und selektiv auf der Grundlage von strategischer Passung, operativem Umfang und langfristiger Ausrichtung genehmigt.",
+    description: "Strategische Implementierungspartnerschaften werden intern geprüft und selektiv genehmigt — nur auf Bewerbung. Strukturierter Rollout. Operative Klarheit bei jedem Engagement.",
     steps: [
       "Bewerbung einreichen",
       "Interne Prüfung",
@@ -1892,19 +1892,19 @@ const de: typeof en = {
       "Qualifikationsgespräch",
       "Angebot",
     ],
-    ctaAssessment: "Reichen Sie Ihre Unternehmensbewertung ein",
-    ctaReview: "Strategische Prüfung anfordern",
+    ctaAssessment: "Für Implementierung bewerben",
+    ctaReview: "Operative Bewertung anfordern",
   },
 
   lovedBy: {
     headingBold: "Gebaut auf",
-    headingItalic: "Vertrauen.",
-    headingLine2: "Angetrieben von Ergebnissen.",
-    paragraph1: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Innovationsunternehmen, das End-to-End Geschäftsentwicklung und Wachstumsarchitektur in B2B-, B2G- und technologiegetriebenen Umgebungen liefert.",
-    paragraph2: "Wir stimmen Positionierung, Umsatzgestaltung, Betrieb und Umsetzung in ein strukturiertes Wachstumssystem ab.",
-    paragraph3: "Angetrieben von A.D.A.M. und geführt von E.V.A., bauen wir skalierbare Ökosysteme, die für langfristige Leistung konzipiert sind.",
+    headingItalic: "Struktur.",
+    headingLine2: "Gebaut um Chaos zu eliminieren.",
+    paragraph1: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Unternehmen für operative Implementierungsarchitektur — das operatives Chaos eliminiert und strukturierte Transformation in B2B-, B2G- und technologiegetriebenen Umgebungen liefert.",
+    paragraph2: "Wir eliminieren operatives Chaos in Onboarding, Implementierung und Lifecycle-Management.",
+    paragraph3: "A.D.A.M. strukturiert den Betrieb. E.V.A. verwaltet Ausführung, Meilensteine und Lieferungsverfolgung. Menschen treffen strategische Entscheidungen.",
     quote: "Eine Struktur. Ein Ablauf. Ein System.",
-    tagline: "GEBAUT FÜR WACHSTUM.",
+    tagline: "GEBAUT FÜR OPERATIVE KLARHEIT.",
   },
 
   caseStudies: {
@@ -2047,9 +2047,9 @@ const de: typeof en = {
     eyebrow: "Kontaktieren Sie uns",
     heading: "Lassen Sie uns etwas",
     headingItalic: "gemeinsam aufbauen.",
-    subtitle: "Ob Sie Beratung, technologische Lösungen oder einen strategischen Partner für internationale Expansion benötigen — wir sind bereit zu sprechen.",
+    subtitle: "Ob Sie operative Implementierung, strategische Architektur oder einen strukturierten Transformationspartner benötigen — wir sind bereit, Ihre Bewerbung zu prüfen.",
     ctaPrimary: "Erzählen Sie uns von sich",
-    ctaSecondary: "Individuelles Angebot anfordern",
+    ctaSecondary: "Operative Bewertung anfordern",
     followLinkedIn: "Folgen Sie uns auf LinkedIn",
   },
 
@@ -2124,15 +2124,15 @@ const de: typeof en = {
     headingItalic: "Gründer kennen",
     connect: "Verbinden",
     roles: [
-      "Gründer & Strategischer Business Developer",
+      "Gründer & Operativer Architekt",
       "Mitgründer & CTO",
     ],
     bios: [
-      "Über fünfzehn Jahre Führungserfahrung in Vertrieb, Gastgewerbe, Geschäftsentwicklung und operativer Strategie. Andrej spezialisiert sich auf skalierbare Wachstumssysteme für B2B, B2G und internationale Kundenbeziehungen.",
-      "Der technische Architekt hinter A.D.A.M., Kobe nutzt seine umfassende Expertise, um jede Idee in die Realität umzusetzen.",
+      "Über fünfzehn Jahre Führungserfahrung in operativer Strategie, Geschäftsentwicklung und Implementierungsarchitektur. Andrej spezialisiert sich darauf, operatives Chaos zu eliminieren — strukturierte Implementierungssysteme für B2B, B2G und internationale Kundenengagements zu entwickeln.",
+      "Der technische Architekt hinter A.D.A.M., Kobe baut die operative Infrastruktur, die Implementierung-zuerst-Strategie Wirklichkeit werden lässt.",
     ],
     quotes: [
-      "Mein Fokus liegt darauf, Geschäftssysteme zu bauen, die nicht nur profitabel sind — sondern nachhaltig, sicher und für Skalierung konzipiert.",
+      "Mein Fokus liegt darauf, Implementierungssysteme zu bauen, die nicht nur auf dem Papier gut aussehen — sie eliminieren Chaos, schaffen operative Klarheit und skalieren mit Struktur.",
       "",
     ],
     locations: [

@@ -18,6 +18,8 @@ export default function Footer() {
     { label: t.footer.linkSystems, href: "#systems" },
     { label: "B2G / Public Sector", href: "#pricing-b2g" },
     { label: t.footer.linkContact, href: "#contact" },
+    { label: "Implementation Philosophy", href: "/implementation-philosophy" },
+    { label: "What is A.D.A.M.", href: "/what-is-adam" },
     { label: t.footer.linkPrivacy, href: "/privacy-policy" },
     { label: t.footer.linkCookies, href: "/cookies-policy" },
     { label: t.footer.linkTerms, href: "/terms-and-conditions" },
