@@ -145,7 +145,7 @@ export default function WhatIsAdamPage() {
             </p>
             <div className="mt-4 space-y-2">
               {[
-                "Growth-stage B2B companies that need structured operational systems",
+                "Growth-stage companies that need structured operational implementation systems",
                 "Companies expanding into B2G (public sector) that require formal proposal and contract management",
                 "Businesses implementing digital transformation that need structured onboarding and lifecycle tracking",
                 "Any organisation where operational chaos is limiting growth and quality",

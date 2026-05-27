@@ -6,7 +6,7 @@ export default function TopBanner() {
   const { t } = useLanguage();
 
   const bannerItems = [
-    { bold: t.banner.b2bLead, text: t.banner.b2bText },
+    { bold: t.banner.opLead, text: t.banner.opText },
     { bold: t.banner.adamSystem, text: t.banner.adamText },
     { bold: t.banner.b2gTender, text: t.banner.b2gText },
     { bold: t.banner.trusted, text: t.banner.trustedText },

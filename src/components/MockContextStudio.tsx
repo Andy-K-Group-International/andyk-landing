@@ -42,7 +42,7 @@ export default function MockContextStudio() {
         <div className="p-3">
           <div className="text-[10px] text-muted-2 uppercase tracking-wide mb-2">Service Model</div>
           <div className="bg-grid-300/40 rounded p-2 font-mono text-[10px] text-muted leading-relaxed">
-            <div><span className="text-highlight">model</span>: b2b_pipeline</div>
+            <div><span className="text-highlight">model</span>: implementation_pipeline</div>
             <div>&nbsp;&nbsp;<span className="text-highlight">stages</span>:</div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;- onboarding</div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;- strategy</div>

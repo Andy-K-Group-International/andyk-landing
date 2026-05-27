@@ -39,7 +39,7 @@ const SECTION_LABELS: Record<string, string> = {
   "company-profile": "Company",
   "segment-selection": "Services",
   e2e: "End-to-End",
-  b2b: "B2B",
+  b2b: "Business Architecture",
   b2g: "B2G",
   adam: "A.D.A.M.",
   "proposal-readiness": "Proposal",

@@ -25,7 +25,7 @@ export default function Footer() {
     { label: t.footer.linkTerms, href: "/terms-and-conditions" },
     { label: t.footer.linkDisclaimer, href: "/disclaimer" },
     { label: t.footer.linkLegalNotice, href: "/company-information" },
-    { label: t.footer.linkClientPortal, href: "https://adameva.app" },
+    { label: t.footer.linkClientPortal, href: "https://adam.andykgroup.com" },
   ];
 
   return (

@@ -22,7 +22,7 @@ export const COMPANY = {
     "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/b4799702d_Andykgroup-LOGO.png",
   adamLogoUrl:
     "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/bad775fd5_ADAM-LOGO.PNG",
-  adamUrl: "https://adameva.app",
+  adamUrl: "https://adam.andykgroup.com",
   trustCountries: "\u{1F1EC}\u{1F1E7} \u{1F1E9}\u{1F1EA} \u{1F1E7}\u{1F1F7} \u{1F1E6}\u{1F1F9} \u{1F1F8}\u{1F1F0}",
   quote: "\u201COne structure. One flow. One system.\u201D",
   quoteSubtitle: "Built for growth.",
@@ -64,7 +64,7 @@ export const SERVICES = [
 export const ADAM_FEATURES = [
   "Operational workflow automation — proposals, contracts & invoices",
   "Client lifecycle management & structured onboarding systems",
-  "Business process orchestration for B2B, B2G & Licensing",
+  "Business process orchestration for B2G, operational implementation & licensing",
   "Strategic reporting & performance oversight",
 ];
 
@@ -132,7 +132,7 @@ export const FOUNDERS: {
     image: "/ceo.jpeg",
     linkedin: "https://www.linkedin.com/in/disandrejkneisl/",
     email: "ceo@andykgroup.com",
-    bio: "15+ years of leadership in operational strategy, business development, and implementation architecture. Andrej specializes in eliminating operational chaos — building structured implementation systems for B2B, B2G, and international client engagements.",
+    bio: "15+ years of leadership in operational strategy, business development, and implementation architecture. Andrej specializes in eliminating operational chaos — building structured implementation systems for B2G, operational implementation, and international client engagements.",
     quote:
       "My focus is building implementation systems that don't just look good on paper — they eliminate chaos, create operational clarity, and scale with structure.",
     location: "Born in Austria",
@@ -142,33 +142,33 @@ export const FOUNDERS: {
 export const ADAM_ROADMAP = [
   {
     step: 1,
-    title: "Questionnaire",
-    description: "Complete our structured intake form. We learn about your business, goals, and requirements.",
+    title: "Strategic Application",
+    description: "Submit your implementation application. We review all requests manually for strategic fit.",
   },
   {
     step: 2,
-    title: "Proposal",
-    description: "We craft a tailored proposal based on your needs. Review it in your personal dashboard.",
+    title: "Internal Review & Qualification",
+    description: "Our team evaluates operational fit, strategic potential and implementation readiness.",
   },
   {
     step: 3,
-    title: "Contract",
-    description: "Review, comment, and digitally sign your contract. Full transparency, no surprises.",
+    title: "Proposal & Strategy",
+    description: "We craft a tailored implementation proposal and operational strategy document.",
   },
   {
     step: 4,
-    title: "Strategy",
-    description: "Together we define the strategy and timeline. Every detail aligned before we start.",
+    title: "Contract & Signing",
+    description: "Review and digitally sign your implementation agreement.",
   },
   {
     step: 5,
-    title: "Invoice",
-    description: "Automated invoicing with clear payment terms. Everything tracked in one place.",
+    title: "Invoice & Payment",
+    description: "Structured invoicing — 50% upfront, 50% on Phase 1 completion.",
   },
   {
     step: 6,
-    title: "Onboarding",
-    description: "Project launches. Real-time updates, document sharing, and ongoing support through A.D.A.M.",
+    title: "Kickoff & Implementation",
+    description: "Operational activation begins. Your A.D.A.M. environment is configured and go-live is scheduled.",
   },
 ];
 
@@ -299,7 +299,7 @@ export const NAV_SERVICES = [
   {
     group: "Systems",
     items: [
-      { label: "A.D.A.M.", description: "Automated Document & Account Manager", href: "https://adameva.app" },
+      { label: "A.D.A.M.", description: "Automated Document & Account Manager", href: "https://adam.andykgroup.com" },
     ],
   },
   {

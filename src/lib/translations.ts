@@ -41,8 +41,8 @@ const en = {
 
   // Top banner
   banner: {
-    b2bLead: "Operational Architecture:",
-    b2bText: "structured implementation lifecycle & operational clarity",
+    opLead: "Operational Architecture:",
+    opText: "structured implementation lifecycle & operational clarity",
     adamSystem: "A.D.A.M. System:",
     adamText: "operational implementation platform — structured delivery & client lifecycle",
     b2gTender: "B2G Tender Strategy:",
@@ -107,7 +107,7 @@ const en = {
     headingBold: "Built on",
     headingItalic: "structure.",
     headingLine2: "Built to eliminate chaos.",
-    paragraph1: "Andy'K Group International LTD is a UK-based operational implementation architecture company — eliminating operational chaos and delivering structured transformation across B2B, B2G, and technology-driven engagements.",
+    paragraph1: "Andy'K Group International LTD is a UK-based operational implementation architecture company — eliminating operational chaos and delivering structured transformation across B2G, end-to-end business architecture, and technology-driven engagements.",
     paragraph2: "We eliminate operational chaos across onboarding, implementation and lifecycle management.",
     paragraph3: "A.D.A.M. structures operations. E.V.A. manages execution, milestones, and delivery tracking. Humans make strategic decisions.",
     quote: "One structure. One flow. One system.",
@@ -147,28 +147,28 @@ const en = {
     subtitle: "From first contact to project launch in six structured steps.",
     steps: [
       {
-        title: "Questionnaire",
-        description: "Complete our structured intake form. We learn about your business, goals, and requirements.",
+        title: "Strategic Application",
+        description: "Submit your implementation application. We review all requests manually for strategic fit.",
       },
       {
-        title: "Proposal",
-        description: "We craft a tailored proposal based on your needs. Review it in your personal dashboard.",
+        title: "Internal Review & Qualification",
+        description: "Our team evaluates operational fit, strategic potential and implementation readiness.",
       },
       {
-        title: "Contract",
-        description: "Review, comment, and digitally sign your contract. Full transparency, no surprises.",
+        title: "Proposal & Strategy",
+        description: "We craft a tailored implementation proposal and operational strategy document.",
       },
       {
-        title: "Strategy",
-        description: "Together we define the strategy and timeline. Every detail aligned before we start.",
+        title: "Contract & Signing",
+        description: "Review and digitally sign your implementation agreement.",
       },
       {
-        title: "Invoice",
-        description: "Automated invoicing with clear payment terms. Everything tracked in one place.",
+        title: "Invoice & Payment",
+        description: "Structured invoicing — 50% upfront, 50% on Phase 1 completion.",
       },
       {
-        title: "Onboarding",
-        description: "Project launches. Real-time updates, document sharing, and ongoing support through A.D.A.M.",
+        title: "Kickoff & Implementation",
+        description: "Operational activation begins. Your A.D.A.M. environment is configured and go-live is scheduled.",
       },
     ],
     statusBadge: "A.D.A.M. is live and processing clients",
@@ -353,7 +353,7 @@ const en = {
       "Co-Founder & CTO",
     ],
     bios: [
-      "Fifteen+ years of leadership in operational strategy, business development, and implementation architecture. Andrej specializes in eliminating operational chaos — building structured implementation systems for B2B, B2G, and international client engagements.",
+      "Fifteen+ years of leadership in operational strategy, business development, and implementation architecture. Andrej specializes in eliminating operational chaos — building structured implementation systems for B2G, operational implementation, and international client engagements.",
       "The technical architect behind A.D.A.M., Kobe builds the operational infrastructure that makes implementation-first strategy a reality.",
     ],
     quotes: [
@@ -435,8 +435,8 @@ const es: typeof en = {
   },
 
   banner: {
-    b2bLead: "Arquitectura Operativa:",
-    b2bText: "ciclo de vida de implementación estructurada y claridad operativa",
+    opLead: "Arquitectura Operativa:",
+    opText: "ciclo de vida de implementación estructurada y claridad operativa",
     adamSystem: "Sistema A.D.A.M.:",
     adamText: "plataforma de implementación operativa — entrega estructurada y ciclo de vida del cliente",
     b2gTender: "Estrategia B2G:",
@@ -476,28 +476,28 @@ const es: typeof en = {
     subtitle: "Del primer contacto al lanzamiento del proyecto en seis pasos estructurados.",
     steps: [
       {
-        title: "Cuestionario",
-        description: "Complete nuestro formulario de admisión estructurado. Conocemos su empresa, objetivos y requisitos.",
+        title: "Solicitud Estratégica",
+        description: "Envíe su solicitud de implementación. Revisamos todas las solicitudes manualmente para verificar la compatibilidad estratégica.",
       },
       {
-        title: "Propuesta",
-        description: "Elaboramos una propuesta a medida basada en sus necesidades. Revísela en su panel personal.",
+        title: "Revisión Interna y Cualificación",
+        description: "Nuestro equipo evalúa la compatibilidad operativa, el potencial estratégico y la preparación para la implementación.",
       },
       {
-        title: "Contrato",
-        description: "Revise, comente y firme digitalmente su contrato. Total transparencia, sin sorpresas.",
+        title: "Propuesta y Estrategia",
+        description: "Elaboramos una propuesta de implementación a medida y un documento de estrategia operativa.",
       },
       {
-        title: "Estrategia",
-        description: "Juntos definimos la estrategia y el cronograma. Cada detalle alineado antes de comenzar.",
+        title: "Contrato y Firma",
+        description: "Revise y firme digitalmente su acuerdo de implementación.",
       },
       {
-        title: "Factura",
-        description: "Facturación automatizada con condiciones de pago claras. Todo rastreado en un solo lugar.",
+        title: "Factura y Pago",
+        description: "Facturación estructurada — 50% por adelantado, 50% al completar la Fase 1.",
       },
       {
-        title: "Incorporación",
-        description: "El proyecto se lanza. Actualizaciones en tiempo real, intercambio de documentos y soporte continuo a través de A.D.A.M.",
+        title: "Inicio y Implementación",
+        description: "Comienza la activación operativa. Su entorno A.D.A.M. se configura y se programa el lanzamiento.",
       },
     ],
     statusBadge: "A.D.A.M. está activo y procesando clientes",
@@ -665,7 +665,7 @@ const es: typeof en = {
     headingBold: "Construido sobre",
     headingItalic: "estructura.",
     headingLine2: "Construido para eliminar el caos.",
-    paragraph1: "Andy'K Group International LTD es una empresa de arquitectura de implementación operativa con sede en el Reino Unido — eliminando el caos operativo y entregando transformación estructurada en entornos B2B, B2G y tecnológicos.",
+    paragraph1: "Andy'K Group International LTD es una empresa de arquitectura de implementación operativa con sede en el Reino Unido — eliminando el caos operativo y entregando transformación estructurada en entornos B2G, arquitectura empresarial integral y tecnológicos.",
     paragraph2: "Eliminamos el caos operativo en incorporación, implementación y gestión del ciclo de vida.",
     paragraph3: "A.D.A.M. estructura las operaciones. E.V.A. gestiona la ejecución, los hitos y el seguimiento de entregas. Los humanos toman decisiones estratégicas.",
     quote: "Una estructura. Un flujo. Un sistema.",
@@ -716,7 +716,7 @@ const es: typeof en = {
       "Cofundador y CTO",
     ],
     bios: [
-      "Más de quince años de liderazgo en estrategia operativa, desarrollo empresarial y arquitectura de implementación. Andrej se especializa en eliminar el caos operativo — construyendo sistemas de implementación estructurados para B2B, B2G y compromisos internacionales con clientes.",
+      "Más de quince años de liderazgo en estrategia operativa, desarrollo empresarial y arquitectura de implementación. Andrej se especializa en eliminar el caos operativo — construyendo sistemas de implementación estructurados para B2G, implementación operativa y compromisos internacionales con clientes.",
       "El arquitecto técnico detrás de A.D.A.M., Kobe construye la infraestructura operativa que hace realidad la estrategia de implementación prioritaria.",
     ],
     quotes: [
@@ -788,8 +788,8 @@ const sk: typeof en = {
   },
 
   banner: {
-    b2bLead: "Prevádzková architektúra:",
-    b2bText: "štruktúrovaný implementačný životný cyklus a prevádzková jasnosť",
+    opLead: "Prevádzková architektúra:",
+    opText: "štruktúrovaný implementačný životný cyklus a prevádzková jasnosť",
     adamSystem: "Systém A.D.A.M.:",
     adamText: "platforma operatívnej implementácie — štruktúrované dodávky a životný cyklus klienta",
     b2gTender: "Stratégia B2G:",
@@ -841,7 +841,7 @@ const sk: typeof en = {
     headingBold: "Postavené na",
     headingItalic: "štruktúre.",
     headingLine2: "Vytvorené na elimináciu chaosu.",
-    paragraph1: "Andy'K Group International LTD je spoločnosť architektúry operatívnej implementácie so sídlom vo Veľkej Británii — eliminujúca prevádzkový chaos a poskytujúca štruktúrovanú transformáciu v prostrediach B2B, B2G a technologicky orientovaných odvetviach.",
+    paragraph1: "Andy'K Group International LTD je spoločnosť architektúry operatívnej implementácie so sídlom vo Veľkej Británii — eliminujúca prevádzkový chaos a poskytujúca štruktúrovanú transformáciu v prostrediach B2G, komplexnej podnikovej architektúry a technologicky orientovaných odvetviach.",
     paragraph2: "Eliminujeme prevádzkový chaos v onboardingu, implementácii a riadení životného cyklu.",
     paragraph3: "A.D.A.M. štruktúruje operácie. E.V.A. riadi realizáciu, míľniky a sledovanie dodávok. Ľudia prijímajú strategické rozhodnutia.",
     quote: "Jedna štruktúra. Jeden tok. Jeden systém.",
@@ -864,28 +864,28 @@ const sk: typeof en = {
     subtitle: "Od prvého kontaktu po spustenie projektu v šiestich štruktúrovaných krokoch.",
     steps: [
       {
-        title: "Dotazník",
-        description: "Vyplňte náš štruktúrovaný formulár. Spoznáme vašu firmu, ciele a požiadavky.",
+        title: "Strategická prihláška",
+        description: "Odošlite svoju prihlášku na implementáciu. Všetky žiadosti posudzujeme manuálne podľa strategickej vhodnosti.",
       },
       {
-        title: "Návrh",
-        description: "Vytvoríme návrh na mieru podľa vašich potrieb. Skontrolujte ho vo vašom osobnom paneli.",
+        title: "Interné hodnotenie a kvalifikácia",
+        description: "Náš tím hodnotí prevádzkový súlad, strategický potenciál a pripravenosť na implementáciu.",
       },
       {
-        title: "Zmluva",
-        description: "Skontrolujte, komentujte a digitálne podpíšte zmluvu. Úplná transparentnosť, žiadne prekvapenia.",
+        title: "Návrh a stratégia",
+        description: "Vypracujeme implementačný návrh na mieru a dokument operatívnej stratégie.",
       },
       {
-        title: "Stratégia",
-        description: "Spoločne definujeme stratégiu a časový plán. Každý detail zladený pred začiatkom.",
+        title: "Zmluva a podpis",
+        description: "Skontrolujte a digitálne podpíšte svoju implementačnú zmluvu.",
       },
       {
-        title: "Faktúra",
-        description: "Automatizovaná fakturácia s jasnými platobnými podmienkami. Všetko sledované na jednom mieste.",
+        title: "Faktúra a platba",
+        description: "Štruktúrovaná fakturácia — 50% vopred, 50% po dokončení 1. fázy.",
       },
       {
-        title: "Onboarding",
-        description: "Projekt sa spúšťa. Aktualizácie v reálnom čase, zdieľanie dokumentov a priebežná podpora cez A.D.A.M.",
+        title: "Spustenie a implementácia",
+        description: "Začína prevádzková aktivácia. Vaše prostredie A.D.A.M. je nakonfigurované a naplánované spustenie.",
       },
     ],
     statusBadge: "A.D.A.M. je aktívny a spracováva klientov",
@@ -1069,7 +1069,7 @@ const sk: typeof en = {
       "Spoluzakladateľ a CTO",
     ],
     bios: [
-      "Viac ako pätnásť rokov vedenia v operatívnej stratégii, rozvoji podnikania a architektúre implementácie. Andrej sa špecializuje na elimináciu prevádzkového chaosu — budovanie štruktúrovaných implementačných systémov pre B2B, B2G a medzinárodné angažmány s klientmi.",
+      "Viac ako pätnásť rokov vedenia v operatívnej stratégii, rozvoji podnikania a architektúre implementácie. Andrej sa špecializuje na elimináciu prevádzkového chaosu — budovanie štruktúrovaných implementačných systémov pre B2G, operatívnu implementáciu a medzinárodné angažmány s klientmi.",
       "Technický architekt za A.D.A.M., Kobe buduje prevádzkovú infraštruktúru, ktorá robí stratégiu implementácie na prvom mieste realitou.",
     ],
     quotes: [
@@ -1141,8 +1141,8 @@ const nl: typeof en = {
   },
 
   banner: {
-    b2bLead: "Operationele architectuur:",
-    b2bText: "gestructureerde implementatielifecycle & operationele helderheid",
+    opLead: "Operationele architectuur:",
+    opText: "gestructureerde implementatielifecycle & operationele helderheid",
     adamSystem: "A.D.A.M. Systeem:",
     adamText: "operationeel implementatieplatform — gestructureerde levering & klantlevenscyclus",
     b2gTender: "B2G Strategie:",
@@ -1194,7 +1194,7 @@ const nl: typeof en = {
     headingBold: "Gebouwd op",
     headingItalic: "structuur.",
     headingLine2: "Gebouwd om chaos te elimineren.",
-    paragraph1: "Andy'K Group International LTD is een in het VK gevestigd bedrijf voor operationele implementatiearchitectuur — dat operationele chaos elimineert en gestructureerde transformatie levert in B2B, B2G en technologiegedreven omgevingen.",
+    paragraph1: "Andy'K Group International LTD is een in het VK gevestigd bedrijf voor operationele implementatiearchitectuur — dat operationele chaos elimineert en gestructureerde transformatie levert in B2G, end-to-end bedrijfsarchitectuur en technologiegedreven omgevingen.",
     paragraph2: "Wij elimineren operationele chaos in onboarding, implementatie en lifecycle management.",
     paragraph3: "A.D.A.M. structureert operaties. E.V.A. beheert uitvoering, mijlpalen en leveringsregistratie. Mensen nemen strategische beslissingen.",
     quote: "Eén structuur. Eén stroom. Eén systeem.",
@@ -1217,28 +1217,28 @@ const nl: typeof en = {
     subtitle: "Van eerste contact tot projectlancering in zes gestructureerde stappen.",
     steps: [
       {
-        title: "Vragenlijst",
-        description: "Vul ons gestructureerde intakeformulier in. We leren uw bedrijf, doelen en vereisten kennen.",
+        title: "Strategische Aanvraag",
+        description: "Dien uw implementatieaanvraag in. We beoordelen alle aanvragen handmatig op strategische geschiktheid.",
       },
       {
-        title: "Voorstel",
-        description: "We stellen een voorstel op maat op basis van uw behoeften. Bekijk het in uw persoonlijke dashboard.",
+        title: "Interne Beoordeling & Kwalificatie",
+        description: "Ons team beoordeelt operationele geschiktheid, strategisch potentieel en implementatiegereedheid.",
       },
       {
-        title: "Contract",
-        description: "Bekijk, becommentarieer en onderteken uw contract digitaal. Volledige transparantie, geen verrassingen.",
+        title: "Voorstel & Strategie",
+        description: "We stellen een op maat gemaakt implementatievoorstel en operationeel strategiedocument op.",
       },
       {
-        title: "Strategie",
-        description: "Samen definiëren we de strategie en tijdlijn. Elk detail afgestemd voordat we beginnen.",
+        title: "Contract & Ondertekening",
+        description: "Bekijk en onderteken uw implementatieovereenkomst digitaal.",
       },
       {
-        title: "Factuur",
-        description: "Geautomatiseerde facturering met duidelijke betalingsvoorwaarden. Alles bijgehouden op één plek.",
+        title: "Factuur & Betaling",
+        description: "Gestructureerde facturering — 50% vooraf, 50% bij voltooiing van Fase 1.",
       },
       {
-        title: "Onboarding",
-        description: "Het project start. Realtime updates, documentdeling en doorlopende ondersteuning via A.D.A.M.",
+        title: "Kickoff & Implementatie",
+        description: "Operationele activering begint. Uw A.D.A.M.-omgeving wordt geconfigureerd en de go-live wordt gepland.",
       },
     ],
     statusBadge: "A.D.A.M. is actief en verwerkt klanten",
@@ -1422,7 +1422,7 @@ const nl: typeof en = {
       "Medeoprichter & CTO",
     ],
     bios: [
-      "Meer dan vijftien jaar leiderschap in operationele strategie, bedrijfsontwikkeling en implementatiearchitectuur. Andrej is gespecialiseerd in het elimineren van operationele chaos — het bouwen van gestructureerde implementatiesystemen voor B2B, B2G en internationale klantengagementen.",
+      "Meer dan vijftien jaar leiderschap in operationele strategie, bedrijfsontwikkeling en implementatiearchitectuur. Andrej is gespecialiseerd in het elimineren van operationele chaos — het bouwen van gestructureerde implementatiesystemen voor B2G, operationele implementatie en internationale klantengagementen.",
       "De technische architect achter A.D.A.M., Kobe bouwt de operationele infrastructuur die implementatie-eerste strategie werkelijkheid maakt.",
     ],
     quotes: [
@@ -1494,8 +1494,8 @@ const pt: typeof en = {
   },
 
   banner: {
-    b2bLead: "Arquitetura Operacional:",
-    b2bText: "ciclo de vida de implementação estruturada e clareza operacional",
+    opLead: "Arquitetura Operacional:",
+    opText: "ciclo de vida de implementação estruturada e clareza operacional",
     adamSystem: "Sistema A.D.A.M.:",
     adamText: "plataforma de implementação operacional — entrega estruturada e ciclo de vida do cliente",
     b2gTender: "Estratégia B2G:",
@@ -1547,7 +1547,7 @@ const pt: typeof en = {
     headingBold: "Construído sobre",
     headingItalic: "estrutura.",
     headingLine2: "Construído para eliminar o caos.",
-    paragraph1: "Andy'K Group International LTD é uma empresa de arquitetura de implementação operacional sediada no Reino Unido — eliminando o caos operacional e entregando transformação estruturada em ambientes B2B, B2G e orientados por tecnologia.",
+    paragraph1: "Andy'K Group International LTD é uma empresa de arquitetura de implementação operacional sediada no Reino Unido — eliminando o caos operacional e entregando transformação estruturada em ambientes B2G, arquitetura empresarial integrada e orientados por tecnologia.",
     paragraph2: "Eliminamos o caos operacional em onboarding, implementação e gestão do ciclo de vida.",
     paragraph3: "A.D.A.M. estrutura as operações. E.V.A. gere a execução, marcos e rastreamento de entregas. Os humanos tomam decisões estratégicas.",
     quote: "Uma estrutura. Um fluxo. Um sistema.",
@@ -1570,28 +1570,28 @@ const pt: typeof en = {
     subtitle: "Do primeiro contacto ao lançamento do projeto em seis passos estruturados.",
     steps: [
       {
-        title: "Questionário",
-        description: "Preencha nosso formulário de admissão estruturado. Conhecemos seu negócio, objetivos e requisitos.",
+        title: "Candidatura Estratégica",
+        description: "Envie a sua candidatura de implementação. Analisamos todos os pedidos manualmente para verificar a adequação estratégica.",
       },
       {
-        title: "Proposta",
-        description: "Elaboramos uma proposta personalizada com base nas suas necessidades. Revise-a no seu painel pessoal.",
+        title: "Revisão Interna e Qualificação",
+        description: "A nossa equipa avalia a adequação operacional, o potencial estratégico e a prontidão para implementação.",
       },
       {
-        title: "Contrato",
-        description: "Revise, comente e assine digitalmente seu contrato. Total transparência, sem surpresas.",
+        title: "Proposta e Estratégia",
+        description: "Elaboramos uma proposta de implementação personalizada e um documento de estratégia operacional.",
       },
       {
-        title: "Estratégia",
-        description: "Juntos definimos a estratégia e o cronograma. Cada detalhe alinhado antes de começar.",
+        title: "Contrato e Assinatura",
+        description: "Reveja e assine digitalmente o seu acordo de implementação.",
       },
       {
-        title: "Fatura",
-        description: "Faturamento automatizado com condições de pagamento claras. Tudo rastreado em um só lugar.",
+        title: "Fatura e Pagamento",
+        description: "Faturação estruturada — 50% antecipado, 50% na conclusão da Fase 1.",
       },
       {
-        title: "Integração",
-        description: "O projeto é lançado. Atualizações em tempo real, compartilhamento de documentos e suporte contínuo pelo A.D.A.M.",
+        title: "Arranque e Implementação",
+        description: "A ativação operacional começa. O seu ambiente A.D.A.M. é configurado e o go-live é agendado.",
       },
     ],
     statusBadge: "A.D.A.M. está ativo e processando clientes",
@@ -1775,7 +1775,7 @@ const pt: typeof en = {
       "Cofundador e CTO",
     ],
     bios: [
-      "Mais de quinze anos de liderança em estratégia operacional, desenvolvimento empresarial e arquitetura de implementação. Andrej é especialista em eliminar o caos operacional — construindo sistemas de implementação estruturados para B2B, B2G e engagements internacionais com clientes.",
+      "Mais de quinze anos de liderança em estratégia operacional, desenvolvimento empresarial e arquitetura de implementação. Andrej é especialista em eliminar o caos operacional — construindo sistemas de implementação estruturados para B2G, implementação operacional e engagements internacionais com clientes.",
       "O arquiteto técnico por trás do A.D.A.M., Kobe constrói a infraestrutura operacional que torna a estratégia de implementação em primeiro lugar uma realidade.",
     ],
     quotes: [
@@ -1847,8 +1847,8 @@ const de: typeof en = {
   },
 
   banner: {
-    b2bLead: "Operative Architektur:",
-    b2bText: "strukturierter Implementierungs-Lifecycle & operative Klarheit",
+    opLead: "Operative Architektur:",
+    opText: "strukturierter Implementierungs-Lifecycle & operative Klarheit",
     adamSystem: "A.D.A.M. System:",
     adamText: "operative Implementierungsplattform — strukturierte Lieferung & Kundenlebenszyklus",
     b2gTender: "B2G-Strategie:",
@@ -1900,7 +1900,7 @@ const de: typeof en = {
     headingBold: "Gebaut auf",
     headingItalic: "Struktur.",
     headingLine2: "Gebaut um Chaos zu eliminieren.",
-    paragraph1: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Unternehmen für operative Implementierungsarchitektur — das operatives Chaos eliminiert und strukturierte Transformation in B2B-, B2G- und technologiegetriebenen Umgebungen liefert.",
+    paragraph1: "Andy'K Group International LTD ist ein in Großbritannien ansässiges Unternehmen für operative Implementierungsarchitektur — das operatives Chaos eliminiert und strukturierte Transformation in B2G-, End-to-End-Unternehmensarchitektur- und technologiegetriebenen Umgebungen liefert.",
     paragraph2: "Wir eliminieren operatives Chaos in Onboarding, Implementierung und Lifecycle-Management.",
     paragraph3: "A.D.A.M. strukturiert den Betrieb. E.V.A. verwaltet Ausführung, Meilensteine und Lieferungsverfolgung. Menschen treffen strategische Entscheidungen.",
     quote: "Eine Struktur. Ein Ablauf. Ein System.",
@@ -1923,28 +1923,28 @@ const de: typeof en = {
     subtitle: "Vom Erstkontakt bis zum Projektstart in sechs strukturierten Schritten.",
     steps: [
       {
-        title: "Fragebogen",
-        description: "Füllen Sie unser strukturiertes Aufnahmeformular aus. Wir lernen Ihr Unternehmen, Ihre Ziele und Anforderungen kennen.",
+        title: "Strategische Bewerbung",
+        description: "Reichen Sie Ihren Implementierungsantrag ein. Wir prüfen alle Anfragen manuell auf strategische Eignung.",
       },
       {
-        title: "Angebot",
-        description: "Wir erstellen ein maßgeschneidertes Angebot basierend auf Ihren Bedürfnissen. Prüfen Sie es in Ihrem persönlichen Dashboard.",
+        title: "Interne Prüfung & Qualifizierung",
+        description: "Unser Team bewertet die operative Eignung, das strategische Potenzial und die Implementierungsbereitschaft.",
       },
       {
-        title: "Vertrag",
-        description: "Prüfen, kommentieren und digital unterschreiben Sie Ihren Vertrag. Volle Transparenz, keine Überraschungen.",
+        title: "Angebot & Strategie",
+        description: "Wir erstellen ein maßgeschneidertes Implementierungsangebot und ein operatives Strategiedokument.",
       },
       {
-        title: "Strategie",
-        description: "Gemeinsam definieren wir die Strategie und den Zeitplan. Jedes Detail abgestimmt, bevor wir beginnen.",
+        title: "Vertrag & Unterzeichnung",
+        description: "Prüfen und digital unterschreiben Sie Ihre Implementierungsvereinbarung.",
       },
       {
-        title: "Rechnung",
-        description: "Automatisierte Rechnungsstellung mit klaren Zahlungsbedingungen. Alles an einem Ort verfolgt.",
+        title: "Rechnung & Zahlung",
+        description: "Strukturierte Rechnungsstellung — 50% im Voraus, 50% nach Abschluss von Phase 1.",
       },
       {
-        title: "Onboarding",
-        description: "Das Projekt startet. Echtzeit-Updates, Dokumentenaustausch und fortlaufende Unterstützung durch A.D.A.M.",
+        title: "Kickoff & Implementierung",
+        description: "Die operative Aktivierung beginnt. Ihre A.D.A.M.-Umgebung wird konfiguriert und der Go-live geplant.",
       },
     ],
     statusBadge: "A.D.A.M. ist aktiv und verarbeitet Kunden",
@@ -2128,7 +2128,7 @@ const de: typeof en = {
       "Mitgründer & CTO",
     ],
     bios: [
-      "Über fünfzehn Jahre Führungserfahrung in operativer Strategie, Geschäftsentwicklung und Implementierungsarchitektur. Andrej spezialisiert sich darauf, operatives Chaos zu eliminieren — strukturierte Implementierungssysteme für B2B, B2G und internationale Kundenengagements zu entwickeln.",
+      "Über fünfzehn Jahre Führungserfahrung in operativer Strategie, Geschäftsentwicklung und Implementierungsarchitektur. Andrej spezialisiert sich darauf, operatives Chaos zu eliminieren — strukturierte Implementierungssysteme für B2G, operative Implementierung und internationale Kundenengagements zu entwickeln.",
       "Der technische Architekt hinter A.D.A.M., Kobe baut die operative Infrastruktur, die Implementierung-zuerst-Strategie Wirklichkeit werden lässt.",
     ],
     quotes: [
