@@ -49,9 +49,11 @@ export default function FlagshipSystems() {
         </div>
         <a
           href="https://adam.andykgroup.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="relative inline-flex items-center justify-center h-10 px-5 text-sm font-medium text-foreground btn-primary-gradient"
         >
-          <span className="relative z-10">Start Your A.D.A.M. Journey</span>
+          <span className="relative z-10">Explore A.D.A.M. →</span>
         </a>
       </div>
 
@@ -71,8 +73,14 @@ export default function FlagshipSystems() {
           <div className="h-5 w-px bg-grid-300" />
           <span className="text-[10px] uppercase tracking-widest text-rose-dark font-medium">Coming Soon</span>
         </div>
+        <span
+          className="inline-block font-mono text-[10px] uppercase tracking-widest mb-3"
+          style={{ color: '#8A89DC', background: 'rgba(138,137,220,0.1)', padding: '2px 8px', borderRadius: '4px' }}
+        >
+          In Development
+        </span>
         <h3 className="text-2xl font-bold mb-1" style={{ color: '#8A89DC' }}>E.V.E.</h3>
-        <p className="text-sm text-muted-2 mb-4">Efficient Virtual Executor</p>
+        <p className="text-sm text-muted-2 mb-4">Intelligence System</p>
         <p className="text-base text-muted leading-relaxed mb-6 max-w-xl">
           E.V.E. is the operational delivery layer of A.D.A.M. &mdash; managing execution, milestones, delivery tracking, and client reporting. Keeps every engagement running with operational clarity and structured accountability.
         </p>
@@ -84,9 +92,23 @@ export default function FlagshipSystems() {
             </div>
           ))}
         </div>
-        <span className="relative inline-flex items-center justify-center h-10 px-5 text-sm font-medium text-muted-2 border border-grid-300 rounded-full cursor-default">
-          Coming Soon
-        </span>
+        <a
+          href="https://eve.andykgroup.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative inline-flex items-center justify-center h-10 px-5 text-sm font-medium text-foreground btn-primary-gradient"
+        >
+          <span className="relative z-10">Explore E.V.E. →</span>
+        </a>
+        <a
+          href="https://eve.andykgroup.com/request-access"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block mt-3 text-sm underline underline-offset-2 hover:opacity-80 transition-opacity"
+          style={{ color: '#8A89DC' }}
+        >
+          Join the waitlist →
+        </a>
       </div>
     </section>
   );
