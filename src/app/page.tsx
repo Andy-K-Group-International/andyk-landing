@@ -12,6 +12,7 @@ import LovedBySection from "@/components/LovedBySection";
 import IntegrationsSection from "@/components/IntegrationsSection";
 import ContactForm from "@/components/ContactForm";
 import CtaSection from "@/components/CtaSection";
+import FaqQuestionsSection from "@/components/FaqQuestionsSection";
 import Footer from "@/components/Footer";
 import FlagshipSystems from "@/components/FlagshipSystems";
 import { HeroBackground } from "@/components/BackgroundGrid";
@@ -160,6 +161,8 @@ export default function Home() {
 
       <ContactForm />
       <CtaSection />
+      <TronDivider />
+      <FaqQuestionsSection />
       <Footer />
       <AmbientMusic src="/audio/andyk-theme.wav" credit="DJ Andy'K" creditUrl="https://www.djandykofficial.com" />
     </main>
