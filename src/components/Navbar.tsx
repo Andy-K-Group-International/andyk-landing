@@ -136,7 +136,10 @@ export default function Navbar() {
       <div className="relative max-w-[1200px] mx-auto flex items-center justify-between px-6 sm:px-8 h-[60px]">
         {/* Logo */}
         <a href={logoHref} className="shrink-0 text-foreground">
-          <img src="/images/andyk-logo.png" alt="Andy'K Group" style={{ height: '44px', width: 'auto' }} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <img src="/images/andyk-logo.png" alt="Andy'K Group" style={{ height: '44px', width: 'auto' }} />
+            <span style={{ fontWeight: 700, fontSize: '1rem', color: '#01011b', fontFamily: 'IBM Plex Sans, sans-serif' }}>Andy&apos;K Group</span>
+          </div>
         </a>
 
         {/* Desktop nav - centered */}
