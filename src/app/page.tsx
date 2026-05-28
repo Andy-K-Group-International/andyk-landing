@@ -1,4 +1,5 @@
 import TopBanner from "@/components/TopBanner";
+import AmbientMusic from "@/components/AmbientMusic";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import TronDivider from "@/components/TronDivider";
@@ -160,6 +161,7 @@ export default function Home() {
       <ContactForm />
       <CtaSection />
       <Footer />
+      <AmbientMusic src="/audio/andyk-theme.wav" credit="DJ Andy'K" creditUrl="https://www.djandykofficial.com" />
     </main>
   );
 }
