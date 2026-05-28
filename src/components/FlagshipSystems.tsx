@@ -19,7 +19,7 @@ export default function FlagshipSystems() {
       </div>
 
       {/* A.D.A.M. Card */}
-      <div className="glass-card rounded-xl p-8 mb-6 transition-all duration-300 hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)]">
+      <div className="glass-card rounded-xl p-8 mb-6 transition-all duration-300" style={{ border: '2px solid #2F9E9A', boxShadow: '0 0 24px rgba(47,158,154,0.12)' }}>
         <div className="flex items-center gap-4 mb-4">
           <video
             autoPlay
@@ -34,7 +34,7 @@ export default function FlagshipSystems() {
           <div className="h-5 w-px bg-grid-300" />
           <span className="text-[10px] uppercase tracking-widest text-rose-dark font-medium">Private Early Access — Selective Implementation Program</span>
         </div>
-        <h3 className="text-2xl font-bold text-foreground mb-1">A.D.A.M.</h3>
+        <h3 className="text-2xl font-bold mb-1" style={{ color: '#2F9E9A' }}>A.D.A.M.</h3>
         <p className="text-sm text-muted-2 mb-4">Operational Implementation Platform</p>
         <p className="text-base text-muted leading-relaxed mb-6 max-w-xl">
           A.D.A.M. structures your full operational workflow &mdash; from proposal and contract architecture to structured onboarding and client lifecycle management. A.D.A.M. structures operations. Humans make strategic decisions.
@@ -56,7 +56,7 @@ export default function FlagshipSystems() {
       </div>
 
       {/* E.V.E. Card */}
-      <div className="glass-card rounded-xl p-8 mb-6 transition-all duration-300 hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)]">
+      <div className="glass-card rounded-xl p-8 mb-6 transition-all duration-300" style={{ border: '2px solid #8A89DC', boxShadow: '0 0 24px rgba(138,137,220,0.12)' }}>
         <div className="flex items-center gap-4 mb-4">
           <video
             autoPlay
@@ -71,7 +71,7 @@ export default function FlagshipSystems() {
           <div className="h-5 w-px bg-grid-300" />
           <span className="text-[10px] uppercase tracking-widest text-rose-dark font-medium">Coming Soon</span>
         </div>
-        <h3 className="text-2xl font-bold text-foreground mb-1">E.V.E.</h3>
+        <h3 className="text-2xl font-bold mb-1" style={{ color: '#8A89DC' }}>E.V.E.</h3>
         <p className="text-sm text-muted-2 mb-4">Efficient Virtual Executor</p>
         <p className="text-base text-muted leading-relaxed mb-6 max-w-xl">
           E.V.E. is the operational delivery layer of A.D.A.M. &mdash; managing execution, milestones, delivery tracking, and client reporting. Keeps every engagement running with operational clarity and structured accountability.

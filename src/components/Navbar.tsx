@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
-import CompanyLogo from "./CompanyLogo";
 import { useCurrency } from "@/context/CurrencyContext";
 import { useLanguage } from "@/context/LanguageContext";
 import { CURRENCIES } from "@/lib/currency";
@@ -137,7 +136,10 @@ export default function Navbar() {
       <div className="relative max-w-[1200px] mx-auto flex items-center justify-between px-6 sm:px-8 h-[60px]">
         {/* Logo */}
         <a href={logoHref} className="shrink-0 text-foreground">
-          <CompanyLogo size="md" />
+          <video autoPlay muted loop playsInline style={{ mixBlendMode: 'screen', height: '44px', width: 'auto' }}>
+            <source src="/andyk-logo.mp4" type="video/mp4" />
+            <img src="/andyk-logo.png" alt="Andy'K Group" style={{ height: '44px' }} />
+          </video>
         </a>
 
         {/* Desktop nav - centered */}
