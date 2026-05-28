@@ -188,7 +188,7 @@ const en = {
     from: "from",
     perMonth: "/ month",
     perHour: "/ hour",
-    getStarted: "Get Started",
+    getStarted: "Apply for Access",
     customQuote: "Need something custom? We tailor packages to your exact requirements.",
     requestCustomQuote: "Request a Custom Quote",
     billingBasis: "Billed monthly",

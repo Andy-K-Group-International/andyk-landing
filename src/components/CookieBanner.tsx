@@ -130,10 +130,10 @@ export default function CookieBanner() {
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 p-4 md:p-6">
-      <div className="max-w-[520px] mx-auto md:mx-0 md:ml-auto bg-white border border-grid-500 shadow-[0_-4px_24px_-4px_rgba(0,0,0,0.1)] overflow-hidden">
+      <div className="max-w-[520px] mx-auto md:mx-0 md:ml-auto bg-white border border-grid-500 shadow-[0_-4px_24px_-4px_rgba(0,0,0,0.1)] max-h-[50vh] md:max-h-none overflow-y-auto md:overflow-hidden text-[13px] md:text-sm">
         {!showPreferences ? (
           /* ── Layer 1: Banner ── */
-          <div className="p-5">
+          <div className="py-3 px-4 md:p-5">
             <p className="text-sm text-foreground font-medium mb-1.5">
               We value your privacy
             </p>
@@ -182,7 +182,7 @@ export default function CookieBanner() {
           </div>
         ) : (
           /* ── Layer 2: Preferences ── */
-          <div className="p-5">
+          <div className="py-3 px-4 md:p-5">
             <p className="text-sm text-foreground font-medium mb-1">
               Cookie preferences
             </p>
