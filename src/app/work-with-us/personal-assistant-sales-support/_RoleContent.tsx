@@ -124,6 +124,11 @@ export default function RoleContent() {
             </div>
           </div>
 
+          {/* In-person note */}
+          <p className="text-xs mb-8" style={{ color: "#6B6B76" }}>
+            {r.inPersonNote}
+          </p>
+
           <div className="border-t border-grid-300" />
 
           {/* Content sections */}
