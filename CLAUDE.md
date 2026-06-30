@@ -9,7 +9,7 @@ Static marketing site with multi-language support, pricing, roadmap, and contact
 - **React**: 19.2.3
 - **Styling**: Tailwind CSS v4
 - **Languages**: TypeScript
-- **Deployment**: Dokploy on app-server
+- **Deployment**: Vercel
 
 ## Project Structure
 ```
@@ -85,6 +85,7 @@ src/
 
 ## Build & Deploy
 ```bash
-cd /root/andyk-landing && npm run build   # Build check
-# Deployment handled by Dokploy
+pnpm run build   # Local build check
+# Deployment: Vercel (push to main → auto-deploy)
+# Env vars: Vercel Project Settings → Environment Variables
 ```

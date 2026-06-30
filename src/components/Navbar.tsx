@@ -58,6 +58,7 @@ export default function Navbar() {
     { label: t.nav.caseStudies, href: "#case-studies" },
     { label: t.nav.pricing, href: "#pricing" },
     { label: t.nav.contact, href: "#contact" },
+    { label: t.nav.workWithUs, href: "/work-with-us" },
   ];
 
   // Translated services dropdown
