@@ -7,6 +7,18 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { submitHrApplication } from "@/app/actions/hr-application";
 
+type CurrencyCode = "EUR" | "GBP" | "USD";
+
+const BASE_AMOUNT_EUR = 400;
+const FX: Record<CurrencyCode, number> = { EUR: 1, GBP: 0.85, USD: 1.08 };
+const SYMBOLS: Record<CurrencyCode, string> = { EUR: "€", GBP: "£", USD: "$" };
+
+function formatAmount(currency: CurrencyCode): string {
+  if (currency === "EUR") return "€400";
+  const converted = Math.round(BASE_AMOUNT_EUR * FX[currency]);
+  return `approx. ${SYMBOLS[currency]}${converted}`;
+}
+
 function BackArrow() {
   return (
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="shrink-0">
@@ -46,6 +58,7 @@ export default function RoleContent() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [isPending, startTransition] = useTransition();
+  const [selectedCurrency, setSelectedCurrency] = useState<CurrencyCode>("EUR");
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -105,6 +118,10 @@ export default function RoleContent() {
               <span className="text-muted-2">{r.rateLabel}:</span>
               <span className="text-foreground font-medium">{r.rate}</span>
             </div>
+            <div className="flex items-center gap-2 px-4 py-2 rounded-xl border border-grid-300 bg-white text-sm">
+              <span className="text-muted-2">{r.workModelLabel}:</span>
+              <span className="text-foreground font-medium">{r.workModelValue}</span>
+            </div>
           </div>
 
           <div className="border-t border-grid-300" />
@@ -154,6 +171,46 @@ export default function RoleContent() {
                   </li>
                 ))}
               </ul>
+            </section>
+
+            {/* Compensation */}
+            <section>
+              <h2 className="text-lg font-semibold text-foreground mb-4">{r.compensationHeading}</h2>
+              <div className="border border-grid-300 rounded-2xl p-6 bg-white">
+                {/* Currency toggle */}
+                <div className="flex items-center gap-2 mb-4">
+                  {(["EUR", "GBP", "USD"] as CurrencyCode[]).map((c) => (
+                    <button
+                      key={c}
+                      type="button"
+                      onClick={() => setSelectedCurrency(c)}
+                      className={`px-4 py-1.5 rounded-full text-xs font-medium border transition-colors cursor-pointer ${
+                        selectedCurrency === c
+                          ? "bg-[#cda0a5] border-[#cda0a5] text-white"
+                          : "border-grid-500 text-muted hover:border-[#cda0a5] hover:text-foreground"
+                      }`}
+                    >
+                      {r[`currency${c}` as "currencyEUR" | "currencyGBP" | "currencyUSD"]}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Amount */}
+                <p className="text-2xl font-semibold text-foreground mb-1">
+                  {formatAmount(selectedCurrency)}{" "}
+                  <span className="text-base font-normal text-muted-2">/ month</span>
+                </p>
+
+                {/* Description */}
+                <p className="text-[15px] text-muted mt-3">
+                  {r.compensationText.replace("€400", formatAmount(selectedCurrency))}
+                </p>
+
+                {/* Currency note */}
+                <p className="text-xs mt-4" style={{ color: "#6B6B76" }}>
+                  {r.compensationCurrencyNote}
+                </p>
+              </div>
             </section>
           </article>
 
